@@ -5,7 +5,7 @@ auto: true
 rdiscount:
   extensions: [smart]
 
-name: The Hacker Within 
+name: Hacker Within 
 url: http://thehackerwithin.github.com/berkeley
 description: An initial blog and site for THW at UCB
 twitter: hackerwithin
