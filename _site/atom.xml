@@ -1,33 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>Katy Huff</title>
- <link href="http://katyhuff.github.com/left/atom.xml" rel="self"/>
- <link href="http://katyhuff.github.com/left/"/>
- <updated>2013-05-27T23:10:42-05:00</updated>
- <id>http://katyhuff.github.com/left</id>
+ <title>Hacker Within</title>
+ <link href="http://thehackerwithin.github.com/berkeley/atom.xml" rel="self"/>
+ <link href="http://thehackerwithin.github.com/berkeley/"/>
+ <updated>2014-01-15T15:29:55-08:00</updated>
+ <id>http://thehackerwithin.github.com/berkeley</id>
  <author>
-   <name>Katy Huff</name>
+   <name>Hacker Within</name>
  </author>
  
  
  <entry>
-   <title>New Blog</title>
-   <link href="http://katyhuff.github.com/left/posts/new-blog"/>
-   <updated>2013-05-22T00:00:00-05:00</updated>
-   <id>http://katyhuff.github.com/left/posts/new-blog</id>
-   <content type="html">&lt;p&gt;This obligatory new blog blog post says that I have a new blog.
-It will not immediately replace my previous &lt;a href=&quot;http://katyhuff.me&quot;&gt;blogs&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;However, in some dream future, it will be the center space for my thoughts on
-science, society, etc.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;This layout was borrowed from &lt;a href=&quot;https://github.com/holman/left#readme&quot;&gt;Left&lt;/a&gt; created by &lt;a href=&quot;http://zachholman.com&quot;&gt;zachholman&lt;/a&gt;. It uses
-&lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;Jekyll&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;There is more to come.&lt;/p&gt;
+   <title>First Meeting</title>
+   <link href="http://thehackerwithin.github.com/berkeley/posts/first-meeting"/>
+   <updated>2014-01-15T00:00:00-08:00</updated>
+   <id>http://thehackerwithin.github.com/berkeley/posts/first-meeting</id>
+   <content type="html">
 </content>
  </entry>
  
