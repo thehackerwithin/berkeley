@@ -28,7 +28,7 @@ a {
     .sidebar .name #fname {
       padding-left: 1px;
       font-size: 23px;
-      letter-spacing: 5px;
+      letter-spacing: 1px;
       color: black; }
     .sidebar .name #lname {
       font-size: 17px;
