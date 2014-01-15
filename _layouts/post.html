@@ -1,0 +1,52 @@
+---
+layout: layout
+---
+
+<section class="content">
+  <h1>
+    <a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a>
+  </h1>
+
+  <section class="byline">
+    {{ page.date | date: "%B %e, %Y" }}
+  </section>
+
+  {{ content }}
+
+  <section class="shares">
+    <h3>Share</h3>
+    <!-- AddThis Button BEGIN -->
+    <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+    <a class="addthis_button_twitter"></a>
+    <a class="addthis_button_google_plusone_share"></a>
+    <a class="addthis_button_delicious"></a>
+    <a class="addthis_button_reddit"></a>
+    <a class="addthis_button_mendeley"></a>
+    <a class="addthis_button_linkedin"></a>
+    <a class="addthis_button_facebook"></a>
+    <a class="addthis_button_compact"></a><a class="addthis_counter addthis_bubble_style"></a>
+    </div>
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-51a3e77b5577941a"></script>
+    <!-- AddThis Button END -->
+  </section>
+  <section class="meta">
+    <h3>Discuss</h3>
+    <section class="comments">
+     <div id="disqus_thread"></div>
+     <script type="text/javascript">
+        var disqus_shortname = '{{ site.disqus_username }}';
+        var disqus_url = '{{ site.url }}';
+        var disqus_title = '{{ page.title | escape }}';
+        var disqus_identifier = '{{ page.date | date_to_xmlschema }}';
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+         dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+         })();
+      </script>
+      <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </section>
+  </section>
+
+</section>
