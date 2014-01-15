@@ -4,7 +4,7 @@
  <title>Hacker Within</title>
  <link href="http://thehackerwithin.github.com/berkeley/atom.xml" rel="self"/>
  <link href="http://thehackerwithin.github.com/berkeley/"/>
- <updated>2014-01-15T15:29:55-08:00</updated>
+ <updated>2014-01-15T15:31:42-08:00</updated>
  <id>http://thehackerwithin.github.com/berkeley</id>
  <author>
    <name>Hacker Within</name>
@@ -16,7 +16,7 @@
    <link href="http://thehackerwithin.github.com/berkeley/posts/first-meeting"/>
    <updated>2014-01-15T00:00:00-08:00</updated>
    <id>http://thehackerwithin.github.com/berkeley/posts/first-meeting</id>
-   <content type="html">
+   <content type="html">&lt;p&gt;This is a planning meeting.&lt;/p&gt;
 </content>
  </entry>
  
