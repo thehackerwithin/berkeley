@@ -4,7 +4,7 @@
  <title>Hacker Within</title>
  <link href="http://thehackerwithin.github.com/berkeley/atom.xml" rel="self"/>
  <link href="http://thehackerwithin.github.com/berkeley/"/>
- <updated>2014-01-22T08:19:16-08:00</updated>
+ <updated>2014-01-22T08:33:16-08:00</updated>
  <id>http://thehackerwithin.github.com/berkeley</id>
  <author>
    <name>Hacker Within</name>
@@ -39,37 +39,41 @@ computational problem you&amp;rsquo;re having.&lt;/p&gt;
 &lt;p&gt;We decided to try meetings with an agenda structured thus:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;First, we will go around the room and attendees can introduce themselves.&lt;/li&gt;
-&lt;li&gt;The meeting will start with one 30-40 minute talk on a topic of import to
-scientists who use software.  Particular emphasis is likely to be paid to
-topics useful to nuclear engineering researchers. To volunteer to give a talk,
-mention it at a meeting, or &lt;a href-&quot;mailto:katyhuff@gmail.com&quot;&gt;email
-Katy.&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;The talk will be followed by a short period for questions.&lt;/li&gt;
-&lt;li&gt;For up to 40 minutes, attendees will have the opportunity to give lightning
-talks on short topics. These may share a small skill snippet, demonstrate a
-computational issue you&amp;rsquo;re having with you&amp;rsquo;re research, or anything of
-interest to the group. Sometimes, lighting talk topics will be requested ahead
-of time on a theme (i.e., text editors). To give a lightning talk, just show
-up and speak up whe the time comes. If you like, letting Katy know ahead of
-time is always welcome.&lt;/li&gt;
-&lt;li&gt;After the meeting, attendees can hang around in the space and hack together on
-their research codes, if they like.&lt;/li&gt;
+&lt;li&gt; First, we will go around the room and attendees can introduce themselves.&lt;/li&gt;
+&lt;li&gt; The meeting will start with one 30-40 minute talk on a topic of import to
+ scientists who use software.  Particular emphasis is likely to be paid to
+ topics useful to nuclear engineering researchers. To volunteer to give a
+ talk, mention it at a meeting, or &lt;a href-&quot;mailto:katyhuff@gmail.com&quot;&gt;email
+ Katy.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt; The talk will be followed by a short period for questions.&lt;/li&gt;
+&lt;li&gt; For up to 40 minutes, attendees will have the opportunity to give lightning
+ talks on short topics. These may share a small skill snippet, demonstrate a
+ computational issue you&amp;rsquo;re having with you&amp;rsquo;re research, or anything of
+ interest to the group. Sometimes, lighting talk topics will be requested
+ ahead of time on a theme (i.e., text editors). To give a lightning talk,
+ just show up and speak up whe the time comes. If you like, letting Katy
+ know ahead of time is always welcome.&lt;/li&gt;
+&lt;li&gt; After the meeting, attendees can hang around in the space and hack together
+ on their research codes, if they like.&lt;/li&gt;
 &lt;/ul&gt;
 
 
 &lt;h1&gt;What are the topics?&lt;/h1&gt;
 
-&lt;p&gt;The topics for the first part of the semester will focus on reproducibility:
-&amp;ndash; command line
-&amp;ndash; gpus/cuda&lt;br/&gt;
-&amp;ndash; version control
-&amp;ndash; build systems
-&amp;ndash; testing
-&amp;ndash; self documenting code
-&amp;ndash; cloud computing (amazon ec2, etc.)
-&amp;ndash; parallelism
-&amp;ndash; profiling&lt;/p&gt;
+&lt;p&gt;The topics for the first part of the semester will focus on reproducibility:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt; command line&lt;/li&gt;
+&lt;li&gt; gpus/cuda&lt;/li&gt;
+&lt;li&gt; version control&lt;/li&gt;
+&lt;li&gt; build systems&lt;/li&gt;
+&lt;li&gt; testing&lt;/li&gt;
+&lt;li&gt; self documenting code&lt;/li&gt;
+&lt;li&gt; cloud computing (amazon ec2, etc.)&lt;/li&gt;
+&lt;li&gt; parallelism&lt;/li&gt;
+&lt;li&gt; profiling&lt;/li&gt;
+&lt;/ul&gt;
+
 
 &lt;h1&gt;Lightning Talks&lt;/h1&gt;
 
@@ -79,12 +83,12 @@ If the talk you want to give is in a series, consider banding together a group
 of folks who would like to give the other parts of the series.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;debugging&lt;/li&gt;
-&lt;li&gt;libraries/linking&lt;/li&gt;
-&lt;li&gt;scripted plotting&lt;/li&gt;
-&lt;li&gt;exceptions&lt;/li&gt;
-&lt;li&gt;text editors&lt;/li&gt;
-&lt;li&gt;licensing and export control&lt;/li&gt;
+&lt;li&gt; debugging&lt;/li&gt;
+&lt;li&gt; libraries/linking&lt;/li&gt;
+&lt;li&gt; scripted plotting&lt;/li&gt;
+&lt;li&gt; exceptions&lt;/li&gt;
+&lt;li&gt; text editors&lt;/li&gt;
+&lt;li&gt; licensing and export control&lt;/li&gt;
 &lt;/ul&gt;
 
 </content>
