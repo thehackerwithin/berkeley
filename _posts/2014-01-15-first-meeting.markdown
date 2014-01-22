@@ -10,15 +10,13 @@ This was a planning meeting. Katy Huff, Ryan Bergmann, and Professor Rachel
 Slaybaugh attended. Together we discussed a possible suite of useful software 
 practices to discuss this semester. 
 
-What is this?
-+++++++++++++
+# What is this?
 
 We discussed that part of the purpose of these meetings is to restart a 
 successful group that originated in Wisconsin, "The Hacker Within." Ideally, 
 this meeting
 
-What can we expected?
-+++++++++++++++++++++++
+# What can we expected?
 
 We decided to try meetings with an agenda structured thus:
 
@@ -39,8 +37,7 @@ We decided to try meetings with an agenda structured thus:
 - After the meeting, attendees can hang around in the space and hack together on 
   their research codes, if they like.
 
-What are the topics?
-+++++++++++++++++++++
+# What are the topics?
 
 The topics for the first part of the semester will focus on reproducibility:
 - command line
@@ -53,8 +50,7 @@ The topics for the first part of the semester will focus on reproducibility:
 - parallelism 
 - profiling
 
-Lightning Talks
-+++++++++++++++
+# Lightning Talks
 
 A number of good topics were identified for lightning talks or talk series. If
 you're interested in talking about these or something else, just come prepared.
