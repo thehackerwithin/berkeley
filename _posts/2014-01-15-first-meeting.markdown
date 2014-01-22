@@ -32,7 +32,7 @@ We decided to try meetings with an agenda structured thus:
 -    The meeting will start with one 30-40 minute talk on a topic of import to 
      scientists who use software.  Particular emphasis is likely to be paid to 
      topics useful to nuclear engineering researchers. To volunteer to give a 
-     talk, mention it at a meeting, or <a href-"mailto:katyhuff@gmail.com">email 
+     talk, mention it at a meeting, or <a href="mailto:katyhuff@gmail.com">email 
      Katy.</a>
 -    The talk will be followed by a short period for questions. 
 -    For up to 40 minutes, attendees will have the opportunity to give lightning 
