@@ -1,10 +1,3 @@
----
-layout: lesson
-root: ../..
-github_username: your_user_id
-bootcamp_slug: yyyy-mm-dd-site
-title: The Unix Shell
----
 **Based on material by Milad Fatenejad, Sasha Wood, and Radhika Khetani**
 
 ## What is the shell and how do I access it?
@@ -15,7 +8,7 @@ with a keyboard instead of controlling graphical user interfaces
 (GUIs) with a mouse/keyboard combination.
 
 Use a browser to open the tutorial on github, located at:
-    http://github.com/{{page.github_username}}/{{page.bootcamp_slug}}
+    http://github.com/thehackerwithin/berkeley
 
 Click on the directory named `shell`.
 
@@ -55,11 +48,11 @@ by manipulating some experimental data from a hearing test. To get
 the data for this test, you will need internet access. Just enter the
 command:
 
-    git clone https://github.com/{{page.github_username}}/{{page.bootcamp_slug}}.git
+    git clone https://github.com/thehackerwithin/berkeley.git
 
 Followed by:
 
-    cd {{page.bootcamp_slug}}
+    cd berkeley
 
 These 2 commands will grab all of the data needed for this workshop from the
 internet.
@@ -141,9 +134,9 @@ you will see that `testfile` is gone.
 
 Now, let's move to a different directory. The command `cd` (change
 directory) is used to move around. Let's move into the
-`{{page.bootcamp_slug}}` directory. Enter the following command:
+`berkeley` directory. Enter the following command:
 
-    cd {{page.bootcamp_slug}}
+    cd berkeley
 
 Now use the `ls` command to see what is inside this directory. You
 will see that there is an entry which is green. This means that this
@@ -190,17 +183,17 @@ give `ls` the names of other directories to view. Navigate to the
 home directory if you are not already there. Then enter the
 command:
 
-    ls {{page.bootcamp_slug}}
+    ls berkeley
 
-This will list the contents of the `{{page.bootcamp_slug}}` directory without
+This will list the contents of the `berkeley` directory without
 you having to navigate there. Now enter:
 
-    ls {{page.bootcamp_slug}}/shell
+    ls berkeley/shell
 
 This prints the contents of `shell`. The `cd` command works in a
 similar way. Try entering:
 
-    cd {{page.bootcamp_slug}}/shell
+    cd berkeley/shell
 
 and you will jump directly to `shell` without having to go through
 the intermediate directory.
@@ -225,16 +218,16 @@ directory in `home` which is a directory in `/`.
 
 Now enter the following command:
 
-    cd /home/swc/{{page.bootcamp_slug}}/shell
+    cd /home/swc/berkeley/shell
 
 This jumps to `shell`. Now go back to the home directory. We saw
 earlier that the command:
 
-    cd {{page.bootcamp_slug}}/shell
+    cd berkeley/shell
 
 had the same effect - it took us to the `shell` directory. But,
 instead of specifying the absolute path
-(`/home/swc/{{page.bootcamp_slug}}/shell`), we specified a *relative
+(`/home/swc/berkeley/shell`), we specified a *relative
 path*. In other words, we specified the path relative to our current
 directory. A absolute path always starts with a `/`. A relative path does
 not. You can usually use either a absolute path or a relative path
@@ -262,7 +255,7 @@ above your current directory. Thus:
 
     ls ..
 
-prints the contents of the `/home/swc/{{page.bootcamp_slug}}`. You can chain
+prints the contents of the `/home/swc/berkeley`. You can chain
 these together, so:
 
     ls ../../
@@ -374,7 +367,7 @@ directory name. For example, enter:
     cd S<tab>
 
 The shell will fill in the rest of the directory name for
-`{{page.bootcamp_slug}}`. Now enter:
+`berkeley`. Now enter:
 
     ls 3<tab><tab>
 
@@ -450,7 +443,7 @@ directory. This tells the shell to run the `hello` program which is
 located right here. So, you can run any program by entering the path
 to that program. You can run `hello` equally well by specifying:
 
-    /home/swc/{{page.bootcamp_slug}}/shell/hello
+    /home/swc/berkeley/shell/hello
 
 Or by entering:
 
@@ -485,7 +478,7 @@ is where the name comes from, `cat` is short for concatenate).
 
 2.  Without changing directories, (you should still be in `shell`),
     use one short command to print the contents of all of the files in
-    the `/home/swc/{{page.bootcamp_slug}}/shell/data/thomas` directory.
+    the `/home/swc/berkeley/shell/data/thomas` directory.
 
 * * * *
 
@@ -551,7 +544,7 @@ exists.
 Use `>>`, to append the contents of all of the files which contain the
 number 4 in the directory:
 
-    /home/swc/{{page.bootcamp_slug}}/shell/data/gerdal
+    /home/swc/berkeley/shell/data/gerdal
 
 to the existing `all_data` file. Thus, when you are done `all_data`
 should contain all of the experiment data from Bert and any
