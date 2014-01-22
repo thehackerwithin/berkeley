@@ -4,7 +4,7 @@
  <title>Hacker Within</title>
  <link href="http://thehackerwithin.github.com/berkeley/atom.xml" rel="self"/>
  <link href="http://thehackerwithin.github.com/berkeley/"/>
- <updated>2014-01-18T19:19:48-08:00</updated>
+ <updated>2014-01-22T08:06:06-08:00</updated>
  <id>http://thehackerwithin.github.com/berkeley</id>
  <author>
    <name>Hacker Within</name>
@@ -16,7 +16,73 @@
    <link href="http://thehackerwithin.github.com/berkeley/posts/first-meeting"/>
    <updated>2014-01-15T00:00:00-08:00</updated>
    <id>http://thehackerwithin.github.com/berkeley/posts/first-meeting</id>
-   <content type="html">&lt;p&gt;This is a planning meeting.&lt;/p&gt;
+   <content type="html">&lt;p&gt;This was a planning meeting. Katy Huff, Ryan Bergmann, and Professor Rachel
+Slaybaugh attended. Together we discussed a possible suite of useful software
+practices to discuss this semester.&lt;/p&gt;
+
+&lt;p&gt;What is this?
++++++++++++++&lt;/p&gt;
+
+&lt;p&gt;We discussed that part of the purpose of these meetings is to restart a
+successful group that originated in Wisconsin, &amp;ldquo;The Hacker Within.&amp;rdquo; Ideally,
+this meeting&lt;/p&gt;
+
+&lt;p&gt;What can we expected?
++++++++++++++++++++++++&lt;/p&gt;
+
+&lt;p&gt;We decided to try meetings with an agenda structured thus:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;First, we will go around the room and attendees can introduce themselves.&lt;/li&gt;
+&lt;li&gt;The meeting will start with one 30-40 minute talk on a topic of import to
+scientists who use software.  Particular emphasis is likely to be paid to
+topics useful to nuclear engineering researchers. To volunteer to give a talk,
+mention it at a meeting, or &lt;a href-&quot;mailto:katyhuff@gmail.com&quot;&gt;email
+Katy.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The talk will be followed by a short period for questions.&lt;/li&gt;
+&lt;li&gt;For up to 40 minutes, attendees will have the opportunity to give lightning
+talks on short topics. These may share a small skill snippet, demonstrate a
+computational issue you&amp;rsquo;re having with you&amp;rsquo;re research, or anything of
+interest to the group. Sometimes, lighting talk topics will be requested ahead
+of time on a theme (i.e., text editors). To give a lightning talk, just show
+up and speak up whe the time comes. If you like, letting Katy know ahead of
+time is always welcome.&lt;/li&gt;
+&lt;li&gt;After the meeting, attendees can hang around in the space and hack together on
+their research codes, if they like.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;What are the topics?
++++++++++++++++++++++&lt;/p&gt;
+
+&lt;p&gt;The topics for the first part of the semester will focus on reproducibility:
+&amp;ndash; command line
+&amp;ndash; gpus/cuda&lt;br/&gt;
+&amp;ndash; version control
+&amp;ndash; build systems
+&amp;ndash; testing
+&amp;ndash; self documenting code
+&amp;ndash; cloud computing (amazon ec2, etc.)
+&amp;ndash; parallelism
+&amp;ndash; profiling&lt;/p&gt;
+
+&lt;p&gt;Lightning Talks
++++++++++++++++&lt;/p&gt;
+
+&lt;p&gt;A number of good topics were identified for lightning talks or talk series. If
+you&amp;rsquo;re interested in talking about these or something else, just come prepared.
+If the talk you want to give is in a series, consider banding together a group
+of folks who would like to give the other parts of the series.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;debugging&lt;/li&gt;
+&lt;li&gt;libraries/linking&lt;/li&gt;
+&lt;li&gt;scripted plotting&lt;/li&gt;
+&lt;li&gt;exceptions&lt;/li&gt;
+&lt;li&gt;text editors&lt;/li&gt;
+&lt;li&gt;licensing and export control&lt;/li&gt;
+&lt;/ul&gt;
+
 </content>
  </entry>
  
