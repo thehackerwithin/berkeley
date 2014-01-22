@@ -14,9 +14,17 @@ practices to discuss this semester.
 
 We discussed that part of the purpose of these meetings is to restart a 
 successful group that originated in Wisconsin, "The Hacker Within." Ideally, 
-this meeting
+this meeting will facilitate sharing skills and best practices for 
+computational nuclear engineering applications. Last semester, we had a couple 
+such meetings. In spring semester I would like to share a number of skills for 
+scientific software development (testing, data management, version control, 
+literate programming etc. ) and to ask the rest of you to share the skills you 
+have as well. The goal will be to incorporate these practices into our 
+workflows. This would be a great venue for introducing new libraries, showing 
+off useful features of a neutronics code you're using, or bringing up a 
+computational problem you're having.
 
-# What can we expected?
+# What can be expected?
 
 We decided to try meetings with an agenda structured thus:
 
