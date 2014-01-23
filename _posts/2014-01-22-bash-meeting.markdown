@@ -7,12 +7,15 @@ tags: meeting bash shell lesson
 ---
 
 # Attending
+
 -    Katy Huff
 -    Ryan Bergmann
 -    Professor Rachel Slaybaugh 
--    ...?
-
-# Introductions
+-    Kelly Rowland
+-    Daniel Wooten
+-    Christian Disanzo
+-    Jiankai (Jack) Yu 
+-    Sandra Bogetic
 
 # Lesson: Bash
 

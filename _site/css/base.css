@@ -36,7 +36,7 @@ a {
       letter-spacing: 1px;
       color: black; }
   .sidebar .meta a {
-    margin-left: 50px;
+    margin-left: 0px;
     color: black; }
     .sidebar .meta a:hover {
       color: #227ce8; }

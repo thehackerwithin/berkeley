@@ -4,12 +4,37 @@
  <title>Hacker Within</title>
  <link href="http://thehackerwithin.github.com/berkeley/atom.xml" rel="self"/>
  <link href="http://thehackerwithin.github.com/berkeley/"/>
- <updated>2014-01-22T08:35:15-08:00</updated>
+ <updated>2014-01-22T17:32:13-08:00</updated>
  <id>http://thehackerwithin.github.com/berkeley</id>
  <author>
    <name>Hacker Within</name>
  </author>
  
+ 
+ <entry>
+   <title>Bash Meeting</title>
+   <link href="http://thehackerwithin.github.com/berkeley/posts/bash-meeting"/>
+   <updated>2014-01-22T00:00:00-08:00</updated>
+   <id>http://thehackerwithin.github.com/berkeley/posts/bash-meeting</id>
+   <content type="html">&lt;h1&gt;Attending&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt; Katy Huff&lt;/li&gt;
+&lt;li&gt; Ryan Bergmann&lt;/li&gt;
+&lt;li&gt; Professor Rachel Slaybaugh&lt;/li&gt;
+&lt;li&gt; Kelly Rowland&lt;/li&gt;
+&lt;li&gt; Daniel Wooten&lt;/li&gt;
+&lt;li&gt; Christian Disanzo&lt;/li&gt;
+&lt;li&gt; Jiankai (Jack) Yu&lt;/li&gt;
+&lt;li&gt; Sandra Bogetic&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h1&gt;Lesson: Bash&lt;/h1&gt;
+
+&lt;p&gt;Katy will review various features of the powerhouse of programming, the *nix terminal. (Note that *nix is jargon intended to indicate both linux and unix operating systems.) You&amp;rsquo;ll find this lesson within our shared repository. Start with &lt;a href=&quot;https://github.com/thehackerwithin/berkeley/blob/master/bash/tutorial.md&quot; title=&quot;Tutorial Source&quot;&gt;tutorial.md&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>First Meeting</title>
@@ -43,7 +68,7 @@ computational problem you&amp;rsquo;re having.&lt;/p&gt;
 &lt;li&gt; The meeting will start with one 30-40 minute talk on a topic of import to
  scientists who use software.  Particular emphasis is likely to be paid to
  topics useful to nuclear engineering researchers. To volunteer to give a
- talk, mention it at a meeting, or &lt;a href-&quot;mailto:katyhuff@gmail.com&quot;&gt;email
+ talk, mention it at a meeting, or &lt;a href=&quot;mailto:katyhuff@gmail.com&quot;&gt;email
  Katy.&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt; The talk will be followed by a short period for questions.&lt;/li&gt;
 &lt;li&gt; For up to 40 minutes, attendees will have the opportunity to give lightning
