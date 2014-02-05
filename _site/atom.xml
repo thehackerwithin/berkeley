@@ -4,7 +4,7 @@
  <title>Hacker Within</title>
  <link href="http://thehackerwithin.github.com/berkeley/atom.xml" rel="self"/>
  <link href="http://thehackerwithin.github.com/berkeley/"/>
- <updated>2014-02-05T12:20:08-08:00</updated>
+ <updated>2014-02-05T12:22:45-08:00</updated>
  <id>http://thehackerwithin.github.com/berkeley</id>
  <author>
    <name>Hacker Within</name>
@@ -26,20 +26,14 @@
 
 &lt;h1&gt;Lesson: GPUs and CUDA&lt;/h1&gt;
 
-&lt;p&gt;Ryan Bergmann covered various features of GPUs and CUDA. Here is &lt;a href=&quot;&quot;&gt;ryanstalk&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Ryan Bergmann covered various features of GPUs and CUDA. Here is &lt;a href=&quot;fakelink.net&quot; title=&quot;Ryan's Talk&quot;&gt;ryanstalk&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h1&gt;Lightning Talks&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Katy gave a quick lightning talk on &lt;a href=&quot;&quot;&gt;styleguides&lt;/a&gt; for code.&lt;/li&gt;
+&lt;li&gt;Katy gave a quick lightning talk on &lt;a href=&quot;https://drive.google.com/file/d/0ByP1TmlNKprrd0RXY3dYSE5xdmM/edit?usp=sharing&quot; title=&quot;Style Guides&quot;&gt;styleguides&lt;/a&gt; for code.&lt;/li&gt;
 &lt;/ul&gt;
 
-
-&lt;p&gt;fakelink.net
-&amp;ldquo;Ryan&amp;rsquo;s Talk&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;https://drive.google.com/file/d/0ByP1TmlNKprrd0RXY3dYSE5xdmM/edit?usp=sharing
-&amp;ldquo;Style Guides&amp;rdquo;&lt;/p&gt;
 </content>
  </entry>
  
