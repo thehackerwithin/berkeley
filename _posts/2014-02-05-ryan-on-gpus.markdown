@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ryan Bergmann on GPUs and CUDA
+title: GPUs and CUDA: Ryan Bergmann
 comments: true
 category: posts
 tags: meeting 
@@ -26,5 +26,5 @@ Ryan Bergmann covered various features of GPUs and CUDA. Here is [ryanstalk][].
 
 [ryanstalk]: fakelink.net "Ryan's Talk" 
 
-[styleguides]: https://drive.google.com/file/d/0ByP1TmlNKprrd0RXY3dYSE5xdmM/edit?usp=sharing "Style Guides" 
+[styleguides]: https://drive.google.com/file/d/0ByP1TmlNKprrcGdpaWJyeUZPb3c/edit?usp=sharing "Style Guides" 
 
