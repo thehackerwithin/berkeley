@@ -4,7 +4,7 @@
  <title>Hacker Within</title>
  <link href="http://thehackerwithin.github.com/berkeley/atom.xml" rel="self"/>
  <link href="http://thehackerwithin.github.com/berkeley/"/>
- <updated>2014-02-05T12:22:45-08:00</updated>
+ <updated>2014-02-05T12:28:26-08:00</updated>
  <id>http://thehackerwithin.github.com/berkeley</id>
  <author>
    <name>Hacker Within</name>
@@ -12,7 +12,7 @@
  
  
  <entry>
-   <title>Ryan Bergmann on GPUs and CUDA</title>
+   <title>Ryan On Gpus</title>
    <link href="http://thehackerwithin.github.com/berkeley/posts/ryan-on-gpus"/>
    <updated>2014-02-05T00:00:00-08:00</updated>
    <id>http://thehackerwithin.github.com/berkeley/posts/ryan-on-gpus</id>
@@ -31,7 +31,7 @@
 &lt;h1&gt;Lightning Talks&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Katy gave a quick lightning talk on &lt;a href=&quot;https://drive.google.com/file/d/0ByP1TmlNKprrd0RXY3dYSE5xdmM/edit?usp=sharing&quot; title=&quot;Style Guides&quot;&gt;styleguides&lt;/a&gt; for code.&lt;/li&gt;
+&lt;li&gt;Katy gave a quick lightning talk on &lt;a href=&quot;https://drive.google.com/file/d/0ByP1TmlNKprrcGdpaWJyeUZPb3c/edit?usp=sharing&quot; title=&quot;Style Guides&quot;&gt;styleguides&lt;/a&gt; for code.&lt;/li&gt;
 &lt;/ul&gt;
 
 </content>
