@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GPUs and CUDA: Ryan Bergmann
+title: GPUs and CUDA - Ryan Bergmann
 comments: true
 category: posts
 tags: meeting 
@@ -54,5 +54,5 @@ Things we learned include:
 
 [styleguides]: https://drive.google.com/file/d/0ByP1TmlNKprrcGdpaWJyeUZPb3c/edit?usp=sharing "Style Guides" 
 
-[vibrometry]: "Vibrometry" 
+[vibrometry]: https://thehackerwithin.github.com/berkeley/posts/ryan-on-gpus "Vibrometry" 
 
