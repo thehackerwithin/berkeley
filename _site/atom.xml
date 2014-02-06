@@ -4,7 +4,7 @@
  <title>Hacker Within</title>
  <link href="http://thehackerwithin.github.com/berkeley/atom.xml" rel="self"/>
  <link href="http://thehackerwithin.github.com/berkeley/"/>
- <updated>2014-02-05T17:18:36-08:00</updated>
+ <updated>2014-02-05T17:22:42-08:00</updated>
  <id>http://thehackerwithin.github.com/berkeley</id>
  <author>
    <name>Hacker Within</name>
@@ -34,7 +34,7 @@
 
 &lt;h1&gt;Lesson: GPUs and CUDA&lt;/h1&gt;
 
-&lt;p&gt;Ryan Bergmann covered various features of GPUs and CUDA. Here is &lt;a href=&quot;https://github.com/sellitforcache/cuda_tut&quot; title=&quot;Ryan's Tutorial&quot;&gt;ryanstalk&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Ryan Bergmann covered various features of GPUs and CUDA. Here is &lt;a href=&quot;https://github.com/sellitforcache/cuda_tut&quot; title=&quot;Ryan's Tutorial&quot;&gt;Ryan&amp;rsquo;s Tutorial&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Things we learned include:&lt;/p&gt;
 

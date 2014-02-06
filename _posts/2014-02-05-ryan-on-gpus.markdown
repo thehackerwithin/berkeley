@@ -46,13 +46,12 @@ Things we learned include:
 
 # Lightning Talks 
 
-- Katy gave a quick lightning talk on [styleguides][] for code.
-- Kelly gave a more in-depth lightning talk on Laser Doppler [vibrometry][].
+- Katy gave a quick lightning talk on [style guides][styleguides] for code.
+- Kelly gave a more in-depth lightning talk on Laser Doppler Vibrometry.
 
 
 [ryanstalk]: https://github.com/sellitforcache/cuda_tut "Ryan's Tutorial" 
 
 [styleguides]: https://drive.google.com/file/d/0ByP1TmlNKprrcGdpaWJyeUZPb3c/edit?usp=sharing "Style Guides" 
 
-[vibrometry]: https://thehackerwithin.github.com/berkeley/posts/ryan-on-gpus "Vibrometry" 
 
