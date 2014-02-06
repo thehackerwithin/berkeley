@@ -24,7 +24,7 @@ Ryan Bergmann covered various features of GPUs and CUDA. Here is [ryanstalk][].
 
 
 
-[ryanstalk]: https://github.com/sellitforcache/cuda_tut "Ryan's Talk" 
+[ryanstalk]: https://github.com/sellitforcache/cuda_tut "Ryan's Tutorial" 
 
 [styleguides]: https://drive.google.com/file/d/0ByP1TmlNKprrcGdpaWJyeUZPb3c/edit?usp=sharing "Style Guides" 
 
