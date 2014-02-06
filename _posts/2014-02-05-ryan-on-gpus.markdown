@@ -23,7 +23,7 @@ tags: meeting
 
 # Lesson: GPUs and CUDA
 
-Ryan Bergmann covered various features of GPUs and CUDA. Here is [ryanstalk][].
+Ryan Bergmann covered various features of GPUs and CUDA. Here is [Ryan's Tutorial][ryanstalk].
 
 
 Things we learned include:
