@@ -20,6 +20,7 @@ tags: meeting
 - Josh Howland
 - Prof. Rachel Slaybaugh
 - Kelly Rowland
+- Nikola Radnovic
 
 # Lesson: GPUs and CUDA
 
