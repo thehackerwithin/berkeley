@@ -345,7 +345,7 @@ but not yet committed.
 `git add` puts things in this area,
 and `git commit` then copies them to long-term storage:
 
-!["The Git Staging Area"](https://github.com/katyhuff/berkeley/blob/master/git/img/git-staging-area.png)
+!["The Git Staging Area"](https://raw.github.com/katyhuff/berkeley/master/git/img/git-staging-area.png)
 
 The following commands show this in action:
 
@@ -586,7 +586,7 @@ we must use the revision number that identifies the state of the repository
 A common mistake is to use the revision number of
 the commit in which we made the change we're trying to get rid of:
 
-!["When Git Updates Revision Numbers"](https://github.com/katyhuff/berkeley/blob/master/git/img/git-when-revisions-updated.png)
+!["When Git Updates Revision Numbers"](https://raw.github.com/katyhuff/berkeley/master/git/img/git-when-revisions-updated.png)
 
 The fact that files can be reverted one by one
 tends to change the way people organize their work.
