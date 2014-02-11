@@ -345,7 +345,7 @@ but not yet committed.
 `git add` puts things in this area,
 and `git commit` then copies them to long-term storage:
 
-<img src="img/git-staging-area.svg" alt="The Git Staging Area" />
+!["The Git Staging Area"](https://github.com/katyhuff/berkeley/blob/master/git/img/git-staging-area.svg)
 
 The following commands show this in action:
 
