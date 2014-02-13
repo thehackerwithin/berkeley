@@ -32,6 +32,11 @@ Katy gave a very quick intro to version control using git. Here is [Katy's Tutor
 
 # Lightning Talks 
 
+Rachel gave an introduction to the IPython Notebook, an excellent tool for 
+prototyping python code. 
+
+
+
 [katystalk]: https://github.com/katyhuff/berkeley/tree/master/git "Katy's Tutorial" 
 
 
