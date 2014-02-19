@@ -1,4 +1,12 @@
-# Collaborating
+Version Control Part II
+=======================
+
+This material was adapted from work by The Hacker Within as well as Software 
+Carpentry.
+
+
+Collaborating
+=======================
 
 Version control really comes into its own when we begin to collaborate with
 other people.  We already have most of the machinery we need to do this; the
@@ -11,7 +19,8 @@ programmers use hosting services like [GitHub](http://github.com) or
 [BitBucket](http://bitbucket.org) to hold those master copies; we'll explore
 the pros and cons of this in the final section of this lesson.
 
-## github?
+github?
+----------
 
 GitHub is a site where many people store their open (and closed) source
 code repositories. It provides tools for browsing, collaborating on and
@@ -37,14 +46,16 @@ want to share (in the most liberal sense) your stuff with the world, pay
 github money for private repos, or host your own.
 
 
-## github pasword 
+github pasword 
+-----------------
 
 Setting up github at first requires a github user name and password.
 Please take a moment to [create a free one](https://github.com/signup/free)
 (if you want to start paying, you can add that to your account some other
 day). 
 
-## Create a repository
+Create a repository
+-----------------------
 
 Let's start by sharing the changes we've made to our current project with the
 world.  Log in to GitHub, then create a new repository called `planets` using
@@ -67,7 +78,8 @@ $ git init --bare
 ~~~
 
 
-## Connect a Local Repository with the Remote one 
+Connect a Local Repository with the Remote one 
+---------------------------------------------------
 
 Our local repository still contains our earlier work on `mars.txt`,
 but the remote repository on GitHub doesn't contain any files yet:
@@ -125,12 +137,12 @@ Our local and remote repositories are now in this state:
 
 <img src="http://raw.github.com/thehackerwithin/berkeley/master/git/img/github-repo-after-first-push.png" alt="GitHub Repository After First Push" />
 
-> ### The '-u' Flag
->
-> You may see a `-u` option used with `git push`.
-> This tells Git what [branch](../../gloss.html#branch) to use
-> in the repository you're pushing to.
-> We discuss branches and branching in our intermediate-level lessons.
+### The '-u' Flag 
+
+ You may see a `-u` option used with `git push`.
+ This tells Git what [branch](../../gloss.html#branch) to use
+ in the repository you're pushing to.
+ We discuss branches and branching in our intermediate-level lessons.
 
 We can pull changes from the remote repository to the local one as well:
 
@@ -224,7 +236,8 @@ Pushing and pulling changes gives us a reliable way
 to share work between different people and machines.
 
 
-## Steps for Forking a Repository
+Steps for Forking a Repository
+---------------------------------
 
 A key step to interacting with an online repository that you have forked
 is adding the original as a remote repository. By adding the remote
@@ -280,7 +293,8 @@ git will be able to communicate with for making copies of your
 repository.  "origin" and "upstream" are nicknames for your fork of 
 {{page.testrepo}} and the "original" {{page.testrepo}}, respectively.
 
-## git fetch : Fetching the contents of a remote
+git fetch : Fetching the contents of a remote
+------------------------------------------------
 
 Now that you have alerted your repository to the presence of others, it
 is able to pull in updates from those repositories. In this case, if you
@@ -294,7 +308,8 @@ command does not change your local working copy. To update your local
 working copy to include recent changes in the original (upstream)
 repository, it is necessary to also merge.
 
-## git merge : Merging the contents of a remote
+git merge : Merging the contents of a remote
+------------------------------------------------
 
 To incorporate upstream changes from the original master repository (in
 this case {{page.username}}/{{page.testrepo}}) into your local working copy, you
@@ -316,7 +331,8 @@ upstream master branch into your master branch
 
 Step 3 : Check out what happened by browsing the directory.
 
-## git pull : Pull = Fetch + Merge
+git pull : Pull = Fetch + Merge
+------------------------------------------------
 
 The command **git pull** is the same as executing **git fetch** followed
 by **git merge**. Though it is not recommened for cases in which there
@@ -332,7 +348,8 @@ When there have been remote changes, the pull will apply those changes
 to your local branch, unless there are conflicts with your local
 changes.
 
-## git push : Sending Your Commits to Remote Repositories
+git push : Sending Your Commits to Remote Repositories
+------------------------------------------------------------
 
 The **git push** command pushes commits in a local working copy to a
 remote repository. The syntax is git push \[remote\] \[local branch\].
@@ -378,7 +395,8 @@ standard documentation file that appears rendered on the landing page
 for the repository in github. To see the rendered version, visit your
 fork on github, (https://github.com/YOU/{{page.testrepo}}/Readme.md).
 
-## github pull requests 
+github pull requests 
+--------------------------
 
 One protocol for updating repositories that we use at Software Carpentry
 is the "pull request."   This is a bundle of updates to the repository
@@ -390,7 +408,8 @@ click on "Click to create a pull request for this comparison," your
 request will be sent to the upstream repository for acceptance or
 rejection.
 
-## git merge : Conflicts
+git merge : Conflicts
+--------------------------
 
 This is the trickiest part of version control, so let's take it very
 carefully.
@@ -445,7 +464,8 @@ updates from the upstream repository, but will experience a conflict.
     CONFLICT (content): Merge conflict in Readme.md
     Automatic merge failed; fix conflicts and then commit the result.
 
-## git resolve : Resolving Conflicts
+git resolve : Resolving Conflicts
+---------------------------------------
 
 Now what?
 
@@ -503,7 +523,8 @@ alterations,
     Total 6 (delta 2), reused 0 (delta 0)
     To git@github.com:username/{{page.testrepo}}.git
 
-## synchronizing 
+synchronizing 
+--------------------------
 Now that lots of us created files and put in pull requests,
 we begin to suspect that the upstream repository might have
 new content and we are out of date. Try
