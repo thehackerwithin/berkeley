@@ -277,12 +277,12 @@ repository.
 
 Step 3 : 
 
-    $ git remote add upstream https://github.com/{{page.username}}/{{page.testrepo}}.git
+    $ git remote add upstream https://github.com/thehackerwithin/berkeley.git
     $ git remote -v
-    origin  https://github.com/YOU/{{page.testrepo}}.git (fetch)
-    origin  https://github.com/YOU/{{page.testrepo}}.git (push)
-    upstream        https://github.com/{{page.username}}/{{page.testrepo}}.git (fetch)
-    upstream        https://github.com/{{page.username}}/{{page.testrepo}}.git (push)
+    origin  https://github.com/YOU/berkeley.git (fetch)
+    origin  https://github.com/YOU/berkeley.git (push)
+    upstream        https://github.com/thehackerwithin/berkeley.git (fetch)
+    upstream        https://github.com/thehackerwithin/berkeley.git (push)
     $
 
 All repositories that are clones begin with a remote called origin.
@@ -291,14 +291,14 @@ All repositories that are clones begin with a remote called origin.
 The **git remote add** merely defines a nickname and a location that 
 git will be able to communicate with for making copies of your 
 repository.  "origin" and "upstream" are nicknames for your fork of 
-{{page.testrepo}} and the "original" {{page.testrepo}}, respectively.
+berkeley and the "original" berkeley, respectively.
 
 git fetch : Fetching the contents of a remote
 ------------------------------------------------
 
 Now that you have alerted your repository to the presence of others, it
 is able to pull in updates from those repositories. In this case, if you
-want your master branch to track updates in the original {{page.testrepo}}
+want your master branch to track updates in the original berkeley
 repository, you simply **git fetch** that repository into the master
 branch of your current repository.
 
@@ -312,7 +312,7 @@ git merge : Merging the contents of a remote
 ------------------------------------------------
 
 To incorporate upstream changes from the original master repository (in
-this case {{page.username}}/{{page.testrepo}}) into your local working copy, you
+this case thehackerwithin/berkeley) into your local working copy, you
 must both fetch and merge. The process of merging may result in
 conflicts, so pay attention. This is where version control is both at
 its most powerful and its most complicated.
@@ -390,10 +390,10 @@ There is now a hierarchy of git repositories.  There was the upstream
 repository that you can't write to, there is your fork of that repository
 that you have updated, and there is the local copy on your hard drive.
 
-In the {{page.testrepo}} code, you'll find a file called Readme.md. This is a
+In the berkeley code, you'll find a file called Readme.md. This is a
 standard documentation file that appears rendered on the landing page
 for the repository in github. To see the rendered version, visit your
-fork on github, (https://github.com/YOU/{{page.testrepo}}/Readme.md).
+fork on github, (https://github.com/YOU/berkeley/Readme.md).
 
 github pull requests 
 --------------------------
@@ -521,7 +521,7 @@ alterations,
     Compressing objects: 100% (6/6), done.
     Writing objects: 100% (6/6), 762 bytes, done.
     Total 6 (delta 2), reused 0 (delta 0)
-    To git@github.com:username/{{page.testrepo}}.git
+    To git@github.com:username/berkeley.git
 
 synchronizing 
 --------------------------
