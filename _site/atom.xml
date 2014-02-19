@@ -4,7 +4,7 @@
  <title>Hacker Within</title>
  <link href="http://thehackerwithin.github.com/berkeley/atom.xml" rel="self"/>
  <link href="http://thehackerwithin.github.com/berkeley/"/>
- <updated>2014-02-19T11:13:04-08:00</updated>
+ <updated>2014-02-19T11:15:31-08:00</updated>
  <id>http://thehackerwithin.github.com/berkeley</id>
  <author>
    <name>Hacker Within</name>
@@ -18,22 +18,22 @@
    <id>http://thehackerwithin.github.com/berkeley/posts/git-part-2-meeting</id>
    <content type="html">&lt;h1&gt;Attending&lt;/h1&gt;
 
-&lt;ul&gt;
-&lt;li&gt;Katy Huff&lt;/li&gt;
-&lt;li&gt;Ryan Bergmann&lt;/li&gt;
-&lt;li&gt;Jankai (Jack) YU&lt;/li&gt;
-&lt;li&gt;Dan Wooten&lt;/li&gt;
-&lt;li&gt;Sandra Bogetic&lt;/li&gt;
-&lt;li&gt;Christian DiSanzo&lt;/li&gt;
-&lt;li&gt;Madicken Munk&lt;/li&gt;
-&lt;li&gt;Josh Howland&lt;/li&gt;
-&lt;li&gt;Prof. Rachel Slaybaugh&lt;/li&gt;
-&lt;li&gt;Kelly Rowland&lt;/li&gt;
-&lt;li&gt;Phil Gorman&lt;/li&gt;
-&lt;li&gt;Alexjandra Jolodosky&lt;/li&gt;
-&lt;li&gt;Kelly Rowland&lt;/li&gt;
-&lt;li&gt;Jason Hou&lt;/li&gt;
-&lt;/ul&gt;
+&lt;!--
+- Katy Huff
+- Ryan Bergmann
+- Jankai (Jack) YU
+- Dan Wooten
+- Sandra Bogetic
+- Christian DiSanzo
+- Madicken Munk
+- Josh Howland
+- Prof. Rachel Slaybaugh
+- Kelly Rowland
+- Phil Gorman
+- Alexjandra Jolodosky
+- Kelly Rowland
+- Jason Hou
+--&gt;
 
 
 &lt;h1&gt;Lesson: Introduction to Git Part II&lt;/h1&gt;
