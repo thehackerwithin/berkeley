@@ -10,6 +10,7 @@ tags: meeting git
 
 # Attending
 
+<!--
 - Katy Huff
 - Ryan Bergmann
 - Jankai (Jack) YU
@@ -24,6 +25,7 @@ tags: meeting git
 - Alexjandra Jolodosky
 - Kelly Rowland
 - Jason Hou
+-->
 
 # Lesson: Introduction to Git Part II
 
