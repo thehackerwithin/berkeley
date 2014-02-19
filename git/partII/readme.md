@@ -34,7 +34,7 @@ $ git init
 Our local repository still contains our earlier work on `mars.txt`,
 but the remote repository on GitHub doesn't contain any files yet:
 
-<img src="http://raw.github.com/thehackerwithin/berkeley/master/git/img/git-freshly-made-github-repo.svg" alt="Freshly-Made GitHub Repository" />
+<img src="http://raw.github.com/thehackerwithin/berkeley/master/git/img/git-freshly-made-github-repo.png" alt="Freshly-Made GitHub Repository" />
 
 The next step is to connect the two repositories.
 We do this by making the GitHub repository a [remote](../gloss.html#repository-remote)
@@ -85,7 +85,7 @@ Branch master set up to track remote branch master from origin.
 
 Our local and remote repositories are now in this state:
 
-<img src="http://raw.github.com/thehackerwithin/berkeley/master/git/img/github-repo-after-first-push.svg" alt="GitHub Repository After First Push" />
+<img src="http://raw.github.com/thehackerwithin/berkeley/master/git/img/github-repo-after-first-push.png" alt="GitHub Repository After First Push" />
 
 > ### The '-u' Flag
 >
@@ -120,7 +120,7 @@ $ git clone https://github.com/vlad/planets.git
 (We did it in `/tmp` or some other directory so that we don't overwrite our existing `planets` directory.)
 Our computer now has two copies of the repository:
 
-<img src="http://raw.github.com/thehackerwithin/berkeley/master/git/img/git-after-duplicate-clone.svg" alt="After Creating Duplicate Clone of Repository" />
+<img src="http://raw.github.com/thehackerwithin/berkeley/master/git/img/git-after-duplicate-clone.png" alt="After Creating Duplicate Clone of Repository" />
 
 Let's make a change in the copy in `/tmp/planets`:
 
@@ -158,7 +158,7 @@ To https://github.com/vlad/planets.git
 
 Our three repositories now look like this:
 
-<img src="http://raw.github.com/thehackerwithin/berkeley/master/git/img/git-after-change-to-duplicate-repo.svg" alt="After Pushing Change from Duplicate Repository" />
+<img src="http://raw.github.com/thehackerwithin/berkeley/master/git/img/git-after-change-to-duplicate-repo.png" alt="After Pushing Change from Duplicate Repository" />
 
 We can now download changes into the original repository on our machine:
 
