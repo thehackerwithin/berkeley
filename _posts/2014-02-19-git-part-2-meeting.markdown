@@ -37,6 +37,6 @@ prototyping python code.
 
 
 
-[katystalk]: https://github.com/katyhuff/berkeley/tree/master/git/partII "Katy's Tutorial" 
+[katystalk]: https://github.com/thehackerwithin/berkeley/tree/master/git/partII "Katy's Tutorial" 
 
 
