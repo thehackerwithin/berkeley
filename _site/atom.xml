@@ -4,12 +4,48 @@
  <title>Hacker Within</title>
  <link href="http://thehackerwithin.github.com/berkeley/atom.xml" rel="self"/>
  <link href="http://thehackerwithin.github.com/berkeley/"/>
- <updated>2014-02-12T17:44:22-08:00</updated>
+ <updated>2014-02-19T11:11:09-08:00</updated>
  <id>http://thehackerwithin.github.com/berkeley</id>
  <author>
    <name>Hacker Within</name>
  </author>
  
+ 
+ <entry>
+   <title>Intro to Git Part II - Katy Huff</title>
+   <link href="http://thehackerwithin.github.com/berkeley/posts/git-part-2-meeting"/>
+   <updated>2014-02-19T00:00:00-08:00</updated>
+   <id>http://thehackerwithin.github.com/berkeley/posts/git-part-2-meeting</id>
+   <content type="html">&lt;h1&gt;Attending&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Katy Huff&lt;/li&gt;
+&lt;li&gt;Ryan Bergmann&lt;/li&gt;
+&lt;li&gt;Jankai (Jack) YU&lt;/li&gt;
+&lt;li&gt;Dan Wooten&lt;/li&gt;
+&lt;li&gt;Sandra Bogetic&lt;/li&gt;
+&lt;li&gt;Christian DiSanzo&lt;/li&gt;
+&lt;li&gt;Madicken Munk&lt;/li&gt;
+&lt;li&gt;Josh Howland&lt;/li&gt;
+&lt;li&gt;Prof. Rachel Slaybaugh&lt;/li&gt;
+&lt;li&gt;Kelly Rowland&lt;/li&gt;
+&lt;li&gt;Phil Gorman&lt;/li&gt;
+&lt;li&gt;Alexjandra Jolodosky&lt;/li&gt;
+&lt;li&gt;Kelly Rowland&lt;/li&gt;
+&lt;li&gt;Jason Hou&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h1&gt;Lesson: Introduction to Git Part II&lt;/h1&gt;
+
+&lt;p&gt;Katy gave the second half to version control using git: remotes. Here is &lt;a href=&quot;https://github.com/thehackerwithin/berkeley/tree/master/git/partII&quot; title=&quot;Katy's Tutorial&quot;&gt;Katy&amp;rsquo;s Tutorial&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1&gt;Lightning Talks&lt;/h1&gt;
+
+&lt;p&gt;Rachel gave an introduction to the IPython Notebook, an excellent tool for
+prototyping python code.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Intro to Git - Katy Huff</title>
@@ -38,7 +74,7 @@
 
 &lt;h1&gt;Lesson: Introduction to Git&lt;/h1&gt;
 
-&lt;p&gt;Katy gave a very quick intro to version control using git. Here is &lt;a href=&quot;https://github.com/katyhuff/berkeley/tree/master/git&quot; title=&quot;Katy's Tutorial&quot;&gt;Katy&amp;rsquo;s Tutorial&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Katy gave a very quick intro to version control using git. Here is &lt;a href=&quot;https://github.com/thehackerwithin/berkeley/tree/master/git/partI&quot; title=&quot;Katy's Tutorial&quot;&gt;Katy&amp;rsquo;s Tutorial&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h1&gt;Lightning Talks&lt;/h1&gt;
 
