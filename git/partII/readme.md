@@ -63,7 +63,7 @@ $ mkdir planets
 
 $ cd planets
 
-$ git init
+$ git init --bare
 ~~~
 
 
