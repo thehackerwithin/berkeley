@@ -34,9 +34,6 @@ Katy gave the second half to version control using git: remotes. Here is [Katy's
 
 # Lightning Talks 
 
-Rachel gave an introduction to the IPython Notebook, an excellent tool for 
-prototyping python code. 
-
 
 
 [katystalk]: https://github.com/thehackerwithin/berkeley/tree/master/git/partII "Katy's Tutorial" 
