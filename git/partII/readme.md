@@ -110,7 +110,7 @@ this command will push the changes from our local repository
 to the repository on GitHub:
 
 ~~~
-$ git push origin master
+$ git push -u origin master
 Counting objects: 9, done.
 Delta compression using up to 4 threads.
 Compressing objects: 100% (6/6), done.
@@ -171,10 +171,6 @@ $ cat pluto.txt
 It is so a planet!
 
 $ git add pluto.txt
-  
-▽
-
-
 
 $ git commit -m "Some notes about Pluto"
  1 file changed, 1 insertion(+)
