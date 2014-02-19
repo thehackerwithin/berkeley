@@ -1,6 +1,8 @@
 Version Control Part II
 =======================
 
+Welcome!
+
 This material was adapted from work by The Hacker Within as well as Software 
 Carpentry.
 
@@ -390,10 +392,11 @@ There is now a hierarchy of git repositories.  There was the upstream
 repository that you can't write to, there is your fork of that repository
 that you have updated, and there is the local copy on your hard drive.
 
-In the berkeley code, you'll find a file called Readme.md. This is a
+In the berkeley code, you'll find various files called readme.md. This is a
 standard documentation file that appears rendered on the landing page
-for the repository in github. To see the rendered version, visit your
-fork on github, (https://github.com/YOU/berkeley/Readme.md).
+for the repository and in github. This very file is a readme file in the 
+  git/partII directory. To see the rendered version, visit your
+fork on github, (https://github.com/YOU/berkeley/git/partII/readme.md).
 
 github pull requests 
 --------------------------
@@ -440,7 +443,8 @@ commit your changes.
     $ git branch development
     $ git checkout development
     Switched to branch 'development'
-    $ nano Readme.md &
+    $ cd git/partII
+    $ nano readme.md &
     <edit the readme file and exit nano>
     $ git commit -am "Changed the Readme message to ... "
 
@@ -460,8 +464,8 @@ Step 3 : You want to push it to the internet eventually, so you pull
 updates from the upstream repository, but will experience a conflict.
 
     $ git merge development
-    Auto-merging Readme.md
-    CONFLICT (content): Merge conflict in Readme.md
+    Auto-merging readme.md
+    CONFLICT (content): Merge conflict in readme.md
     Automatic merge failed; fix conflicts and then commit the result.
 
 git resolve : Resolving Conflicts
@@ -476,16 +480,16 @@ command.
     # Unmerged paths:
     #   (use "git add/rm <file>..." as appropriate to mark resolution)
     #
-    #       unmerged:      Readme.md
+    #       unmerged:      readme.md
     #
     no changes added to commit (use "git add" and/or "git commit -a")
 
-The only thing that has changed is the Readme.md file. Opening it,
+The only thing that has changed is the readme.md file. Opening it,
 you'll see something like this at the beginning of the file.
 
     =====================
     <<<<<<< HEAD
-    Vanakkam
+    Howdy
     =======
     Willkommen
     >>>>>>> development
@@ -498,7 +502,7 @@ must be made by a human.  Differences that can be automatically merged
 usually are, so humans are involved only when different edits touch
 the same piece of the repository. 
 
-    Vanakkam and Willkommen
+    Howdy and Willkommen
 
 This results in a status To alert git that you have made appropriate
 alterations,
@@ -508,7 +512,7 @@ alterations,
     Merge branch 'development'
 
     Conflicts:
-      Readme.md
+      readme.md
     #
     # It looks like you may be committing a MERGE.
     # If this is not correct, please remove the file
@@ -523,7 +527,7 @@ alterations,
     Total 6 (delta 2), reused 0 (delta 0)
     To git@github.com:username/berkeley.git
 
-synchronizing 
+Synchronizing 
 --------------------------
 Now that lots of us created files and put in pull requests,
 we begin to suspect that the upstream repository might have
@@ -542,4 +546,60 @@ to update those
     $ git push origin master
 
 And all is synchronized.
+
+What about Berkelium?
+----------------------
+
+### Starting with code on Bk
+
+Let's say you have a directory full of code on your Bk user space. You want to 
+have a copy on your laptop that you can sync with it, but you don't want to put 
+it on github. This is easy. Let's go through the steps. 
+
+
+    you@laptop$ ssh you@berkelium.nuc.berkeley.edu
+    you@berkelium.nuc.berkeley.edu's password: 
+    you@berkelium$ cd good_science
+    you@berkelium$ git init
+    you@berkelium$ git add *
+    you@berkelium$ git commit -am "adds all the code"
+    you@berkelium$ exit
+    logout
+    Connection to berkelium.nuc.berkeley.edu closed.
+    you@laptop$ git clone you@berkelium.nuc.berkeley.edu:~/good_science
+    Cloning into 'good_science'...
+    you@berkelium.nuc.berkeley.edu's password: 
+    remote: Counting objects: 150, done.
+    remote: Compressing objects: 100% (78/78), done.
+    remote: Total 150 (delta 60), reused 147 (delta 60)
+    Receiving objects: 100% (150/150), 4.29 MiB, done.
+    Resolving deltas: 100% (60/60), done.
+    you@laptop$ cd good_science
+
+
+### Starting with code on your laptop
+
+Let's say you have a directory full of code on your computer. You want to sync 
+it with Berkelium, but you don't want to put it on github. It's possible but 
+slightly more complex because your laptop probably doesn't have a static IP. Let's 
+go through the steps. 
+
+
+    you@laptop$ cd good_science
+    you@laptop$ git init
+    you@laptop$ git add *
+    you@laptop$ git commit -am "adds all the code"
+    you@laptop$ ssh you@berkelium.nuc.berkeley.edu
+    you@berkelium.nuc.berkeley.edu's password: 
+    you@berkelium$ mkdir good_science.git
+    you@berkelium$ cd good_science.git
+    you@berkelium$ git init --bare
+    you@berkelium$ exit
+    logout
+    Connection to berkelium.nuc.berkeley.edu closed.
+    you@laptop$ git remote add bk you@berkelium.nuc.berkeley.edu:~/good_science.git
+    you@laptop$ git push -u bk
+    you@laptop$ ssh you@berkelium.nuc.berkeley.edu
+    you@berkelium.nuc.berkeley.edu's password: 
+    you@berkelium$ git clone file://~/good_science.git good_science
 
