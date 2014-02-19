@@ -11,6 +11,41 @@ programmers use hosting services like [GitHub](http://github.com) or
 [BitBucket](http://bitbucket.org) to hold those master copies; we'll explore
 the pros and cons of this in the final section of this lesson.
 
+## github?
+
+GitHub is a site where many people store their open (and closed) source
+code repositories. It provides tools for browsing, collaborating on and
+documenting code. Your home institution may have a repository hosting
+system of it's own. To find out, ask your system administrator.  GitHub,
+much like other forge hosting services (
+[launchpad](https://launchpad.net), [bitbucket](https://bitbucket.org),
+[googlecode](http://code.google.com), [sourceforge](http://sourceforge.net)
+etc.) provides :
+
+-   landing page support 
+-   wiki support
+-   network graphs and time histories of commits
+-   code browser with syntax highlighting
+-   issue (ticket) tracking
+-   user downloads
+-   varying permissions for various groups of users
+-   commit triggered mailing lists
+-   other service hooks (twitter, etc.)
+
+**NOTE** Public repos have public licences **by default**. If you don't
+want to share (in the most liberal sense) your stuff with the world, pay
+github money for private repos, or host your own.
+
+
+## github pasword 
+
+Setting up github at first requires a github user name and password.
+Please take a moment to [create a free one](https://github.com/signup/free)
+(if you want to start paying, you can add that to your account some other
+day). 
+
+## Create a repository
+
 Let's start by sharing the changes we've made to our current project with the
 world.  Log in to GitHub, then create a new repository called `planets` using
 their GUI:
@@ -30,6 +65,9 @@ $ cd planets
 
 $ git init
 ~~~
+
+
+## Connect a Local Repository with the Remote one 
 
 Our local repository still contains our earlier work on `mars.txt`,
 but the remote repository on GitHub doesn't contain any files yet:
@@ -189,39 +227,8 @@ or on someone else's computer.
 Pushing and pulling changes gives us a reliable way
 to share work between different people and machines.
 
-## github.com?
 
-GitHub is a site where many people store their open (and closed) source
-code repositories. It provides tools for browsing, collaborating on and
-documenting code. Your home institution may have a repository hosting
-system of it's own. To find out, ask your system administrator.  GitHub,
-much like other forge hosting services (
-[launchpad](https://launchpad.net), [bitbucket](https://bitbucket.org),
-[googlecode](http://code.google.com), [sourceforge](http://sourceforge.net)
-etc.) provides :
-
--   landing page support 
--   wiki support
--   network graphs and time histories of commits
--   code browser with syntax highlighting
--   issue (ticket) tracking
--   user downloads
--   varying permissions for various groups of users
--   commit triggered mailing lists
--   other service hooks (twitter, etc.)
-
-**NOTE** Public repos have public licences **by default**. If you don't
-want to share (in the most liberal sense) your stuff with the world, pay
-github money for private repos, or host your own.
-
-## github pasword 
-
-Setting up github at first requires a github user name and password.
-Please take a moment to [create a free one](https://github.com/signup/free)
-(if you want to start paying, you can add that to your account some other
-day). 
-
-## git remote : Steps for Forking a Repository
+## Steps for Forking a Repository
 
 A key step to interacting with an online repository that you have forked
 is adding the original as a remote repository. By adding the remote
@@ -234,8 +241,9 @@ fork, others that may be **parallel** to your fork, and so on.
 
 ### Exercise : Fork Our GitHub Repository
 
-In step 1, you will make a copy "fork" of our test repository {{page.testrepo}} 
-on github.  This gives you a copy of this repository that you control.
+In step 1, you will make a copy "fork" of our thehackerwithin/berkeley 
+repository on github.  This gives you a copy of this repository that you 
+control.
 
 In step 2, you will make a copy of **your** fork of the repository on your 
 hard drive.
@@ -245,14 +253,15 @@ your fork on github, there is another github repository (called "upstream")
 that you might want to get updates from.
 
 Step 1 : Go to our
-[repository](https://github.com/{{page.username}}/{{page.testrepo}})
+[repository](https://github.com/thehackerwithin/berkeley)
 from your browser, and click on the Fork button. Choose to fork it to your
 username rather than any organizations.
 
 Step 2 : Clone it. From your terminal :
 
-    $ git clone https://github.com/YOU/{{page.testrepo}}.git
-    $ cd {{page.testrepo}}
+    $ git clone https://github.com/YOU/berkeley.git
+    $ cd berkeley
+
 Note: YOU is a placeholder for YOUR github username.  If git asks you for 
 a password here, it probably means you have mis-typed the url for the 
 repository. 
@@ -517,13 +526,3 @@ to update those
 
 And all is synchronized.
 
-## gitolite
-
-[Gitolite](https://github.com/sitaramc/gitolite) is a way for you to host
-your own multi-user git repositories. I'm not going to go into details
-here, but all you need is a machine with some drive space and network
-access. You can install [minimal
-ubuntu](https://help.ubuntu.com/community/Installation/MinimalCD), then
-sudo apt-get install gitolite will pull in everything you need. At that
-point, your collaborators will only need to send you their public ssh keys
-for you to configure pull and push access to the repos.
