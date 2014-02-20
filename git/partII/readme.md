@@ -1,7 +1,7 @@
 Version Control Part II
 =======================
 
-Welcome!
+Bienvenido!
 
 This material was adapted from work by The Hacker Within as well as Software 
 Carpentry.
