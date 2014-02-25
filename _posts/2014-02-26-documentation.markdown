@@ -33,6 +33,6 @@ Rachel gave a brief overview of how to write code where comments become document
 
 
 
-[rachelstalk]: https://github.com/thehackerwithin/berkeley/tree/master/git/partI "Katy's Tutorial" 
+[rachelstalk]: https://github.com/rachelslaybaugh/berkeley/tree/gh-pages/_site/posts/documentation "Rachel's Tutorial"
 
 
