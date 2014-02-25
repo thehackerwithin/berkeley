@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>http://thehackerwithin.github.com/berkeley</loc>
+    </url>
+    
+    
+    <url>
+        <loc>http://thehackerwithin.github.com/berkeley/posts/git-part-2-meeting</loc>
+    </url>
+    
+    <url>
+        <loc>http://thehackerwithin.github.com/berkeley/posts/git-intro-meeting</loc>
+    </url>
+    
+    <url>
+        <loc>http://thehackerwithin.github.com/berkeley/posts/ryan-on-gpus</loc>
+    </url>
+    
+    <url>
+        <loc>http://thehackerwithin.github.com/berkeley/posts/bash-meeting</loc>
+    </url>
+    
+    <url>
+        <loc>http://thehackerwithin.github.com/berkeley/posts/first-meeting</loc>
+    </url>
+    
+</urlset>
