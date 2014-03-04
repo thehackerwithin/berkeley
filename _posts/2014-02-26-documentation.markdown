@@ -3,7 +3,7 @@ layout: post
 title: Self Documenting Code - Rachel Slaybaugh
 comments: true
 category: posts
-tags: meeting doxygen
+tags: meeting doxygen lesson documentation
 ---
 
 
@@ -12,27 +12,25 @@ tags: meeting doxygen
 
 - Prof. Rachel Slaybaugh
 - Ryan Bergmann
-- Jankai (Jack) YU
+- Jankai (Jack) Yu
 - Dan Wooten
 - Sandra Bogetic
 - Christian DiSanzo
-- Madicken Munk
 - Josh Howland
+- Alex Chong
 - Kelly Rowland
 - Phil Gorman
-- Alexjandra Jolodosky
-- Kelly Rowland
 - Jason Hou
 
-# Lesson: Self Documenting Code
+# Lesson: Code Documentation
 
-Rachel gave a brief overview of how to write code where comments become documentation. Here is [Rachel's Tutorial][rachelstalk].
+Rachel gave a brief overview of a variety of documentation strategies, including how to write code comments that generate a useful API. Here is [Rachel's Tutorial][rachelstalk].
 
 
 # Lightning Talks 
 
 
 
-[rachelstalk]: https://github.com/rachelslaybaugh/berkeley/tree/gh-pages/_site/posts/documentation "Rachel's Tutorial"
+[rachelstalk]: https://github.com/thehackerwithin/berkeley/tree/master/documentation "Rachel's Tutorial"
 
 
