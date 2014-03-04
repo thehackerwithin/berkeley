@@ -4,7 +4,7 @@
  <title>Hacker Within</title>
  <link href="http://thehackerwithin.github.com/berkeley/atom.xml" rel="self"/>
  <link href="http://thehackerwithin.github.com/berkeley/"/>
- <updated>2014-03-03T17:55:39-08:00</updated>
+ <updated>2014-03-04T08:49:19-08:00</updated>
  <id>http://thehackerwithin.github.com/berkeley</id>
  <author>
    <name>Hacker Within</name>
@@ -35,7 +35,7 @@
 
 &lt;h1&gt;Lesson: Code Documentation&lt;/h1&gt;
 
-&lt;p&gt;Rachel gave a brief overview of a variety of documentation strategies, including how to write code comments that generate a useful API. Here is &lt;a href=&quot;https://github.com/thehackerwithin/berkeley/tree/gh-pages/documentation&quot; title=&quot;Rachel's Tutorial&quot;&gt;Rachel&amp;rsquo;s Tutorial&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Rachel gave a brief overview of a variety of documentation strategies, including how to write code comments that generate a useful API. Here is &lt;a href=&quot;https://github.com/thehackerwithin/berkeley/tree/gh-pages/documentation/documentation.md&quot; title=&quot;Rachel's Tutorial&quot;&gt;Rachel&amp;rsquo;s Tutorial&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h1&gt;Lightning Talks&lt;/h1&gt;
 </content>
