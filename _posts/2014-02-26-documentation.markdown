@@ -31,6 +31,6 @@ Rachel gave a brief overview of a variety of documentation strategies, including
 
 
 
-[rachelstalk]: https://github.com/thehackerwithin/berkeley/tree/master/documentation "Rachel's Tutorial"
+[rachelstalk]: https://github.com/thehackerwithin/berkeley/tree/gh-pages/documentation "Rachel's Tutorial"
 
 
