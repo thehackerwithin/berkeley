@@ -1,0 +1,53 @@
+%        File: paper.tex
+%     Created: Wed Mar 05 10:00 AM 2014 P
+% Last Change: Wed Mar 05 10:00 AM 2014 P
+%
+\documentclass[letterpaper]{article}
+\usepackage[top=1.0in,bottom=1.0in,left=1.0in,right=1.0in]{geometry}
+\usepackage{verbatim}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage[usenames]{color}
+\usepackage[
+  naturalnames = true, 
+  colorlinks = true, 
+  linkcolor = Black,
+  anchorcolor = Black,
+  citecolor = Black,
+  menucolor = Black,
+  urlcolor = Blue
+]{hyperref}
+\def\thesection       {\arabic{section}}
+\def\thesubsection     {\thesection.\alph{subsection}}
+
+\author{The Hacker Within}
+
+\date{}
+\title{This is an Automated Make Paper}
+\begin{document}
+\maketitle
+\section{THW}
+\begin{figure}[htb!]
+  \begin{center}
+    \includegraphics{thw_icon.eps}
+  \end{center}
+  \caption{This is the THW logo. }
+  \label{fig:thw_logo}
+\end{figure}
+
+\section{Data}
+\begin{figure}[htb!]
+  \begin{center}
+    \includegraphics{graph.eps}
+  \end{center}
+  \caption{This is a graph of 1.dat, 2.dat, and 3.dat. }
+  \label{fig:graph}
+\end{figure}
+
+
+\end{document}
+
+
