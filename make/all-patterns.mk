@@ -18,9 +18,9 @@ graph.eps : *.dat
 3.dat : data_analysis.py
 	python data_analysis.py
 
-paper.tex : configure_paper.py 1.dat
-	python $<
-
-paper.tex : configure_paper.py 1.dat 2.dat 3.dat
-	python $<
+paper.tex : 1.dat 2.dat 3.dat
+	AV1 = python config_paper.py 1.dat
+	sed -i 's/AV1/$(AV1)/g' $@
+	AVALL = python config_paper.py $<
+	sed -i 's/AVALL/$(AVALL)/g' $@
 
