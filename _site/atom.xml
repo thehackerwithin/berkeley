@@ -4,12 +4,42 @@
  <title>Hacker Within</title>
  <link href="http://thehackerwithin.github.com/berkeley/atom.xml" rel="self"/>
  <link href="http://thehackerwithin.github.com/berkeley/"/>
- <updated>2014-02-19T11:15:31-08:00</updated>
+ <updated>2014-03-05T17:49:18-08:00</updated>
  <id>http://thehackerwithin.github.com/berkeley</id>
  <author>
    <name>Hacker Within</name>
  </author>
  
+ 
+ <entry>
+   <title>Self Documenting Code - Rachel Slaybaugh</title>
+   <link href="http://thehackerwithin.github.com/berkeley/posts/documentation"/>
+   <updated>2014-02-26T00:00:00-08:00</updated>
+   <id>http://thehackerwithin.github.com/berkeley/posts/documentation</id>
+   <content type="html">&lt;h1&gt;Attending&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Prof. Rachel Slaybaugh&lt;/li&gt;
+&lt;li&gt;Ryan Bergmann&lt;/li&gt;
+&lt;li&gt;Jankai (Jack) Yu&lt;/li&gt;
+&lt;li&gt;Dan Wooten&lt;/li&gt;
+&lt;li&gt;Sandra Bogetic&lt;/li&gt;
+&lt;li&gt;Christian DiSanzo&lt;/li&gt;
+&lt;li&gt;Josh Howland&lt;/li&gt;
+&lt;li&gt;Alex Chong&lt;/li&gt;
+&lt;li&gt;Kelly Rowland&lt;/li&gt;
+&lt;li&gt;Phil Gorman&lt;/li&gt;
+&lt;li&gt;Jason Hou&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h1&gt;Lesson: Code Documentation&lt;/h1&gt;
+
+&lt;p&gt;Rachel gave a brief overview of a variety of documentation strategies, including how to write code comments that generate a useful API. Here is &lt;a href=&quot;https://github.com/thehackerwithin/berkeley/tree/master/documentation/documentation.md&quot; title=&quot;Rachel's Tutorial&quot;&gt;Rachel&amp;rsquo;s Tutorial&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1&gt;Lightning Talks&lt;/h1&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Intro to Git Part II - Katy Huff</title>
@@ -41,9 +71,6 @@
 &lt;p&gt;Katy gave the second half to version control using git: remotes. Here is &lt;a href=&quot;https://github.com/thehackerwithin/berkeley/tree/master/git/partII&quot; title=&quot;Katy's Tutorial&quot;&gt;Katy&amp;rsquo;s Tutorial&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h1&gt;Lightning Talks&lt;/h1&gt;
-
-&lt;p&gt;Rachel gave an introduction to the IPython Notebook, an excellent tool for
-prototyping python code.&lt;/p&gt;
 </content>
  </entry>
  
