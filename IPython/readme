@@ -1,0 +1,15 @@
+This tutorial gives an introduction to the IPython interactive shell for 
+exploratory computing with python. In order to follow along with the tutorial,
+you must have at least the following four packages installed:
+
+1) python
+2) ipython
+3) numpy
+4) matplotlib
+
+For instructions on how to install these packages on your platform, see:
+http://ipython.org/install.html
+
+The tutorial uses a data set, stored in rawSignals.txt, as a basis for showing
+off some of the utilities of IPython. A cleaned-up and commented log of the 
+ipython session created during the live tutorial will be added afterwards.
