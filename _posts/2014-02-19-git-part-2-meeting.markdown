@@ -29,13 +29,10 @@ tags: meeting git
 
 # Lesson: Introduction to Git Part II
 
-Katy gave the second half to version control using git: remotes. Here is [Katy's Tutorial][katystalk].
-
-
-# Lightning Talks 
+Katy gave the second half to version control using git: remotes. Here is [Katy's Tutorial][katystalkptII].
 
 
 
-[katystalk]: https://github.com/thehackerwithin/berkeley/tree/master/git/partII "Katy's Tutorial" 
+[katystalkptII]: https://github.com/thehackerwithin/berkeley/tree/master/git/partII "Katy's Tutorial" 
 
 

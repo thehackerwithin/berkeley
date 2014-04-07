@@ -19,7 +19,7 @@ Professor Rachel Slaybauh gave an introduction to documenting code. This covered
 - User Guides
 - Developer Guides
 
-You can find notes about this topic from the meeting [here].
+You can find notes about this topic from the meeting [here][here].
 
 [here]: https://github.com/thehackerwithin/berkeley/blob/master/documentation/documentation.md "here"
 

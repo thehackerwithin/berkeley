@@ -4,7 +4,7 @@
  <title>Hacker Within</title>
  <link href="http://thehackerwithin.github.com/berkeley/atom.xml" rel="self"/>
  <link href="http://thehackerwithin.github.com/berkeley/"/>
- <updated>2014-04-07T15:17:42-07:00</updated>
+ <updated>2014-04-07T15:34:21-07:00</updated>
  <id>http://thehackerwithin.github.com/berkeley</id>
  <author>
    <name>Hacker Within</name>
@@ -50,7 +50,18 @@ unix platform.&lt;/p&gt;
 &lt;p&gt;Ross gave an introduction to one of the best tools in the python development
 suite: IPython.&lt;/p&gt;
 
-&lt;p&gt;His notes for this tutorial can be found &lt;a href=&quot;https://github.com/thehackerwithin/berkeley/tree/master/IPython&quot; title=&quot;here&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;His notes for this tutorial can be found &lt;a href=&quot;https://github.com/thehackerwithin/berkeley/tree/master/IPython&quot; title=&quot;here&quot;&gt;on github&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Makefiles - Katy Huff</title>
+   <link href="http://thehackerwithin.github.com/berkeley/posts/makefiles"/>
+   <updated>2014-03-05T00:00:00-08:00</updated>
+   <id>http://thehackerwithin.github.com/berkeley/posts/makefiles</id>
+   <content type="html">&lt;h1&gt;Lesson: Introduction to Makefiles&lt;/h1&gt;
+
+&lt;p&gt;Katy gave a very quick intro to makefiles. This was based largely on Software Carpentry material, replicated &lt;a href=&quot;https://github.com/thehackerwithin/berkeley/tree/master/make&quot; title=&quot;make&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </content>
  </entry>
  
@@ -106,8 +117,6 @@ suite: IPython.&lt;/p&gt;
 &lt;h1&gt;Lesson: Introduction to Git Part II&lt;/h1&gt;
 
 &lt;p&gt;Katy gave the second half to version control using git: remotes. Here is &lt;a href=&quot;https://github.com/thehackerwithin/berkeley/tree/master/git/partII&quot; title=&quot;Katy's Tutorial&quot;&gt;Katy&amp;rsquo;s Tutorial&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h1&gt;Lightning Talks&lt;/h1&gt;
 </content>
  </entry>
  
