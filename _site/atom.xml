@@ -4,7 +4,7 @@
  <title>Hacker Within</title>
  <link href="http://thehackerwithin.github.com/berkeley/atom.xml" rel="self"/>
  <link href="http://thehackerwithin.github.com/berkeley/"/>
- <updated>2014-04-07T15:34:21-07:00</updated>
+ <updated>2014-04-07T15:56:10-07:00</updated>
  <id>http://thehackerwithin.github.com/berkeley</id>
  <author>
    <name>Hacker Within</name>
@@ -85,7 +85,7 @@ suite: IPython.&lt;/p&gt;
 &lt;/ul&gt;
 
 
-&lt;p&gt;You can find notes about this topic from the meeting &lt;a href=&quot;https://github.com/thehackerwithin/berkeley/blob/master/documentation/documentation.md&quot; title=&quot;here&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can find details about this topic from the meeting &lt;a href=&quot;https://github.com/thehackerwithin/berkeley/blob/master/documentation/documentation.md&quot; title=&quot;here&quot;&gt;notes&lt;/a&gt;.&lt;/p&gt;
 </content>
  </entry>
  
@@ -94,27 +94,7 @@ suite: IPython.&lt;/p&gt;
    <link href="http://thehackerwithin.github.com/berkeley/posts/git-part-2-meeting"/>
    <updated>2014-02-19T00:00:00-08:00</updated>
    <id>http://thehackerwithin.github.com/berkeley/posts/git-part-2-meeting</id>
-   <content type="html">&lt;h1&gt;Attending&lt;/h1&gt;
-
-&lt;!--
-- Katy Huff
-- Ryan Bergmann
-- Jankai (Jack) YU
-- Dan Wooten
-- Sandra Bogetic
-- Christian DiSanzo
-- Madicken Munk
-- Josh Howland
-- Prof. Rachel Slaybaugh
-- Kelly Rowland
-- Phil Gorman
-- Alexjandra Jolodosky
-- Kelly Rowland
-- Jason Hou
---&gt;
-
-
-&lt;h1&gt;Lesson: Introduction to Git Part II&lt;/h1&gt;
+   <content type="html">&lt;h1&gt;Lesson: Introduction to Git Part II&lt;/h1&gt;
 
 &lt;p&gt;Katy gave the second half to version control using git: remotes. Here is &lt;a href=&quot;https://github.com/thehackerwithin/berkeley/tree/master/git/partII&quot; title=&quot;Katy's Tutorial&quot;&gt;Katy&amp;rsquo;s Tutorial&lt;/a&gt;.&lt;/p&gt;
 </content>
@@ -233,7 +213,7 @@ the more threads you&amp;rsquo;re running.&lt;/li&gt;
 
 &lt;h1&gt;Lesson: Bash&lt;/h1&gt;
 
-&lt;p&gt;Katy will review various features of the powerhouse of programming, the *nix terminal. (Note that *nix is jargon intended to indicate both linux and unix operating systems.) You&amp;rsquo;ll find this lesson within our shared repository. Start with &lt;a href=&quot;https://github.com/thehackerwithin/berkeley/blob/master/bash/tutorial.md&quot; title=&quot;Tutorial Source&quot;&gt;tutorial.md&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Katy will review various features of the powerhouse of programming, the *nix terminal. (Note that *nix is jargon intended to indicate both linux and unix operating systems.) You&amp;rsquo;ll find this lesson within our shared repository. Start with &lt;a href=&quot;https://github.com/thehackerwithin/berkeley/blob/master/bash/tutorial.md&quot; title=&quot;Tutorial Source&quot;&gt;the tutorial&lt;/a&gt;.&lt;/p&gt;
 </content>
  </entry>
  
