@@ -4,7 +4,7 @@
  <title>Hacker Within</title>
  <link href="http://thehackerwithin.github.com/berkeley/atom.xml" rel="self"/>
  <link href="http://thehackerwithin.github.com/berkeley/"/>
- <updated>2014-04-07T15:06:32-07:00</updated>
+ <updated>2014-04-07T15:11:48-07:00</updated>
  <id>http://thehackerwithin.github.com/berkeley</id>
  <author>
    <name>Hacker Within</name>
@@ -36,7 +36,7 @@ unix platform.&lt;/p&gt;
    <id>http://thehackerwithin.github.com/berkeley/posts/testing</id>
    <content type="html">&lt;h1&gt;Lesson: Introduction to Testing&lt;/h1&gt;
 
-&lt;p&gt;Katy gave a very quick intro to testing using the python nosetests package. There is a simple example &lt;a href=&quot;https://github.com/thehackerwithin/berkeley/tree/master/testing/partI&quot; title=&quot;Testing Example&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Katy gave a very quick intro to testing using the python nosetests package. There is a simple example &lt;a href=&quot;https://github.com/thehackerwithin/berkeley/tree/master/testing&quot; title=&quot;Testing Example&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </content>
  </entry>
  
