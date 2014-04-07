@@ -4,12 +4,79 @@
  <title>Hacker Within</title>
  <link href="http://thehackerwithin.github.com/berkeley/atom.xml" rel="self"/>
  <link href="http://thehackerwithin.github.com/berkeley/"/>
- <updated>2014-02-19T11:15:31-08:00</updated>
+ <updated>2014-04-07T15:06:32-07:00</updated>
  <id>http://thehackerwithin.github.com/berkeley</id>
  <author>
    <name>Hacker Within</name>
  </author>
  
+ 
+ <entry>
+   <title>Testing Part II - Katy Huff</title>
+   <link href="http://thehackerwithin.github.com/berkeley/posts/testingII"/>
+   <updated>2014-04-02T00:00:00-07:00</updated>
+   <id>http://thehackerwithin.github.com/berkeley/posts/testingII</id>
+   <content type="html">&lt;h1&gt;Lesson: Introduction to Testing&lt;/h1&gt;
+
+&lt;p&gt;Katy gave a very quick continuation of testing in the context of languages other
+than python. She mostly did a tour through the Cyclus code and its tests,
+written using the google test framework and built into an executable with CMake.&lt;/p&gt;
+
+&lt;h1&gt;Lightning Talks&lt;/h1&gt;
+
+&lt;p&gt;Ross Barnowski gave a quick overview of how to mount remote drives on a linux or
+unix platform.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Testing - Katy Huff</title>
+   <link href="http://thehackerwithin.github.com/berkeley/posts/testing"/>
+   <updated>2014-03-19T00:00:00-07:00</updated>
+   <id>http://thehackerwithin.github.com/berkeley/posts/testing</id>
+   <content type="html">&lt;h1&gt;Lesson: Introduction to Testing&lt;/h1&gt;
+
+&lt;p&gt;Katy gave a very quick intro to testing using the python nosetests package. There is a simple example &lt;a href=&quot;https://github.com/thehackerwithin/berkeley/tree/master/testing/partI&quot; title=&quot;Testing Example&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>IPython - Ross Barnowski</title>
+   <link href="http://thehackerwithin.github.com/berkeley/posts/IPython"/>
+   <updated>2014-03-12T00:00:00-07:00</updated>
+   <id>http://thehackerwithin.github.com/berkeley/posts/IPython</id>
+   <content type="html">&lt;h1&gt;Lesson: Introduction to IPython&lt;/h1&gt;
+
+&lt;p&gt;Ross gave an introduction to one of the best tools in the python development
+suite: IPython.&lt;/p&gt;
+
+&lt;p&gt;His notes for this tutorial can be found &lt;a href=&quot;https://github.com/thehackerwithin/berkeley/tree/master/IPython&quot; title=&quot;here&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Documentation - Rachel Slaybaugh</title>
+   <link href="http://thehackerwithin.github.com/berkeley/posts/documentation"/>
+   <updated>2014-02-26T00:00:00-08:00</updated>
+   <id>http://thehackerwithin.github.com/berkeley/posts/documentation</id>
+   <content type="html">&lt;h1&gt;Lesson: Introduction to Documentation&lt;/h1&gt;
+
+&lt;p&gt;Professor Rachel Slaybauh gave an introduction to documenting code. This covered:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Code Comments&lt;/li&gt;
+&lt;li&gt;API Documentation&lt;/li&gt;
+&lt;li&gt;Auto-Documentation&lt;/li&gt;
+&lt;li&gt;Self-Documenting Code&lt;/li&gt;
+&lt;li&gt;Readmes&lt;/li&gt;
+&lt;li&gt;User Guides&lt;/li&gt;
+&lt;li&gt;Developer Guides&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;You can find notes about this topic from the meeting &lt;a href=&quot;https://github.com/thehackerwithin/berkeley/blob/master/documentation/documentation.md&quot; title=&quot;here&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Intro to Git Part II - Katy Huff</title>
@@ -41,9 +108,6 @@
 &lt;p&gt;Katy gave the second half to version control using git: remotes. Here is &lt;a href=&quot;https://github.com/thehackerwithin/berkeley/tree/master/git/partII&quot; title=&quot;Katy's Tutorial&quot;&gt;Katy&amp;rsquo;s Tutorial&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h1&gt;Lightning Talks&lt;/h1&gt;
-
-&lt;p&gt;Rachel gave an introduction to the IPython Notebook, an excellent tool for
-prototyping python code.&lt;/p&gt;
 </content>
  </entry>
  
