@@ -27,13 +27,14 @@
 
 <body>
   <section class="sidebar">
-    <a href="{{ site.url }}/">
+    <a href="{{ site.github.owner_url }}/">
       <img src="{{ site.gravatar_url }}?s=150" height="75" width="75" class="avatar" />
     </a>
 
     <section class="name">
       <a href="{{ site.url }}/">
-        <span id="fname">{{ site.name|split:' '|first }}</span>
+        <span id="fname">The</span>
+        <span id="mname">{{ site.name|split:' '|first }}</span>
         <span id="lname">{{ site.name|split:' '|last }}</span>
       </a>
     </section>

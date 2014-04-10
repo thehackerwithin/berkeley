@@ -4,12 +4,89 @@
  <title>Hacker Within</title>
  <link href="http://thehackerwithin.github.com/berkeley/atom.xml" rel="self"/>
  <link href="http://thehackerwithin.github.com/berkeley/"/>
- <updated>2014-04-07T16:27:54-07:00</updated>
+ <updated>2014-04-10T10:53:47-07:00</updated>
  <id>http://thehackerwithin.github.com/berkeley</id>
  <author>
    <name>Hacker Within</name>
  </author>
  
+ 
+ <entry>
+   <title>Raspberry Pi Hacking - Ryan Pavlovsky</title>
+   <link href="http://thehackerwithin.github.com/berkeley/posts/raspberry-pi"/>
+   <updated>2014-04-09T00:00:00-07:00</updated>
+   <id>http://thehackerwithin.github.com/berkeley/posts/raspberry-pi</id>
+   <content type="html">&lt;h1&gt;Attending&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ryan Pavlovsky&lt;/li&gt;
+&lt;li&gt;Katy Huff&lt;/li&gt;
+&lt;li&gt;Ryan Bergmann&lt;/li&gt;
+&lt;li&gt;Josh Howland&lt;/li&gt;
+&lt;li&gt;Prof. Rachel Slaybaugh&lt;/li&gt;
+&lt;li&gt;Kelly Rowland&lt;/li&gt;
+&lt;li&gt;Ross Barnowski&lt;/li&gt;
+&lt;li&gt;Tomi Akindele&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h1&gt;Lesson: Raspberry Pi&lt;/h1&gt;
+
+&lt;p&gt;Ryan Pavlovsky, a student in Kai Vetter&amp;rsquo;s research group, gave an excellent
+presentation about what he&amp;rsquo;s done with the raspberry pi.&lt;/p&gt;
+
+&lt;p&gt;Stuff that we discussed :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;How did you get this?&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;What are the peripherals that work with it?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;gpu/cpu&lt;/li&gt;
+&lt;li&gt;broadcomm video card&lt;/li&gt;
+&lt;li&gt;ARM processor, 700 MHz&lt;/li&gt;
+&lt;li&gt;512 MB memory&lt;/li&gt;
+&lt;li&gt;JTag header?&lt;/li&gt;
+&lt;li&gt;USB/Ethernet&lt;/li&gt;
+&lt;li&gt;SD card additional memory&lt;/li&gt;
+&lt;li&gt;Raspbian operating system&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;What example projects are cool?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;smart kegerator (monitors flow rates, temperatures, accounting, facial
+detection)&lt;/li&gt;
+&lt;li&gt;Quake III&lt;/li&gt;
+&lt;li&gt;cluster of pis. built mpi on it. rack made of legos!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Demos!&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;pong, a ping sensor. Sends a ping, measures time to return.&lt;/li&gt;
+&lt;li&gt;ping, a program that acquires pong senses over time.&lt;/li&gt;
+&lt;li&gt;simon says, computer tells you what to do, based on ping&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;GEANT4&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;4.10 C++ implementation&lt;/li&gt;
+&lt;li&gt;networked raspberry pi&lt;/li&gt;
+&lt;li&gt;edited ~/.bashrc for data&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;Code examples for the demo can be found &lt;a href=&quot;https://github.com/thehackerwithin/berkeley/tree/master/raspi&quot; title=&quot;Code Examples&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1&gt;Lightning Talks&lt;/h1&gt;
+
+&lt;p&gt;We talked, in an ad hoc fashion about the hearbleed OpenSSL bug.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Testing Part II - Katy Huff</title>
