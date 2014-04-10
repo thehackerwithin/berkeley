@@ -10,6 +10,7 @@ tags: meeting
 
 # Attending
 
+- Ryan Pavlovsky
 - Katy Huff
 - Ryan Bergmann
 - Josh Howland
