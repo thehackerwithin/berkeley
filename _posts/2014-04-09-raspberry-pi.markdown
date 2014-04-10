@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Raspberry Pi Hacking - Ryan Pavlovski
+title: Raspberry Pi Hacking - Ryan Pavlovsky
 comments: true
 category: posts
 tags: meeting
@@ -20,7 +20,7 @@ tags: meeting
 
 # Lesson: Raspberry Pi
 
-Ryan Pavlovski, a student in Kai Vetter's research group, gave an excellent 
+Ryan Pavlovsky, a student in Kai Vetter's research group, gave an excellent 
 presentation about what he's done with the raspberry pi. 
 
 Stuff that we discussed : 
