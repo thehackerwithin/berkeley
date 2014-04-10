@@ -62,4 +62,4 @@ Code examples for the demo can be found [here][code].
 We talked, in an ad hoc fashion about the hearbleed OpenSSL bug. 
 
 
-[code]: https://github.com/thehackerwithin/berkeley/tree/master/pi "Code Examples" 
+[code]: https://github.com/thehackerwithin/berkeley/tree/master/rasppi "Code Examples" 
