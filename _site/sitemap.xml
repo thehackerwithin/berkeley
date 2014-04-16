@@ -6,6 +6,26 @@
     
     
     <url>
+        <loc>http://thehackerwithin.github.com/berkeley/posts/raspberry-pi</loc>
+    </url>
+    
+    <url>
+        <loc>http://thehackerwithin.github.com/berkeley/posts/testingII</loc>
+    </url>
+    
+    <url>
+        <loc>http://thehackerwithin.github.com/berkeley/posts/testing</loc>
+    </url>
+    
+    <url>
+        <loc>http://thehackerwithin.github.com/berkeley/posts/IPython</loc>
+    </url>
+    
+    <url>
+        <loc>http://thehackerwithin.github.com/berkeley/posts/makefiles</loc>
+    </url>
+    
+    <url>
         <loc>http://thehackerwithin.github.com/berkeley/posts/documentation</loc>
     </url>
     
