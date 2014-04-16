@@ -1,6 +1,5 @@
 ---
 layout: post
-<<<<<<< HEAD
 title: Self Documenting Code - Rachel Slaybaugh
 comments: true
 category: posts
@@ -56,6 +55,5 @@ Professor Rachel Slaybauh gave an introduction to documenting code. This covered
 You can find details about this topic from the meeting [notes][notes].
 
 [notes]: https://github.com/thehackerwithin/berkeley/blob/master/documentation/documentation.md "here"
->>>>>>> 16e60dd2be13b7d99ffe944e3070692a5a3ca546
 
 
