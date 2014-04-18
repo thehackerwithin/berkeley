@@ -7,7 +7,7 @@
     display: none; }
   .sidebar .name {
     display: inline; }
-    .sidebar .name #fname, .sidebar .name #lname {
+    .sidebar .name #fname, .sidebar .name #mname, .sidebar .name #lname {
       font-size: 25px; }
   .sidebar .meta {
     display: none; }
