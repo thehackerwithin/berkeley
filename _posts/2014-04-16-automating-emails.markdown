@@ -15,6 +15,7 @@ tags: meeting bash shell lesson
 -    Kelly Rowland
 -    Daniel Wooten
 -    Joshua Howland 
+-    Madicken Munk
 -    ... 
 
 # Lesson: Emailing With Python
@@ -43,6 +44,16 @@ Example scripts ([examples][examples]):
 NOTE: The logging in this example is for demonstration only. This simple
 logging is probably not the way you'd want to do it if you truly wanted to
 track the performance of a running calculation. May not work on all systems.
+
+
+# Lightning Talk: Rachel on pretty images and Madicken on slow MCNP
+
+Rachel showed an excellent-looking, peacock colored image of the ratio of two 
+neutronics solutions. 
+
+Madicken discussed the behavior of MCNP when a single material is replaced by 
+a material which causes more neutron scattering. Result: MCNP slows down a whole 
+heck of a lot for such materials.
 
 [examples]: https://github.com/thehackerwithin/berkeley/blob/master/python_email   "Tutorial Source" 
 
