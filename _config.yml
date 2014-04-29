@@ -6,10 +6,8 @@ rdiscount:
   extensions: [smart]
 
 name: Hacker Within 
-url: http://thehackerwithin.github.com/berkeley
 description: An initial blog and site for THW at UCB
 twitter: hackerwithin
-github: thehackerwithin
 gravatar_url: http://www.gravatar.com/avatar/0203c034a145af6cc2576d56cdb4cf73
 disqus_username: hackerwithinadmin
 
