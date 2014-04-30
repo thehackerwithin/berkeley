@@ -1,0 +1,175 @@
+\documentclass[landscape]{slides}
+\usepackage[landscape]{geometry}
+\usepackage[dvips]{graphicx}
+\begin{document}
+\begin{normalsize}
+\begin{slide}
+\title{Floating Bodies in \LaTeX{}}
+\maketitle
+\end{slide}
+
+
+\begin{slide}
+{\Huge What are Floating Bodies?}
+\begin{itemize}
+\item \emph{Figures} are Floating Bodies.
+\item \emph{Pictures} drawn in \LaTeX{} are also Floating Bodies.
+\item \emph{Tables} are not always Floating Bodies.
+\item Anything can be a Floating Body if you want it to be. 
+\end{itemize}
+\end{slide}
+
+
+\begin{slide}
+\LaTeX{} treats Floating Bodies differently than text.
+\begin{itemize}
+\item Floating Bodies are often external files
+\item They are not broken accross page breaks.
+\item They are inextricably connected to their captions.
+\item \TeX{} keeps a running list of Tables and Figures. 
+\item Only \TeX{} has direct control of where they are placed.
+\end{itemize}
+\end{slide}
+
+
+\begin{slide}
+{\huge Creating Floating Bodies}
+\vspace{1cm}\\
+Tabular Environment\\
+ -Table Specifications\\
+ -Tables as Floating Bodies
+\vspace{1cm}\\
+Figure Environment\\
+ -Including Figures\\
+ -File Formats\\
+ -The Graphicx package
+\vspace{1cm}\\
+Picture Environment\\
+ -Drawing pictures within \LaTeX{}\\
+\end{slide}
+
+\begin{slide}
+{\Huge The Tabular Environment}
+\vspace{1cm}\\
+Tables are made in an environment all their own.
+\vspace{1cm}\\
+\verb+\begin[+\emph{pos}\verb+]{tabular}{table specifications}+\\
+\verb+\end{tabular}+\\
+\vspace{1cm}\\
+To float a table:\\
+\vspace{1cm}\\
+\verb+\begin{table}+\\
+\verb+\begin[+\emph{pos}\verb+]{tabular}{table specifications}+\\
+\verb+\end{tabular}+\\
+\verb+\end{table}+\\
+\end{slide}
+
+
+\begin{slide}
+{\Huge The Figure Environment}
+\vspace{1cm}\\
+In order to use \verb+\includegraphics{}+ you must first call the graphicx package:\\
+\verb+\usepackage[dvips]{graphicx}+
+\vspace{1cm}\\
+The figure environment is a floating body environment.
+\vspace{1cm}\\
+\verb+\begin[+\emph{pos}\verb+]{figure}{figure specifications}+\\
+\verb+\includegraphics{+\emph{filename}\verb+}+\\
+\verb+\end{figure}+\\
+
+\end{slide}
+
+
+\begin{slide}
+{\Huge The Picture Environment}
+\vspace{1cm}\\
+\verb+\begin{picture}(x,y)(+$x_0,y_0$\verb+)+\\
+.\\
+.\\
+.\\
+\verb+\put(x,y){object}+\\
+.\\
+.\\
+.\\
+\verb+\end{picture}+\\
+
+\end{slide}
+
+
+\begin{slide}
+\begin{center}
+{\Huge The Placement of Floating Bodies}
+\end {center}
+\end{slide}
+
+
+\begin{slide}
+\begin{itemize}
+\item \LaTeX{} is egomaniacal
+\begin{itemize}
+\item \TeX{} feels it knows what looks best.
+\item \TeX{} will ignore your commands if they suggest something else.
+\end{itemize}
+\end{itemize}
+\end{slide}
+
+
+\begin{slide}
+\begin{center}
+Recall the position specifier \verb+[+\emph{pos}\verb+]+
+\vspace{1cm}\\
+\verb+\begin[+\emph{pos}\verb+]{figure}{figure specifications}...+
+\vspace{1cm}\\
+\emph{pos}$ = $ h, hb, ht, t, p, b, !, htbp!...
+\vspace{1cm}\\
+h = here\\
+t = top\\
+b = bottom\\
+p = independent page\\
+! = even if it looks bad\\
+\end{center}
+\end{slide}
+
+
+\begin{slide}
+{\Huge Boxes}
+\vspace{1cm}\\
+Boxes for Paragraphs:\\
+\verb+\parbox[pos]{width}{+\emph{...text..}\verb+}+\\
+\vspace{1cm}\\
+Boxes for anything:\\
+\verb+\begin{minipage}[pos]{width}+\\
+\emph{...text, figures, tables...}\\
+\verb+\end{minipage}+\\
+\end{slide}
+\begin{slide}
+{\Huge Boxes Cont'd}
+\vspace{1cm}\\
+The position specifier for boxes gives slightly more control than before, since \TeX{} does not treat them quite like floating bodies.\\
+Boxes are glued to the text with `special glue, which is elastic'.\\
+\emph{pos} can be t, c, or b, and refers to the relation of the box to the surrounding text.\\
+Also, the width specifier allows graphs and images to be horizontally adjacent to each other.\\
+\end{slide}
+
+\begin{slide}
+\begin{center}
+{\Huge \verb+\clearpage+}\\
+\end{center}
+\end{slide}
+
+
+\begin{slide}
+\begin{center}
+{\Huge \verb+\FloatBarrier+}\\
+\end{center}
+\end{slide}
+
+\begin{slide}
+\begin{center}
+fin.
+\end{center}
+\end{slide}
+
+\end{normalsize}
+\end{document}
+
