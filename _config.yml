@@ -4,7 +4,8 @@ permalink: /posts/:title
 auto: false
 rdiscount:
   extensions: [smart]
-
+github: thehackerwithin
+url: http://thehackerwithin.github.com/berkeley 
 name: Hacker Within 
 description: An initial blog and site for THW at UCB
 twitter: hackerwithin
