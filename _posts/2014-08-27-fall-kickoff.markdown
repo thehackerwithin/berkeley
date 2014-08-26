@@ -24,7 +24,7 @@ The time, frequency, and content of the upcoming semester's meetings will all
 be up for discussion. In particular, I am hoping we will be able to brainstorm
 a possible suite of software tools, resources, and practices to discuss this
 upcoming semester. If you have an idea, but won't make it to the meeting, reply
-on the [listhost][UCB hackerwithin listhost]
+on the [UCB hackerwithin listhost][listhost].
 
 
 
