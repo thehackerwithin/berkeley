@@ -1,0 +1,57 @@
+---
+layout: post
+title: Nuclear Methods & Bash - Max Fratoni & Katy Huff
+comments: true
+category: posts
+tags: meeting bash
+---
+
+
+# Attending
+
+- <++>
+- <++>
+- <++>
+- <++>
+- <++>
+- <++>
+- <++>
+- <++>
+- <++>
+- <++>
+- <++>
+- <++>
+
+# Computational Tools for Nuclear Engineering, An Overview - Prof. Massimiliano Fratoni
+
+## Speaker Intro: Massimiliano Fratoni
+
+[Max Fratoni][max] is a professor in the nuclear engineering department who 
+specializes in computational neutronics methods, advanced reactors,  and 
+accident tolerant fuels.
+
+## Discussion: Computational Tools for Nuclear Engineering
+
+
+# Discussion: Bash and Unix / Linux Environments - Katy Huff
+
+## Speaker Intro: Katy Huff 
+
+[Katy Huff][katy] is an NSSC Postdoctoral Scholar and a Berkeley Institute for Data Science 
+Fellow. 
+
+## Discussion: Bash
+
+<+ notes +>
+
+Code examples can be found [here][tutorial].
+
+# Lightning Talks 
+
+## Kelly Rowland : <+ topic +>
+
+## <+ person +> : <+ topic +>
+
+[katy]: http://katyhuff.github.io "Katy Huff"
+[max]: http://www.nuc.berkeley.edu/people/massimiliano_fratoni "Max Fratoni"
+[tutorial]: https://github.com/thehackerwithin/berkeley/blob/master/bash/tutorial.md   "Tutorial Source"
