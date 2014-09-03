@@ -22,7 +22,7 @@ tags: meeting bash
 - <++>
 - <++>
 
-# Computational Tools for Nuclear Engineering, An Overview - Prof. Massimiliano Fratoni
+# Computational Tools for Nuclear Engineering, An Overview 
 
 ## Speaker Intro: Massimiliano Fratoni
 
@@ -32,8 +32,9 @@ accident tolerant fuels.
 
 ## Discussion: Computational Tools for Nuclear Engineering
 
+<+ notes +>
 
-# Discussion: Bash and Unix / Linux Environments - Katy Huff
+# Discussion: Bash and Unix / Linux Environments
 
 ## Speaker Intro: Katy Huff 
 
