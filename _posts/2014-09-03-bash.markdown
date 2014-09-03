@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Nuclear Methods & Bash - Max Fratoni & Katy Huff
+title: Computational Nuclear Engineering Overview & Bash - Max Fratoni & Katy Huff
 comments: true
 category: posts
 tags: meeting bash
