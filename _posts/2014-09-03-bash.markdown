@@ -97,15 +97,11 @@ Fellow.
 
 ## Discussion: Bash
 
-<+ notes +>
-
 Code examples can be found [here][tutorial].
 
 # Lightning Talks 
 
-## Kelly Rowland : <+ topic +>
-
-## <+ person +> : <+ topic +>
+## Kelly Rowland
 
 [katy]: http://katyhuff.github.io "Katy Huff"
 [max]: http://www.nuc.berkeley.edu/people/massimiliano_fratoni "Max Fratoni"
