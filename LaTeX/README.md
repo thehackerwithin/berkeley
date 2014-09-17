@@ -44,7 +44,7 @@ Everything in linux is simple.
 
 ### OSX
 
-You can do this with macports or homebrew by downloading the whole shabang from 
+You should use [MacTeX][mactex]. You can do this with macports or homebrew by downloading the whole shabang from 
 the website.
 
 ### Windows
@@ -165,3 +165,4 @@ paper? Keep it in its own file.
 
 
 [texSE]: http://tex.stackexchange.com/questions/41808/how-do-i-install-tex-latex-on-windows-7 "TeX Stack Exchange"
+[mactex]: https://tug.org/mactex/ "mactex"
