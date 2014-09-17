@@ -62,7 +62,7 @@ content, I can ignore how it looks until the very end.
 
 ## How do I pronounce LaTeX?
 
-Check it out, the last letter is the Greek letter Chi. So, it definitely has to 
+Check it out, the last letter is the Greek letter $$\Chi$$. So, it definitely has to 
 end in a K sound. But, is it Lay or Lah? The developers say it's up to you. 
 
 ## What are the Parts of a Document?
