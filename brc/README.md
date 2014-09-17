@@ -8,8 +8,8 @@ Notes from that meeting should go here.
 
 ## Personas
 
-There are many types of people in the BRC user group that is associated with NE 
-or THW. To help BRC staff envision the way in which we can be expected to use 
+There are many types of people in the BRC user community associated with NE 
+and/or THW. To help BRC staff envision the way in which we can be expected to use 
 their resources, the following "Personas" attempt to describe the archetypal 
 people in our community.
 
@@ -75,7 +75,7 @@ correctly?**
 Frank is a more senior graduate student. His work is very mature, and he's 
 planned an ambitious thesis with a parametric analysis over dozens simulation 
 parameters with perturbation values ranging across many magnitudes.  He's done 
-planning his works, so he'll be spending the next year running as many 
+planning his work, so he'll be spending the next year running as many 
 simulations as possible.  He's a self-starter, so he doesn't need much help 
 installing things. He's also great asset to cluster managers who like to 
 see active cores. However, the length of his average slurm job is around four 
