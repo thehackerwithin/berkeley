@@ -94,6 +94,6 @@ releases every few months. She'd like to make sure that students and professors
 in the department have access to the newest versions as well as older versions 
 that they will come to rely on.
 
-How can Alice create multiple versions of modules every couple of months 
+**How can Alice create multiple versions of modules every couple of months 
 without polluting the module namespace or creating dependency hell for other 
-users?
+users?**
