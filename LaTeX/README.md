@@ -29,16 +29,28 @@ writing documents, where the needs are very specific.
 
 ### MarkDown? RestructuredText? Where does it end?
 
-There are a lot of markup languages. They all do different things. 
-
-
+There are a lot of markup languages. They all do different things. Restructured 
+text is the standard in the world of python documentation. Markdown is the 
+standard on github. Pick your poison.
 
 
 ## How Do I install LaTeX?
 
-###
+### Linux
 
+Everything in linux is simple.
 
+    sudo apt-get install texlive
+
+### OSX
+
+You can do this with macports or homebrew by downloading the whole shabang from 
+the website.
+
+### Windows
+
+I honestly have no idea. It [looks like][texSE] the TeX stack exchange may be able to 
+help, though. 
 
 ## How do I write LaTeX?
 
@@ -151,3 +163,5 @@ latex files into a master. That acknowledgements section that you use in every
 paper? Keep it in its own file. 
 
 
+
+[texSE]: http://tex.stackexchange.com/questions/41808/how-do-i-install-tex-latex-on-windows-7 "TeX Stack Exchange"
