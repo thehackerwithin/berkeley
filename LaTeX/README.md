@@ -54,6 +54,8 @@ help, though.
 
 ## How do I write LaTeX?
 
+http://tobi.oetiker.ch/lshort/lshort.pdf
+
 ### LyX
 
 Max showed us LyX last time, which is a WYSIWYG editor for LaTeX. That's 

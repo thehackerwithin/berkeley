@@ -1,15 +1,62 @@
+
 \documentclass[11pt]{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+
 
 \author{The Hacker Within}
 \title{Our Document}
 \begin{document}
 \maketitle
+
+
 \section{Main Section}
 There is a lot of science here.
+
+\subsection{A subsection on subscience}
+
+this is a section
+
+\begin{equation}
+a=b
+\end{equation}
+
+
+\begin{align}
+a&=b\\
+c&=d\\
+e=5647387282919193&
+\end{align}
+
+\begin{table}
+\centering
+\begin{tabular}{<+dimensions+>}
+<++>
+\end{tabular}
+\caption{<+Caption text+>}
+\label{tab:<+label+>}
+\end{table}<++>
+
+\begin{figure}[<+htpb+>]
+\begin{center}
+\psfig{figure=<+eps file+>}
+\end{center}
+\caption{<+caption text+>}
+\label{fig:<+label+>}
+\end{figure}<++>
+\FloatBarrier
+
+
+\subsubsection{A subsubsection}
+stuf in the subbbbbbbsection
+
+\paragraph{a paragraph}
+this is where is really starts.
+
 
 
 
 \section{Acknowledgements}
 \input{acks}
-
 \end{document}
