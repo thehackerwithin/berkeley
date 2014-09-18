@@ -9,7 +9,18 @@ tags: meeting latex serpent
 
 # Attending
 
-- <++>
+- Kelly Rowland
+- Madicken Munk
+- Sandra Bogetic
+- Daniel Wooten
+- Alejandra Jolodosky
+- Jasmina Vujic
+- Massimiliano Fratoni
+- Aaron Culich
+- Ross Barnowski
+- Ryan Pavlovsky
+- Kedar Kolluri
+- 
 
 # Discussion: Serpent
 
@@ -21,9 +32,7 @@ discuss the use of Serpent and how to find a bug when using it.
 
 ## Serpent
 
-<+ notes +>
-
-Code examples can be found [here][serpent].
+Slides?
 
 # Discussion: LaTeX, markup for science
 
@@ -33,16 +42,19 @@ Katy Huff is a postdoctoral scholar in NSSC and BIDS.
 
 ## LaTeX
 
-<+ notes +>
-
-Code examples can be found [here][latex].
+Notes and code examples can be found [here][latex].
 
 # Lightning Talks 
 
-## <+ person +> : <+ topic +>
+## Kelly Rowland : Today I learned what a call stack is. 
 
-## <+ person +> : <+ topic +>
+Everyone, check out the wikipedia article for Call Stack
+
+## Ross Barnowski : Did you know LaTeX + Matplotlib = Awesome
+
+With dollar signs in plain text, matplotlib renders math on your plot, in the 
+title, on the axes, in the labels... wherever!
 
 [serpent]: https://github.com/thehackerwithin/berkeley/tree/master/topic "Code Examples" 
-[latex]: https://github.com/thehackerwithin/berkeley/tree/master/topic "Code Examples" 
+[latex]: https://github.com/thehackerwithin/berkeley/tree/master/LaTeX "Code Examples" 
 
