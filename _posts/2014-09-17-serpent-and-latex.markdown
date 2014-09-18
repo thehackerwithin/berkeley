@@ -22,8 +22,8 @@ tags: meeting latex serpent
 - Kedar Kolluri
 - Xin Wang
 - Katy Huff
-- Unknown Person 1
-- Unkown Person 2
+- James Bevins
+- Jessica Roche
 
 # Discussion: Serpent
 
