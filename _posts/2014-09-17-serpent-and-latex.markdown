@@ -20,7 +20,10 @@ tags: meeting latex serpent
 - Ross Barnowski
 - Ryan Pavlovsky
 - Kedar Kolluri
-- 
+- Xin Wang
+- Katy Huff
+- Unknown Person 1
+- Unkown Person 2
 
 # Discussion: Serpent
 
