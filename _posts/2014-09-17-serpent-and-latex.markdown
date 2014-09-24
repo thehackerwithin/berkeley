@@ -35,7 +35,8 @@ discuss the use of Serpent and how to find a bug when using it.
 
 ## Serpent
 
-Slides?
+Download the slides 
+[here.](https://github.com/thehackerwithin/berkeley/raw/master/serpent/serpent_tut.pdf)
 
 # Discussion: LaTeX, markup for science
 
