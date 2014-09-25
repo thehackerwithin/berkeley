@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PARCS and RadWatch-`*`NIX-fu - Sandra Bogetic and Ryan Pavlovsky 
+title: PARCS and RadWatch (without the physics) - Sandra Bogetic and Ryan Pavlovsky 
 comments: true
 category: posts
 tags: meeting parcs unix
