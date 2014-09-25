@@ -121,16 +121,3 @@ additional ssh directory layer in etc. So, find those files at
 used more widely. This is likely because RSA encription is faster and (more 
 compressed?) than DSA.
 
-
-### SCP
-
-Code examples can be found [here][code].
-
-# Lightning Talks 
-
-## <+ person +> : <+ topic +>
-
-## <+ person +> : <+ topic +>
-
-
-[code]: https://github.com/thehackerwithin/berkeley/tree/master/topic "Code Examples" 
