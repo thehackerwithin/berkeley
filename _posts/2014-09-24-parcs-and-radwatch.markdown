@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PARCS and RadWatch-\*NIX-fu - Sandra Bogetic and Ryan Pavlovsky 
+title: PARCS and RadWatch-`*`NIX-fu - Sandra Bogetic and Ryan Pavlovsky 
 comments: true
 category: posts
 tags: meeting parcs unix
@@ -22,6 +22,7 @@ tags: meeting parcs unix
 - Aaron Culich
 - Madicken Munk
 - Kedar Kolluri
+- James Bevins
 
 # Discussion: PARCS
 
@@ -76,15 +77,52 @@ available.
 
 Examples can be found int he presentation, but will not be shared online. 
 
-# Discussion: Linux and Unix tools within RadWatch 
+# Discussion: RadWatch (without all the physics)
 
 ## Ryan Pavlovsky
 
 Ryan is a graduate student in the Nuclear Engineering Department. 
 
-## The \*NIX-fu behind RadWatch
+## Linux and Unix tools within RadWatch 
 
-<+ notes +>
+### The stack
+
+Sensor input, python, smpt, datetime, python, cron, scp, ssh, ssh-agent, pytables, 
+matplotlib, scp, yes, drupal, jquery
+
+### CROn
+
+CROn is for scheduling jobs. 
+
+Crontab -e can be used to edit the cron file for your user space. Don't freak 
+out if it's empty. Just use a template from your toplevel cron file or find a 
+template on the internet to fill out. 
+
+Ryan reminds us of the importance of the man page. If you need more help with 
+the crontab command, try man crontab in your terminal to figure out its 
+secrets. (Man pages are opened in a program called less. So, to get out of the 
+man page, type "q".)
+
+Note that your system may have a cron.allow file. That file, if it exists, 
+names the people allowed to create cron jobs.
+
+### SSH
+
+Ryan points out that there are two versions of ssh (client and server). They 
+have their own configuration files!
+
+Note the config file located in `/etc/ssh/ssh_config`, but also, note the one 
+in your home directory `~/.ssh/config` and the one for server daemon 
+configuration `/etc/ssh/sshd_config`. NOTE: on MACOSX, there may not be an 
+additional ssh directory layer in etc. So, find those files at 
+`/etc/ssh_config` and `/etc/sshd_config`.
+
+**Fun Fact** DSA has a stronger random number generator than RSA, but RSA is 
+used more widely. This is likely because RSA encription is faster and (more 
+compressed?) than DSA.
+
+
+### SCP
 
 Code examples can be found [here][code].
 
