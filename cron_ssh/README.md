@@ -12,9 +12,9 @@ HIGHLIGHTS:
 ---CROn is a very widely used utility for running tasks on a regular schedule
 ---+Common gotchas include that CROn jobs are run with /bin/sh, this is a pointer to /bin/dash on Ubuntu systems. 
 ---+Your `env` may be different based on the pointer /bin/sh
----SSH is a secure, flexible way to administer tasks 
+---SSH is a secure, flexible way to administer remote tasks 
 ---+sshd and ssh are the server and client applications with openssh
----+man ssh reveals that -F can be used to specify a configuration file. If -F is not present /etc/ssh/config (on UBUNTU!) is consulted.
+---+man ssh reveals that -F can be used to specify a configuration file. If -F is not present /etc/.ssh/ssh_config (on UBUNTU!) is consulted. Users can uniquely configure their ssh environment by editing ~/.ssh/config
 ---+Save typing by configuring ~/.ssh/config (UBUNTU!).
 ---Key-based authentication SSH
 ---+Asymetric keys can allow for SSH sessions without sending your pw over the internet
