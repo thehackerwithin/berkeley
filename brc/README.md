@@ -97,3 +97,61 @@ that they will come to rely on.
 **How can Alice create multiple versions of modules every couple of months 
 without polluting the module namespace or creating dependency hell for other 
 users?**
+
+
+
+
+## Module Installation Tips and Tricks
+
+I spent some time last week installing MOOSE on the cluster. The dream was 
+this: MOOSE should be a module that anyone can use on the cluster if they 
+import it. There are a couple of catches to this. 
+
+- MOOSE's dependencies can each be compiled with an array of flags, should I 
+  compile only debug versions, only non-debug versions, both?
+- MOOSE has a bunch of associated libraries which do various physics. I would 
+  also like to install those, but they have varying permissions. 
+
+
+
+### Logging in
+
+Setting up easy login situaiton is a two step process:
+
+#### Installing Pledge Somewhere
+
+Pledge is for generating time-sensitive one-time-use, two-factor-authentication 
+passwords. That's awesome. Many of you may have seen or used the passkey 
+generating RSA keys that are used to log into the national laboratory networks. 
+How many use google two-factor authentication for their email or something 
+similar? I do.  [google2factor].
+
+This is annoying because it takes a long time to get to the final url with 
+which to install Pledge. But, you will eventually succeed. Use the username and 
+password given to you by Krishna at LBL.
+
+#### Installing Dependencies
+
+MOOSE relies on two main external dependencies:
+
+- HYPRE
+- PETSc
+
+It also relies on one internal dependency, libMesh. LibMesh is independent of 
+MOOSE, but since MOOSE has added non-standard features to libMesh, they keep 
+their own flavor of libMesh in the MOOSE framework source code. Clear as mud?
+
+Thankfully, MOOSE is a well-documented open source project. 
+
+
+
+
+
+
+
+
+
+
+
+
+[google2factor]: https://www.google.com/landing/2step/
