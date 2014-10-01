@@ -14,6 +14,7 @@ tags: meeting hpc plotting
 - Aaron Coolidge
 - Denia Djokic
 - Andy Haeffer
+- Jason Hou
 - Katy Huff
 - Alejandra Jolodosky
 - Madicken Munk
