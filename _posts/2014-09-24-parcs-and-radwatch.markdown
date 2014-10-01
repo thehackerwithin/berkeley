@@ -75,7 +75,7 @@ available.
 
 ### Examples
 
-Examples can be found int he presentation, but will not be shared online. 
+Examples can be found in the presentation, but will not be shared online. 
 
 # Discussion: RadWatch (without all the physics)
 
@@ -120,4 +120,9 @@ additional ssh directory layer in etc. So, find those files at
 **Fun Fact** DSA has a stronger random number generator than RSA, but RSA is 
 used more widely. This is likely because RSA encription is faster and (more 
 compressed?) than DSA.
+
+
+Code examples from Ryan's talk can be found [here in the master 
+branch](https://github.com/thehackerwithin/berkeley/tree/master/cron_ssh).
+
 
