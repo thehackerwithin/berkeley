@@ -61,7 +61,6 @@ This is annoying because it takes a long time to get to the final url with
 which to install Pledge. But, you will eventually succeed. Use the username and
 password given to you by Krishna at LBL.
 
-
 1. Install Pledge. The easiest is likely to do this on your phone using whatever
  app installation store is appropriate. 
 2. Go here (https://identity.lbl.gov/PledgeEnrollment/enroll.jsp), select HPCS 
@@ -73,9 +72,6 @@ If you get an error, contact Phil Goorman for trouble shooting advice.
 4. Make a pin number.  The pin is specific for that profile.
 5. When you log into the savio cluster you will use this app to generate a new
 password everytime. 
-
-#### Installing Pledge Somewhere
-
 
 
 ### Installing Dependencies
