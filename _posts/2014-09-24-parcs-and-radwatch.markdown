@@ -45,7 +45,7 @@ control.
 - Generation of cross sections can be done in various ways. These include 
   CASMO, HELIOS, and TRITON 
 - The input for thermal hydraulic behavior can be enered into PARCS or coupled 
-  using PATH, TRACE, and/or RELAPE. For a PWR, you can do it in TH. 
+  using PATH, TRACE, and/or RELAP. For a PWR, you can do it in TH. 
 - Depletion can be done by PARCS, but sometimes you don't want to do it with 
   PARCS because perhaps you have done depletion in some other code (such as 
   SIMULATE). PARCS allows you to input this external data.
