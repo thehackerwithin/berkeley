@@ -9,7 +9,12 @@ tags: meeting hpc plotting
 
 # Attending
 
+- Ross Barnowski
+- Sandra Bogetic
+- Aaron Coolidge
 - Denia Djokic
+- Andy Haeffer
+- Jason Hou
 - Katy Huff
 - Alejandra Jolodosky
 - Madicken Munk
@@ -57,8 +62,17 @@ This is annoying because it takes a long time to get to the final url with
 which to install Pledge. But, you will eventually succeed. Use the username and
 password given to you by Krishna at LBL.
 
-#### Installing Pledge Somewhere
-
+1. Install Pledge. The easiest is likely to do this on your phone using whatever
+ app installation store is appropriate. 
+2. Go here (https://identity.lbl.gov/PledgeEnrollment/enroll.jsp), select HPCS 
+from the pulldown window, and enter your user name/password that Krishna from 
+LBNL sent to you. This should provide an 8 digit profile ID.
+3. Open Pledge and click the + button. It should ask for your profile ID (the 
+thing you just generated); enter it, and it should download your "Pledge profile."
+If you get an error, contact Phil Goorman for trouble shooting advice.
+4. Make a pin number.  The pin is specific for that profile.
+5. When you log into the savio cluster you will use this app to generate a new
+password everytime. 
 
 
 ### Installing Dependencies
@@ -126,7 +140,7 @@ This can be done using curl.
 #### Installing Hypre
 
 
-First, I went ot the place where I want to install it.
+First, I went to the place where I want to install it.
 
       cd $GRP_DIR
 
