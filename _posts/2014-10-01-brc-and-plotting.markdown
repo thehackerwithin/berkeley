@@ -9,7 +9,13 @@ tags: meeting hpc plotting
 
 # Attending
 
-- <++>
+- Denia Djokic
+- Katy Huff
+- Alejandra Jolodosky
+- Madicken Munk
+- Kelly Rowland
+- Rachel Slaybaugh
+- Daniel Wooten
 
 # Discussion: Installing Modules on the BRC Savio Cluster
 
