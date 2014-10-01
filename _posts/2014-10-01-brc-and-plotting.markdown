@@ -269,7 +269,14 @@ moose development), so I cloned from that.
 
 # Lightning Talks 
 
-## <+ person +> : <+ topic +>
+## Ross Barnowski : PyQT
+
+So, pyqtgraph is good for volumetric rendering. There are a lot of example scripts, 
+so you can copy those. Additionally it is good for making fast video graphics 
+(better than matplotlib).
+
+
+
 
 ## <+ person +> : <+ topic +>
 
