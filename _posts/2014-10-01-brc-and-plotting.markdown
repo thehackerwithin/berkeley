@@ -11,7 +11,7 @@ tags: meeting hpc plotting
 
 - Ross Barnowski
 - Sandra Bogetic
-- Aaron Coolidge
+- Aaron Culich
 - Denia Djokic
 - Andy Haeffer
 - Jason Hou
@@ -21,6 +21,12 @@ tags: meeting hpc plotting
 - Kelly Rowland
 - Rachel Slaybaugh
 - Daniel Wooten
+- Andy Haefner
+- Ryan Pavlovsky
+- Cameron Bates
+- Ross Barnowsky
+- Tenzen Joshi
+- Dav Clark
 
 # Discussion: Installing Modules on the BRC Savio Cluster
 
@@ -296,9 +302,43 @@ so you can copy those. Additionally it is good for making fast video graphics
 (better than matplotlib).
 
 
+## Alejandra : MATLAB ternary plots
 
+Alejandra shared a ternary plotting thing. 
+
+
+## Andrew Hefner : Mayavi
+
+[Mayavi uses vtk, which is pretty powerful, but it's a python interface. 
+Additionally, it uses syntax that will be familiar to the matlab users. 
+
+There are various interesting features in Mayavi. Quiver, for example, is a 
+really basic function call that generates vector fields. 
+http://docs.enthought.com/mayavi/mayavi/
+
+## Ryan Pavlovsky : DyGraph
+
+[Dygraphs](http://dygraphs.com/) is a nice, lightweight, and interactive. So, 
+it's great for websites, because you just drop a single javascript file. 
+
+## Katy Huff : yt (and what is plotly?)
+
+Katy likes and is impressed with yt. She is curious but nervous about 
+[plotly](http://plot.ly). 
+
+## Dav Clark : Bokeh
+
+It's architected to have a javascript frontend and is meant to be hooked into 
+generic data servers. 
+
+It has cool zooming capabilities in the gui and has neato feature like linked 
+brushing so that two plots are linked and can be interacted with using a single 
+tool in the 
 
 ## <+ person +> : <+ topic +>
+## <+ person +> : <+ topic +>
+
+
 
 
 [code]: https://github.com/thehackerwithin/berkeley/tree/master/topic "Code Examples" 
