@@ -13,14 +13,15 @@ tags: meeting python
 - Rachel Slaybaugh
 - Madicken Munk
 - Alejandra Jolodosky
-- Tenzen
-- John
-- Paul
+- Tenzing Joshi
+- John Ready 
+- Paul 
 - Staffan Qvist
 - Dan Wooten
 - Ross Barnowsky
 - Andy Haefner
 - Laazar Zupich
+- Aaron Culich
 
 
 ## Andy Haefner 
