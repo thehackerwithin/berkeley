@@ -22,6 +22,17 @@ tags: meeting python
 - Andy Haefner
 - Laazar Zupich
 
+
+## Andy Haefner 
+
+Andy Haefner is a graduate student in Kai Vetter's group.
+
+## Vectorization With Numpy
+
+An excellent tutorial and code examples can be found [here][code].
+
+# Discussion: The Python Logger Utility
+
 ## The Python Logger Utility
 
 <++>
@@ -29,18 +40,6 @@ tags: meeting python
 # Discussion: Vectorization with Numpy 
 
 <++>
-
-## Andy Haefner 
-
-<+ speaker intro +> 
-
-## Vectorization With Numpy
-
-<+ notes +>
-
-Code examples can be found [here][code].
-
-# Discussion: The Python Logger Utility
 
 <++>
 
@@ -56,4 +55,4 @@ Code examples can be found [here][code].
 ## <+ person +> : <+ topic +>
 
 
-[code]: https://github.com/thehackerwithin/berkeley/tree/master/topic "Code Examples" 
+[code]: https://github.com/thehackerwithin/berkeley/tree/master/numpyVectorization "Code Examples" 
