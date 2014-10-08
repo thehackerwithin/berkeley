@@ -333,10 +333,7 @@ generic data servers.
 
 It has cool zooming capabilities in the gui and has neato feature like linked 
 brushing so that two plots are linked and can be interacted with using a single 
-tool in the 
-
-## <+ person +> : <+ topic +>
-## <+ person +> : <+ topic +>
+tool in one of the windows.
 
 
 
