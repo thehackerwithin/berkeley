@@ -121,21 +121,58 @@ Setting up easy login situaiton is a two step process:
 - install pledge
 - create aliases for the ssh commands
 
-#### Installing Pledge Somewhere
-
-Pledge is for generating time-sensitive one-time-use, two-factor-authentication 
-passwords. That's awesome. Many of you may have seen or used the passkey 
-generating RSA keys that are used to log into the national laboratory networks. 
-How many use google two-factor authentication for their email or something 
+Pledge is for generating time-sensitive one-time-use, two-factor-authentication
+passwords. That's awesome. Many of you may have seen or used the passkey
+generating RSA keys that are used to log into the national laboratory networks.
+How many use google two-factor authentication for their email or something
 similar? I do.  [google2factor].
 
-This is annoying because it takes a long time to get to the final url with 
-which to install Pledge. But, you will eventually succeed. Use the username and 
-password given to you by Krishna at LBL.
+#### Create a Pledge profile
 
-#### Installing Pledge Somewhere
+You will only need to create a Pledge profile once for logging into Savio.
 
+ 1. Open a browser and navigate to [Pledge Enrollment](https://identity.lbl.gov/PledgeEnrollment/enroll.jsp)
+ 2. Enter your Savio Cluster username and the 10-digit password given to you by Krishna at LBL for token enrollment. If you do not have this password or have forgotten your password contact the BRC support group by sending email to [brc-hpc-help@lists.berkeley.edu](mailto:brc-hpc-help@lists.berkeley.edu)
+ 3. Choose the realm as "HPCS"
+ 4. Click Enroll.
+ 5. You will be presented with an 8-digit Profile ID that you can enter into the field in the Pledge app on your new device.
 
+#### Installing Pledge on a device
+
+To fully install and configure Pledge on each of your devices you must first download and install the software on your smartphone or computer, and then download onto the device the profile you created in the previous section.
+
+##### On your smartphone or computer install the latest version of the Pledge Software Token (v2.2-29275 as of Feb 5, 2014):
+
+ - [iOS](https://itunes.apple.com/us/app/pledge/id312071093?mt=8)
+ - [Android](https://play.google.com/store/apps/details?id=se.nordicedge.pledgeotp)
+ - [Mac OS X](http://downloadcenter.mcafee.com/products/McAfee_Pledge/2.2/pledge_2.2-29275_macosx.zip)
+ - [Windows 64-bit](http://downloadcenter.mcafee.com/products/McAfee_Pledge/2.2/pledge_2.2-29275_win64.exe)
+ - [Linux 64-bit](http://downloadcenter.mcafee.com/products/McAfee_Pledge/2.2/pledge_2.2-29275_lin64.bin)
+ - For other platforms, go directly to the [McAfee Pledge downloads](http://www.mcafee.com/us/downloads/otp-pledge-software-token.aspx).
+
+##### Download the profile to your device
+
+ 1. In the Pledge window, click the + button to start the process.
+ 2. Enter the profile ID from the Pledge Enrollment dialog box into the Pledge client and click OK.
+ 3. Create PIN code and click OK. This PIN is unique to this particular device, and you'll need to enter it each time you use this device to generate a one-time password.
+ 4. Test this new profile by clicking the Test Pledge Profile link in the Pledge Enrollment window.
+ 5. Click the Generate one-time password button in the client window to get a randomly generated one-time password.
+ 6. Enter your PIN code to confirm that it's you doing this.
+ 7. Enter that password into the appropriate field in the Enrollment dialog box and click the verify button.
+ 8. You should get a "Success" message.
+
+#### Use Pledge on your device to generate a one-time password to log into Savio
+
+ 1. Launch Pledge on the mobile or desktop client that you will be using to generate one-time passwords.
+ 2. Click the Generate one-time password button.
+ 3. Enter your PIN code and click OK.
+ 4. On a mobile device, you might need to touch the "enter" key on the keyboard.
+ 5. Use the 6-digit one-time password displayed.
+
+Token Lockout (September 2012):
+  - On 4 failed OTP attempts, the user's OTP account will be locked for 10 minutes.
+  - After 4 more failed OTP attempts, the user's account will be locked for 90 minutes.
+  - After 4 more failed attempts, the account will be locked until reset by an administrator.
 
 ### Installing Dependencies
 
