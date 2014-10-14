@@ -49,10 +49,4 @@ Example code can be found
 
 
 
-# Lightning Talks 
-
-## <+ person +> : <+ topic +>
-
-## <+ person +> : <+ topic +>
-
 
