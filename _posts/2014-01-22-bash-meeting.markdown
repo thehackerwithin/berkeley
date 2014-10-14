@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bash Meeting
+title: Bash Meeting - Katy Huff
 comments: true
 category: posts
 tags: meeting bash shell lesson

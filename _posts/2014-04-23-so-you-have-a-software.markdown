@@ -13,7 +13,7 @@ tags: meeting
 -    Professor Rachel Slaybaugh 
 -    Joshua Howland 
 -    Anthony Scopatz
--    ... 
+-    and many others... I failed at taking attendance this time. 
 
 # Talk
 

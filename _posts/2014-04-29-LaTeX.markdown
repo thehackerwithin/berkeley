@@ -16,7 +16,7 @@ tags: meeting latex
 -    Daniel Wooten
 -    Joshua Howland 
 -    Madicken Munk
--    ... 
+-    and others... I failed at taking attendance this time. 
 
 # Lesson: LaTeX
 
