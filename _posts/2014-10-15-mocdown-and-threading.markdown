@@ -9,7 +9,21 @@ tags: meeting mocdown python
 
 # Attending
 
-- <++>
+- George Zhang
+- Phil Gorman
+- Chick 
+- Max Fratoni
+- Aaron Culich
+- Xian
+- Kyle Barbary
+- Madicken Munk
+- Alejandra Jolodosky
+- Denia Djokic
+- Ross Barnowski
+- Katy Huff
+- Joey
+- Kelly Rowland
+- Andy Haefner
 
 ## Discussion: MocDown
 
@@ -49,5 +63,6 @@ Code examples can be found [here][threading].
 ## <+ person +> : <+ topic +>
 
 [mocdown]: https://github.com/thehackerwithin/berkeley/tree/master/mocdown "MocDown Code Examples" 
-[threading]: https://github.com/thehackerwithin/berkeley/tree/master/threading "Threading Code Examples" 
+[threading]: https://github.com/thehackerwithin/berkeley/tree/master/python_concurrency "Threading Code Examples"
+
 
