@@ -28,6 +28,16 @@ def simulateParticles_loop( n=50, n_gen=100, showPlots=True):
 
     return y_grid, f_all
 
+def simulateParticles_loop_onAry( ary ):
+    ''' simulate gaussian motion of n particles for n_gen steps each
+    '''
+    for i in range(ary.shape[0]):
+        y = 0
+        for j in range(1, ary.shape[1]):
+            y += np.random.randn()
+            ary[i,j] = y
+    return ary
+
 def simulateParticles_vec( n=50, n_gen=100, showPlots=True):
     ''' simulate gaussian motion of n particles for n_gen steps each
     '''
