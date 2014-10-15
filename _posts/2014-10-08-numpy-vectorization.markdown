@@ -18,7 +18,7 @@ tags: meeting python
 - Paul 
 - Staffan Qvist
 - Dan Wooten
-- Ross Barnowsky
+- Ross Barnowski
 - Andy Haefner
 - Laazar Zupich
 - Aaron Culich

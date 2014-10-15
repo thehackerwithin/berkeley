@@ -24,7 +24,7 @@ tags: meeting hpc plotting
 - Andy Haefner
 - Ryan Pavlovsky
 - Cameron Bates
-- Ross Barnowsky
+- Ross Barnowski
 - Tenzen Joshi
 - Dav Clark
 
