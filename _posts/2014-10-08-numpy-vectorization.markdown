@@ -15,7 +15,7 @@ tags: meeting python
 - Alejandra Jolodosky
 - Tenzing Joshi
 - John Ready 
-- Paul 
+- Joey Curtis 
 - Staffan Qvist
 - Dan Wooten
 - Ross Barnowski
