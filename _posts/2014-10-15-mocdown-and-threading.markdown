@@ -11,17 +11,17 @@ tags: meeting mocdown python
 
 - George Zhang
 - Phil Gorman
-- Chick 
+- Chick Markley
 - Max Fratoni
 - Aaron Culich
-- Xian
+- Xiao Fan
 - Kyle Barbary
 - Madicken Munk
 - Alejandra Jolodosky
 - Denia Djokic
 - Ross Barnowski
 - Katy Huff
-- Joey
+- Joey Curtis
 - Kelly Rowland
 - Andy Haefner
 
@@ -29,7 +29,8 @@ tags: meeting mocdown python
 
 ### George Zhang and Phil Gorman
 
-<+ speaker intro +> 
+George and Phil are both PhD students in the Berkeley neutronics group. 
+
 
 ### MocDown
 
@@ -37,9 +38,12 @@ tags: meeting mocdown python
 transport, transmutation, thermal fluids, and equilibrium search tool developed 
 here at Berkeley primarily by Jeffrey Seifried.
 
-<+ notes +>
+George and Phil covered :
 
-Code examples can be found [here][mocdown].
+- What does MocDown do?
+- What is going on in the input files?
+
+Code examples and documentation can be found at [the homepage](https://jeffseif.github.io/MocDown).
 
 ## Discussion: Threading with Python
 
@@ -52,9 +56,14 @@ called the [Compact Compton Imager II](https://conference.scipy.org/scipy2014/sc
 
 ### Threading in Python
 
-<+ notes +>
+Ross gave a talk that covered the concept of concurrency as well as how to make 
+it happen in Python. 
 
 Code examples can be found [here][threading].
+
+To see the ipython notebook in the notebook viewer try this link: [Concurrency 
+  Notebook](http://nbviewer.ipython.org/github/thehackerwithin/berkeley/blob/master/python_concurrency/Concurrency%20in%20Python.ipynb).
+
 
 # Lightning Talks 
 
@@ -62,7 +71,6 @@ Code examples can be found [here][threading].
 
 ## <+ person +> : <+ topic +>
 
-[mocdown]: https://github.com/thehackerwithin/berkeley/tree/master/mocdown "MocDown Code Examples" 
 [threading]: https://github.com/thehackerwithin/berkeley/tree/master/python_concurrency "Threading Code Examples"
 
 
