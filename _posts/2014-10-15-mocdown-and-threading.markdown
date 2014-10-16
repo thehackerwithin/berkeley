@@ -96,7 +96,8 @@ to him (as part of the Consulting and Community initiative). One of the ways
 for him to help out is here with THW, where he wants to hear our needs and 
 feedback. 
 
-They've already benefitted from our feedback concerning Savio here: . Please 
+They've already benefitted from our feedback concerning Savio 
+[here](https://github.com/thehackerwithin/berkeley/tree/master/brc). Please 
 feel free to add more information to that file with a pull request. 
 
 - In response to the need for a simpler Pledge setup documentation, they've 
