@@ -80,10 +80,18 @@ code!
 ## Aaron Culich : BRC 
 
 Aside: One of the places where tests break down is in concurrency, actually! Aaron 
-recommends a book "The Problem With Threads" - Edward Lee.
+recommends a book "The Problem With Threads" by [Edward
+Lee](http://www.eecs.berkeley.edu/Pubs/TechRpts/2006/EECS-2006-1.pdf). He also
+offers us some choice quotes:
 
+> "...non-trivial multi-threaded programs are incomprehensible to humans."
 
-Aaron passes out a little handout about BRC. He encourages folks to reach out 
+and
+
+> "Threads must be relegated to the engine room of computing, to be suffered
+> only by expert technology providers."
+
+Aaron also passed out a little handout about BRC. He encourages folks to reach out 
 to him (as part of the Consulting and Community initiative). One of the ways 
 for him to help out is here with THW, where he wants to hear our needs and 
 feedback. 
