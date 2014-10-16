@@ -80,7 +80,7 @@ code!
 ## Aaron Culich : BRC 
 
 Aside: One of the places where tests break down is in concurrency, actually! Aaron 
-recommends a book "The Problem With Threads" by [Edward
+recommends a paper "The Problem With Threads" by [Edward
 Lee](http://www.eecs.berkeley.edu/Pubs/TechRpts/2006/EECS-2006-1.pdf). He also
 offers us some choice quotes:
 
