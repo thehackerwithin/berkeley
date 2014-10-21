@@ -26,7 +26,7 @@ something like 2015-03-01-katysbirthday.markdown.
 - In the berkeley directory, execute `cp _drafts/YYYY-MM-DD-subject.markdown 
   _posts/2015-03-01-katysbirthday.markdown
 - Then, edit that file as you see fit
-- Add that file to the repository `git add `_`posts/2015-03-01-katysbirthday.markdown`
+- Add that file to the repository `git add _posts/2015-03-01-katysbirthday.markdown`
 - Commit it: `git commit -am "adds a post for march 1"
 - Push it to your fork `git push origin gh-pages`
 - Check if it worked at https://YOUR-USER.github.io/berkeley .
