@@ -1,43 +1,45 @@
 ---
 layout: post
-title: ORIGEN and Jekyll - Max Fratoni and Katy Huff
+title: Jekyll - Katy Huff
 comments: true
 category: posts
 tags: meeting 
 ---
 
-
 # Attending
 
+- Sandra Bogetic
+- Alejandra Jolodosky
+- Staffan Qvist
+- Madicken Munk
+- Katy Huff
+- Jason Hou
+- Daniel Wooten
+- <++>
+- <++>
+- <++>
+- <++>
+- <++>
+- <++>
+- <++>
+- <++>
 - <++>
 
-# Discussion: ORIGEN
-
-## Max Fratoni
-
-<+ speaker intro +> 
-
-## ORIGEN
-
-<+ notes +>
-
-# Discussion: Jekyll
-
-## Katy Huff
+# Katy Huff
 
 Katy Huff is a postdoc with NSSC and BIDS. 
 
-## Jekyll
+# Jekyll
 
 This very site is made with Jekyll. Jekyll is a Ruby-based, blog-aware, static 
 site generator. 
 
-### Two ways to host your Jekyll site for free on GitHub
+## Two ways to host your Jekyll site for free on GitHub
 
 Everybody needs a website. Google yourself. What happens? Let's get you a 
 website.
 
-#### username.github.com master branch
+## username.github.com master branch
 
 Every time someone creates a user name on github, a special space on the 
 internet is reserved for them at theirusername.github.com (and .io, it's a long 
@@ -55,7 +57,7 @@ it as jekyll, she has to add an empty file (.nojekyll) in her repository.
 Additionally, an index.html file has to exist at the top level of her 
 repository, or else there will be nothing there. 
 
-#### gh-pages branch
+## gh-pages branch
 
 If Lise also has a project called fission, she can have a website for it too. 
 That website can sit on the internet at lisemeitner.github.io/fission. All she 
@@ -65,19 +67,19 @@ branch. The same rules apply as far as .nojekyll and plug-ins are concerned.
 For an example, check out 
 [katyhuff.github.io/cyder](http://katyhuff.github.io/cyder).
 
-### How does the THW site work?
+## How does the THW site work?
 
 Please look at the readme. We're gonna make some changes.
 
-#### What's this config file?
+## What's this config file?
 
 It's for configuring the site, silly! Let's check it out.
 
-#### What's all this stuff at the top of the posts?
+## What's all this stuff at the top of the posts?
 
 It's YAML metadata. Let's talk about it. 
 
-#### Serving it up locally
+## Serving it up locally
 
 So, rather than rely on github to render the jekyll and serve it up on the 
 internet, you can also render it locally and check it out on your localhost. 
@@ -94,16 +96,14 @@ Now open a browser and navigate to the localhost url
 [http://localhost:4000](http://localhost:4000).
 
 
-#### What about themes?
+## What about themes?
 
 The THW page relies on an open source theme called left. We could swap that out 
 for another theme really easily. There are lots on the internets. Try [this 
   page.](http://jekyllthemes.org/) 
 
-
-
 # Lightning Talks 
 
-## <+ person +> : <+ topic +>
+# <+ person +> : <+ topic +>
 
-## <+ person +> : <+ topic +>
+# <+ person +> : <+ topic +>
