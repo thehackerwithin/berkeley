@@ -2,7 +2,7 @@ import numpy as np
 import time
 from multiprocessing import Pool, cpu_count
 import sys
-sys.path.append('/home/ross/berkeley/')
+sys.path.append('..')
 from numpyVectorization.motion_gauss import simulateParticles_loop
 
 # How do we pass multiple arguments via pool? Use wrapper functions! Note: 
