@@ -39,7 +39,7 @@ PyObject* wrap_find_potential_event_ptrs( PyObject* self, PyObject* args )
 				      len_list);
 
   // Return our lists pythonically
-  Py_BuildValue( "OO", ptr_list, len_list );
+  return Py_BuildValue( "OO", ptr_list, len_list );
 }
 
 // ---------------- Make our wrapped function visible to python ---------------
