@@ -11,7 +11,7 @@ tags: meeting
 
 - Max Fratonni
 - Katy Hufff
-- Kelly Rowlend
+- Kelly Rowland
 - Alejandra Jolodowski
 - Sandra Bogetich
 - Maddykin Munk
