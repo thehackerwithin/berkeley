@@ -9,26 +9,25 @@ tags: meeting
 
 # Attending
 
-- Max Fratonni
-- Katy Hufff
+- Max Fratoni
+- Katy Huff
 - Kelly Rowland
-- Alejandra Jolodowski
-- Sandra Bogetich
-- Maddykin Munk
-- Dan Wooooten
+- Alejandra Jolodosky
+- Sandra Bogetic
+- Madicken Munk
+- Dan Wooten
 - Tenzing Joshi
 - Andrey Mironyuk
-- <++>
 
 # Discussion: ORIGEN - Max Fratoni
 
 Max gave us an overview of ORIGEN, a depletion code.
-Max's presentation can be found [here][].
+Max's presentation can be found [here][pres].
 
 
 ## Max Fratoni
 
-Max is a professor in the Department of Nuclear e
+Max is a professor in the Department of Nuclear Engineering.
 
 ## ORIGEN
 
@@ -82,17 +81,8 @@ The input files are **TAPE** files... because they used to actually be tapes.
 
 # Dicussion: Open Source Contribution
 
-## Pull Requests
+We intentionally misspelled everyone's names and went through the 
+issue-pull-request-review-pull-close workflow seen in many open source 
+projects.
 
-## Code Review
-
-## Continuous Integration
-
-# Lightning Talks 
-
-## <+ person +> : <+ topic +>
-
-## <+ person +> : <+ topic +>
-
-
-[code]: https://github.com/thehackerwithin/berkeley/tree/master/topic "Code Examples" 
+[pres]: https://github.com/thehackerwithin/berkeley/tree/master/origen "Presentation" 
