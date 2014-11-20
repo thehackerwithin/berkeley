@@ -53,7 +53,7 @@ You should have a server up and running locally at <http://localhost:4000>.
 
 ## We use Left to lay out this jekyll
 
-It's all based on something @katyhugg forked. It's called Left.  It uses jekyll.  It was
+It's all based on something @katyhuff forked. It's called Left.  It uses jekyll.  It was
 extracted from [zachholman.com](http://zachholman.com/).
 
 Left is a clean, whitespace-happy layout for [Jekyll](https://github.com/mojombo/jekyll).
