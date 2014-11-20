@@ -17,6 +17,7 @@ tags: meeting
 - Maddykin Munk
 - Dan Wooooten
 - Tenzing Joshi
+- Andrey Mironyuk
 - <++>
 
 # Discussion: ORIGEN - Max Fratoni
