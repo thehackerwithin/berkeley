@@ -2,8 +2,12 @@
 __pycache__/
 *.py[cod]
 
+# Ipython checkpoints
+.ipynb_checkpoints/
+
 # C extensions
 *.so
+*.o
 
 # Distribution / packaging
 .Python
