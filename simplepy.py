@@ -3,8 +3,7 @@ import numpy as np
 
 
 def primes(kmax):
-    p = np.zeros(1000)
-    result = []
+    p = np.empty(1000)
     if kmax > 1000:
         kmax = 1000
     k = 0
@@ -16,6 +15,5 @@ def primes(kmax):
         if i == k:
             p[k] = n
             k = k + 1
-            result.append(n)
         n = n + 1
-    return result
+    return p[0:k]
