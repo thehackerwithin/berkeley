@@ -54,17 +54,6 @@ double trapfilter(int *pulse, int peaking, int gap, int M, int len, int len_in,
     //output of shaper
     double slowshaperout;
 
-    /*
-    //This is no longer used because it was unstable for large ranges of peaking times
-    //Peak Detect stuff
-    long data_in, channel_pointer;
-    int peak_detect, old_peak_detect;
-    long comp_A, comp_B, noise_thresh;
-    long peak, gain_scale;
-    //long spectrum[MAX_CHANNELS]
-    */
-
-
     //clear delay buffers
     int i = 0;
     for (i = 0; i < MAX_DELAY; i++){
@@ -78,18 +67,6 @@ double trapfilter(int *pulse, int peaking, int gap, int M, int len, int len_in,
     if (len_in < len){
       len = len_in;
     }
-    /*
-     * More peak detection stuff
-    noise_thresh = noise_thresh_in*1000;
-    //initialization
-    peak = 0;
-    //noise_thresh = //300000000*peaking/1200; good for Cs-137
-    channel_pointer = 0;
-    comp_B = - noise_thresh;
-    old_peak_detect = TRUE ;
-    gain_scale = 1000;
-    */
-
 
     //initialize variables for trapezoidal filter
     int n = 0;
@@ -129,32 +106,6 @@ double trapfilter(int *pulse, int peaking, int gap, int M, int len, int len_in,
         accum2 += adder3out;
         //shaper output (scaled by peaking time)
         slowshaperout = accum2/(double)peaking;
-
-
-
-        /*
-        // Peak detection threshold is not linear for large changes in peaking time
-        comp_A = slowshaperout - peak;
-        if (comp_A > comp_B){
-               peak_detect = TRUE;
-               comp_B = - noise_thresh;
-        }
-        else{
-               peak_detect = FALSE;
-               comp_B = noise_thresh;
-        }
-        if ((comp_A >= 0 && peak_detect==TRUE) || (comp_A < 0 && peak_detect==FALSE)) peak = slowshaperout;
-        if ( peak_detect == FALSE && old_peak_detect == TRUE){
-            channel_pointer = peak/gain_scale;
-            if (channel_pointer < 0) channel_pointer = 0;
-            if (channel_pointer > 0){
-                //printf("peak: %d \n",channel_pointer);
-                return channel_pointer;
-            }
-
-        }
-        old_peak_detect = peak_detect;
-        */
 
         //determines max of the slow shaper output
         if (slowshaperout > max){
