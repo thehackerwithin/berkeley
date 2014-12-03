@@ -13,7 +13,7 @@ tags: meeting
 
 # Nuclear Data at LANL - Morgan White
 
-We have a distinguished visitor for the last meetin of the semester. Morgan 
+We have a distinguished visitor for the last meeting of the semester. Morgan 
 will give us some thoughts on Nuclear Data at Los Alamos.
 
 
