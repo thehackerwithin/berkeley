@@ -9,7 +9,23 @@ tags: meeting
 
 # Attending
 
-- <++>
+- Alejandra Jolodosky
+- Denia Djokic
+- Katy Huff
+- Cameron Bates
+- Kyle Barbary
+- Kelly Rowland
+- Rachel Slaybaugh
+- Marissa Zweig
+- Ryan Pavlovsky
+- Ross Barnowski
+- Any Haefner
+- Aaron Culich
+- Krishna Muriki
+- Morgan White
+- ? New beligian student
+
+
 
 # Nuclear Data at LANL - Morgan White
 
