@@ -1,0 +1,45 @@
+topic,popularity
+r,9
+matplotlib,15
+d3.js,9
+text editors,17
+seaborne,12
+latex,7
+make,18
+cuda,10
+scikit-learn,10
+sql,8
+julia,18
+python,6
+linking,13
+pandas,7
+git,8
+python guis,6
+python wrapping,9
+shell,13
+fhs,17
+ipython,15
+pymc,4
+C,12
+scoping in interpreted languages,4
+java,6
+c++,11
+object orientation,1
+profiling,12
+functional languages,2
+microcontrollers,9
+computer architectures,12
+xeon phi,4
+pandas vs. r ...language battle,7
+parallel programming,11
+stan,5
+linear programming,2
+shiny,11
+cmake,12
+advanced git,14
+licensing,1
+hardware drivers,10
+testing,11
+regex,9
+text analysis,3
+none,0
