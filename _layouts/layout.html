@@ -34,7 +34,7 @@
     <section class="name">
       <a href="{{ site.url }}/">
         <span id="fname">The</span>
-        <span id="mname">{{ site.name|split:' '|first }}</span>
+        <span id="lname">{{ site.name|split:' '|first }}</span>
         <span id="lname">{{ site.name|split:' '|last }}</span>
       </a>
     </section>
@@ -50,8 +50,10 @@
 
     <section class="sections">
       <ul>
-        <li><a href="{{ site.url }}/about.html">about</a></li>
-        <li><a href="{{ site.url }}/">posts</a></li>
+        <li><a href="{{ site.url }}/">about</a></li>
+        <li><a href="{{ site.url }}/upcoming.html">upcoming</a></li>
+        <li><a href="{{ site.url }}/previous.html">previous</a></li>
+        <li><a href="{{ site.url }}/tags.html">tags</a></li>
       </ul>
     </section>
   </section>

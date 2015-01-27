@@ -1,6 +1,6 @@
 ---
 layout: post
-title: <+ topic +> - <+ speaker +>
+title: Shiny - Karthik Ram
 comments: true
 category: upcoming
 tags: meeting <+ tags +>
@@ -12,11 +12,14 @@ tags: meeting <+ tags +>
 - <++>
 
 
-## <+ speaker +>
+## Karthik Ram
 
 <+ speaker bio +> 
 
-## <+topic +>
+## Shiny
+
+[Shiny](http://shiny.rstudio.com/) is an R-language package that creates web
+applications to interact with analysis pipelines and visualizations. 
 
 <+ notes +>
 

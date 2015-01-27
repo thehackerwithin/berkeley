@@ -1,6 +1,6 @@
 ---
 layout: post
-title: <+ topic +> - <+ speaker +>
+title: Make - Chris Paciorek
 comments: true
 category: upcoming
 tags: meeting <+ tags +>
@@ -12,11 +12,14 @@ tags: meeting <+ tags +>
 - <++>
 
 
-## <+ speaker +>
+## Chris Paciorek
 
 <+ speaker bio +> 
 
-## <+topic +>
+## Make
+
+Make is a ubiquitous command line tool that can help to automate building 
+software and executing analysis pipelines.
 
 <+ notes +>
 

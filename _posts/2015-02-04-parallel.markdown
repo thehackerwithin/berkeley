@@ -1,6 +1,6 @@
 ---
 layout: post
-title: <+ topic +> - <+ speaker +>
+title: Parallel Programming - Chris Paciorek
 comments: true
 category: upcoming
 tags: meeting <+ tags +>
@@ -12,11 +12,11 @@ tags: meeting <+ tags +>
 - <++>
 
 
-## <+ speaker +>
+## Chris Paciorek
 
 <+ speaker bio +> 
 
-## <+topic +>
+## Parallel Programming
 
 <+ notes +>
 

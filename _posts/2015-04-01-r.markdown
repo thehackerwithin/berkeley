@@ -1,6 +1,6 @@
 ---
 layout: post
-title: <+ topic +> - <+ speaker +>
+title: R - Rochelle Terman, Daniel Turek, Chris Paciorek
 comments: true
 category: upcoming
 tags: meeting <+ tags +>
@@ -11,12 +11,21 @@ tags: meeting <+ tags +>
 
 - <++>
 
-
-## <+ speaker +>
+## Rochelle Terman
 
 <+ speaker bio +> 
 
-## <+topic +>
+## Daniel Turek
+
+<+ speaker bio +> 
+
+## Chris Paciorek
+
+<+ speaker bio +> 
+
+## R
+
+R is a high-level programming language for statistical analysis. 
 
 <+ notes +>
 

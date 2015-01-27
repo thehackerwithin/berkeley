@@ -1,6 +1,6 @@
 ---
 layout: post
-title: <+ topic +> - <+ speaker +>
+title: Matplotlib and Seaborn - Caroline Sofiatti and Sean Wahl
 comments: true
 category: upcoming
 tags: meeting <+ tags +>
@@ -12,11 +12,19 @@ tags: meeting <+ tags +>
 - <++>
 
 
-## <+ speaker +>
+## Caroline Sofiatti
 
 <+ speaker bio +> 
 
-## <+topic +>
+## Sean Wahl
+
+<+ speaker bio +> 
+
+## Matplotlib
+
+<+ notes +>
+
+## Seaborn
 
 <+ notes +>
 

@@ -6,6 +6,10 @@ category: posts
 tags: meeting meta
 ---
 
+## Attending
+
+- <++>
+
 
 ## Discussion: What Do You Want To Learn and What Can You Teach
 
@@ -28,3 +32,14 @@ at:
 - [the THW@UCB about page](http://thehackerwithin.github.io/berkeley/about.html "The 
 About Page")
 - and [the BIDS event page for this meeting](http://bids.berkeley.edu/events/hacker-within)
+
+
+
+| Topic                              | Desire        | Volunteers  |
+| :--------------------------------- |:-------------:| -----------:|
+| <++>                               | <++>          | <++>        |
+
+
+
+
+
