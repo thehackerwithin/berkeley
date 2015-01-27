@@ -11,7 +11,7 @@ layout: layout
 {% for item in (0..site.tags.size) %}{% unless forloop.last %}
       {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
       <span style = "white-space:nowrap;"> <span class = "post-meta" >{{ site.tags[this_word].size }} x </span><a href="{{ site.url}}/tags.html#{{ this_word | cgi_escape }}" class = "tag">{{ this_word }}
-      </a></span>  &nbsp
+      </a></span><br/>
 {% endunless %}{% endfor %}
 </div>
 
