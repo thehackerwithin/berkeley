@@ -3,7 +3,7 @@ layout: post
 title: Julia - Kyle Barbary
 comments: true
 category: upcoming
-tags: meeting <+ tags +>
+tags: meeting julia
 ---
 
 

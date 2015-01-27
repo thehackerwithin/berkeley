@@ -3,7 +3,7 @@ layout: post
 title: Computer Architectures - Alex Chong
 comments: true
 category: upcoming
-tags: meeting <+ tags +>
+tags: meeting hardware
 ---
 
 

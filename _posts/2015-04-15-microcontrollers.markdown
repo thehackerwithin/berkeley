@@ -3,7 +3,7 @@ layout: post
 title: Microcontrollers - Anders Priest, Alex Chong, Greg Telian
 comments: true
 category: upcoming
-tags: meeting <+ tags +>
+tags: meeting hardware
 ---
 
 

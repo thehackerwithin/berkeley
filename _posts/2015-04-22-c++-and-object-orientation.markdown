@@ -3,7 +3,7 @@ layout: post
 title: C++ and Object Orientation - Sven Chilton
 comments: true
 category: upcoming
-tags: meeting <+ tags +>
+tags: meeting c++
 ---
 
 

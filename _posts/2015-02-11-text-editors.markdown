@@ -3,7 +3,7 @@ layout: post
 title: Text Editors - Everyone
 comments: true
 category: upcoming
-tags: meeting <+ tags +>
+tags: meeting editors
 ---
 
 

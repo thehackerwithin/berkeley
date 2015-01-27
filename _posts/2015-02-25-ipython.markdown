@@ -3,7 +3,7 @@ layout: post
 title: IPython - Thomas Kluyver and Min RK
 comments: true
 category: upcoming
-tags: meeting <+ tags +>
+tags: meeting python
 ---
 
 

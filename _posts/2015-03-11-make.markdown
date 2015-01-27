@@ -3,7 +3,7 @@ layout: post
 title: Make - Chris Paciorek
 comments: true
 category: upcoming
-tags: meeting <+ tags +>
+tags: meeting 
 ---
 
 

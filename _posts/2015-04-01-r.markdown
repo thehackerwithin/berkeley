@@ -3,7 +3,7 @@ layout: post
 title: R - Rochelle Terman, Daniel Turek, Chris Paciorek
 comments: true
 category: upcoming
-tags: meeting <+ tags +>
+tags: meeting r
 ---
 
 
