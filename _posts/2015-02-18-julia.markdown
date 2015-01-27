@@ -1,6 +1,6 @@
 ---
 layout: post
-title: <+ topic +> - <+ speaker +>
+title: Julia - Kyle Barbary
 comments: true
 category: upcoming
 tags: meeting <+ tags +>
@@ -12,11 +12,13 @@ tags: meeting <+ tags +>
 - <++>
 
 
-## <+ speaker +>
+## Kyle Barbary
 
 <+ speaker bio +> 
 
-## <+topic +>
+## Julia
+
+Julia is a high-level language (like Python) that emphasizes performance. 
 
 <+ notes +>
 

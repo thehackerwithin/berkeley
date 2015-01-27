@@ -1,6 +1,6 @@
 ---
 layout: post
-title: <+ topic +> - <+ speaker +>
+title: IPython - Thomas Kluyver and Min RK
 comments: true
 category: upcoming
 tags: meeting <+ tags +>
@@ -12,11 +12,18 @@ tags: meeting <+ tags +>
 - <++>
 
 
-## <+ speaker +>
+## Thomas Kluyver
 
 <+ speaker bio +> 
 
-## <+topic +>
+## Min Ragan-Kelley 
+
+<+ speaker bio +> 
+
+## IPython
+
+IPython is an interactive interpreter for programming with Python (and now many 
+other languages).
 
 <+ notes +>
 

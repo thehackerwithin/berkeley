@@ -1,6 +1,6 @@
 ---
 layout: post
-title: <+ topic +> - <+ speaker +>
+title: C++ and Object Orientation - Sven Chilton
 comments: true
 category: upcoming
 tags: meeting <+ tags +>
@@ -12,11 +12,14 @@ tags: meeting <+ tags +>
 - <++>
 
 
-## <+ speaker +>
+## Sven Chilton
 
 <+ speaker bio +> 
 
-## <+topic +>
+## C++ and Object Orientation
+
+C++ is a low-level programming language that utilizes an object-oriented 
+paradigm.
 
 <+ notes +>
 

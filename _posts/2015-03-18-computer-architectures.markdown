@@ -1,6 +1,6 @@
 ---
 layout: post
-title: <+ topic +> - <+ speaker +>
+title: Computer Architectures - Alex Chong
 comments: true
 category: upcoming
 tags: meeting <+ tags +>
@@ -12,11 +12,11 @@ tags: meeting <+ tags +>
 - <++>
 
 
-## <+ speaker +>
+## Alex Chong
 
 <+ speaker bio +> 
 
-## <+topic +>
+## Computer Architectures
 
 <+ notes +>
 
