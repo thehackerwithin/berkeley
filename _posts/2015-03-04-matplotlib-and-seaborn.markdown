@@ -3,7 +3,7 @@ layout: post
 title: Matplotlib and Seaborn - Caroline Sofiatti and Sean Wahl
 comments: true
 category: upcoming
-tags: meeting python
+tags: meeting python plotting
 ---
 
 

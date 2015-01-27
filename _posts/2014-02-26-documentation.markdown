@@ -3,7 +3,7 @@ layout: post
 title: Self Documenting Code - Rachel Slaybaugh
 comments: true
 category: posts
-tags: meeting doxygen lesson documentation
+tags: meeting doxygen documentation
 ---
 
 

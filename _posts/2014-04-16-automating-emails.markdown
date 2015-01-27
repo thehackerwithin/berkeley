@@ -3,7 +3,7 @@ layout: post
 title: Emailing with Python - Ross Barnowski
 comments: true
 category: posts
-tags: meeting bash shell lesson
+tags: meeting bash shell
 ---
 
 # Attending
