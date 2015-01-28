@@ -37,12 +37,12 @@ way they treat variable scope.
 ### Basics in the Shell
 
 I'm actually going to cheat here and use the first chapter of [my new 
-book](https://physics.codes) to cover the shell basics really quickly.
+book](http://physics.codes) to cover the shell basics really quickly.
 
 I know that's not a very open source way to go about things, because you'd have 
 to buy the book to get this material later. Be cool. The same material is 
 [covered beautifully by Software 
-Carpentry](http://http://software-carpentry.org/v5/novice/shell/index.html).
+Carpentry](http://software-carpentry.org/v5/novice/shell/index.html).
 
 ### Customizing Your Shell
 
