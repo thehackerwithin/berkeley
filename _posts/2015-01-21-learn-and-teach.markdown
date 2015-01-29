@@ -33,13 +33,8 @@ at:
 About Page")
 - and [the BIDS event page for this meeting](http://bids.berkeley.edu/events/hacker-within)
 
+## Results
 
-
-| Topic                              | Desire        | Volunteers  |
-| :--------------------------------- |:-------------:| -----------:|
-| <++>                               | <++>          | <++>        |
-
-
-
+You can see the results in the master branch of this repository.
 
 
