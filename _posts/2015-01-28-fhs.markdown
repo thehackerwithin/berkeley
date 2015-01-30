@@ -8,7 +8,7 @@ tags: meeting shell
 
 ## Attending
 
-- <++>
+About 35 folks! No attendance was taken, though. 
 
 ## Katy Huff
 
@@ -56,7 +56,7 @@ bash these are usually:
 
 The profile file is called first and sources other files (such as bashrc and 
 aliases). Many people keep their bashrc files online. Let's find some good ones 
-a.nd browse them. I [keep mine
+and browse them. I [keep mine
 online](https://github.com/katyhuff/tools/tree/master/env) so that I can get
 back to work instantly if my laptop self-immolates. Let's talk about some of 
 the things you can do to make your life easier with bashrc.
