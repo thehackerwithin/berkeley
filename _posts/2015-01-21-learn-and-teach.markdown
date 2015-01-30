@@ -8,8 +8,31 @@ tags: meeting meta
 
 ## Attending
 
-- <++>
-
+- Katy Huff
+- Rachel Slaybaugh
+- Rochelle Terman
+- Caroline Sofiatti
+- Denia Djokic
+- Britta Fiore
+- Chris Paciorek
+- Alex Chong
+- Greg Telian
+- Sean Wahl
+- Min RK
+- James Kendrick
+- Sven Chilton
+- Jose Buraschi
+- Andrew Greenop
+- Joey Curtis
+- Anders Priest
+- Daniel Turek
+- Karthik Ram
+- Tenzing Joshi
+- Kelly Rowland
+- Madicken Munk
+- Thomas Kluyver
+- Kyle Barbary
+- Daniel Wooten
 
 ## Discussion: What Do You Want To Learn and What Can You Teach
 
@@ -35,6 +58,7 @@ About Page")
 
 ## Results
 
-You can see the results in the master branch of this repository.
-
-
+You can see the results in the master branch of this repository 
+[here](https://github.com/thehackerwithin/berkeley/tree/master/possible_topics) 
+and you can see the logic behind the scheduling [here in this ipython 
+notebook](nbviewer.ipython.org/github/thehackerwithin/berkeley/blob/master/possible_topics/learn_and_teach.ipynb).
