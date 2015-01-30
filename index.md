@@ -5,18 +5,18 @@ title: "About"
 
 <!-- You can edit this whole page, remove it, or use it as basis for any non-post pages you have. -->
 <section class="content">
+
 The {{ site.name }}, {{ site.chapter }}
 ========================================
-    <section class="copy">
 
-      <ul class="listing">
-      <li>
-      <span>Spring 2015</span><a href="{{ site.url }}/upcoming.html">Upcoming Topics</a>
-      </li>
-      <li>
-      <span>2013-2014</span><a href="{{ site.url }}/previous.html">Previous Topics</a>
-      </li>
-      </ul>
+<ul class="listing">
+<li> 
+<span>Spring 2015</span><a href="{{ site.url }}/upcoming.html">Upcoming Topics</a>
+</li>
+<li>
+<span>2013-2014</span><a href="{{ site.url }}/previous.html">Previous Topics</a>
+</li>
+</ul>
 
 
 What:
@@ -37,25 +37,17 @@ Where:
 
 
 
-This meeting takes place at the <a 
-  href="https://bids.berkeley.edu">Berkeley Institute for Data 
-  Science</a>.
-
-
-
+This meeting takes place at the [Berkeley Institute for Data 
+Science](https://bids.berkeley.edu).
 
 Room 190, Doe Library, The University of California - Berkeley
-
 
 
 Who:
 -----
 
-
-
 Anyone interested in software development best practices is welcome to 
 come to our meetings.
-
 
 
 When:
@@ -63,22 +55,16 @@ When:
 
 
 Wednesdays at 4:00pm. While the main talk should occupy less than an hour, the 
-lightning talks and hacking session can go on until 6:00pm or later. See the 
-<a 
-  href="http://thehackerwithin.github.io/berkeley/upcoming.html">upcoming 
-topics list</a> or the
-<a href="http://bit.ly/1cqFKuh">calendar</a> for the topic for this week.
+lightning talks and hacking session can go on until 6:00pm or later. See the [upcoming topics list]({{ site.url }}/upcoming.html)
+or the [calendar](http://bit.ly/1cqFKuh)
+for the topic for this week.
 To keep up with meetings, you will want to  
-<a 
-  href="https://calmail.berkeley.edu/manage/list/listinfo/ucb-hacker-within@lists.berkeley.edu">sign 
-  up for the listhost</a>.
-
+[sign up for the mailing list](https://calmail.berkeley.edu/manage/list/listinfo/ucb-hacker-within@lists.berkeley.edu).
 
 
 
 How:
-------------
-
+-----
 
 Participating is really easy. 
 <li>At **4:00pm**, we gather and go through a round of introductions. 
@@ -102,15 +88,14 @@ give of these talks. To do so, just ping the listhost by email at
 [ucb-hacker-within@lists.berkeley.edu](mailto:ucb-hacker-within@lists.berkeley.edu).
 
 
-Why: 
-------------
+Why:
+------
 
 
 The tenets of scientiﬁc endeavor (e.g., data control, reproducibility, 
 comprehensive documentation, and peer review) suffer in projects that fail 
 to make use of current development tools such as unit testing, version 
 control, automated documentation, and others.
-
 
 
 To avoid these pitfalls, this weekly meeting exists for sharing skills and best practices for 
@@ -121,13 +106,7 @@ the chapters convenes a community of scientists, at all levels of their
 education and training, to share their knowledge and best practices in 
 using computing to accomplish their work.
 
-
-
-
-
-
 <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}">Tweet</a>
 <a href="http://twitter.com/{{ site.twitter }}" class="twitter-follow-button" data-show-count="false">Follow @{{ site.twitter }}</a>
 <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
-</section>
 </section>
