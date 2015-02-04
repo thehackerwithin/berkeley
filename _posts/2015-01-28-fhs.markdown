@@ -147,7 +147,5 @@ An almost exactly equivalent space is here in usr.
 
 ## Lightning Talks
 
-## <+ person +> : <+ topic +>
-
-## <+ person +> : <+ topic +>
+## Ryan Pavlovsy : ssh config files!
 
