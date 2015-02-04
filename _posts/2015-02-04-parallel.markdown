@@ -18,9 +18,11 @@ tags: meeting hpc
 
 ## Parallel Programming
 
-For the material for today, please clone this github repository:
+For the material for today, please clone this [github repository](https://github.com/berkeley-scf/parallel-thw-2015)
 
 https://github.com/berkeley-scf/parallel-thw-2015
+
+The primary document is [here](https://github.com/berkeley-scf/parallel-thw-2015/blob/master/parallel.pdf)
 
 ## Lightning Talks 
 
