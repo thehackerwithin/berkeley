@@ -26,9 +26,10 @@ tags: meeting hpc
 - Ryan Pavlovsky (NE)
 - Zhangpeng Guo (NE)
 - Denia Djokic (NE)
-- Tenzing Joshi
+- Tenzing Joshi (NE)
 - Xin Wang (NE)
 - Nicholas Adams (DLab)
+- Vic Gehman (physics)
 - others
 
 
