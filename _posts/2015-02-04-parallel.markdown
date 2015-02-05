@@ -9,7 +9,25 @@ tags: meeting hpc
 
 ## Attending
 
-- <++>
+- Chris Paciorek
+- Matias (Ipython
+- Min RK Ipython
+- Josh Howland
+- Greg (neuro)
+- Andrew
+- Kelly Rowland (NE)
+- Sven Chilton (NE)
+- Anders Priest (NE)
+- DAvid (econ)
+- Rachel (NE)
+- Caroline (astro)
+- Alex (undergrad)
+- Katy Huff (NE)
+- Ryan Pavlovsky (NE)
+- Zhangpeng Guo (NE)
+- Denia (NE)
+- Tenzing Joshi
+- others
 
 
 ## Chris Paciorek
@@ -25,8 +43,3 @@ https://github.com/berkeley-scf/parallel-thw-2015
 ## Lightning Talks 
 
 ## <+ person +> : <+ topic +>
-
-## <+ person +> : <+ topic +>
-
-
-[code]: https://github.com/thehackerwithin/berkeley/tree/master/topic "Code Examples" 
