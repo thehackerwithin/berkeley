@@ -10,23 +10,25 @@ tags: meeting hpc
 ## Attending
 
 - Chris Paciorek
-- Matias (Ipython
-- Min RK Ipython
-- Josh Howland
+- Matias (Ipython)
+- Min RK (IPython)
+- Josh Howland (NE)
 - Greg (neuro)
 - Andrew
 - Kelly Rowland (NE)
 - Sven Chilton (NE)
 - Anders Priest (NE)
-- DAvid (econ)
-- Rachel (NE)
-- Caroline (astro)
+- David (econ)
+- Rachel Slaybaugh (NE)
+- Caroline Sofiatti (astro)
 - Alex (undergrad)
 - Katy Huff (NE)
 - Ryan Pavlovsky (NE)
 - Zhangpeng Guo (NE)
-- Denia (NE)
+- Denia Djokic (NE)
 - Tenzing Joshi
+- Xin Wang (NE)
+- Nicholas Adams (DLab)
 - others
 
 
