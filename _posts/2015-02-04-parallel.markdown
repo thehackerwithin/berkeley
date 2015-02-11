@@ -45,9 +45,10 @@ https://github.com/berkeley-scf/parallel-thw-2015
 
 The primary document is [here](https://github.com/berkeley-scf/parallel-thw-2015/blob/master/parallel.pdf)
 
-## Lightning Talks 
+## Lightning Talks
+
+### Rachel Slaybaugh : TotalView
 
 A debugger that works reasonably well for distributed parallel tasks is [TotalView](https://computing.llnl.gov/tutorials/totalview/part3.html). It's developed by Livermore.
 
 
-## <+ person +> : <+ topic +>
