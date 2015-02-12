@@ -2,7 +2,7 @@
 layout: post
 title: Text Editors - Everyone
 comments: true
-category: upcoming
+category: posts
 tags: meeting editors
 ---
 
@@ -14,18 +14,46 @@ tags: meeting editors
 
 ## Everyone
 
-This week will be a session full of lightning talks. All of the members of THW 
-are encouraged to bring a lightning talk introducing some aspect of their 
+This week will be a session full of lightning talks. All of the members of THW
+are encouraged to bring a lightning talk introducing some aspect of their
 favorite (or not their favorite) text editor.
 
-## Text Editors
+## <+ person +> : <+ topic +>
 
-<+ notes +>
-
-
-## Lightning Talks 
 
 ## <+ person +> : <+ topic +>
 
+
 ## <+ person +> : <+ topic +>
+
+
+## <+ person +> : <+ topic +>
+
+
+## <+ person +> : <+ topic +>
+
+
+## <+ person +> : <+ topic +>
+
+
+## <+ person +> : <+ topic +>
+
+
+## <+ person +> : <+ topic +>
+
+
+## <+ person +> : <+ topic +>
+
+
+## <+ person +> : <+ topic +>
+
+Vi (vim) has a lot of plugins. Katy's favorite way to discover plugins is
+[VimAwesome](http://vimawesome.com). Her favorite way to then to install most
+of those plugins is something called
+[vim-pathogen](https://github.com/tpope/vim-pathogen).
+
+Among all of these plugins, the one that has made the most difference in the
+life of Katy is [vim-latex](http://vim-latex.sourceforge.net/). She owes this
+knowledge to the great and wonderful RedBeard (@mrterry).
+
 
