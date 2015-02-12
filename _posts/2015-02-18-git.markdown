@@ -1,0 +1,34 @@
+---
+layout: post
+title: Advanced Git - Dav Clark
+comments: true
+category: upcoming
+tags: meeting git
+---
+
+
+## Attending
+
+- <++>
+
+
+## Dav Clark
+
+<+ speaker bio +>
+
+## Advanced Git
+
+Git is a complicated paradigm to grok. Advanced git is even harder.
+
+<+ notes +>
+
+Code examples can be found [here][code].
+
+## Lightning Talks
+
+## <+ person +> : <+ topic +>
+
+## <+ person +> : <+ topic +>
+
+
+[code]: https://github.com/thehackerwithin/berkeley/tree/master/topic "Code Examples"
