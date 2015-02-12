@@ -18,17 +18,14 @@ This week will be a session full of lightning talks. All of the members of THW
 are encouraged to bring a lightning talk introducing some aspect of their
 favorite (or not their favorite) text editor.
 
-## <+ person +> : <+ topic +>
+## Matthew Brett : Why Invest in a Text Editor?
 
 
-## <+ person +> : <+ topic +>
+## Joey Curtis : Atom
 
-
-## <+ person +> : <+ topic +>
-
-
-## <+ person +> : <+ topic +>
-
+Joey shared this [text editor smackdown](http://www.sitepoint.com/sitepoint-smackdown-atom-vs-brackets-vs-light-table-vs-sublime-text/)
+blogpost with us. He's now going to show off a few things about
+[Atom](https://atom.io/).
 
 ## <+ person +> : <+ topic +>
 
@@ -46,6 +43,12 @@ favorite (or not their favorite) text editor.
 
 
 ## <+ person +> : <+ topic +>
+
+
+## <+ person +> : <+ topic +>
+
+
+## Katy Huff : Vim-LaTeX
 
 Vi (vim) has a lot of plugins. Katy's favorite way to discover plugins is
 [VimAwesome](http://vimawesome.com). Her favorite way to then to install most
