@@ -9,7 +9,7 @@ tags: meeting git
 
 ## Attending
 
-- <++>
+39 people! Too many to count! We have arrived.
 
 
 ## Dav Clark
@@ -20,13 +20,13 @@ Dav Clark is the director of [Glass Bead Labs](http://bead.glass), is employed b
 
 You may be keeping track of your work with git already. Learn some minimal skills, including the answer to "what's a pull request?" You'll get more done, both by managing your own work efficiently, and by effectively soliciting and incorporating work from others.
 
-<+ notes +>
+Dav has created a repository at [github.com/tech4measurement/tech4measurement.github.io](https://github.com/tech4measurement/tech4measurement.github.io). This repository uses jekyll to make a website. In order to change a thing or two about the website, folks make pull requests.
 
 We'll be pretty interactive. Check out this [overview of resources](https://github.com/dlab-berkeley/git-fundamentals), pull requests welcome.
 
 ## Lightning Talks
 
-## <+ person +> : <+ topic +>
+## Katy : Gitk
 
 ## <+ person +> : <+ topic +>
 

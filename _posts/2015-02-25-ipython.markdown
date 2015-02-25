@@ -1,6 +1,6 @@
 ---
 layout: post
-title: IPython - Thomas Kluyver and Min RK
+title: IPython - Omoju Miller
 comments: true
 category: upcoming
 tags: meeting python
@@ -12,28 +12,25 @@ tags: meeting python
 - <++>
 
 
-## Thomas Kluyver
+## Omoju Miller
 
-<+ speaker bio +> 
+<+ speaker bio +>
 
-## Min Ragan-Kelley 
-
-<+ speaker bio +> 
 
 ## IPython
 
-IPython is an interactive interpreter for programming with Python (and now many 
+IPython is an interactive interpreter for programming with Python (and now many
 other languages).
 
 <+ notes +>
 
 Code examples can be found [here][code].
 
-## Lightning Talks 
+## Lightning Talks
 
 ## <+ person +> : <+ topic +>
 
 ## <+ person +> : <+ topic +>
 
 
-[code]: https://github.com/thehackerwithin/berkeley/tree/master/topic "Code Examples" 
+[code]: https://github.com/thehackerwithin/berkeley/tree/master/topic "Code Examples"
