@@ -2,14 +2,14 @@
 layout: post
 title: Advanced Git - Dav Clark
 comments: true
-category: upcoming
+category: posts
 tags: meeting git
 ---
 
 
 ## Attending
 
-39 people! Too many to count! We have arrived.
+Over 40 people! Too many to count! We have arrived.
 
 
 ## Dav Clark
@@ -24,11 +24,13 @@ Dav has created a repository at [github.com/tech4measurement/tech4measurement.gi
 
 We'll be pretty interactive. Check out this [overview of resources](https://github.com/dlab-berkeley/git-fundamentals), pull requests welcome.
 
-## Lightning Talks
+### <+Notes+>
 
-## Katy : Gitk
+<+notes here+>
 
-## <+ person +> : <+ topic +>
+### Lightning Talks
 
+## Thomas Kluyver
 
-[code]: https://github.com/thehackerwithin/berkeley/tree/master/topic "Code Examples"
+Thomas has created an exceptional little tool for teaching the shell!
+
