@@ -9,8 +9,25 @@ tags: meeting python
 
 ## Attending
 
-- <++>
+I counted 35 people. These included, at least:
 
+- Omoju
+- Kelly
+- Katy
+- John
+- Chris
+- Caroline
+- Min
+- Matthias
+- Thomas
+- Jess
+- Denia
+- Sven
+- Anders
+- Donny
+- Dan
+- Many others!
+- Add your name below if you aren't on the list!
 
 ## Omoju Miller
 
@@ -24,13 +41,40 @@ software technologist, start-up advisor, and educator.
 IPython is an interactive interpreter for programming with Python (and now many
 other languages).
 
-<+ notes +>
+### Easy, Peasy, Lemon Squeezy
 
-Code examples can be found [here][code].
+Omoju suggests that, to work, teach, or collaborate, development tools need to
+be as easy as possible to install and use.
+
+Things that she mentioned in this regard:
+
+- IPython is easy to install with "pip." Just type `pip install ipython` in the
+  terminal.
+- [Wakari.io](wakari.io)
+- [NBViewer](nbviewer.ipython.org)
+
+
+### The Oscars
+
+Omoju showed an example from [Mining the Social
+Web](http://nbviewer.ipython.org/github/ptwobrussell/Mining-the-Social-Web-2nd-Edition/tree/master/ipynb/)
+about using the twitter api. She demonstrated how she was able to use
+
+### LaTeX in Markdown cells
+
+She demonstrated also how to include LaTeX in a markdown cell. First, create a
+markdown cell, then include math:
+
+```
+Courtesy of MathJax, you can include mathematical expressions both inline:
+$e^{i\pi} + 1 = 0$  and displayed:
+
+$$e^x=\sum_{i=0}^\infty \frac{1}{i!}x^i$$
+```
 
 ## Lightning Talks
 
-## <+ person +> : <+ topic +>
+## Martin : <+ topic +>
 
 ## <+ person +> : <+ topic +>
 
