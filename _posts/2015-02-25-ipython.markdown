@@ -2,7 +2,7 @@
 layout: post
 title: IPython - Omoju Miller
 comments: true
-category: upcoming
+category: posts
 tags: meeting python
 ---
 
