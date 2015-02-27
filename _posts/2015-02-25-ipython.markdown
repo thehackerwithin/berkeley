@@ -71,7 +71,9 @@ create a new notebook in that directory.
 
 Omoju showed an example from [Mining the Social
 Web](http://nbviewer.ipython.org/github/ptwobrussell/Mining-the-Social-Web-2nd-Edition/tree/master/ipynb/)
-about using the twitter api. She demonstrated how she was able to use
+about using the twitter api. She demonstrated how she was able to use the
+ipython notebook to access the twitter firehose and filter out tweets
+concerning the Academy awards.
 
 #### LaTeX in Markdown cells
 
