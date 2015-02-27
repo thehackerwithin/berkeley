@@ -146,9 +146,8 @@ Geospatial data is everywhere.  An example is found at
 - **Does anyone who uses Pandas or GeoPandas know how to join-on-attribute and
   get a GeoPandas object rather than a Pandas object?**
 
-http://live.osgeo.org/en/index.html
+[OSGeo-Live](http://live.osgeo.org/en/index.html)
 
-NetCDF has recently been adapted to use HDF5 on the backend.
 
 
 ### Daniel Wooten : Prompt Magic
