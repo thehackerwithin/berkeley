@@ -18,11 +18,19 @@ tags: meeting python plotting
 
 ## Sean Wahl
 
-<+ speaker bio +> 
+PhD Candidate in the Earth and planetary science department. I study planetary interiors 
+using first-principles material simulations. I use matplotlib for both routine plotting
+capability as well as for published journal figures.
 
 ## Matplotlib
 
-<+ notes +>
+The find the ipython notebook [here][matplotlib].
+
+If you wish to follow allong with the presentation you should have Python 2 installed with the following packages:
+* matplotlib
+* numpy
+* ipython
+* basemap (optional)
 
 ## Seaborn
 
@@ -36,5 +44,6 @@ Code examples can be found [here][code].
 
 ## <+ person +> : <+ topic +>
 
+[matplotlib]: https://github.com/smwahl/thw_matplotlib_presentation "Matplotlib Demonstration"
 
 [code]: https://github.com/thehackerwithin/berkeley/tree/master/topic "Code Examples" 
