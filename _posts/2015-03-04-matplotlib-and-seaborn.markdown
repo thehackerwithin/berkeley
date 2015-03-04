@@ -21,17 +21,15 @@ is to unravel the mysteries of Dark Energy, one data point at a time!
 
 PhD Candidate in the Earth and planetary science department. I study planetary interiors 
 using first-principles material simulations. I use matplotlib for both routine plotting
-capability as well as for published journal figures.
+needs as well as for published journal figures.
 
 ## Matplotlib
 
 The find the ipython notebook [here][matplotlib].
 
-If you wish to follow allong with the presentation you should have Python 2 installed with the following packages:
-* matplotlib
-* numpy
-* ipython
-* basemap (optional)
+If you wish to follow along with the presentation you should have Python 2 installed with the following packages:
+
+matplotlib, numpy, ipython, basemap(optional)
 
 ## Seaborn
 
