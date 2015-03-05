@@ -50,8 +50,8 @@ Things that she mentioned in this regard:
 
 - IPython is easy to install with "pip." Just type `pip install ipython` in the
   terminal.
-- [Wakari.io](wakari.io)
-- [NBViewer](nbviewer.ipython.org)
+- [Wakari.io](http://wakari.io)
+- [NBViewer](http://nbviewer.ipython.org)
 
 ### The IPython Notebook
 
@@ -121,7 +121,7 @@ Omoju suggests using IPython notebooks for lots of stuff, including:
 
 ### Learning more with Books
 
-Omoju recommends [The Ipython Cookbook](ipython-books.github.io/cookbook).
+Omoju recommends [The Ipython Cookbook](http://ipython-books.github.io/cookbook).
 
 ## Lightning Talks
 
@@ -140,7 +140,7 @@ somewhat with filters and views.
 ### Brian Hamlin : Geospatial stuff!
 
 Geospatial data is everywhere.  An example is found at
-[www.pism-docs.org](www.pism-docs.org)
+[www.pism-docs.org](http://www.pism-docs.org)
 
 - **Does anyone know how to export NetCDF -> text**
 - **Does anyone who uses Pandas or GeoPandas know how to join-on-attribute and
