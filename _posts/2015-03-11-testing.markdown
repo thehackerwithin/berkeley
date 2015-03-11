@@ -18,10 +18,7 @@ Rachel Slaybaugh is an Assistant Professor of Nuclear Engineering at the Univers
 
 ## Testing
 
-
-<+ notes +>
-
-Code examples can be found [here][code].
+Today's presentation can be found [here][http://rachelslaybaugh.github.io/berkeley/images/2015.03.11-presentation.pdf].
 
 ## Lightning Talks 
 
