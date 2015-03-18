@@ -14,19 +14,18 @@ tags: meeting hardware
 
 ## Alex Chong
 
-<+ speaker bio +> 
+Alex is a student at Berkeley.
 
 ## Computer Architectures
 
-<+ notes +>
+His talk about computer architecture can be found
+[here](http://thehackerwithin.github.com/berkeley/images/2015.03.18-architecture.pdf).
 
-Code examples can be found [here][code].
 
-## Lightning Talks 
-
-## <+ person +> : <+ topic +>
+## Lightning Talks
 
 ## <+ person +> : <+ topic +>
 
+## <+ person +> : <+ topic +>
 
-[code]: https://github.com/thehackerwithin/berkeley/tree/master/topic "Code Examples" 
+
