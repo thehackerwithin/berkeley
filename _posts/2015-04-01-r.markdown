@@ -1,6 +1,6 @@
 ---
 layout: post
-title: R - Rochelle Terman, Daniel Turek, Chris Paciorek
+title: R - Rochelle Terman, Daniel Turek
 comments: true
 category: upcoming
 tags: meeting r
@@ -17,11 +17,8 @@ tags: meeting r
 
 ## Daniel Turek
 
-<+ speaker bio +> 
+Daniel Turek is a statistician and BIDS fellow. 
 
-## Chris Paciorek
-
-<+ speaker bio +> 
 
 ## R
 
