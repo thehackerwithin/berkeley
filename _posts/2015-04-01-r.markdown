@@ -29,7 +29,7 @@ R is a high-level programming language for statistical analysis.
 
 <+ notes +>
 
-Code examples can be found [here][code].
+Rochelle's demonstration code and notes can be found in this [github repo](https://github.com/rochelleterman/R-hacker-within)
 
 ## Lightning Talks 
 
