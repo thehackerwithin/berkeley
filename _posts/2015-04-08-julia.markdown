@@ -12,12 +12,14 @@ tags: meeting julia
 
 
 ## Kyle Barbary
-
-Kyle is a BIDS fellow. 
+Kyle is a postdoc in the Berkeley Center for Cosmological Physics and a BIDS fellow.
+Like many people, he has a [website](http://kbarbary.github.io/).
 
 ## Julia
 
-Julia is a high-level language (like Python) that emphasizes performance. 
+[Julia](http://julialang.org) is a high-level language (like Python) that emphasizes performance. 
+
+Slides and code examples will be posted later.
 
 ## Lightning Talks 
 
