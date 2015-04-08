@@ -2,14 +2,14 @@
 layout: post
 title: R - Rochelle Terman, Daniel Turek
 comments: true
-category: upcoming
+category: posts
 tags: meeting r
 ---
 
 
 ## Attending
 
-- <++>
+- about 25
 
 ## Rochelle Terman
 
