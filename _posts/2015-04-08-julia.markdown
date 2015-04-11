@@ -17,10 +17,11 @@ Like many people, he has a [website](http://kbarbary.github.io/).
 
 ## Julia
 
-[Julia](http://julialang.org) is a high-level language (like Python) that emphasizes performance. 
+[Julia](http://julialang.org) is a high-level language (like Python) that emphasizes performance.
+Slides and Jupyter notebooks from the talk can be found in
+[this Github repository](https://github.com/kbarbary/talks/tree/master/2015-thw-julia).
 
-
-Slides and code examples will be posted later.
+*If you're living in future and the link is broken, look in https://github.com/kbarbary/talks/* 
 
 ### Notes
 
@@ -42,9 +43,9 @@ The syntax seems really similar to python, except:
 - `?` takes you to help
 - `backspace` to get out of the shell or help
 - supports unicode, like python 3
-- you can use `python notebook --profile julia` to start IJulia
+- you can use `ipython notebook --profile julia` to start IJulia
 - `typeof(var)` gives the type of the variable var
-- string interperetation is neat. You can use `$var` in a string and it will be 
+- string interpolation is neat. You can use `$var` in a string and it will be 
   expanded.
 - Functions and loops use an explicit `end`
 - Functions can be written like `f(x) = 2x^2 + 3x + 1`
@@ -60,11 +61,6 @@ Rather than importing packages, the `using` syntax is used and the macros in
 that package are called with `@func`
 
 
-
-
 ## Lightning Talks 
 
-## <+ person +> : <+ topic +>
-
-## <+ person +> : <+ topic +>
-
+No lightning talks.
