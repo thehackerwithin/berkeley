@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Microcontrollers - Anders Priest, Alex Chong, Greg Telian
+title: Microcontrollers - Anders Priest and Alex Chong
 comments: true
 category: upcoming
 tags: meeting hardware
@@ -11,16 +11,11 @@ tags: meeting hardware
 
 - <++>
 
-
 ## Anders Priest
 
 <+ speaker bio +> 
 
 ## Alex Chong
-
-<+ speaker bio +> 
-
-## Greg Telian
 
 <+ speaker bio +> 
 
@@ -30,7 +25,6 @@ Circuit boards, arduinos, Raspberry Pi's, oh my! Microcontrollers and similar
 digital devices enable you to sense and control the physical world using 
 nothing but your programming skills.
 
-<+ notes +>
 
 Code examples can be found [here][code].
 
