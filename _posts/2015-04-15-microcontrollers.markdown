@@ -15,10 +15,6 @@ About 20 people.
 
 Anders is a graduate student in nuclear engineering at Berkeley.
 
-## Alex Chong
-
-Alex is a student at Berkeley.
-
 ## Microcontrollers
 
 Circuit boards, arduinos, Raspberry Pi's, oh my! Microcontrollers and similar 
