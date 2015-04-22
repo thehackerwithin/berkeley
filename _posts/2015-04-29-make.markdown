@@ -14,16 +14,19 @@ tags: meeting
 
 ## Chris Paciorek
 
-<+ speaker bio +> 
+[Chris Paciorek](http://www.stat.berkeley.edu/~paciorek) is the statistical computing consultant in the Department of Statistics at Berkeley, as well as being a researcher and lecturer in the department. His research focuses on statistical methods (often Bayesian methods) applied to environmental and public health applications. He teaches the department's graduate-level statistical computing class, Stat 243.
 
 ## Make
 
 Make is a ubiquitous command line tool that can help to automate building 
 software and executing analysis pipelines.
 
-<+ notes +>
+For the material for today, please clone this [github repository](https://github.com/berkeley-scf/make-thw-2015)
 
-Code examples can be found [here][code].
+https://github.com/berkeley-scf/parallel-thw-2015
+
+The primary document is [this iPython Notebook](https://github.com/berkeley-scf/make-thw-2015/blob/master/workshop.ipynb)
+
 
 ## Lightning Talks 
 
