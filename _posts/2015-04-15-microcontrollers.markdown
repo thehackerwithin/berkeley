@@ -2,7 +2,7 @@
 layout: post
 title: Microcontrollers - Anders Priest
 comments: true
-category: upcoming
+category: posts
 tags: meeting hardware
 ---
 
