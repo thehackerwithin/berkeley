@@ -77,10 +77,6 @@ domain (i.e., "from The Hacker Within's blog entry 'Segmentation Fault' at
 ### Left Licensing
 
 The Left layout is [MIT](https://github.com/holman/left/blob/master/LICENSE) with no
-added caveats, so feel free to use this on your site without linking back to
-me or using a disclaimer or anything silly like that.
-
-If you'd like give me credit somewhere on your blog or tweet a shout out to
-[@holman](https://twitter.com/holman), well hey, I'll take it.
+added caveats. Left is the work of Zach Holman [@holman](https://twitter.com/holman).
 
 ![Left](http://cl.ly/image/3S2r1p2C0E2B/content)
