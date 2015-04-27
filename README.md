@@ -87,7 +87,7 @@ This is very similar to creating a post:
 - Iterate on this until you're happy
 - and then either push to the upstream gh-pages remote branch or make a pull request.
 
-### Build the site locally
+#### Build the site locally
 
 - Install Jekyll: `gem install jekyll`
 - Run the jekyll server: `jekyll --server`
