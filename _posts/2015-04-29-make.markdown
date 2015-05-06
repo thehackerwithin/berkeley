@@ -9,7 +9,7 @@ tags: meeting
 
 ## Attending
 
-- <++>
+30 folks!
 
 
 ## Chris Paciorek
@@ -28,9 +28,12 @@ The primary document is [this iPython Notebook](https://github.com/berkeley-scf/
 
 ## Lightning Talks 
 
-## <+ person +> : <+ topic +>
+## Kelly Rowland : CMake
 
-## <+ person +> : <+ topic +>
+CMake, by Kitware is an open source way to automate the configuration and 
+generation of makefiles for building software in a cross platform way.
 
+## Jess Hamrick : SCons
 
-[code]: https://github.com/thehackerwithin/berkeley/tree/master/topic "Code Examples" 
+SCons is a replacement for make. Interestingly, it was the result of a Software 
+Carpentry code competition a very very long time ago.
