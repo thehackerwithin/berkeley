@@ -77,6 +77,6 @@ Please fill this out:
 
 ### Jeroem Ooms
 
-MongoDB Client for R called "mongolite".
-
-[http://cran.r-project.org/web/packages/mongolite/index.html](http://cran.r-project.org/web/packages/mongolite/index.html)
+MongoDB Client for R called "mongolite". 
+[http://cran.r-project.org/web/packages/mongolite/index.html](http://cran.r-project.org/web/packages/mongolite/index.html). 
+Showed off some in-database aggregations, mapreducing, binning, and the like.
