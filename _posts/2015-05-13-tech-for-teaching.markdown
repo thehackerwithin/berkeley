@@ -19,7 +19,7 @@ at the UCB [Brain Imaging Center](http://bic.berkeley.edu/).
 
 ## How to use (how not to use) the IPython notebook for teaching
 
-I am teaching on a course called [practical
+I am teaching a course called [practical
 neuroimaging](http://practical-neuroimaging.github.io) at UCB.
 
 The course is half-flipped, in that the students do 30 minutes of reading
@@ -41,7 +41,7 @@ as an interactive code editor - see the very new [rodeo project](
 http://blog.yhathq.com/posts/introducing-rodeo.html).
 
 Maybe, by sharing our experiences, we can help to work out some solution that
-uses the IPython machiner, that is yet closer to perfection.
+uses the IPython machinery, that is yet closer to perfection.
 
 ## Lightning Talks
 
