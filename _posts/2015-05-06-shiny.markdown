@@ -2,7 +2,7 @@
 layout: post
 title: Shiny - Karthik Ram
 comments: true
-category: upcoming
+category: posts
 tags: meeting r
 ---
 
