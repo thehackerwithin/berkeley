@@ -14,18 +14,36 @@ tags: meeting python ipython education
 
 ## Matthew Brett
 
-<+ speaker bio +> 
+I ([Matthew](http://matthew.dynevor.org)) am an aged sort-of post-doc working
+at the UCB [Brain Imaging Center](http://bic.berkeley.edu/).
 
-## Experiences Teaching With The IPython Notebook and Sphinx
+## How to use (how not to use) the IPython notebook for teaching
 
-Matthew Brett will share some feedback on his experiences using the IPython
-notebook and sphinx for 10 weeks (and counting) of heavy use for teaching.
+I am teaching a course called [practical
+neuroimaging](http://practical-neuroimaging.github.io) at UCB.
 
-The basic idea is to describe the strange and uncomfortable place where he uses and needs the IPython notebook a lot, but doen't have much fun at all writing lots of text,
-re-organizing content, or doing diffs in order to collaborate.
-It seems like there may be some middle way that would be very good.  Maybe a little bit like the totally [new rodeo project](https://github.com/yhat/rodeo).
+The course is half-flipped, in that the students do 30 minutes of reading
+before class, and spend about half of the 2 hour class time doing exercises.
 
-## Lightning Talks 
+Of course we make heavy use of the IPython notebook for the exercises, and
+this has worked very well.
+
+But - using IPython for tutorials and reading for the class has been much more
+difficult  because it does not yet fit well with static website builders like
+Sphinx.
+
+It is still hard to write a lot of complicated text or explanation in the
+notebook because the web interface and cell structure make the environment
+cumbersome compared to a good text editor.
+
+Others seem to have had the same experience working with the IPython notebook
+as an interactive code editor - see the very new [rodeo project](
+http://blog.yhathq.com/posts/introducing-rodeo.html).
+
+Maybe, by sharing our experiences, we can help to work out some solution that
+uses the IPython machinery, that is yet closer to perfection.
+
+## Lightning Talks
 
 ## <+ person +> : <+ topic +>
 
