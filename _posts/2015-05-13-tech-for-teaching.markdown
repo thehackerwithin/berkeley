@@ -9,8 +9,7 @@ tags: meeting python ipython education
 
 ## Attending
 
-- <++>
-
+More than 30 people attended!
 
 ## Matthew Brett
 
@@ -45,7 +44,32 @@ uses the IPython machinery, that is yet closer to perfection.
 
 ## Lightning Talks
 
-## <+ person +> : <+ topic +>
+### Jess Hamrick : nbgrader
 
-## <+ person +> : <+ topic +>
+Jess shared a cool tool written for creating 
+
+### St$$\'{e}$$fan van der Walt : Elegant Scipy, Markdown for Books, etc.
+
+Stefan and Juan Nunez-Iglesias are writing a book called "Elegant Scipy" to 
+collect and discuss elegant uses of and implementation within scientific 
+python. He shared some details about the book and showed how he is using 
+markdown as the native format to edit in, exportable to ipython notebooks and 
+html.
+
+
+### Sean ONullian : What Computers can't do (even now) and why
+
+Sean gave some context for an upcoming conference.
+
+### Matthias Bussonnier : Jupyter Sidecar
+
+A tool for viewing/rendering rich Jupyter kernel output in HTML.
+
+[https://github.com/rgbkrk/jupyter-sidecar](jupyter sidecar)
+
+
+Also, thebe:
+
+[https://github.com/oreillymedia/thebe](thebe).
+
 
