@@ -2,7 +2,7 @@
 layout: post
 title: Technology For Teaching - Matthew Brett
 comments: true
-category: upcoming
+category: post
 tags: meeting python ipython education
 ---
 
