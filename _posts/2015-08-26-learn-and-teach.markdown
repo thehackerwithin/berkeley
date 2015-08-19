@@ -40,7 +40,4 @@ About Page")
 
 ## Results
 
-You can see the results in the master branch of this repository 
-[here](https://github.com/thehackerwithin/berkeley/tree/master/possible_topics) 
-and you can see the logic behind the scheduling [here in this ipython 
-notebook](nbviewer.ipython.org/github/thehackerwithin/berkeley/blob/master/possible_topics/learn_and_teach.ipynb).
+TBA
