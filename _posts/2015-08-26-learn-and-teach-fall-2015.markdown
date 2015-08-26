@@ -34,8 +34,7 @@ Hacker Within as useful and peer-driven as possible.
 More information on the how, when, where, and why of this meeting can be found 
 at:
 
-- [the THW@UCB about page](http://thehackerwithin.github.io/berkeley/about.html "The 
-About Page")
+- [the THW@UCB about page](http://thehackerwithin.github.io/berkeley/ "The About Page")
 - and [the BIDS event page for this meeting](http://bids.berkeley.edu/events/hacker-within)
 
 ## Results
