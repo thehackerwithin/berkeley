@@ -1,45 +1,28 @@
-topic,popularity
-r,9
-matplotlib,15
-d3.js,9
-text editors,17
-seaborne,12
-latex,7
-make,18
-cuda,10
-scikit-learn,10
-sql,8
-julia,18
-python,6
-linking,13
-pandas,7
-git,8
-python guis,6
-python wrapping,9
-shell,13
-fhs,17
-ipython,15
-pymc,4
-C,12
-scoping in interpreted languages,4
-java,6
-c++,11
-object orientation,1
-profiling,12
-functional languages,2
-microcontrollers,9
-computer architectures,12
-xeon phi,4
-pandas vs. r ...language battle,7
-parallel programming,11
-stan,5
-linear programming,2
-shiny,11
-cmake,12
-advanced git,14
-licensing,1
-hardware drivers,10
-testing,11
-regex,9
-text analysis,3
-none,0
+topic,popularity,teaching
+advanced julia,7,kyle&Chris' friend
+scikit-learn,13,ross&expert
+machine learning,13,^^^
+intro python,7,johnbo&AlexGodell
+advanced python,20,sven&matthias
+cython/wrapping/forthon/swig/f2py,9,ross&kyle&sven
+high performance python,10,Chick
+pandas,14,sven&sean&jennifer&tenzing-voluntold (with notes on databases from Josh Rehak)
+spark/hadoop,22,sparkteam-voluntold
+R,6,daniel-voluntold
+data projects,,johnbo&alexGodell&JohnNulty&Vivek
+workflows/pipelines,14,jess?!
+beginner git,10,harrison dekker
+advanced git,22,aaron,kyle, ross, katy (lightning talk session)
+cross compiling,1,Katy(lightning talk)
+API use/Webscraping,14,John Bohannon & sven(twitter)
+vizualization,16,JohnNulty(highchart),Ross(pyqtgraph),biye(d3),jennifer(matplotlib)
+javascript,8.5,JohnNulty(johnny5library) biye
+make,7,katy/chris
+spatial analysis,1,lightningtalk GIF
+gpus/parallelization,13,biye&aaron
+sampling techniques,7,daniel-voluntold&shannon
+webservers,8,AlexGodell
+computer vision & image analysis,13,stefan! 
+hardware/embedded systems,4,johnbo(lightning talk)
+education,4,lightning talk on education 
+LaTeX and whatnot,14,mike(latex & rst & fonts)/chris(r)/jennifer(latex)
