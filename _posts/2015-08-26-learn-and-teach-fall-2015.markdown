@@ -2,7 +2,7 @@
 layout: post
 title: What Do You Want To Learn and What Can You Teach - Everyone
 comments: true
-category: upcoming
+category: posts 
 tags: meeting meta
 ---
 
