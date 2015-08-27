@@ -7,7 +7,9 @@ University of California - Berkeley. The rendered website can be found
 
 ## How To Be The Speaker
 
-One very common reason that folks want to contribute to this repository is that they are planning to give the main skill sharing session for some week at THW. To be the speaker, you'll need to sign up, set up, show up, and speak up.
+One very common reason that folks want to contribute to this repository is that 
+they are planning to give the main skill sharing session for some week at THW. 
+To be the speaker, you'll need to sign up, set up, show up, and speak up.
 
 ### Sign Up
 
@@ -80,6 +82,7 @@ you're creating should be something like 2015-03-01-katysbirthday.markdown.
 
 This is very similar to creating a post:
 
+- if the file for your date is YYYY-MM-DD-tbd.markdown, rename the file replacing "tbd" with your topic 
 - edit the post
 - Commit it: `git commit -am "adds a post for march 1"
 - Push it to your fork `git push origin gh-pages`
@@ -88,6 +91,9 @@ This is very similar to creating a post:
 - and then either push to the upstream gh-pages remote branch or make a pull request.
 
 #### Build the site locally
+
+If you'd like to test the post before pushing or making a PR, you can build the 
+site locally:
 
 - Install Jekyll: `gem install jekyll`
 - Run the jekyll server: `jekyll --server`
