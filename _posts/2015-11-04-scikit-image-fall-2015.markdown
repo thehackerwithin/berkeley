@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Topic TBD - Author TBD
+title: scikit-image - Stefan van der Walt
 comments: true
 category: upcoming
 tags: meeting

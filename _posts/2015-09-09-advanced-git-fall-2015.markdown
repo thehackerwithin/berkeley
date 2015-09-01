@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Topic TBD - Author TBD
+title: Advanced Git and GitHub - Ross Barnowski, Kyle Barbary, Aaron Culich, Katy Huff
 comments: true
 category: upcoming
 tags: meeting

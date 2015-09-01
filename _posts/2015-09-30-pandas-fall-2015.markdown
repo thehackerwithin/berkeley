@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Topic TBD - Author TBD
+title: Pandas - Sean Wahl & Sven Chilton
 comments: true
 category: upcoming
 tags: meeting

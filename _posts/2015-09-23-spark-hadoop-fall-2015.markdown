@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Topic TBD - Author TBD
+title: Spark and Hadoop - Zhao Zhang
 comments: true
 category: upcoming
 tags: meeting

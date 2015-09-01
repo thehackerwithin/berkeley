@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Topic TBD - Author TBD
+title: Visualization - John Naulty, Ross Barnowski, Biye Jiang, Jennifer Jones
 comments: true
 category: upcoming
 tags: meeting
