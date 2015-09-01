@@ -1,28 +1,46 @@
-topic,popularity,teaching
-advanced julia,7,kyle&Chris' friend
-scikit-learn,13,ross&expert
-machine learning,13,^^^
-intro python,7,johnbo&AlexGodell
-advanced python,20,sven&matthias
-cython/wrapping/forthon/swig/f2py,9,ross&kyle&sven
-high performance python,10,Chick
-pandas,14,sven&sean&jennifer&tenzing-voluntold (with notes on databases from Josh Rehak)
-spark/hadoop,22,sparkteam-voluntold
-R,6,daniel-voluntold
-data projects,,johnbo&alexGodell&JohnNulty&Vivek
-workflows/pipelines,14,jess?!
-beginner git,10,harrison dekker
-advanced git,22,aaron,kyle, ross, katy (lightning talk session)
-cross compiling,1,Katy(lightning talk)
-API use/Webscraping,14,John Bohannon & sven(twitter)
-vizualization,16,JohnNulty(highchart),Ross(pyqtgraph),biye(d3),jennifer(matplotlib)
-javascript,8.5,JohnNulty(johnny5library) biye
-make,7,katy/chris
-spatial analysis,1,lightningtalk GIF
-gpus/parallelization,13,biye&aaron
-sampling techniques,7,daniel-voluntold&shannon
-webservers,8,AlexGodell
-computer vision & image analysis,13,stefan! 
-hardware/embedded systems,4,johnbo(lightning talk)
-education,4,lightning talk on education 
-LaTeX and whatnot,14,mike(latex & rst & fonts)/chris(r)/jennifer(latex)
+topic,popularity,teacher
+advanced julia,7,Kyle Barbary
+advanced julia,7,Chris' friend 
+scikit-learn,13,Ross Barnowski
+scikit-learn,13,Shannon McCurdy
+intro python,7,Alex Goodell
+intro python,7,John Bohannon
+advanced python,20,Sven Chilton
+advanced python,20,Matthias Boussonier?
+cython/wrapping/forthon/swig/f2py,9,Ross Barnowski 
+cython/wrapping/forthon/swig/f2py,9,Kyle Barbary 
+cython/wrapping/forthon/swig/f2py,9,Sven Chilton
+high performance python,10,Chick Markley
+pandas,14,Sean Wahl 
+pandas,14,Jennifer Jones
+pandas,14,Sven Chilton 
+pandas,14,notes on databases from Josh Rehak
+spark/hadoop,22,Spark Team (Zhao & Jey?)
+R,6,Daniel Turek?
+workflows/pipelines,14,Jess Hamrick
+beginner git,10,Harrison Dekker
+beginner git,10,John Naulty
+advanced git,22,Aaron Culich
+advanced git,22,Kyle Barbary
+advanced git,22,Ross Barnowski 
+advanced git,22,Katy Huff
+Webscraping,14,John Bohannon
+Webscraping,14,Sven Chilton (twitter)
+vizualization,16,John Naulty (highchart) 
+vizualization,16,Ross Barnowski (pyqtgraph) 
+vizualization,16,Biye (d3) 
+vizualization,16,Jennifer Jones (matplotlib)
+javascript,8.5,John Naulty (johnny5library) 
+javascript,8.5,Biye
+make,7,Katy Huff
+make,7,Chris Paciorek
+gpus & parallelization,13,Biye
+gpus & parallelization,13,Aaron Culich
+sampling techniques,7,Daniel Turek
+sampling techniques,7,Shannon McCurdy
+webservers,8,Alex Goodell
+computer vision & image analysis,13,Stefan van der Walt 
+hardware & embedded systems,4,John Bohannon (lightning talk)
+LaTeX and whatnot,14,Mike Pacer (latex & rst & fonts)
+LaTeX and whatnot,14,Chris Paciorek (r)
+LaTeX and whatnot,14,Jennifer Jones (LaTeX)
