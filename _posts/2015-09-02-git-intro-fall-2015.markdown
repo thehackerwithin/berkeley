@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introductory Git and GitHub - Harrison Dekker and John Naulty
+title: Introductory Git and GitHub - Harrison Dekker and John Naulty Jr.
 comments: true
 category: upcoming
 tags: meeting
@@ -37,15 +37,6 @@ Other sources not covered today:
 
 - [More Git Workflow](http://scottchacon.com/2011/08/31/github-flow.html) Because workflow is important.
 - [Katy's Great Tutorial](https://github.com/thehackerwithin/berkeley/tree/master/git/partI) This is Part I of II. I highly recommend it.
-
-Please place any tutorial materials in the 
-[master branch of this repository](https://github.com/thehackerwithin/berkeley/tree/master) 
-and link to them from this post 
-[like so](https://github.com/thehackerwithin/berkeley/tree/master/IPython). 
-For help 
-and questions, please 
-[file an issue](https://github.com/thehackerwithin/berkeley/issues/new) 
-or email Katy.
 
 
 ## Lightning Talks
