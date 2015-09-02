@@ -30,7 +30,7 @@ We will be using these resources:
 
 
 **Challenge**
-[Follow this link to test your newfound Git skills!]()
+[Follow this link to test your newfound Git skills!](https://github.com/thehackerwithin/berkeley/blob/master/git/git-exercise.txt)
 
 
 Other sources not covered today:
