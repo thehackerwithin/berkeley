@@ -1,0 +1,18 @@
+
+1.  Make a new directory 
+2.  git init
+3.  Create a text file called hello.txt
+4.  In hello.txt, write 'Hello World'
+4.  Add and commit to the text file you made.
+5.  Create a new-branch 
+6.  Change 'World' to 'Puppy' in the new-branch.
+7.  Add and commit change in new-branch.
+8.  Switch to master branch.
+9.  Change 'World' to 'Kitty' in the hello.txt.
+10. Add and commit to master branch.
+11. Merge master branch and new-branch together.
+12. Fix Merge conflict. (choose Kitty or Puppy).
+13. Add hello.txt to master branch
+14. Commit to master branch
+15. Delete new-branch
+
