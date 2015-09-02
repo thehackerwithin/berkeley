@@ -19,8 +19,24 @@ tags: meeting
 
 ## Introduction to Git and GitHub
 
-Please insert your topic description here. **Bold** text, _italic_ text, 
-[hyperlinks](www.google.com), and other markup follow markdown syntax. 
+Welcome to Git!
+
+We will be using these resources:
+
+-[Try Git](https://try.github.io/levels/1/challenges/1) is a live demo we will be going through first.
+-[Git Cheatsheet](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf) is a useful reference. 
+-[Download Git](https://git-scm.com/download/) Training wheels are off, lets get started!
+-[Git Workflow](https://guides.github.com/introduction/flow/index.html). This is a model for a typical workflow using Git.
+
+
+**Challenge**
+[Follow this link to test your newfound Git skills!]()
+
+
+Other sources not covered today:
+
+-[More Git Workflow](http://scottchacon.com/2011/08/31/github-flow.html) Because workflow is important.
+-[Katy's Great Tutorial](https://github.com/thehackerwithin/berkeley/tree/master/git/partI) This is Part I of II. I highly recommend it.
 
 Please place any tutorial materials in the 
 [master branch of this repository](https://github.com/thehackerwithin/berkeley/tree/master) 
