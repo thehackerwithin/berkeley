@@ -39,4 +39,31 @@ at:
 
 ## Results
 
-TBA
+- Many of you suggested many cool things to [learn and 
+  teach.](https://github.com/thehackerwithin/berkeley/blob/master/possible_topics/learn_and_teach.ipynb)
+- Based on the popularity of those sessions, the tentative schedule for the 
+  semester is 
+  [here.](https://github.com/thehackerwithin/berkeley/blob/master/possible_topics/sched.csv)
+
+ 
+
+## Lightning Talks
+
+### Chris Paciorek - A set of resources online
+
+Chris pointed out an existing set of resources at [link]()
+
+### Aaron Culich - Resources on Berkeley Campus
+
+Aaron shared some insider knowledge about resources on campus [presentation]().
+
+### Thomas Kluyver - New Cool Thing In Jupyter
+
+Thomas showed us a cool new thing in Jupyter. You had to be there to see it. 
+Get excited, mergers of cells.
+
+### Biye - A New Course
+
+Biye talked about a new course on campust: Introduction to Data Science on campus 
+[link](https://bcourses.berkeley.edu/courses/1267848/).
+

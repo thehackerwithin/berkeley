@@ -45,10 +45,8 @@ group. If you have a bug you need help with, here's the place to ask many ears
 about it at once.  
 
 
-### Name : Topic 
+### Aaron Culich : Two Factor Auth
 
-Notes and links
+Two factor auth is a way to robustify password use by combining it with 
+hardware (like your phone). 
 
-### Name : Topic
-
-Notes and links
