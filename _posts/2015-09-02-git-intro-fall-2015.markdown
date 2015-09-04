@@ -29,9 +29,9 @@ We will be using these resources:
 - [Git Workflow](https://guides.github.com/introduction/flow/index.html). This is a model for a typical workflow using Git.
 
 
-**Challenge**
-[Follow this link to test your newfound Git skills!](https://github.com/thehackerwithin/berkeley/blob/master/git/git-exercise.txt)
-[Solutions](https://github.com/thehackerwithin/berkeley/blob/master/git/git-solution.md)
+**Challenge**  
+- [Follow this link to test your newfound Git skills!](https://github.com/thehackerwithin/berkeley/blob/master/git/git-exercise.txt)  
+- [Solutions](https://github.com/thehackerwithin/berkeley/blob/master/git/git-solution.md)
 
 
 Other sources not covered today:
