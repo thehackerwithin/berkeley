@@ -3,7 +3,7 @@ layout: post
 title: Pandas - Sean Wahl & Sven Chilton
 comments: true
 category: upcoming
-tags: meeting
+tags: meeting data python
 ---
 
 ## Attending

@@ -3,7 +3,7 @@ layout: post
 title: Advanced Python - Sven Chilton, TBD
 comments: true
 category: upcoming
-tags: meeting
+tags: meeting python
 ---
 
 ## Attending

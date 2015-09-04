@@ -3,7 +3,7 @@ layout: post
 title: Spark and Hadoop - Zhao Zhang
 comments: true
 category: upcoming
-tags: meeting
+tags: meeting hpc data
 ---
 
 ## Attending

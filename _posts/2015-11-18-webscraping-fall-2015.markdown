@@ -3,7 +3,7 @@ layout: post
 title: Webscraping - John Bohannon, Sven Chilton
 comments: true
 category: upcoming
-tags: meeting
+tags: meeting web data
 ---
 
 ## Attending

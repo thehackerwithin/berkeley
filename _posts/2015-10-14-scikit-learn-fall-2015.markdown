@@ -3,7 +3,7 @@ layout: post
 title: scikit-learn - Ross Barnowski (Shannon McCurdy in absentia)
 comments: true
 category: upcoming
-tags: meeting
+tags: meeting python data
 ---
 
 ## Attending

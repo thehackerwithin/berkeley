@@ -3,7 +3,7 @@ layout: post
 title: Introductory Git and GitHub - Harrison Dekker and John Naulty Jr.
 comments: true
 category: posts
-tags: meeting
+tags: meeting git reproducibility
 ---
 
 ## Attending

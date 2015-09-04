@@ -3,7 +3,7 @@ layout: post
 title: LaTeX and other Publication Tools - Michael Pacer, Jennifer Jones, Chris Paciorek
 comments: true
 category: upcoming
-tags: meeting
+tags: meeting latex editors
 ---
 
 ## Attending
