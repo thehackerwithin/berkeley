@@ -17,6 +17,19 @@ tags: meeting
 - Who: Anyone interested in software development best practices is welcome to come to our meetings.
 - How: A predetermined main topic (45 minutes) will be followed by impromptu lightning talks (5 minutes each)
 
+## Ross Barnowski
+
+A description of Ross. 
+
+## Kyle Barbary
+
+A description of Kyle
+
+## Katy Huff
+
+A description of Katy
+
+
 ## Discussion: Topic Description
 
 Please insert your topic description here. **Bold** text, _italic_ text, 
@@ -45,8 +58,10 @@ group. If you have a bug you need help with, here's the place to ask many ears
 about it at once.  
 
 
-### Aaron Culich : Two Factor Auth
+### Name : Topic
 
-Two factor auth is a way to robustify password use by combining it with 
-hardware (like your phone). 
+Notes and links
 
+### Name : Topic
+
+Notes and links

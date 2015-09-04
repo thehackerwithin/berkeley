@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Topic TBD - Author TBD
+title: GPUs and Parallelization - Biye Jiang, Aaron Culich 
 comments: true
 category: upcoming
 tags: meeting
@@ -16,6 +16,15 @@ tags: meeting
 - Where: [BIDS, Room 190 of Doe Library](https://bids.berkeley.edu).
 - Who: Anyone interested in software development best practices is welcome to come to our meetings.
 - How: A predetermined main topic (45 minutes) will be followed by impromptu lightning talks (5 minutes each)
+
+## Biye Jiang
+
+Bio
+
+## Aaron Culich
+
+Bio
+
 
 ## Discussion: Topic Description
 

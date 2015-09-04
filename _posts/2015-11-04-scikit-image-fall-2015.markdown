@@ -17,6 +17,11 @@ tags: meeting
 - Who: Anyone interested in software development best practices is welcome to come to our meetings.
 - How: A predetermined main topic (45 minutes) will be followed by impromptu lightning talks (5 minutes each)
 
+## Stefan van der Walt
+
+Bio
+
+
 ## Discussion: Topic Description
 
 Please insert your topic description here. **Bold** text, _italic_ text, 
