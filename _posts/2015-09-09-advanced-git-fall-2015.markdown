@@ -27,27 +27,59 @@ A description of Kyle
 
 ## Katy Huff
 
-A description of Katy
+Katy is a nuclear engineer and BIDS data science fellow.
+
+## Discussion: Advanced Git
+
+We'll be talking about a bunch of cool git stuff. This will range from powerful
+hacks everyone can use to awkward workarounds only a couple of people will ever
+use. 
 
 
-## Discussion: Topic Description
 
-Please insert your topic description here. **Bold** text, _italic_ text, 
-[hyperlinks](www.google.com), and other markup follow markdown syntax. 
+### Undoing Stuff
 
-Please place any tutorial materials in the 
-[master branch of this repository](https://github.com/thehackerwithin/berkeley/tree/master) 
-and link to them from this post 
-[like so](https://github.com/thehackerwithin/berkeley/tree/master/IPython). 
-For help 
-and questions, please 
-[file an issue](https://github.com/thehackerwithin/berkeley/issues/new) 
-or email Katy.
+- git reset hard vs soft
+- revert, why to revert, how to revert
+- git stash and git stash pop
+- getting a specific file from checkout 
 
+      git checkout <branch> -- <file>
+
+
+### Useful Configurations and Stuff
+
+- show your current branch in the terminal prompt
+- aliasing (very quick example with git config --global alias.unstage 'reset HEAD --')
+- the [hub](https://github.com/github/hub) project to make interacting with github a little nicer (follows aliases nicely)
+- Creating a template for git commit messages with 
+
+      git config (git config --global commit.template ~/.gitmessage.txt)
+
+- the mailmap, for normalizing the many possible commit names of your various contributors
+
+### Dealing with Branches, Remotes, and Collaboration
+
+- remotes
+- setting up SSH keys 
+- the DAG
+- [git flow](http://nvie.com/posts/a-successful-git-branching-model/) for collaborating
+- git tagging
+
+
+### Rebasing
+
+- rebasing 
+
+### Specialized Knowledge
+
+- cherry-picking a commit from one branch to another
+- detaching a single subdirectory and its history from a big repo to make it its own repo
+- the github api: futz with github from the command line
 
 ## Lightning Talks
 
-Finally, there will be a time for a couple of **Lightning Talks**, which are 
+Additionally, there will be a time for a couple of **Lightning Talks**, which are 
 5-10 minute blasts of information about a particular topic or question of 
 interest to the group.  This topic can be anything useful, new, or interesting 
 to scientists who compute. It may be some new skill you have recently picked up 
@@ -65,3 +97,12 @@ Notes and links
 ### Name : Topic
 
 Notes and links
+
+## Hacky Hour  
+
+Inspired by the hackers of
+[Australia](http://thehackerwithin.github.io/swinburne/), we're taking this
+opportunity to try out a Hacky Hour. After the meeting is over, folks can stick
+around to review one another's code. This part of the meeting is meant to be
+very casual, so feel free to pop open a beverage if you need to take the edge
+off of the code reviews (byo).
