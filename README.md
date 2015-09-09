@@ -1,4 +1,4 @@
-# The Hacker Within
+# The Hacker Within and Without
 
 This is the website that keeps the blog posts for each THW meeting at the
 University of California - Berkeley. The rendered website can be found
