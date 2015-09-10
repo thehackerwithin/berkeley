@@ -19,11 +19,12 @@ tags: meeting git reproducibility
 
 ## Ross Barnowski
 
-A description of Ross. 
+Ross is a graduate student in Kai Vetter's group in Nuclear Engineering. He has 
+long hair. 
 
 ## Kyle Barbary
 
-A description of Kyle
+Kyle is a cosmologist and BIDS data science fellow. Kyle likes bicycles.
 
 ## Katy Huff
 
