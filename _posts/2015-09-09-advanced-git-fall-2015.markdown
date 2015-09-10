@@ -2,7 +2,7 @@
 layout: post
 title: Advanced Git and GitHub - Ross Barnowski, Kyle Barbary, Katy Huff
 comments: true
-category: upcoming
+category: posts
 tags: meeting git reproducibility
 ---
 
