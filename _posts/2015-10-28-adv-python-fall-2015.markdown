@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Advanced Python - Sven Chilton, TBD
+title: Advanced Python - Sven Chilton, Matthias Bussonnier
 comments: true
 category: upcoming
 tags: meeting python
@@ -17,7 +17,12 @@ tags: meeting python
 - Who: Anyone interested in software development best practices is welcome to come to our meetings.
 - How: A predetermined main topic (45 minutes) will be followed by impromptu lightning talks (5 minutes each)
 
+
 ## Sven Chilton
+
+Bio
+
+## Matthias Bussonnier
 
 Bio
 
