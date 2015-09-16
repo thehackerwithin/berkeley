@@ -23,7 +23,35 @@ Bio
 
 ## Ross Barnowski
 
-Bio
+... likes computers
+
+### pyqtgraph
+Install: `pip install pyqtgraph`
+
+Demo: `python -m pyqtgraph.examples`
+
+[Description of pyqtgraph](http://www.pyqtgraph.org/)
+
+My Take: pyqtgraph is less user-friendly than matplotlib (esp. the 
+documentation; the gallery contains far fewer examples and doesn't do a good
+job of covering all of the possible features and uses of pyqtgraph), but is very
+feature-rich and more performance-oriented, despite still being pure python.
+There are several scenarios in which pyqtgraph is definitely worth looking into:
+ - **The need for speed**: pyqtgraph is in many cases *much* faster than
+   matplotlib (see demo). Also has built-in support for remote plot updating.
+ - **Volumetric rendering**: If you need to visualize in 3D, pyqtgraph has a lot
+   to offer. The other de-facto python 3D-visualization library is `mayavi` ---
+   I would say pyqtgraph has a slightly steeper learning curve and is a little
+   less pretty, but again is much faster than mayavi. I don't have enough
+   experience with `yt` to say how it compares.
+ - **Building Qt Applications**: If you're using python-ized Qt (either PySide
+   or PyQt) to build a GUI, pyqtgraph integrates very nicely. It is built with
+   the same tools!
+ - **Beyond Visualization**: The author(s) of pyqtgraph had the goal of making
+   it a general science/engineering tool. There are a lot of built-in features
+   designed to aid in analyzing data visually and interactively. See the 
+   Data Slicing and Image Analysis examples to get a feel for this.
+
 
 ## Jennifer Jones
 
