@@ -37,6 +37,7 @@ documentation; the gallery contains far fewer examples and doesn't do a good
 job of covering all of the possible features and uses of pyqtgraph), but is very
 feature-rich and more performance-oriented, despite still being pure python.
 There are several scenarios in which pyqtgraph is definitely worth looking into:
+
  - **The need for speed**: pyqtgraph is in many cases *much* faster than
    matplotlib (see demo). Also has built-in support for remote plot updating.
  - **Volumetric rendering**: If you need to visualize in 3D, pyqtgraph has a lot
