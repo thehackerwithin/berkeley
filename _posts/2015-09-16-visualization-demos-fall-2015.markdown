@@ -29,9 +29,13 @@ Bio
 
 Bio
 
-## Biye Jiang
+## [Biye Jiang](http://byeah.github.io/)
 
-Bio
+[I](http://byeah.github.io/) am a third year CS PhD at Cal, working with Prof. [John Canny](http://www.eecs.berkeley.edu/~jfc/), 
+on topics like making machine learing more easier to use. Checkout our [BIDMach](http://bid2.berkeley.edu/bid-data-project/) project.
+
+[Here](https://www.dropbox.com/s/c30gyw7p88rikkf/viz.ipynb?dl=0) is the ipython notebook I will use in the talk.
+This will be similar to our data science [class](https://bcourses.berkeley.edu/courses/1377158/).
 
 ## Discussion: Topic Description
 
