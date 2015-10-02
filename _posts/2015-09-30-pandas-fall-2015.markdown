@@ -2,7 +2,7 @@
 layout: post
 title: Pandas - Sean Wahl & Sven Chilton
 comments: true
-category: upcoming
+category: posts
 tags: meeting data python
 ---
 
