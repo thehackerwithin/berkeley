@@ -1,0 +1,6 @@
+# These are the libraries needed to run this webscraping_tutorial
+
+html5lib>=0.9999999
+pandas>=0.17.0
+requests>=2.8.1
+lxml>=3.4.4
