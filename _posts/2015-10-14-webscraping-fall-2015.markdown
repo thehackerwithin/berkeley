@@ -2,7 +2,7 @@
 layout: post
 title: Webscraping - John Bohannon, Sven Chilton
 comments: true
-category: upcoming
+category: posts
 tags: meeting web data
 ---
 

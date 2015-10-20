@@ -2,7 +2,7 @@
 layout: post
 title: Free-Form Hacking
 comments: true
-category: upcoming
+category: posts
 tags: meeting latex editors
 ---
 
