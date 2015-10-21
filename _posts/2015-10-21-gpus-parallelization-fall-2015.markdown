@@ -19,15 +19,18 @@ tags: meeting hardware hpc
 
 ## Biye Jiang
 
-[Biye Jiang](https://byeah.github.io/) 
+[Biye Jiang](https://byeah.github.io/) is a PhD student at UC Berkeley in the 
+CS department working with John Canny. 
 
 ## Aaron Culich
 
 Aaron is a research computing architect at Berkeley. 
 
-## Discussion: Topic Description
+## Discussion: GPUs and Parallelization
 
 Today's topic is about GPUs and parallelism. 
+
+### Survey of Needs and Resources -- Aaron Culich
 
 Aaron referenced a presentation on this topic. It can be found 
 [here](http://parlab.eecs.berkeley.edu/sites/all/parlab/files/BootCamp_Computational_Patterns_Demmel_final_12v2.pdf).
@@ -36,6 +39,7 @@ Aaron started this presentation with a survey of what the attendees are
 actually using.
 
 - GPUs? 3 folks.
+- Other Parallelization? Lots of folks.
 
 ### Python Parallelism
 
@@ -46,7 +50,7 @@ session last year. The THW resources on this topic can be found
 That session was not on GPUs, however, the python threading module can be used 
 in conjuction with PyCUDA, a python module for GPUs. 
 
-### Research IT
+### Research IT -- Krishna Muriki
 
 [Research IT](research-it.berkeley.edu) is available as a resource for 
 individuals who would like to test their code on GPU resources. Krishna 
@@ -54,12 +58,27 @@ Muriki expresses that there is an institutional shared linux cluster (Savio).
 Within that cluster, there are 6 compute nodes with 4 kepler GPUs each.
 Those nodes are in testing and BRC is interested and open to new users.
 
-### Java runtime engine
+### Java runtime engine -- Oliver
 
 Oliver at ESPM has a javascript modeling project for agent based population 
 models. They are working to make their software scalable from the desktop to 
-the level of higher performance computing. The NOVA stack and XSEDE resources 
+the level of higher performance computing. The NOVA stack and 
+[XSEDE](https://www.xsede.org/) resources 
 are core to their efforts. 
+
+### Scala Demo -- Biye Jiang
+
+Biye demonstrated the speed of GPUs by conducting a matrix multiplication using 
+GPUs vers conducting the same multiplication using CPUs. 
+
+### GPU Discussion
+
+Biye shared some of the diagrams from [this 
+presentation](http://on-demand.gputechconf.com/gtc/2014/presentations/S4811-extreme-machine-learning-with-gpus.pdf).
+
+He noted that there is excellent speed, but then pointed out that GPU memory 
+latency is also an issue. That is, the throughput is high, but so is the memory 
+latency.  If you want your GPU code to run quickly, optimize for throughput.
 
 ## Lightning Talks
 
