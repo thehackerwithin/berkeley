@@ -80,6 +80,12 @@ He noted that there is excellent speed, but then pointed out that GPU memory
 latency is also an issue. That is, the throughput is high, but so is the memory 
 latency.  If you want your GPU code to run quickly, optimize for throughput.
 
+### GPU BIDMat demo
+
+Biye presented an ipython notebook to demostrat how BIDMat works. 
+
+The ipython notebook is [here](https://github.com/BIDData/BIDMach/blob/master/tutorials/BIDMat_intro.ipynb).
+
 ## Lightning Talks
 
 Finally, there will be a time for a couple of **Lightning Talks**, which are 
