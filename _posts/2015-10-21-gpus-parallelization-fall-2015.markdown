@@ -69,7 +69,7 @@ are core to their efforts.
 ### Scala Demo -- Biye Jiang
 
 Biye demonstrated the speed of GPUs by conducting a matrix multiplication using 
-GPUs vers conducting the same multiplication using CPUs. 
+GPUs versus conducting the same multiplication using CPUs. 
 
 ### GPU Discussion
 
