@@ -76,10 +76,14 @@ GPUs vers conducting the same multiplication using CPUs.
 Biye shared some of the diagrams from [this 
 presentation](http://on-demand.gputechconf.com/gtc/2014/presentations/S4811-extreme-machine-learning-with-gpus.pdf).
 
-He noted that there is excellent speed, but then pointed out that GPU memory 
-latency is also an issue. That is, the throughput is high, but so is the memory 
-latency.  If you want your GPU code to run quickly, optimize for throughput.
+He noted 
 
+- GPUs give excellent speed, 
+- but GPU memory latency is also an issue. 
+- So the throughput is high, but so is the memory latency.  
+- If you want your GPU code to run quickly, optimize for throughput. 
+- Always remember, GPU memory access is slower than computation. 
+- Moving data between the GPU and the main memory should be avoided.
 ### GPU BIDMat demo
 
 Biye presented an ipython notebook to demostrat how BIDMat works. 
