@@ -84,11 +84,12 @@ He noted
 - If you want your GPU code to run quickly, optimize for throughput. 
 - Always remember, GPU memory access is slower than computation. 
 - Moving data between the GPU and the main memory should be avoided.
+
 ### GPU BIDMat demo
 
 Biye presented an ipython notebook to demostrat how BIDMat works. 
 
-The ipython notebook is [here](https://github.com/BIDData/BIDMach/blob/master/tutorials/BIDMat_intro.ipynb).
+The ipython notebook demos are [here](https://github.com/BIDData/BIDMach/blob/master/tutorials/).
 
 ## Lightning Talks
 
