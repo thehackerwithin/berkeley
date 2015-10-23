@@ -2,7 +2,7 @@
 layout: post
 title: GPUs and Parallelization - Biye Jiang, Aaron Culich 
 comments: true
-category: upcoming
+category: posts
 tags: meeting hardware hpc
 ---
 
