@@ -24,22 +24,16 @@ Bio
 
 ## Matthias Bussonnier
 
-Bio
+Post Doc in BIDS, mostly wotking on Jupyter and IPython. 
 
 
 ## Discussion: Topic Description
 
-Please insert your topic description here. **Bold** text, _italic_ text, 
-[hyperlinks](www.google.com), and other markup follow markdown syntax. 
+WE'll discuss a bit on advance Python, context manager, dunder methods, and a lot of things that might not be good idea to do in production but are fun to play with. 
 
-Please place any tutorial materials in the 
-[master branch of this repository](https://github.com/thehackerwithin/berkeley/tree/master) 
-and link to them from this post 
-[like so](https://github.com/thehackerwithin/berkeley/tree/master/IPython). 
-For help 
-and questions, please 
-[file an issue](https://github.com/thehackerwithin/berkeley/issues/new) 
-or email Katy.
+If tiem permit a little bit of AST. 
+
+[here](https://gist.github.com/Carreau/b8ed0853ab93a1943319) is the notebook I used for the various example. 
 
 
 ## Lightning Talks
