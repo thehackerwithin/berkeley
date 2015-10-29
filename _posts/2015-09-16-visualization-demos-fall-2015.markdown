@@ -56,7 +56,7 @@ There are several scenarios in which pyqtgraph is definitely worth looking into:
 
 ## Jennifer Jones
 
-Bio
+This is my Bio
 
 ## [Biye Jiang](http://byeah.github.io/)
 
