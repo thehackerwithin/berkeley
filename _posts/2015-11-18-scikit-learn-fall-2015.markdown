@@ -1,6 +1,6 @@
 ---
 layout: post
-title: scikit-learn - Ross Barnowski (Shannon McCurdy in absentia)
+title: scikit-learn - Ross Barnowski and Shannon McCurdy
 comments: true
 category: upcoming
 tags: meeting python data
@@ -19,27 +19,17 @@ tags: meeting python data
 
 ## Ross Barnowski
 
-Bio
+Ross is a Nuclear Engineering PhD student in Kai Vetter's group.
 
 ## Shannon McCurdy
 
-Bio
+Shannon is a postdoc in computational biology.  
 
+## Discussion: scikit-learn
 
-## Discussion: Topic Description
+A demo notebook can be found [here](https://github.ocm/thehackerwithin/berkeley/tree/master/sklearn/sklearn_intro.ipynb).
 
-Please insert your topic description here. **Bold** text, _italic_ text, 
-[hyperlinks](www.google.com), and other markup follow markdown syntax. 
-
-Please place any tutorial materials in the 
-[master branch of this repository](https://github.com/thehackerwithin/berkeley/tree/master) 
-and link to them from this post 
-[like so](https://github.com/thehackerwithin/berkeley/tree/master/IPython). 
-For help 
-and questions, please 
-[file an issue](https://github.com/thehackerwithin/berkeley/issues/new) 
-or email Katy.
-
+You can clone it from github.com/thehackerwithin/berkeley.
 
 ## Lightning Talks
 
