@@ -27,9 +27,54 @@ Shannon is a postdoc in computational biology.
 
 ## Discussion: scikit-learn
 
-A demo notebook can be found [here](https://github.ocm/thehackerwithin/berkeley/tree/master/sklearn/sklearn_intro.ipynb).
-
+**Ross** walked us through a demo notebook which can be found 
+[here](https://github.ocm/thehackerwithin/berkeley/tree/master/sklearn/sklearn_intro.ipynb). 
 You can clone it from github.com/thehackerwithin/berkeley.
+
+**Shannon** walked us through some useful resources. The documentation for sklearn 
+seems to parallel a book called [The Elements of Statistical 
+Learning](statweb.stanford.edu/~tibs/ElemStatLearn), and Shannon recommends 
+this as a resource.
+
+### Linear Regression
+
+If y is nx1 and x i nxp, we have an unknown coefficient matrix W, which is px1. 
+The error term is then nx1. The assumption is that x and y are linearly 
+related. The fit, W, minimizes the vertical error. The least squares cost 
+function, which comes up in regression in this way, is a model for the error.
+
+Note that in this example, when p>n, we enter a danger zone for validity of 
+this model. Shannon wanted us to note, in this context, scikit-learn doesn't 
+necessarily warn you when this happens. So, don't trust that scikit-learn will 
+always warn you if you aren't using the models in the appropriate regime.
+
+### Shrinkage Models
+
+A bunch of different shrinkage models are included in scikit-learn. One that 
+Shannon uses in her work is Lasso.
+
+The idea, functionally, is that we add a penalty to the least squares cost 
+function. The penalty is related to the magnitude of each coefficient. That is, 
+if you are going to add some nonzero element in the matrix, it must contribute 
+well to the fit with y. This is a parsimony metric which enforces sparsity in 
+the solution vector. This helps with interpretability because it emphasizes 
+the most important coefficients. 
+
+### In the Wild
+
+Shannon has encountered least squares and lasso in two different problems in 
+her work. 
+
+Example: In her research she looks into event times, where only a subset 
+(half) of the events are recorded. Using an exponential probability and an 
+indicator (whether or not an event was recorded), she can describe the 
+probability of an event happening. Given this, she can separate the probability 
+into a maximum likelihood problem which can be minimized (using exponential 
+regression) to determine the least squares soluation and she can reframe the 
+Newton-Raphson step into an ordinary least squares lasso situation. If you 
+didn't follow this completely, check out [Tibshirani's website on the general 
+topic of lasso models](http://statweb.stanford.edu/~tibs/lasso.html).
+
 
 ## Lightning Talks
 
