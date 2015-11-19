@@ -2,7 +2,7 @@
 layout: post
 title: No Meeting - Veterans' Day
 comments: true
-category: upcoming
+category: posts
 tags: meeting
 ---
 

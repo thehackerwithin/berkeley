@@ -2,7 +2,7 @@
 layout: post
 title: scikit-image - Stefan van der Walt
 comments: true
-category: upcoming
+category: posts
 tags: meeting python
 ---
 

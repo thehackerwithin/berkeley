@@ -2,7 +2,7 @@
 layout: post
 title: scikit-learn - Ross Barnowski and Shannon McCurdy
 comments: true
-category: upcoming
+category: posts
 tags: meeting python data
 ---
 
