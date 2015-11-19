@@ -2,7 +2,7 @@
 layout: post
 title: Advanced Python - Sven Chilton, Matthias Bussonnier
 comments: true
-category: upcoming
+category: posts
 tags: meeting python
 ---
 
