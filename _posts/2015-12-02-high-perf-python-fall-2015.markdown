@@ -19,41 +19,44 @@ tags: meeting hpc python
 
 ## Chick Markley
 
-Bio
+Chick Markley does work with the Aspire lab at UC Berkeley.
 
+## Straw Man High Performance Python Example
 
-## Discussion: Topic Description
+First, some aphorisms:
 
-Please insert your topic description here. **Bold** text, _italic_ text, 
-[hyperlinks](www.google.com), and other markup follow markdown syntax. 
+- Programmer hours are more important than cpu hours - cook
+- Premature optimization is the root of all evil - Knuth
+- etc.
 
-Please place any tutorial materials in the 
-[master branch of this repository](https://github.com/thehackerwithin/berkeley/tree/master) 
-and link to them from this post 
-[like so](https://github.com/thehackerwithin/berkeley/tree/master/IPython). 
-For help 
-and questions, please 
-[file an issue](https://github.com/thehackerwithin/berkeley/issues/new) 
-or email Katy.
+Next, an example of a laplacian.
 
+Chick put his arrays into various data structures (lists, numpy arrays, etc.)
 
-## Lightning Talks
+Interestingly, lists performed better than naive numpy arrays, but then once 
+you vectorize the numpy arrays, that helps a lot and is much much faster. It's 
+of course much much better if you use the built in scipy laplacian (faster 
+because it's written in c). You can do well with cython too, but ultimately, 
+you get a lot better performance by loading a c library.
 
-Finally, there will be a time for a couple of **Lightning Talks**, which are 
-5-10 minute blasts of information about a particular topic or question of 
-interest to the group.  This topic can be anything useful, new, or interesting 
-to scientists who compute. It may be some new skill you have recently picked up 
-in your research, a productivity tool you have recently learned to love, a 
-quick demo of a useful library, or anything you feel we would enjoy learning.  
-**Note** that the lightning talk time is a good way to bring a question to the 
-group. If you have a bug you need help with, here's the place to ask many ears 
-about it at once.  
+We can also parallelize. Parallel operations vary from embarassingly parallel 
+to inscrutably parallel. One can do so on many devices (many noces, MIC, GPU...),
+many frameworks (pyspark, openmp, opencl, cuda...). But, once must inform the 
+compiler which loops to parallelize, etc. 
 
+One can also "roofline" one's system with "shocdriver" or a similar tool to 
+benchmark the system. In particular, it shows what kind of performance 
+constraints are characteristic of your system. 
 
-### Name : Topic 
+Another option is SEJITS, a framework that Chick works on. It selectively 
+embeds just in time "specialization" (or, rather, optimization).
 
-Notes and links
+Tuning is another option. There's something called OPENTUNER. It will run your 
+program numerous times to find the minimum amount of time to run the program. 
 
-### Name : Topic
+Wait - there's more hardware. One can build new hardware to solve your problem. 
+Hardware isn't so hard anymore (maybe it should be called easyware.) 
 
-Notes and links
+There's an interesting "hardware construction language" that folks at Aspire 
+came up with. It's called [Chisel](https://chisel.eecs.berkeley.edu/chisel-dac2012.pdf). 
+
