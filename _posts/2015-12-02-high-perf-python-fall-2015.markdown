@@ -2,7 +2,7 @@
 layout: post
 title: High Performance Python - Chick Markley
 comments: true
-category: upcoming
+category: posts
 tags: meeting hpc python
 ---
 

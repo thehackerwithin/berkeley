@@ -2,7 +2,7 @@
 layout: post
 title: No Meeting - Thanksgiving
 comments: true
-category: upcoming
+category: posts
 tags: meeting
 ---
 
