@@ -1,9 +1,9 @@
 ---
 layout: post
-title: <+ topic +> - <+ speaker +>
+title: What To Learn and Teach - All
 comments: true
 category: upcoming
-tags: meeting <+ tags +>
+tags: meeting meta
 ---
 
 
