@@ -1,9 +1,9 @@
 ---
 layout: post
-title: <+ topic +> - <+ speaker +>
+title: Handling and Visualizing Geospatial Data - Kevin Koy
 comments: true
 category: upcoming
-tags: meeting <+ tags +>
+tags: meeting plotting
 ---
 
 
@@ -12,7 +12,7 @@ tags: meeting <+ tags +>
 - <++>
 
 
-## <+ speaker +>
+## Kevin Koy
 
 <+ speaker bio +> 
 
