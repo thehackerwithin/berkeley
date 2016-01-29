@@ -1,15 +1,15 @@
 Date,Topic,Leader(s),Handle(s),Comments
-2015-02-03,LaTeX Fundamentals Tips and Tricks,Rachel Slaybaugh & Mike Pacer & Katy Huff,@rachelslaybaugh @michaelpacer @katyhuff,
-2015-02-10,Pandas,Tenzing Joshi,@thjoshi,'twerks fer me
-2015-02-17,Webscraping Wikipedia Data,Stuart Geiger,@staeiou,confirmed
-2015-02-24,Deploying IPython Notebooks on JupyterHub,TBD,TBD,@Carreau ?
-2015-03-02,Julia,Kyle Barbary & Tony Kelman,@kbarbary @tkelman, @tkelman ok ; Tony is the expert here! Would be happy to help. -- KB
-2015-03-09,Handling and Visualizing Geospatial Data,Kevin Koy,@kevkoy,
-2015-03-16,Plotting with Matplotlib,Tenzing Joshi & Nick Swanson-Hysell,@thjoshi @Swanson-Hysell,Happy to help or lead but let me know which -- TJ
-2015-03-23,Spring Break,,,
-2015-03-30,Python for Plotting Timeseries and 3D Data, Qingkai Kong(tbd) Andy Haefner(mayavi) Katy Huff(yt), @qingkaikong @ahaefner @katyhuff, Happy to talk about Mayavi on this date - AH 
-2015-04-06,cython,Kyle Barbary,@kbarbary,@kbarbary - there are some materials in the master branch from previous tutorials; Works for me -- KB
-2015-04-13,Build Systems,Tony Kelman,@tkelman,@tkelman - can do a bit of compare & contrast & small-to-medium examples
-2015-04-20,Tableau, Harrison Dekker,@vagrantscholar,@vagrantscholar - do you think this can occupy 40 minutes?
-2015-04-27,Beautifully Displaying Scientific Data,Stamen Design,TBD,@kevkoy is pursuing this option.
-2015-05-02,R&R Week,N/A,N/A,
+2016-02-03,LaTeX Fundamentals Tips and Tricks,Rachel Slaybaugh & Mike Pacer & Katy Huff,@rachelslaybaugh @michaelpacer @katyhuff,
+2016-02-10,Pandas,Tenzing Joshi,@thjoshi,'twerks fer me
+2016-02-17,Webscraping Wikipedia Data,Stuart Geiger,@staeiou,confirmed
+2016-02-24,Deploying IPython Notebooks on JupyterHub,TBD,TBD,@Carreau ?
+2016-03-02,Julia,Kyle Barbary & Tony Kelman,@kbarbary @tkelman, @tkelman ok ; Tony is the expert here! Would be happy to help. -- KB
+2016-03-09,Handling and Visualizing Geospatial Data,Kevin Koy,@kevkoy,
+2016-03-16,Plotting with Matplotlib,Tenzing Joshi & Nick Swanson-Hysell,@thjoshi @Swanson-Hysell,Happy to help or lead but let me know which -- TJ
+2016-03-23,Spring Break,,,
+2016-03-30,Python for Plotting Timeseries and 3D Data, Qingkai Kong(tbd) Andy Haefner(mayavi) Katy Huff(yt), @qingkaikong @ahaefner @katyhuff, Happy to talk about Mayavi on this date - AH 
+2016-04-06,cython,Kyle Barbary,@kbarbary,@kbarbary - there are some materials in the master branch from previous tutorials; Works for me -- KB
+2016-04-13,Build Systems,Tony Kelman,@tkelman,@tkelman - can do a bit of compare & contrast & small-to-medium examples
+2016-04-20,Tableau, Harrison Dekker,@vagrantscholar,@vagrantscholar - do you think this can occupy 40 minutes?
+2016-04-27,Beautifully Displaying Scientific Data,Stamen Design,TBD,@kevkoy is pursuing this option.
+2016-05-02,R&R Week,N/A,N/A,
