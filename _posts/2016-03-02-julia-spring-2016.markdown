@@ -1,18 +1,21 @@
 ---
 layout: post
-title: <+ topic +> - <+ speaker +>
+title: Julia - Tony Kelman and Kyle Barbary
 comments: true
 category: upcoming
-tags: meeting <+ tags +>
+tags: meeting julia
 ---
 
 
 ## Attending
 
-- <++>
+- 
 
+## Tony Kelman
 
-## <+ speaker +>
+<+ speaker bio +> 
+
+## Kyle Barbary
 
 <+ speaker bio +> 
 

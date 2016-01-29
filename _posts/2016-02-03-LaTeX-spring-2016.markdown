@@ -1,9 +1,9 @@
 ---
 layout: post
-title: <+ topic +> - <+ speaker +>
+title: LaTeX - Rachel Slaybaugh, Mike Pacer, and Katy Huff
 comments: true
 category: upcoming
-tags: meeting <+ tags +>
+tags: meeting latex
 ---
 
 
@@ -12,11 +12,19 @@ tags: meeting <+ tags +>
 - <++>
 
 
-## <+ speaker +>
+## Rachel Slaybaugh
 
 <+ speaker bio +> 
 
-## <+topic +>
+## Mike Pacer
+
+<+ speaker bio +> 
+
+## Katy Huff
+
+<+ speaker bio +> 
+
+## LaTeX
 
 <+ notes +>
 

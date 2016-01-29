@@ -1,9 +1,9 @@
 ---
 layout: post
-title: <+ topic +> - <+ speaker +>
+title: Cython - Kyle Barbary
 comments: true
 category: upcoming
-tags: meeting <+ tags +>
+tags: meeting python
 ---
 
 
@@ -12,7 +12,7 @@ tags: meeting <+ tags +>
 - <++>
 
 
-## <+ speaker +>
+## Kyle Barbary
 
 <+ speaker bio +> 
 

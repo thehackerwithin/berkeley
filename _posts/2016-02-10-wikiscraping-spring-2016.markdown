@@ -1,9 +1,9 @@
 ---
 layout: post
-title: <+ topic +> - <+ speaker +>
+title: Scraping Wikipedia Data - R. Stuart Geiger
 comments: true
 category: upcoming
-tags: meeting <+ tags +>
+tags: meeting data web
 ---
 
 
@@ -12,7 +12,7 @@ tags: meeting <+ tags +>
 - <++>
 
 
-## <+ speaker +>
+## R. Stuart Geiger
 
 <+ speaker bio +> 
 

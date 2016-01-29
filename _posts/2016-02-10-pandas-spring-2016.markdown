@@ -1,9 +1,9 @@
 ---
 layout: post
-title: <+ topic +> - <+ speaker +>
+title: Pandas - Tenzing Joshi
 comments: true
 category: upcoming
-tags: meeting <+ tags +>
+tags: meeting python data
 ---
 
 
@@ -12,7 +12,7 @@ tags: meeting <+ tags +>
 - <++>
 
 
-## <+ speaker +>
+## Tenzing Joshi
 
 <+ speaker bio +> 
 
