@@ -1,9 +1,9 @@
 ---
 layout: post
-title: <+ topic +> - <+ speaker +>
+title: Build Systems - Tony Kelman
 comments: true
 category: upcoming
-tags: meeting <+ tags +>
+tags: meeting make reproducibility
 ---
 
 
@@ -12,7 +12,7 @@ tags: meeting <+ tags +>
 - <++>
 
 
-## <+ speaker +>
+## Tony Kelman
 
 <+ speaker bio +> 
 

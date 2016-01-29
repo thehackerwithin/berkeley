@@ -1,9 +1,9 @@
 ---
 layout: post
-title: <+ topic +> - <+ speaker +>
+title: D3.js - Kai Chang
 comments: true
 category: upcoming
-tags: meeting <+ tags +>
+tags: meeting plotting
 ---
 
 
@@ -12,7 +12,7 @@ tags: meeting <+ tags +>
 - <++>
 
 
-## <+ speaker +>
+## Kai Chang
 
 <+ speaker bio +> 
 
