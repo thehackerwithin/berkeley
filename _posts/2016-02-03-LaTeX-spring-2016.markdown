@@ -43,4 +43,4 @@ cloning [this repository of examples][ada].
 ## <+ person +> : <+ topic +>
 
 
-[ada]: https://github.com/physics.codes/examples/tree/master/latex "examples"
+[ada]: https://github.com/physics-codes/examples/tree/master/tex "texamples"
