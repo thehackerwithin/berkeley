@@ -14,21 +14,27 @@ tags: meeting latex
 
 ## Rachel Slaybaugh
 
-<+ speaker bio +> 
+Rachel Slaybaugh is an Assistant Professor in the Department of Nuclear 
+Engineering at UC Berkeley. She was one of the founding members of The Hacker 
+Within at the University of Wisconsin.  
 
 ## Mike Pacer
 
-<+ speaker bio +> 
+Michael Pacer is a cognitive scientist at UC Berkeley. 
 
 ## Katy Huff
 
-<+ speaker bio +> 
+Katy Huff is a BIDS fellow and postdoctoral fellow in the Nuclear Science and 
+Security Consortium.  
 
 ## LaTeX
 
-<+ notes +>
+First, we'll address an introduction to the basic concepts in LaTeX. Then, 
+we'll share a few tips and tricks. 
 
-Code examples can be found [here][code].
+To follow along, you'll want install LaTeX on your computer and consider 
+cloning [this repository of examples][ada].
+
 
 ## Lightning Talks 
 
@@ -37,4 +43,4 @@ Code examples can be found [here][code].
 ## <+ person +> : <+ topic +>
 
 
-[code]: https://github.com/thehackerwithin/berkeley/tree/master/topic "Code Examples" 
+[ada]: https://github.com/physics-codes/examples/tree/master/tex "texamples"
