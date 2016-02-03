@@ -1,5 +1,5 @@
-markdown: rdiscount
-highlighter: pygments
+markdown: kramdown
+highlighter: rouge
 permalink: /posts/:title
 future: true
 kramdown:
