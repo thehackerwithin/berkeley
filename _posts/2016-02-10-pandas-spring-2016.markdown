@@ -14,13 +14,23 @@ tags: meeting python data
 
 ## Tenzing Joshi
 
-<+ speaker bio +> 
+I am a postdoc in the Applied Nuclear Physics Program at Lawrence Berkeley National Laboratory (LBNL). 
+I received my PhD from the Nuclear Engineering department at Berkeley in 2014.
+My current research is focused on using modern data analysis techniques to improve the sensitivity of mobile radiation detection platforms and using insights from this work to develop future radiation detection systems. 
 
-## <+topic +>
+## There is more than one way to skin a Panda.
+
+In this edition of The Hacker Within I'll introduce the pandas library. 
+We'll talk about Series and DataFrames. 
+This includes a variety of ways to create them, index into them, manipulate them, and get data out of them. 
+
 
 <+ notes +>
 
-Code examples can be found [here][code].
+Code examples will be posted here before the presentation. 
+It will be a Jupy notebook. 
+If you want to follow along with it, which I encourage, please have pandas installed prior to the meeting.
+[here][code].
 
 ## Lightning Talks 
 
