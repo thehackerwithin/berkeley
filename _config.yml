@@ -1,7 +1,6 @@
-markdown: rdiscount
-pygments: true
+markdown: kramdown
+highlighter: pygments
 permalink: /posts/:title
-auto: false
 rdiscount:
   extensions: [smart]
 github: thehackerwithin
