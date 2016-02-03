@@ -1,6 +1,7 @@
 markdown: rdiscount
 highlighter: pygments
 permalink: /posts/:title
+future: true
 kramdown:
   input: GFM
 github: thehackerwithin
