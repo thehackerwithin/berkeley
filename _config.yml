@@ -1,8 +1,8 @@
 markdown: rdiscount
 highlighter: pygments
 permalink: /posts/:title
-rdiscount:
-  extensions: [smart]
+kramdown:
+  input: GFM
 github: thehackerwithin
 url: http://thehackerwithin.github.com/berkeley 
 name: Hacker Within
