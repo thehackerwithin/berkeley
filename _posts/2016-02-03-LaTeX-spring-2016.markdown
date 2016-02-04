@@ -9,8 +9,7 @@ tags: meeting latex
 
 ## Attending
 
-- <++>
-
+About 20.
 
 ## Leaders
 
@@ -34,11 +33,6 @@ Security Consortium.
 First, we'll address an introduction to the basic concepts in \\(\LaTeX\\). Then, 
 we'll share a few tips and tricks. 
 
-### Examples
-As we go along, you may consider cloning :
-
-- [this repository of examples][ada].
-- or [this repository of examples][latexmaster].
 
 ## What is Markup?
 
@@ -193,6 +187,12 @@ These are enviroments that define the hierarchy of your document.
 Rather than keep everything in one big file, you can include and input other 
 latex files into a master. That acknowledgements section that you use in every 
 paper? Keep it in its own file. 
+
+### Examples
+As we go along, you may consider cloning :
+
+- [this repository of examples][ada].
+- or [this repository of examples][latexmaster].
 
 
 ## Lightning Talks 

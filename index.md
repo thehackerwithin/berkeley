@@ -6,8 +6,7 @@ title: "About"
 <!-- You can edit this whole page, remove it, or use it as basis for any non-post pages you have. -->
 <section class="content">
 
-The {{ site.name }}, {{ site.chapter }}
-========================================
+# The {{ site.name }}, {{ site.chapter }}
 
 <ul class="listing">
 <li>
@@ -19,8 +18,7 @@ The {{ site.name }}, {{ site.chapter }}
 </ul>
 
 
-What:
------
+## What:
 
 This is a weekly meeting for sharing skills and best practices for
 scientific computation. In these friendly sessions, peers at all levels
@@ -32,8 +30,7 @@ showing off useful features of a scientific library or programming
 language you're using, or bringing up a computational problem you're
 having.
 
-Where:
------
+## Where:
 
 
 
@@ -43,15 +40,13 @@ Science](https://bids.berkeley.edu).
 Room 190, Doe Library, The University of California - Berkeley
 
 
-Who:
------
+## Who:
 
 Anyone interested in software development best practices is welcome to
 come to our meetings.
 
 
-When:
------
+## When:
 
 
 Wednesdays at 4:00pm. While the main talk should occupy less than an hour, the
@@ -63,8 +58,7 @@ To keep up with meetings, you will want to
 
 
 
-How:
------
+## How:
 
 Participating is really easy.
 <li>At **4:00pm**, we gather and go through a round of introductions.
@@ -88,8 +82,7 @@ give one of these talks. To do so, just ping the listhost by email at
 [ucb-hacker-within@lists.berkeley.edu](mailto:ucb-hacker-within@lists.berkeley.edu).
 
 
-Why:
-------
+## Why:
 
 
 The tenets of scientiﬁc endeavor (e.g., data control, reproducibility,

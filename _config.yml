@@ -1,9 +1,9 @@
-markdown: kramdown
-highlighter: rouge
 permalink: /posts/:title
 future: true
+markdown: rdiscount
 kramdown:
   input: GFM
+  hard_wrap: false
 github: thehackerwithin
 url: http://thehackerwithin.github.com/berkeley 
 name: Hacker Within
