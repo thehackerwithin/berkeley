@@ -1,0 +1,485 @@
+% use the answers clause to get answers to print; otherwise leave it out.
+%\documentclass[12pts, answers]{exam}
+\documentclass[12pts]{exam}
+\RequirePackage{amssymb, amsfonts, amsmath, latexsym, verbatim, xspace, setspace}
+
+% By default LaTeX uses large margins.  This doesn't work well on exams; problems
+% end up in the "middle" of the page, reducing the amount of space for students
+% to work on them.
+\usepackage[margin=1in]{geometry}
+\usepackage{enumerate}
+\usepackage{hyperref}
+
+% Here's where you edit the Class, Exam, Date, etc.
+\newcommand{\class}{NE 155}
+\newcommand{\term}{Spring 2015}
+\newcommand{\assignment}{HW 2}
+\newcommand{\duedate}{2/11/14}
+%\newcommand{\timelimit}{50 Minutes}
+
+\newcommand{\nth}{n\ensuremath{^{\text{th}}} }
+\newcommand{\ve}[1]{\ensuremath{\mathbf{#1}}}
+\newcommand{\Macro}{\ensuremath{\Sigma}}
+\newcommand{\vOmega}{\ensuremath{\hat{\Omega}}}
+
+% For an exam, single spacing is most appropriate
+\singlespacing
+% \onehalfspacing
+% \doublespacing
+
+% For an exam, we generally want to turn off paragraph indentation
+\parindent 0ex
+
+%\unframedsolutions
+
+\begin{document} 
+
+% These commands set up the running header on the top of the exam pages
+\pagestyle{head}
+\firstpageheader{}{}{}
+\runningheader{\class}{\assignment\ - Page \thepage\ of \numpages}{Due \duedate}
+\runningheadrule
+
+\begin{flushright}
+\begin{tabular}{p{5in} r l}
+NE 155 & Spring 2015 \\
+Homework \#2 & Due February 11, 2014
+\end{tabular}
+\end{flushright}
+\rule[1ex]{\textwidth}{.1pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+On this homework:
+\begin{itemize}
+\item Show your work.
+\item This homework should be done ``by hand" (i.e.\ not with a numerical program such as MATLAB, Python, or Wolfram Alpha) unless otherwise specified. You may use a numerical program to check your work. 
+\item If using Python, be aware of \texttt{copy} vs.\ \texttt{deep copy}: \href{https://docs.python.org/2/library/copy.html}{https://docs.python.org/2/library/copy.html}
+\item If you work with anyone else document what you worked on together.
+\end{itemize}
+
+% ---------------------------------------------
+\begin{questions}
+\addpoints
+% intro
+\question 
+\begin{parts}
+\part[1] Why are you taking this class? 
+\ifprintanswers
+  % no action
+\else
+  \vspace*{4 em}
+\fi
+
+\part[1] Is there a specific, non-grade related outcome you would like?
+\ifprintanswers
+  % no action
+\else
+  \vspace*{3 em}
+\fi
+\end{parts}
+
+% ---------------------------------------------
+\vspace*{2em}
+\addpoints
+% intro
+\question 
+\begin{parts}
+\part[1] In your opinion, what was the most interesting development in the history of computing?
+\ifprintanswers
+  % no action
+\else
+  \vspace*{3 em}
+\fi
+  
+\part[2] Why?
+\ifprintanswers
+  % no action
+\else
+  \vspace*{4 em}
+\fi
+\end{parts}
+
+
+%------------------------------------
+%------------------------------------
+\newpage
+\addpoints
+% linear algebra review
+\question[15] 
+Determine which of the following matrices are non-singular and compute the inverse of these matrices:
+% a values
+\newcommand{\aaa}{4}
+\newcommand{\aab}{1}
+\newcommand{\aac}{6}
+\newcommand{\aba}{3}
+\newcommand{\abb}{0}
+\newcommand{\abc}{7}
+\newcommand{\aca}{-4}
+\newcommand{\acb}{-1}
+\newcommand{\acc}{-8}
+% b values
+\newcommand{\baa}{2}
+\newcommand{\bab}{0}
+\newcommand{\bac}{0}
+\newcommand{\bba}{0}
+\newcommand{\bbb}{-3}
+\newcommand{\bbc}{0}
+\newcommand{\bca}{0}
+\newcommand{\bcb}{0}
+\newcommand{\bcc}{\frac{1}{2}}
+% c values
+\newcommand{\caa}{1}
+\newcommand{\cab}{1}
+\newcommand{\cac}{-1}
+\newcommand{\cad}{-1}
+\newcommand{\cba}{1}
+\newcommand{\cbb}{2}
+\newcommand{\cbc}{-4}
+\newcommand{\cbd}{-2}
+\newcommand{\cca}{2}
+\newcommand{\ccb}{1}
+\newcommand{\ccc}{1}
+\newcommand{\ccd}{5}
+\newcommand{\cda}{-1}
+\newcommand{\cdb}{0}
+\newcommand{\cdc}{-2}
+\newcommand{\cdd}{-4}
+\begin{equation}
+\text{a.} \begin{pmatrix}
+   \aaa & \aab & \aac \\
+   \aba & \abb & \abc \\
+   \aca & \acb & \acc \\
+\end{pmatrix} \qquad
+%
+\text{b.} \begin{pmatrix}
+   \baa & \bab & \bac \\
+   \bba & \bbb & \bbc \\
+   \bca & \bcb & \bcc \\
+\end{pmatrix} \qquad
+%
+\text{c.} \begin{pmatrix}
+  \caa & \cab & \cac & \cad \\
+  \cba & \cbb & \cbc & \cbd \\
+  \cca & \ccb & \ccc & \ccd \\
+  \cda & \cdb & \cdc & \cdd \\
+\end{pmatrix} \nonumber
+\end{equation}
+
+%-------------------------------------------------------
+%-------------------------------------------------------
+\begin{solution}
+A way to tell if $\ve{A}$ is singular that we discussed in class is that the determinant of $\ve{A}=0$.
+
+\begin{parts}
+\part To find the \ve{a} determinant, use the cofactor method and select $i$ or $j$ = 2 to include the zero entry.
+%
+\begin{align}
+\det(\ve{a})_{j=2} = &\sum_{i=1}^3 a_{i2}(-1)^{i+2}M_{i2} \nonumber \\
+%
+= &a_{12} (-1)^3 M_{12} + a_{22} (-1)^4 M_{22} + a_{32} (-1)^5 M_{32} \nonumber \\
+%
+= &-\aab \cdot \det\begin{pmatrix}
+   \aba & \abc \\
+   \aca & \acc \\ \end{pmatrix} 
++ \abb \cdot \det\begin{pmatrix}
+   \aaa & \aac \\
+   \aca & \acc \\ \end{pmatrix} \nonumber \\
+&- \acb \cdot \det\begin{pmatrix}
+   \aaa & \aac \\
+   \aba & \abc \\  \end{pmatrix}\nonumber \\
+%
+= &-\aab [(\aba \cdot \acc) - (\abc \cdot \aca)]% + \abb [(\aaa \cdot \acc) - (\aac \cdot \aca)] 
+- \acb [(\aaa \cdot \abc) - (\aac \cdot \aba)] \nonumber \\
+%
+\det(\ve{a}) = & -1(-18 + 28) + 1(28 - 18) = \boxed{0 \rightarrow \text{singular}} \nonumber
+\end{align}
+
+%-------------------------------------------------------
+\part Computing the determinant of \ve{b} is easy since it's diagonal:
+\begin{align}
+\det(\ve{b}) &= \baa ( \bbb \cdot \bcc ) - \bbb ( \baa \cdot \bcc ) + \bcc ( \baa \cdot \bbb ) \nonumber \\
+\det(\ve{b}) &= -3 + 3 -3 = \boxed{-3 \rightarrow \text{non-singular}}\nonumber
+\end{align}
+%
+Since \ve{b} is non-singular, we only need to compute it's inverse. Recall that for the inverse of a diagonal matrix $d^{-1}_{ii} = 1/d_{ii}$. Thus,
+%
+\begin{equation}
+\ve{b}^{-1} = \boxed{\begin{pmatrix}
+  \frac{1}{2} &  0 & 0 \\
+  0 & -\frac{1}{3} & 0 \\
+  0 &  0 & 2
+\end{pmatrix}} \nonumber
+\end{equation}
+
+
+%-------------------------------------------------------
+\part To find the \ve{c} determinant, use the cofactor method and select $i$ = 4 or $j$ = 2 to include the zero entry.
+%
+\begin{align}
+\det(\ve{c})_{j=2} = &\sum_{i=1}^4 c_{i2}(-1)^{i+2}M_{i2} \nonumber \\
+%
+= &c_{12} (-1)^3 M_{12} + c_{22} (-1)^4 M_{22} + c_{32} (-1)^5 M_{32} + c_{42} (-1)^6 M_{42}\nonumber \\
+%
+= &-\cab \cdot \det\begin{pmatrix}
+  \cba & \cbc & \cbd \\
+  \cca & \ccc & \ccd \\
+  \cda & \cdc & \cdd \\ \end{pmatrix} 
++ \cbb\cdot \det\begin{pmatrix}
+  \caa & \cac & \cad \\
+  \cca & \ccc & \ccd \\
+  \cda & \cdc & \cdd \\ \end{pmatrix} \nonumber \\
+&- \ccb \cdot \det\begin{pmatrix}
+  \caa & \cac & \cad \\
+  \cba & \cbc & \cbd \\
+  \cda & \cdc & \cdd \\ \end{pmatrix}
++ \cdb \cdot \det\begin{pmatrix}
+  \caa & \cac & \cad \\
+  \cba & \cbc & \cbd \\
+  \cca & \ccc & \ccd \\ \end{pmatrix} \nonumber \\
+  %
+\det(\ve{c}) = &\cdots = \boxed{0 \rightarrow \text{singular}} \nonumber
+\end{align}
+
+\end{parts}
+
+\end{solution}
+
+
+
+% --------------------------------------------
+% ---------------------------------------------
+% linear algebra review
+\ifprintanswers
+  % no action
+\else
+  \vspace*{2 em}
+\fi
+\addpoints
+\question[15] Determine the eigenvalues and associated eigenvectors of the following matrices:
+%
+% a values
+\renewcommand{\aaa}{3}
+\renewcommand{\aab}{-1}
+\renewcommand{\aba}{-1}
+\renewcommand{\abb}{3}
+% b values
+\renewcommand{\baa}{2}
+\renewcommand{\bab}{1}
+\renewcommand{\bac}{0}
+\renewcommand{\bba}{1}
+\renewcommand{\bbb}{2}
+\renewcommand{\bbc}{0}
+\renewcommand{\bca}{0}
+\renewcommand{\bcb}{0}
+\renewcommand{\bcc}{3}
+% c values
+\renewcommand{\caa}{3}
+\renewcommand{\cab}{2}
+\renewcommand{\cac}{-1}
+\renewcommand{\cba}{1}
+\renewcommand{\cbb}{-2}
+\renewcommand{\cbc}{3}
+\renewcommand{\cca}{2}
+\renewcommand{\ccb}{0}
+\renewcommand{\ccc}{4}
+\begin{equation}
+\text{a.} \begin{pmatrix}
+   \aaa & \aab \\
+   \aba & \abb \\
+\end{pmatrix} \qquad
+%
+\text{b.} \begin{pmatrix}
+   \baa & \bab & \bac \\
+   \bba & \bbb & \bbc \\
+   \bca & \bcb & \bcc \\
+\end{pmatrix} \qquad
+%
+\text{c.} \begin{pmatrix}
+  \caa & \cab & \cac \\
+  \cba & \cbb & \cbc \\
+  \cca & \ccb & \ccc \\
+\end{pmatrix} \nonumber
+\end{equation}
+
+% ---------------------------------------------
+\begin{solution}
+To find eigenvalues, we need to compute $\det(\ve{A} - \lambda \ve{I})=0$ for each system.
+
+\begin{parts}
+\part 
+\begin{align}
+\det(\ve{a} - \lambda \ve{I}) = &\det\begin{pmatrix}
+   \aaa - \lambda & \aab \\
+   \aba & \abb - \lambda \\
+\end{pmatrix} = 0\nonumber \\
+%
+= &[(\aaa - \lambda)\cdot(\abb - \lambda) - (\aab \cdot \aba)] \nonumber \\
+%
+= & \lambda^2 -6 \lambda + 8\nonumber \\
+%
+= & (\lambda - 2)(\lambda - 4) = 0 \nonumber \\
+%
+&\boxed{\lambda = 2, 4} \nonumber
+\end{align}
+ 
+\newcommand{\lama}{2}
+\newcommand{\lamb}{4}
+ 
+And the associated right eigenvectors come from $(\ve{a} - \lambda_i \ve{I})\vec{x}_i = \vec{0}$. Use this formula to get the relationship among entries in the eigenvector set the entries. 
+
+E.g., for $\lambda = \lama$:
+%
+\begin{align}
+\begin{pmatrix}
+   \aaa - \lama & \aab \\
+   \aba & \abb - \lama \\
+\end{pmatrix} 
+\begin{pmatrix} x_1 \\ x_2 \end{pmatrix} &= 
+\begin{pmatrix} 0 \\ 0 \end{pmatrix} \nonumber \\
+%
+ x_1 - x_2 &= 0  \nonumber \\
+-x_1 + x_2 &= 0  \nonumber \\
+%
+\text{Thus } x_1 &= x_2\:, \qquad \text{Choose }x_1 = 1 \nonumber
+\end{align}
+This strategy then gives
+\begin{equation}
+\boxed{\vec{x}_{\lambda = \lama} = \begin{pmatrix} 1 \\ 1 \end{pmatrix} \qquad
+\vec{x}_{\lambda = \lamb} = \begin{pmatrix} 1 \\ -1 \end{pmatrix}} \nonumber
+\end{equation}
+
+%------------------------------------
+\part 
+There are several ways to do this, but we'll again use the cofactors with $j=2$ (like question 1).
+\begin{align}
+\det(\ve{b} - \lambda \ve{I}) = &\det\begin{pmatrix}
+   \baa - \lambda & \bab & \bac \\
+   \bba & \bbb - \lambda & \bbc \\
+   \bca & \bcb & \bcc - \lambda \\
+\end{pmatrix}  = 0\nonumber \\
+%
+= &-\bab \cdot \det\begin{pmatrix}
+   \bba & \bbc \\
+   \bca & (\bcc - \lambda) \\ \end{pmatrix} 
++ (\bbb - \lambda) \cdot \det\begin{pmatrix}
+   (\baa - \lambda) & \bac \\
+   \bca & (\bcc - \lambda) \\ \end{pmatrix} \nonumber \\
+&- \bcb \cdot \det\begin{pmatrix}
+   (\baa - \lambda) & \bac \\
+   \bba & \bbc \\  \end{pmatrix} \nonumber \\
+%
+= &-\bab [(\bba \cdot (\bcc - \lambda)) - (\bbc \cdot \bca)] + (\bbb - \lambda) [((\baa - \lambda) \cdot (\bcc - \lambda)) - (\bac \cdot \bca)] 
+\nonumber \\
+%&- \bcb [((\baa - \lambda) \cdot \bbc) - (\bac \cdot \bba)] \nonumber 
+%
+= & - \lambda^3 + 7 \lambda^2 - 15 \lambda + 9  \nonumber \\
+%
+= & (\lambda - 3)(\lambda - 3)(-\lambda + 1) = 0 \nonumber \\
+%
+&\boxed{\lambda = 3, 3, 1} \nonumber
+\end{align}
+%
+%
+To get the eigenvectors associated with the repeated eigenvalue we'll need to use free variables. 
+
+First, row reduce $\ve{A} - 3 \ve{I})\vec{x} = \vec{0}$:
+%
+\begin{equation}
+\begin{pmatrix}
+   -1 &  1 & 0 \\
+    1 & -1 & 0 \\
+    0 &  0 & 0 \\
+\end{pmatrix}  
+\begin{pmatrix}
+x_1 \\ x_2 \\ x_3
+\end{pmatrix}  = 
+\begin{pmatrix}
+0 \\ 0 \\ 0
+\end{pmatrix}
+%
+\rightarrow
+%
+\begin{pmatrix}
+   -1 &  1 & 0 \\
+    0 & 0 & 0 \\
+    0 &  0 & 0 \\
+\end{pmatrix}  
+\begin{pmatrix}
+x_1 \\ x_2 \\ x_3
+\end{pmatrix}  = 
+\begin{pmatrix}
+0 \\ 0 \\ 0
+\end{pmatrix} \nonumber
+\end{equation}
+%
+Now we see that we will have two free variables (since we have 3 unknowns and 1 equation) and we need the relationship between the free variables and the fixed ones. Choose $x_2$ and $x_3$ to be free. We can see that
+\[x_2 = x_1\]
+and there is no relationship with $x_3$. 
+
+Next, write a vector that contains this relationship and expand it into multiple eigenvectors - where each variable multiplies one of the vectors:
+\[\begin{pmatrix}
+x_2 \\ x_2 \\ x_3
+\end{pmatrix} = 
+x_2 \begin{pmatrix}
+1 \\ 1 \\ 0
+\end{pmatrix} + 
+x_3 \begin{pmatrix}
+0 \\ 0 \\ 1
+\end{pmatrix}\]
+% http://math.stackexchange.com/questions/144798/finding-eigenvectors-with-repeated-eigenvalues
+There are our two eigenvectors for $\lambda = 3$. The other eigenvector is found as before.
+%
+\begin{equation}
+\boxed{\vec{x}_{\lambda =3} = \begin{pmatrix} 0 \\ 0 \\ 1 \end{pmatrix} \qquad
+\vec{x}_{\lambda =3} = \begin{pmatrix} 1 \\ 1 \\ 0 \end{pmatrix}\qquad
+\vec{x}_{\lambda =1} = \begin{pmatrix} 1 \\ -1 \\ 0 \end{pmatrix}} \nonumber
+\end{equation}
+
+%------------------------------------
+\part 
+Just like part (b):
+\begin{align}
+\det(\ve{c} - \lambda \ve{I}) = &\det\begin{pmatrix}
+   \caa - \lambda & \cab & \cac \\
+   \cba & \cbb - \lambda & \cbc \\
+   \cca & \ccb & \ccc - \lambda \\
+\end{pmatrix}  = 0\nonumber \\
+%
+= &-\cab \cdot \det\begin{pmatrix}
+   \cba & \cbc \\
+   \cca & (\ccc - \lambda) \\ \end{pmatrix} 
++ (\cbb - \lambda) \cdot \det\begin{pmatrix}
+   (\caa - \lambda) & \cac \\
+   \cca & (\ccc - \lambda) \\ \end{pmatrix} \nonumber \\
+&- \ccb \cdot \det\begin{pmatrix}
+   (\caa - \lambda) & \cac \\
+   \cba & \cbc \\  \end{pmatrix} \nonumber \\
+%
+= &-\cab [(\cba \cdot (\ccc - \lambda)) - (\cbc \cdot \cca)] + (\cbb - \lambda) [((\caa - \lambda) \cdot (\ccc - \lambda)) - (\cac \cdot \cca)] 
+\nonumber \\
+%&- \ccb [((\caa - \lambda) \cdot \cbc) - (\cac \cdot \cba)] \nonumber 
+%
+= & - \lambda^3 + 5 \lambda^2 + 2 \lambda -24  \nonumber \\
+%
+= & (\lambda - 4)(-\lambda + 3)(\lambda + 2) = 0 \nonumber \\
+%
+&\boxed{\lambda = 4, 3, -2} \nonumber
+\end{align}
+%
+And the associated eigenvectors are
+%
+\begin{equation}
+\boxed{\vec{x}_{\lambda =4} = \begin{pmatrix} 0 \\ 1 \\ 2 \end{pmatrix} \qquad
+\vec{x}_{\lambda =3} = \begin{pmatrix} -1 \\ 1 \\ 2 \end{pmatrix}\qquad
+\vec{x}_{\lambda =-2} = \begin{pmatrix} 3 \\ -8 \\ -1 \end{pmatrix}} \nonumber
+\end{equation}
+
+\end{parts}
+
+\end{solution}
+
+
+\end{questions}
+
+\end{document}
