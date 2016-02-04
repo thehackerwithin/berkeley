@@ -4,6 +4,7 @@ markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
+  parse_block_html: true
 github: thehackerwithin
 url: http://thehackerwithin.github.com/berkeley 
 name: Hacker Within
