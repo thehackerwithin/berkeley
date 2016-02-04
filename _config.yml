@@ -1,6 +1,6 @@
 permalink: /posts/:title
 future: true
-markdown: rdiscount
+markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
