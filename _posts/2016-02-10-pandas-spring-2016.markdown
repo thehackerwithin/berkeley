@@ -24,8 +24,8 @@ In this edition of The Hacker Within I'll introduce the pandas library.
 We'll talk about Series and DataFrames. 
 This includes a variety of ways to create them, index into them, manipulate them, and get data out of them. 
 
-Follow along with this [Jupyter Notebook][https://github.com/thehackerwithin/berkeley/tree/master/python_pandas].
-In this notebook we'll use some [Data][https://dl.dropboxusercontent.com/u/4558549/THWPasses.hdf5].
+Follow along with this [Jupyter Notebook](https://github.com/thehackerwithin/berkeley/tree/master/python_pandas).
+In this notebook we'll use some [data](https://dl.dropboxusercontent.com/u/4558549/THWPasses.hdf5).
 
 ## Lightning Talks 
 
