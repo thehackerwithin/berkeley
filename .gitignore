@@ -56,3 +56,12 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# LaTeX stuff
+*.aux
+*.nav
+*.out
+*.snm
+*.toc
+*.pdf
+
