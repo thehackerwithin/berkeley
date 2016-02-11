@@ -1,6 +1,6 @@
 ---
 layout: post
-title: <+ topic +> - <+ speaker +>
+title: Matplotlib - Nick Swanson-Hysell & Tenzing Joshi
 comments: true
 category: upcoming
 tags: meeting <+ tags +>
@@ -12,11 +12,16 @@ tags: meeting <+ tags +>
 - <++>
 
 
-## <+ speaker +>
+## Nick Swanson-Hysell
 
 <+ speaker bio +> 
 
-## <+topic +>
+## Tenzing Joshi
+
+<+ speaker bio +> 
+
+
+## Matplotlib
 
 <+ notes +>
 
