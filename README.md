@@ -4,6 +4,18 @@ This is the website that keeps the blog posts for each THW meeting at the
 University of California - Berkeley. The rendered website can be found
 [here](http://thehackerwithin.github.io/berkeley).
 
+## Run the examples:
+
+Thanks to Technology (Or more specifically thanks to [Jeremy
+Freeman](https://github.com/freeman-lab) who pay from his own pocket), you can
+run most of the example of The Hacker Within Berkeley in your browser without
+installing anything. See [mybinder.org](https://mybinder.org) website for more
+info, or click on badge below to get started:
+
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/thehackerwithin/berkeley)
+
+Watch out after 2h this server are destroyed all work will be lost !
+
 
 ## How To Be The Speaker
 
