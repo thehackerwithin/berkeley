@@ -2,13 +2,13 @@
 layout: post
 title: Scraping Wikipedia Data - Stuart Geiger
 comments: true
-category: upcoming
+category: post
 tags: meeting data web
 ---
 
 ## Attending
 
-- <++>
+About 30 folks!
 
 ## Stuart Geiger
 
@@ -26,9 +26,13 @@ We'll be using two different resources to query Wikipedia. First, the [Wikipedia
 
 ## Lightning Talks 
 
-## <+ person +> : <+ topic +>
+## Matthias : Hacker Within mybinder
 
-## <+ person +> : <+ topic +>
+Go checkout mybinder.org. You can run the THW notebooks from your browser.
 
+## Brian : Where is a mountain, anyway
+
+Inspired by the geocoordinates in Stuarts talk, Brian pointed out that putting 
+coordinates on a mountain is tricky. Where is a mountain, anyway?
 
 [code]: https://github.com/thehackerwithin/berkeley/blob/master/scraping_wikipedia/ "Code Examples" 
