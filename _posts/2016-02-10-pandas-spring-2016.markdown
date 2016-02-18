@@ -2,15 +2,14 @@
 layout: post
 title: Pandas - Tenzing Joshi
 comments: true
-category: upcoming
+category: post
 tags: meeting python data
 ---
 
 
 ## Attending
 
-- <++>
-
+Many Folks.
 
 ## Tenzing Joshi
 
@@ -55,7 +54,7 @@ In this notebook we'll use some [data](https://dl.dropboxusercontent.com/u/45585
 
 ## Lightning Talks 
 
-## <+ person +> : <+ topic +>
+### Mike Pacer
 
-## <+ person +> : <+ topic +>
+### Kunal Marwaha
 
