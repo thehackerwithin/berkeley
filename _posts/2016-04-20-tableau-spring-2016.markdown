@@ -1,9 +1,9 @@
 ---
 layout: post
-title: <+ topic +> - <+ speaker +>
+title: Tableau - Harrison Dekker
 comments: true
 category: upcoming
-tags: meeting <+ tags +>
+tags: meeting
 ---
 
 
@@ -12,11 +12,11 @@ tags: meeting <+ tags +>
 - <++>
 
 
-## <+ speaker +>
+## Harrison Dekker
 
 <+ speaker bio +> 
 
-## <+topic +>
+## Tableau
 
 <+ notes +>
 
