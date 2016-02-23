@@ -2,7 +2,7 @@
 layout: post
 title: Pandas - Tenzing Joshi
 comments: true
-category: post
+category: posts
 tags: meeting python data
 ---
 

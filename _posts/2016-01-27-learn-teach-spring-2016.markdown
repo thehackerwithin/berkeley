@@ -2,7 +2,7 @@
 layout: post
 title: What To Learn and Teach - All
 comments: true
-category: post
+category: posts
 tags: meeting meta
 ---
 

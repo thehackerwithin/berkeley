@@ -2,7 +2,7 @@
 layout: post
 title: Scraping Wikipedia Data - Stuart Geiger
 comments: true
-category: post
+category: posts
 tags: meeting data web
 ---
 

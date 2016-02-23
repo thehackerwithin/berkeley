@@ -2,7 +2,7 @@
 layout: post
 title: LaTeX - Rachel Slaybaugh, Mike Pacer, and Katy Huff
 comments: true
-category: post
+category: posts
 tags: meeting latex
 ---
 
