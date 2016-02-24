@@ -13,7 +13,7 @@ tags: meeting julia
 
 ## Tony Kelman
 
-<+ speaker bio +> 
+Tony Kelman (@tkelman) is a Julia contributor, software engineer at Julia Computing Inc, and lecturer in Mechanical Engineering. He recently completed his PhD doing research on optimization-based control.
 
 ## Kyle Barbary
 
