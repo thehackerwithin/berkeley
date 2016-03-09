@@ -2,7 +2,7 @@
 layout: post
 title: Python Metaprogramming & Conversion to Python 3 - Ryan Pavlovsky & Matthias Bussonnier
 comments: true
-category: upcoming
+category: posts
 tags: meeting python
 ---
 
