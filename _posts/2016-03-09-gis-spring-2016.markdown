@@ -55,8 +55,11 @@ He also showed us how to publish our map data on the webservice Cartodb at
 
 ## Lightning Talks 
 
-## <+ person +> : <+ topic +>
+## Aji : TerraView
 
-## <+ person +> : <+ topic +>
-
+Aji shared [TerraView](http://terraview.io:8080/landing), a node.js app which 
+can show information about air quality.
+It has many layers, a straighforward map, using open street map. But, on top of 
+it, using node.js, there's an open source package called leaflet which allows 
+lots of extra layers to the map. In real time, new values are updated. 
 
