@@ -19,6 +19,7 @@ Kevin is the Executive Director of the Berkeley Institute for Data Science
 Facility (GIF).
 
 ## Geospatial Data
+### Resources
 To get help beyond this talk, visit the Berkeley [Geospatial Innovation Facility](http://gif.berkeley.edu). They have resource guides, office hours, workshops, and more.
 
 Data:
