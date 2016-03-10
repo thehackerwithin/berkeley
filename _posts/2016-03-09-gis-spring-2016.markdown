@@ -24,13 +24,13 @@ tags: meeting plotting
 To get help beyond this talk, visit the Berkeley [Geospatial Innovation Facility](http://gif.berkeley.edu). They have resource guides, office hours, workshops, and more.
 
 Data:
-* [Berkeley GIF resources for finding data](http://gif.berkeley.edu/resources/data.html)
-* [Administrative Boundaries](http://www.gadm.org)
-* [Climate data](http://www.prism.oregonstate.edu)
-* [Open Street Map](http://openstreetmap.org)
+- [Berkeley GIF resources for finding data](http://gif.berkeley.edu/resources/data.html)
+- [Administrative Boundaries](http://www.gadm.org)
+- [Climate data](http://www.prism.oregonstate.edu)
+- [Open Street Map](http://openstreetmap.org)
 
 Tools:
-* [Quantum GIS](http://www.qgis.org/en/site/): open source, multiplatform geospatial software
+- [Quantum GIS](http://www.qgis.org/en/site/): open source, multiplatform geospatial software
 
 ## Lightning Talks 
 
