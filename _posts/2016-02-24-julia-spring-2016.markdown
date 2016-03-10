@@ -9,7 +9,7 @@ tags: meeting julia
 
 ## Attending
 
-- 
+Many folks showed up. 
 
 ## Tony Kelman
 
@@ -17,19 +17,9 @@ Tony Kelman (@tkelman) is a Julia contributor, software engineer at Julia Comput
 
 ## Kyle Barbary
 
-<+ speaker bio +> 
+Kyle is a BIDS fellow. 
 
-## <+topic +>
+## Julia
 
-<+ notes +>
-
-Code examples can be found [here][code].
-
-## Lightning Talks 
-
-## <+ person +> : <+ topic +>
-
-## <+ person +> : <+ topic +>
-
-
-[code]: https://github.com/thehackerwithin/berkeley/tree/master/topic "Code Examples" 
+Demos that you can use to follow along, as well as a powerpoint presenation, 
+can be found here: [https://github.com/thehackerwithin/berkeley/tree/master/julia](https://github.com/thehackerwithin/berkeley/tree/master/julia).
