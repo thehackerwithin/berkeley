@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Matplotlib - Nick Swanson-Hysell & Tenzing Joshi
+title: Matplotlib - Tenzing Joshi & Nick Swanson-Hysell
 comments: true
 category: upcoming
 tags: meeting <+ tags +>
@@ -12,20 +12,20 @@ tags: meeting <+ tags +>
 - <++>
 
 
-## Nick Swanson-Hysell
-
-<+ speaker bio +> 
-
 ## Tenzing Joshi
 
-<+ speaker bio +> 
+I am a post-doc in the Applied Nuclear Physics Program at LBL.
+
+
+## Speaker 2 bio
 
 
 ## Matplotlib
 
-<+ notes +>
+Introduction to Matplotlib - [Jupyter Notebook](https://github.com/thehackerwithin/berkeley/blob/master/python_matplotlib/Matplotlib_THW_tutorial.ipynb)
 
-Code examples can be found [here][code].
+Basemap and other tools built on Matplotlib = [Jupyter Notebook](https://github.com/thehackerwithin/berkeley/blob/master/python_matplotlib/Matplotlib_Basemap_Notebook.ipynb)
+
 
 ## Lightning Talks 
 
