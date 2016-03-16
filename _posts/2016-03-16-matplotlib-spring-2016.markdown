@@ -19,6 +19,18 @@ I am an Assistant Professor of Earth and Planetary Science here at UC Berkeley. 
 
 ## matplotlib presentation through notebook demos
 
+Code to install (if you use Anaconda, use conda install instead of pip install):
+
+pip install matplotlib
+
+pip install Basemap
+
+pip install mpld3
+
+pip install folium
+
+pip install bokeh
+
 Introduction to matplotlib: [Jupyter Notebook with example code](https://github.com/thehackerwithin/berkeley/blob/master/python_matplotlib/Matplotlib_THW_tutorial.ipynb)
 
 Using Basemap to plot geospatial data and other tricks/tools using matplotlib ("what used to bug me about using matplotlib, but doesn't anymore"): [Jupyter Notebook with example code](https://github.com/thehackerwithin/berkeley/blob/master/python_matplotlib/Matplotlib_Basemap_Notebook.ipynb)
