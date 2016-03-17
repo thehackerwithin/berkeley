@@ -1,0 +1,3264 @@
+
+        <!DOCTYPE html>
+        <head>
+            
+        
+            <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        
+            
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://rawgithub.com/lvoogdt/Leaflet.awesome-markers/2.0/develop/dist/leaflet.awesome-markers.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/leaflet.markercluster-src.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/leaflet.markercluster.js"></script>
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://rawgit.com/lvoogdt/Leaflet.awesome-markers/2.0/develop/dist/leaflet.awesome-markers.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/MarkerCluster.Default.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/MarkerCluster.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://raw.githubusercontent.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+        
+        
+        
+            
+            <style>
+
+            html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                }
+
+            #map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+            
+        
+            
+            <style> #map_fce9ccf545494136bcd6245f801e88cb {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+        
+        
+        </head>
+        <body>
+            
+        
+            
+            <div class="folium-map" id="map_fce9ccf545494136bcd6245f801e88cb" ></div>
+        
+        
+        
+        </body>
+        <script>
+            
+        
+            
+
+            var southWest = L.latLng(-90, -180);
+            var northEast = L.latLng(90, 180);
+            var bounds = L.latLngBounds(southWest, northEast);
+
+            var map_fce9ccf545494136bcd6245f801e88cb = L.map('map_fce9ccf545494136bcd6245f801e88cb', {
+                                           center:[20,100],
+                                           zoom: 4,
+                                           maxBounds: bounds,
+                                           layers: [],
+                                           crs: L.CRS.EPSG3857
+                                         });
+            
+        
+        
+            
+            var tile_layer_8f53ee9608194b728d2d1cdfa95b1910 = L.tileLayer(
+                'https://{s}.tiles.mapbox.com/v3/mapbox.world-bright/{z}/{x}/{y}.png',
+                {
+                    maxZoom: 18,
+                    minZoom: 1,
+                    attribution: 'Map tiles by <a href="http://www.mapbox.com/m">Mapbox</a> Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>.',
+                    detectRetina: false
+                    }
+                ).addTo(map_fce9ccf545494136bcd6245f801e88cb);
+
+        
+        
+            
+
+            var marker_9b31bc2e709e4acdb759e0904191c17d = L.marker(
+                [14.0,-91.0],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_461dc1fe1033459a85e763a14448e676 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9b31bc2e709e4acdb759e0904191c17d.setIcon(icon_461dc1fe1033459a85e763a14448e676);
+            
+        
+            
+            var popup_72348c63c9a946aaabd32f437ea07cec = L.popup({maxWidth: '300'});
+
+            
+                var html_ee53ce79645144b38407dabf15148ee9 = $('         <div id="html_ee53ce79645144b38407dabf15148ee9"                 style="width: 100.0%; height: 100.0%;">                 Year: 1902 casualties: 2000.0</div>                 ')[0];
+                popup_72348c63c9a946aaabd32f437ea07cec.setContent(html_ee53ce79645144b38407dabf15148ee9);
+            
+
+            marker_9b31bc2e709e4acdb759e0904191c17d.bindPopup(popup_72348c63c9a946aaabd32f437ea07cec);
+
+            
+        
+        
+            
+
+            var marker_16a7d699053344df88dccfef31cbc1a1 = L.marker(
+                [39.88,76.2],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_9018cbd9036a4112af64cf3574d23b80 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_16a7d699053344df88dccfef31cbc1a1.setIcon(icon_9018cbd9036a4112af64cf3574d23b80);
+            
+        
+            
+            var popup_cbd2d7c3176d49de9e9c8f9845606be3 = L.popup({maxWidth: '300'});
+
+            
+                var html_c449ff26435244fdac7cfe0f8fd22ee6 = $('         <div id="html_c449ff26435244fdac7cfe0f8fd22ee6"                 style="width: 100.0%; height: 100.0%;">                 Year: 1902 casualties: 2500.0</div>                 ')[0];
+                popup_cbd2d7c3176d49de9e9c8f9845606be3.setContent(html_c449ff26435244fdac7cfe0f8fd22ee6);
+            
+
+            marker_16a7d699053344df88dccfef31cbc1a1.bindPopup(popup_cbd2d7c3176d49de9e9c8f9845606be3);
+
+            
+        
+        
+            
+
+            var marker_c52bca2b57e9449180a26c8528eecf2b = L.marker(
+                [33.0,76.0],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_b77e4d575944414d9e4024e633e3d1c5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c52bca2b57e9449180a26c8528eecf2b.setIcon(icon_b77e4d575944414d9e4024e633e3d1c5);
+            
+        
+            
+            var popup_2eb34370c26a430c97e072b37af31430 = L.popup({maxWidth: '300'});
+
+            
+                var html_96aaf04bf2ff4fc0a020259e7390c3d6 = $('         <div id="html_96aaf04bf2ff4fc0a020259e7390c3d6"                 style="width: 100.0%; height: 100.0%;">                 Year: 1905 casualties: 19000.0</div>                 ')[0];
+                popup_2eb34370c26a430c97e072b37af31430.setContent(html_96aaf04bf2ff4fc0a020259e7390c3d6);
+            
+
+            marker_c52bca2b57e9449180a26c8528eecf2b.bindPopup(popup_2eb34370c26a430c97e072b37af31430);
+
+            
+        
+        
+            
+
+            var marker_7257ce01d6464b4a9cbf716fa9351c6f = L.marker(
+                [1.0,-81.5],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_ae6a5e4f790341b18dbda9665cbc7b3e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7257ce01d6464b4a9cbf716fa9351c6f.setIcon(icon_ae6a5e4f790341b18dbda9665cbc7b3e);
+            
+        
+            
+            var popup_575fa6bd4a434fb092b0315b5be0a766 = L.popup({maxWidth: '300'});
+
+            
+                var html_2755dec485d047c2a35e4d40220f2b62 = $('         <div id="html_2755dec485d047c2a35e4d40220f2b62"                 style="width: 100.0%; height: 100.0%;">                 Year: 1906 casualties: 1000.0</div>                 ')[0];
+                popup_575fa6bd4a434fb092b0315b5be0a766.setContent(html_2755dec485d047c2a35e4d40220f2b62);
+            
+
+            marker_7257ce01d6464b4a9cbf716fa9351c6f.bindPopup(popup_575fa6bd4a434fb092b0315b5be0a766);
+
+            
+        
+        
+            
+
+            var marker_d172be76b79b4e40ac51234061ce8112 = L.marker(
+                [-33.0,-72.0],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_0b0c414bf4594d619dc4f2271a9c5e82 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d172be76b79b4e40ac51234061ce8112.setIcon(icon_0b0c414bf4594d619dc4f2271a9c5e82);
+            
+        
+            
+            var popup_177d2750702f45a2a55dfde3b75143c6 = L.popup({maxWidth: '300'});
+
+            
+                var html_0a775d9d7d7645b984480f77b2286c7d = $('         <div id="html_0a775d9d7d7645b984480f77b2286c7d"                 style="width: 100.0%; height: 100.0%;">                 Year: 1906 casualties: 4000.0</div>                 ')[0];
+                popup_177d2750702f45a2a55dfde3b75143c6.setContent(html_0a775d9d7d7645b984480f77b2286c7d);
+            
+
+            marker_d172be76b79b4e40ac51234061ce8112.bindPopup(popup_177d2750702f45a2a55dfde3b75143c6);
+
+            
+        
+        
+            
+
+            var marker_5de57ba634864abbacf479b4c6044318 = L.marker(
+                [38.5,67.9],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_62d16967f57149e6afadea9acb55a03e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5de57ba634864abbacf479b4c6044318.setIcon(icon_62d16967f57149e6afadea9acb55a03e);
+            
+        
+            
+            var popup_29e9e79691dd4c6cb4e7c94452f7d14d = L.popup({maxWidth: '300'});
+
+            
+                var html_e466096012f648cf873a144302a9077d = $('         <div id="html_e466096012f648cf873a144302a9077d"                 style="width: 100.0%; height: 100.0%;">                 Year: 1907 casualties: 12000.0</div>                 ')[0];
+                popup_29e9e79691dd4c6cb4e7c94452f7d14d.setContent(html_e466096012f648cf873a144302a9077d);
+            
+
+            marker_5de57ba634864abbacf479b4c6044318.bindPopup(popup_29e9e79691dd4c6cb4e7c94452f7d14d);
+
+            
+        
+        
+            
+
+            var marker_7794df126a0f4e8fb7f683f87123c9c5 = L.marker(
+                [38.17,15.58],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_fb4fbe98fb334096a4008aaa91dc7ede = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7794df126a0f4e8fb7f683f87123c9c5.setIcon(icon_fb4fbe98fb334096a4008aaa91dc7ede);
+            
+        
+            
+            var popup_d2f4ba88dd9843948966b311929e8b42 = L.popup({maxWidth: '300'});
+
+            
+                var html_0f325962c5b44d7e9091cd2a3467b046 = $('         <div id="html_0f325962c5b44d7e9091cd2a3467b046"                 style="width: 100.0%; height: 100.0%;">                 Year: 1908 casualties: 78000.0</div>                 ')[0];
+                popup_d2f4ba88dd9843948966b311929e8b42.setContent(html_0f325962c5b44d7e9091cd2a3467b046);
+            
+
+            marker_7794df126a0f4e8fb7f683f87123c9c5.bindPopup(popup_d2f4ba88dd9843948966b311929e8b42);
+
+            
+        
+        
+            
+
+            var marker_26a25a7e3f384ce385f5ea4d9c99c06a = L.marker(
+                [33.0,50.0],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_2b8f20e3ad604fc6a8701796274e1cc0 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_26a25a7e3f384ce385f5ea4d9c99c06a.setIcon(icon_2b8f20e3ad604fc6a8701796274e1cc0);
+            
+        
+            
+            var popup_16af8e5153a94364923284e2f5e479f4 = L.popup({maxWidth: '300'});
+
+            
+                var html_269797fc0344452092dda6dfcaea898f = $('         <div id="html_269797fc0344452092dda6dfcaea898f"                 style="width: 100.0%; height: 100.0%;">                 Year: 1909 casualties: 5500.0</div>                 ')[0];
+                popup_16af8e5153a94364923284e2f5e479f4.setContent(html_269797fc0344452092dda6dfcaea898f);
+            
+
+            marker_26a25a7e3f384ce385f5ea4d9c99c06a.bindPopup(popup_16af8e5153a94364923284e2f5e479f4);
+
+            
+        
+        
+            
+
+            var marker_6812566b912d4f539eb6385223a4b9e5 = L.marker(
+                [40.5,27.2],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_0c813c43231a46a2863cf30197838365 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6812566b912d4f539eb6385223a4b9e5.setIcon(icon_0c813c43231a46a2863cf30197838365);
+            
+        
+            
+            var popup_eade90672ebf4bc0acade95171219534 = L.popup({maxWidth: '300'});
+
+            
+                var html_6817318d52944fcdad1a0ed5a291294c = $('         <div id="html_6817318d52944fcdad1a0ed5a291294c"                 style="width: 100.0%; height: 100.0%;">                 Year: 1912 casualties: 3000.0</div>                 ')[0];
+                popup_eade90672ebf4bc0acade95171219534.setContent(html_6817318d52944fcdad1a0ed5a291294c);
+            
+
+            marker_6812566b912d4f539eb6385223a4b9e5.bindPopup(popup_eade90672ebf4bc0acade95171219534);
+
+            
+        
+        
+            
+
+            var marker_a9e26c5f07ff483c893bf4c55946f7e4 = L.marker(
+                [24.15,102.45],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_14b4b3fcfcb74bd9b873f97badfe3fa1 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a9e26c5f07ff483c893bf4c55946f7e4.setIcon(icon_14b4b3fcfcb74bd9b873f97badfe3fa1);
+            
+        
+            
+            var popup_60be7aa901b14953a816d1d5999578e6 = L.popup({maxWidth: '300'});
+
+            
+                var html_e340ccf337e7415bbb666d0f50e90b60 = $('         <div id="html_e340ccf337e7415bbb666d0f50e90b60"                 style="width: 100.0%; height: 100.0%;">                 Year: 1913 casualties: 942.0</div>                 ')[0];
+                popup_60be7aa901b14953a816d1d5999578e6.setContent(html_e340ccf337e7415bbb666d0f50e90b60);
+            
+
+            marker_a9e26c5f07ff483c893bf4c55946f7e4.bindPopup(popup_60be7aa901b14953a816d1d5999578e6);
+
+            
+        
+        
+            
+
+            var marker_8ede6b7b74d4497a93b3e087e5b316ab = L.marker(
+                [37.82,30.27],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_56d4ef3442824aca89df71377aa75840 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8ede6b7b74d4497a93b3e087e5b316ab.setIcon(icon_56d4ef3442824aca89df71377aa75840);
+            
+        
+            
+            var popup_bfe1481ac26e4a51841d966bc1d41349 = L.popup({maxWidth: '300'});
+
+            
+                var html_baf930f9d964443fb9f8f65e54b97bda = $('         <div id="html_baf930f9d964443fb9f8f65e54b97bda"                 style="width: 100.0%; height: 100.0%;">                 Year: 1914 casualties: 4000.0</div>                 ')[0];
+                popup_bfe1481ac26e4a51841d966bc1d41349.setContent(html_baf930f9d964443fb9f8f65e54b97bda);
+            
+
+            marker_8ede6b7b74d4497a93b3e087e5b316ab.bindPopup(popup_bfe1481ac26e4a51841d966bc1d41349);
+
+            
+        
+        
+            
+
+            var marker_1c91405425e24528b7e3d4df32aadd82 = L.marker(
+                [42.0,13.5],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_86a69aa8322949329365e0a6135b291c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1c91405425e24528b7e3d4df32aadd82.setIcon(icon_86a69aa8322949329365e0a6135b291c);
+            
+        
+            
+            var popup_c0deaed70c2141c1b9234a469f9bb85a = L.popup({maxWidth: '300'});
+
+            
+                var html_34868d45203e4f0c963f5eec28eac026 = $('         <div id="html_34868d45203e4f0c963f5eec28eac026"                 style="width: 100.0%; height: 100.0%;">                 Year: 1915 casualties: 29978.0</div>                 ')[0];
+                popup_c0deaed70c2141c1b9234a469f9bb85a.setContent(html_34868d45203e4f0c963f5eec28eac026);
+            
+
+            marker_1c91405425e24528b7e3d4df32aadd82.bindPopup(popup_c0deaed70c2141c1b9234a469f9bb85a);
+
+            
+        
+        
+            
+
+            var marker_7406277eda1c4613966cd26c85ebdbb3 = L.marker(
+                [23.5,117.2],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_ab0e64a9f67d4db0aec0a5141e381eca = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7406277eda1c4613966cd26c85ebdbb3.setIcon(icon_ab0e64a9f67d4db0aec0a5141e381eca);
+            
+        
+            
+            var popup_9fd5e8d3c34248f697b0fa60a1d817e3 = L.popup({maxWidth: '300'});
+
+            
+                var html_11d9aca4be8f46148bdfc2b0a9740f51 = $('         <div id="html_11d9aca4be8f46148bdfc2b0a9740f51"                 style="width: 100.0%; height: 100.0%;">                 Year: 1918 casualties: 2000.0</div>                 ')[0];
+                popup_9fd5e8d3c34248f697b0fa60a1d817e3.setContent(html_11d9aca4be8f46148bdfc2b0a9740f51);
+            
+
+            marker_7406277eda1c4613966cd26c85ebdbb3.bindPopup(popup_9fd5e8d3c34248f697b0fa60a1d817e3);
+
+            
+        
+        
+            
+
+            var marker_a68f34a59b54492d9ce29f7cc0619ed4 = L.marker(
+                [19.26,-96.97],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_af298b6cfe4c430ea1cb5ab0122c2cc6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a68f34a59b54492d9ce29f7cc0619ed4.setIcon(icon_af298b6cfe4c430ea1cb5ab0122c2cc6);
+            
+        
+            
+            var popup_8ae5c603ba9947cbb6161352f3958449 = L.popup({maxWidth: '300'});
+
+            
+                var html_8c36dddb402d41a38d36e4fba9578809 = $('         <div id="html_8c36dddb402d41a38d36e4fba9578809"                 style="width: 100.0%; height: 100.0%;">                 Year: 1920 casualties: 648.0</div>                 ')[0];
+                popup_8ae5c603ba9947cbb6161352f3958449.setContent(html_8c36dddb402d41a38d36e4fba9578809);
+            
+
+            marker_a68f34a59b54492d9ce29f7cc0619ed4.bindPopup(popup_8ae5c603ba9947cbb6161352f3958449);
+
+            
+        
+        
+            
+
+            var marker_1c66f98870d540c9be47645e480d6417 = L.marker(
+                [36.601,105.317],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_91c97aff4ac44ba19cfed7f4e1dd0a9d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1c66f98870d540c9be47645e480d6417.setIcon(icon_91c97aff4ac44ba19cfed7f4e1dd0a9d);
+            
+        
+            
+            var popup_2aa1856444e143e0b44ed18a4add476a = L.popup({maxWidth: '300'});
+
+            
+                var html_56430bbca41f4b30bfa461c980a34425 = $('         <div id="html_56430bbca41f4b30bfa461c980a34425"                 style="width: 100.0%; height: 100.0%;">                 Year: 1920 casualties: 200000.0</div>                 ')[0];
+                popup_2aa1856444e143e0b44ed18a4add476a.setContent(html_56430bbca41f4b30bfa461c980a34425);
+            
+
+            marker_1c66f98870d540c9be47645e480d6417.bindPopup(popup_2aa1856444e143e0b44ed18a4add476a);
+
+            
+        
+        
+            
+
+            var marker_ee02def4a882460a9a4083df0483d7a3 = L.marker(
+                [-28.553,-70.755],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_fea342b56df9405d9be394d0af4f6162 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ee02def4a882460a9a4083df0483d7a3.setIcon(icon_fea342b56df9405d9be394d0af4f6162);
+            
+        
+            
+            var popup_ccc64122bd6e402d995fc81d7f4af90e = L.popup({maxWidth: '300'});
+
+            
+                var html_52458a5ab01f4635bc74bc3dea9b4557 = $('         <div id="html_52458a5ab01f4635bc74bc3dea9b4557"                 style="width: 100.0%; height: 100.0%;">                 Year: 1922 casualties: 500.0</div>                 ')[0];
+                popup_ccc64122bd6e402d995fc81d7f4af90e.setContent(html_52458a5ab01f4635bc74bc3dea9b4557);
+            
+
+            marker_ee02def4a882460a9a4083df0483d7a3.bindPopup(popup_ccc64122bd6e402d995fc81d7f4af90e);
+
+            
+        
+        
+            
+
+            var marker_669ec8920d6841b3a5eb628eea230042 = L.marker(
+                [31.5,101.0],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_064980a844bf4e8196ab552b735adfe8 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_669ec8920d6841b3a5eb628eea230042.setIcon(icon_064980a844bf4e8196ab552b735adfe8);
+            
+        
+            
+            var popup_b2527de9be9343cc8a848b72440ed172 = L.popup({maxWidth: '300'});
+
+            
+                var html_e081bf977b4843e5a55ad544a245ec3d = $('         <div id="html_e081bf977b4843e5a55ad544a245ec3d"                 style="width: 100.0%; height: 100.0%;">                 Year: 1923 casualties: 4800.0</div>                 ')[0];
+                popup_b2527de9be9343cc8a848b72440ed172.setContent(html_e081bf977b4843e5a55ad544a245ec3d);
+            
+
+            marker_669ec8920d6841b3a5eb628eea230042.bindPopup(popup_b2527de9be9343cc8a848b72440ed172);
+
+            
+        
+        
+            
+
+            var marker_55bc732cbc5c4afb8d6bd6fecae01410 = L.marker(
+                [35.1,139.5],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_a01ba1c65eab45e0ae4bcaea9a0263c4 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_55bc732cbc5c4afb8d6bd6fecae01410.setIcon(icon_a01ba1c65eab45e0ae4bcaea9a0263c4);
+            
+        
+            
+            var popup_e6fc3a9e379b452ea2efc58e24b99534 = L.popup({maxWidth: '300'});
+
+            
+                var html_c7777638219a4720a1a1f58441738036 = $('         <div id="html_c7777638219a4720a1a1f58441738036"                 style="width: 100.0%; height: 100.0%;">                 Year: 1923 casualties: 142807.0</div>                 ')[0];
+                popup_e6fc3a9e379b452ea2efc58e24b99534.setContent(html_c7777638219a4720a1a1f58441738036);
+            
+
+            marker_55bc732cbc5c4afb8d6bd6fecae01410.bindPopup(popup_e6fc3a9e379b452ea2efc58e24b99534);
+
+            
+        
+        
+            
+
+            var marker_1ee49531c6464725827544c8e80186ca = L.marker(
+                [25.7,100.4],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_ccc5b7e9a2384d81997435a912bb4759 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1ee49531c6464725827544c8e80186ca.setIcon(icon_ccc5b7e9a2384d81997435a912bb4759);
+            
+        
+            
+            var popup_78aec227a76e41edb68286a4a9c0b247 = L.popup({maxWidth: '300'});
+
+            
+                var html_d1ebe6416f0d4669a7cb7157aacf2736 = $('         <div id="html_d1ebe6416f0d4669a7cb7157aacf2736"                 style="width: 100.0%; height: 100.0%;">                 Year: 1925 casualties: 5000.0</div>                 ')[0];
+                popup_78aec227a76e41edb68286a4a9c0b247.setContent(html_d1ebe6416f0d4669a7cb7157aacf2736);
+            
+
+            marker_1ee49531c6464725827544c8e80186ca.bindPopup(popup_78aec227a76e41edb68286a4a9c0b247);
+
+            
+        
+        
+            
+
+            var marker_97f31984f932413886f06942fd3139d9 = L.marker(
+                [35.6,135.1],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_579dbc2d6550459e87192cc20553113f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_97f31984f932413886f06942fd3139d9.setIcon(icon_579dbc2d6550459e87192cc20553113f);
+            
+        
+            
+            var popup_d82e8b519074495ab8ab1d31ec0391f2 = L.popup({maxWidth: '300'});
+
+            
+                var html_bc29f9edc21c4d3ca6f797f4c3b89f3d = $('         <div id="html_bc29f9edc21c4d3ca6f797f4c3b89f3d"                 style="width: 100.0%; height: 100.0%;">                 Year: 1927 casualties: 3022.0</div>                 ')[0];
+                popup_d82e8b519074495ab8ab1d31ec0391f2.setContent(html_bc29f9edc21c4d3ca6f797f4c3b89f3d);
+            
+
+            marker_97f31984f932413886f06942fd3139d9.bindPopup(popup_d82e8b519074495ab8ab1d31ec0391f2);
+
+            
+        
+        
+            
+
+            var marker_a951bdb4ed26492c9ec1c08dd5bfa47a = L.marker(
+                [36.75,102.0],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_19e8930fc467472dbc8d3471be72da5f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a951bdb4ed26492c9ec1c08dd5bfa47a.setIcon(icon_19e8930fc467472dbc8d3471be72da5f);
+            
+        
+            
+            var popup_65eeee8510b14db580ac4e0f002391c4 = L.popup({maxWidth: '300'});
+
+            
+                var html_772bda2e1c4e489481c8b76e78f8078b = $('         <div id="html_772bda2e1c4e489481c8b76e78f8078b"                 style="width: 100.0%; height: 100.0%;">                 Year: 1927 casualties: 40912.0</div>                 ')[0];
+                popup_65eeee8510b14db580ac4e0f002391c4.setContent(html_772bda2e1c4e489481c8b76e78f8078b);
+            
+
+            marker_a951bdb4ed26492c9ec1c08dd5bfa47a.bindPopup(popup_65eeee8510b14db580ac4e0f002391c4);
+
+            
+        
+        
+            
+
+            var marker_185a93a7dc1446e1b2b470618e6c8424 = L.marker(
+                [47.1,89.8],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_d2927a4fd46c413d83a292b6f4b14682 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_185a93a7dc1446e1b2b470618e6c8424.setIcon(icon_d2927a4fd46c413d83a292b6f4b14682);
+            
+        
+            
+            var popup_3c9501edf7aa46abba2eea3deb0442f3 = L.popup({maxWidth: '300'});
+
+            
+                var html_53d79149d2bf4ebda77fe794f2336e38 = $('         <div id="html_53d79149d2bf4ebda77fe794f2336e38"                 style="width: 100.0%; height: 100.0%;">                 Year: 1931 casualties: 10000.0</div>                 ')[0];
+                popup_3c9501edf7aa46abba2eea3deb0442f3.setContent(html_53d79149d2bf4ebda77fe794f2336e38);
+            
+
+            marker_185a93a7dc1446e1b2b470618e6c8424.bindPopup(popup_3c9501edf7aa46abba2eea3deb0442f3);
+
+            
+        
+        
+            
+
+            var marker_a6f9284e1a834670ba4fc065c968349a = L.marker(
+                [39.224,144.622],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_e2b8546aae354cfcb2048a269921b758 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a6f9284e1a834670ba4fc065c968349a.setIcon(icon_e2b8546aae354cfcb2048a269921b758);
+            
+        
+            
+            var popup_ec5b776463ab4eac8af23ae0c15b1567 = L.popup({maxWidth: '300'});
+
+            
+                var html_1c5382865cdd4cfab5893c3684ec4098 = $('         <div id="html_1c5382865cdd4cfab5893c3684ec4098"                 style="width: 100.0%; height: 100.0%;">                 Year: 1933 casualties: nan</div>                 ')[0];
+                popup_ec5b776463ab4eac8af23ae0c15b1567.setContent(html_1c5382865cdd4cfab5893c3684ec4098);
+            
+
+            marker_a6f9284e1a834670ba4fc065c968349a.bindPopup(popup_ec5b776463ab4eac8af23ae0c15b1567);
+
+            
+        
+        
+            
+
+            var marker_3792acfd7a3d4231b7bbb764ca4ec458 = L.marker(
+                [31.9,103.4],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_9c932afa18b142e9be15d1bada297681 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3792acfd7a3d4231b7bbb764ca4ec458.setIcon(icon_9c932afa18b142e9be15d1bada297681);
+            
+        
+            
+            var popup_0f9e3483149242f7b211f4c85972c799 = L.popup({maxWidth: '300'});
+
+            
+                var html_4f0ea99cd1f84eacae63caebe1de17ac = $('         <div id="html_4f0ea99cd1f84eacae63caebe1de17ac"                 style="width: 100.0%; height: 100.0%;">                 Year: 1933 casualties: 9300.0</div>                 ')[0];
+                popup_0f9e3483149242f7b211f4c85972c799.setContent(html_4f0ea99cd1f84eacae63caebe1de17ac);
+            
+
+            marker_3792acfd7a3d4231b7bbb764ca4ec458.bindPopup(popup_0f9e3483149242f7b211f4c85972c799);
+
+            
+        
+        
+            
+
+            var marker_a060936625324a2299caba56682d8042 = L.marker(
+                [26.773,86.762],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_3cd97ed5614c47b4ab3bded19d07a0ce = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a060936625324a2299caba56682d8042.setIcon(icon_3cd97ed5614c47b4ab3bded19d07a0ce);
+            
+        
+            
+            var popup_afb18608b25a41ada9a261e7795848fd = L.popup({maxWidth: '300'});
+
+            
+                var html_6c8aa39b854a4e0a8581f51e85be11cf = $('         <div id="html_6c8aa39b854a4e0a8581f51e85be11cf"                 style="width: 100.0%; height: 100.0%;">                 Year: 1934 casualties: 10600.0</div>                 ')[0];
+                popup_afb18608b25a41ada9a261e7795848fd.setContent(html_6c8aa39b854a4e0a8581f51e85be11cf);
+            
+
+            marker_a060936625324a2299caba56682d8042.bindPopup(popup_afb18608b25a41ada9a261e7795848fd);
+
+            
+        
+        
+            
+
+            var marker_b652ac334d8e4baf818809b7f071aadc = L.marker(
+                [29.5,66.8],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_6bbeacc0a5b9435bb4ffcd9ec0c69ead = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b652ac334d8e4baf818809b7f071aadc.setIcon(icon_6bbeacc0a5b9435bb4ffcd9ec0c69ead);
+            
+        
+            
+            var popup_7a464fd1c9304ad29c6976929e3cce7f = L.popup({maxWidth: '300'});
+
+            
+                var html_2c8619aded8148c182794b7bb3032190 = $('         <div id="html_2c8619aded8148c182794b7bb3032190"                 style="width: 100.0%; height: 100.0%;">                 Year: 1935 casualties: 60000.0</div>                 ')[0];
+                popup_7a464fd1c9304ad29c6976929e3cce7f.setContent(html_2c8619aded8148c182794b7bb3032190);
+            
+
+            marker_b652ac334d8e4baf818809b7f071aadc.bindPopup(popup_7a464fd1c9304ad29c6976929e3cce7f);
+
+            
+        
+        
+            
+
+            var marker_5825e034c3074732935b8c5c8f05367d = L.marker(
+                [-36.25,-72.25],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_4ce4720c793f440aa91bb1424ae48e2c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5825e034c3074732935b8c5c8f05367d.setIcon(icon_4ce4720c793f440aa91bb1424ae48e2c);
+            
+        
+            
+            var popup_89ab192f1d984ce4865459907058f87c = L.popup({maxWidth: '300'});
+
+            
+                var html_735ab2d11b774aac91584b280c8c4202 = $('         <div id="html_735ab2d11b774aac91584b280c8c4202"                 style="width: 100.0%; height: 100.0%;">                 Year: 1939 casualties: 30000.0</div>                 ')[0];
+                popup_89ab192f1d984ce4865459907058f87c.setContent(html_735ab2d11b774aac91584b280c8c4202);
+            
+
+            marker_5825e034c3074732935b8c5c8f05367d.bindPopup(popup_89ab192f1d984ce4865459907058f87c);
+
+            
+        
+        
+            
+
+            var marker_549959ef3f1d45588786084437b77184 = L.marker(
+                [39.77,39.533],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_871df5378d60440bb2ddf13168bbb27b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_549959ef3f1d45588786084437b77184.setIcon(icon_871df5378d60440bb2ddf13168bbb27b);
+            
+        
+            
+            var popup_3f5038ef75b944938954cac0b1da71d2 = L.popup({maxWidth: '300'});
+
+            
+                var html_0d5392a2cde94a91b2720a2c542a21c4 = $('         <div id="html_0d5392a2cde94a91b2720a2c542a21c4"                 style="width: 100.0%; height: 100.0%;">                 Year: 1939 casualties: 32700.0</div>                 ')[0];
+                popup_3f5038ef75b944938954cac0b1da71d2.setContent(html_0d5392a2cde94a91b2720a2c542a21c4);
+            
+
+            marker_549959ef3f1d45588786084437b77184.bindPopup(popup_3f5038ef75b944938954cac0b1da71d2);
+
+            
+        
+        
+            
+
+            var marker_c618914ff1744d1ba0452c6cab1e1a40 = L.marker(
+                [35.3,133.9],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_45b64d30f8ee4825967b806f43edaf10 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c618914ff1744d1ba0452c6cab1e1a40.setIcon(icon_45b64d30f8ee4825967b806f43edaf10);
+            
+        
+            
+            var popup_f9be0389318743e0a9fae6141f776203 = L.popup({maxWidth: '300'});
+
+            
+                var html_51228a6e69b54ee38af086abeed64ec4 = $('         <div id="html_51228a6e69b54ee38af086abeed64ec4"                 style="width: 100.0%; height: 100.0%;">                 Year: 1943 casualties: 1400.0</div>                 ')[0];
+                popup_f9be0389318743e0a9fae6141f776203.setContent(html_51228a6e69b54ee38af086abeed64ec4);
+            
+
+            marker_c618914ff1744d1ba0452c6cab1e1a40.bindPopup(popup_f9be0389318743e0a9fae6141f776203);
+
+            
+        
+        
+            
+
+            var marker_6475c062e0db4fa6ba692d0dafaec8a4 = L.marker(
+                [41.0,33.7],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_8fd497fe50994b7db03d2267b4e43df1 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6475c062e0db4fa6ba692d0dafaec8a4.setIcon(icon_8fd497fe50994b7db03d2267b4e43df1);
+            
+        
+            
+            var popup_c9295f0405a141b68b1bd1031ab8dbbc = L.popup({maxWidth: '300'});
+
+            
+                var html_94d56511f7bb423ab6b20fcb0ce46a47 = $('         <div id="html_94d56511f7bb423ab6b20fcb0ce46a47"                 style="width: 100.0%; height: 100.0%;">                 Year: 1943 casualties: 4020.0</div>                 ')[0];
+                popup_c9295f0405a141b68b1bd1031ab8dbbc.setContent(html_94d56511f7bb423ab6b20fcb0ce46a47);
+            
+
+            marker_6475c062e0db4fa6ba692d0dafaec8a4.bindPopup(popup_c9295f0405a141b68b1bd1031ab8dbbc);
+
+            
+        
+        
+            
+
+            var marker_4d5d64169989446f87c655c76f503641 = L.marker(
+                [34.0,137.1],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_2fd1c52a2e334ef095eacbdb37db22d6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4d5d64169989446f87c655c76f503641.setIcon(icon_2fd1c52a2e334ef095eacbdb37db22d6);
+            
+        
+            
+            var popup_30d5783ffbeb40fbacdbf58ea7db62e8 = L.popup({maxWidth: '300'});
+
+            
+                var html_e112f551bbe843698ba4c48a3a220107 = $('         <div id="html_e112f551bbe843698ba4c48a3a220107"                 style="width: 100.0%; height: 100.0%;">                 Year: 1944 casualties: 1223.0</div>                 ')[0];
+                popup_30d5783ffbeb40fbacdbf58ea7db62e8.setContent(html_e112f551bbe843698ba4c48a3a220107);
+            
+
+            marker_4d5d64169989446f87c655c76f503641.bindPopup(popup_30d5783ffbeb40fbacdbf58ea7db62e8);
+
+            
+        
+        
+            
+
+            var marker_690ac25a9e6b4f7e9d1a3ce64324a94c = L.marker(
+                [34.7,137.2],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_d641cc6aafd542b0b3d8cea1067d27d0 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_690ac25a9e6b4f7e9d1a3ce64324a94c.setIcon(icon_d641cc6aafd542b0b3d8cea1067d27d0);
+            
+        
+            
+            var popup_cc4fafac7272423bbac86249bf69d436 = L.popup({maxWidth: '300'});
+
+            
+                var html_7e3e9821ef1847c38851f4edfede041e = $('         <div id="html_7e3e9821ef1847c38851f4edfede041e"                 style="width: 100.0%; height: 100.0%;">                 Year: 1945 casualties: 2306.0</div>                 ')[0];
+                popup_cc4fafac7272423bbac86249bf69d436.setContent(html_7e3e9821ef1847c38851f4edfede041e);
+            
+
+            marker_690ac25a9e6b4f7e9d1a3ce64324a94c.bindPopup(popup_cc4fafac7272423bbac86249bf69d436);
+
+            
+        
+        
+            
+
+            var marker_b3594c87078f4f439d3153803907bf6d = L.marker(
+                [24.5,63.0],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_d24da61efc8c495881f63e49c4c13813 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b3594c87078f4f439d3153803907bf6d.setIcon(icon_d24da61efc8c495881f63e49c4c13813);
+            
+        
+            
+            var popup_5ce7ebddf65c4385beb6ea01ebb2c075 = L.popup({maxWidth: '300'});
+
+            
+                var html_1cb749f384fe46b787b6bd1b94d476a1 = $('         <div id="html_1cb749f384fe46b787b6bd1b94d476a1"                 style="width: 100.0%; height: 100.0%;">                 Year: 1945 casualties: 4000.0</div>                 ')[0];
+                popup_5ce7ebddf65c4385beb6ea01ebb2c075.setContent(html_1cb749f384fe46b787b6bd1b94d476a1);
+            
+
+            marker_b3594c87078f4f439d3153803907bf6d.bindPopup(popup_5ce7ebddf65c4385beb6ea01ebb2c075);
+
+            
+        
+        
+            
+
+            var marker_296fef967541488fa02bfa82fad8a03f = L.marker(
+                [19.25,-69.0],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_663aba0c9629433ca1a61dfa3cd82763 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_296fef967541488fa02bfa82fad8a03f.setIcon(icon_663aba0c9629433ca1a61dfa3cd82763);
+            
+        
+            
+            var popup_90905aef29a54b51bee01a6537110f77 = L.popup({maxWidth: '300'});
+
+            
+                var html_970ac8761e75472da85e86c75b4214d8 = $('         <div id="html_970ac8761e75472da85e86c75b4214d8"                 style="width: 100.0%; height: 100.0%;">                 Year: 1946 casualties: nan</div>                 ')[0];
+                popup_90905aef29a54b51bee01a6537110f77.setContent(html_970ac8761e75472da85e86c75b4214d8);
+            
+
+            marker_296fef967541488fa02bfa82fad8a03f.bindPopup(popup_90905aef29a54b51bee01a6537110f77);
+
+            
+        
+        
+            
+
+            var marker_e8b79e7891f94629acdb1f946e092400 = L.marker(
+                [33.0,135.6],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_500918236ba84555861108fe4e149ede = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e8b79e7891f94629acdb1f946e092400.setIcon(icon_500918236ba84555861108fe4e149ede);
+            
+        
+            
+            var popup_5311aa3688664a258da78e3d0b2f05f0 = L.popup({maxWidth: '300'});
+
+            
+                var html_5127f4bb91fe466281d28705cace5487 = $('         <div id="html_5127f4bb91fe466281d28705cace5487"                 style="width: 100.0%; height: 100.0%;">                 Year: 1946 casualties: 1362.0</div>                 ')[0];
+                popup_5311aa3688664a258da78e3d0b2f05f0.setContent(html_5127f4bb91fe466281d28705cace5487);
+            
+
+            marker_e8b79e7891f94629acdb1f946e092400.bindPopup(popup_5311aa3688664a258da78e3d0b2f05f0);
+
+            
+        
+        
+            
+
+            var marker_3435867143a04bb7815e8b9ec93d0bec = L.marker(
+                [29.5,100.5],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_771d6275ed1e483c9892645a95580b06 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3435867143a04bb7815e8b9ec93d0bec.setIcon(icon_771d6275ed1e483c9892645a95580b06);
+            
+        
+            
+            var popup_08a84f40f4794cc28d4af2a3fa3eae10 = L.popup({maxWidth: '300'});
+
+            
+                var html_05c6af01a35540cb884e151a0ab167b2 = $('         <div id="html_05c6af01a35540cb884e151a0ab167b2"                 style="width: 100.0%; height: 100.0%;">                 Year: 1948 casualties: 800.0</div>                 ')[0];
+                popup_08a84f40f4794cc28d4af2a3fa3eae10.setContent(html_05c6af01a35540cb884e151a0ab167b2);
+            
+
+            marker_3435867143a04bb7815e8b9ec93d0bec.bindPopup(popup_08a84f40f4794cc28d4af2a3fa3eae10);
+
+            
+        
+        
+            
+
+            var marker_04177a5ecda74845883d815e90dffce1 = L.marker(
+                [36.5,136.0],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_f825ab897df94f0e88de4c8971314aad = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_04177a5ecda74845883d815e90dffce1.setIcon(icon_f825ab897df94f0e88de4c8971314aad);
+            
+        
+            
+            var popup_9113fa05837a4494b51914fa60cdfec3 = L.popup({maxWidth: '300'});
+
+            
+                var html_7ba33a49617d4569a6cec52bf5e96236 = $('         <div id="html_7ba33a49617d4569a6cec52bf5e96236"                 style="width: 100.0%; height: 100.0%;">                 Year: 1948 casualties: 5131.0</div>                 ')[0];
+                popup_9113fa05837a4494b51914fa60cdfec3.setContent(html_7ba33a49617d4569a6cec52bf5e96236);
+            
+
+            marker_04177a5ecda74845883d815e90dffce1.bindPopup(popup_9113fa05837a4494b51914fa60cdfec3);
+
+            
+        
+        
+            
+
+            var marker_2b8f5c2af7e44610915f2290b8ffa621 = L.marker(
+                [37.95,58.32],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_378070308bb24a1dbdeda5df8b8e7d01 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2b8f5c2af7e44610915f2290b8ffa621.setIcon(icon_378070308bb24a1dbdeda5df8b8e7d01);
+            
+        
+            
+            var popup_80d29ae6948848cdb8e708c0a2cc4a68 = L.popup({maxWidth: '300'});
+
+            
+                var html_a82c75826676418cbc63ce2da7e4f19a = $('         <div id="html_a82c75826676418cbc63ce2da7e4f19a"                 style="width: 100.0%; height: 100.0%;">                 Year: 1948 casualties: 110000.0</div>                 ')[0];
+                popup_80d29ae6948848cdb8e708c0a2cc4a68.setContent(html_a82c75826676418cbc63ce2da7e4f19a);
+            
+
+            marker_2b8f5c2af7e44610915f2290b8ffa621.bindPopup(popup_80d29ae6948848cdb8e708c0a2cc4a68);
+
+            
+        
+        
+            
+
+            var marker_b253017098dd46d59daceb518580dcab = L.marker(
+                [39.2,70.8],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_d1108234960746cbae2231187eb0e4eb = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b253017098dd46d59daceb518580dcab.setIcon(icon_d1108234960746cbae2231187eb0e4eb);
+            
+        
+            
+            var popup_f64e7ca612a54a66807087786185818b = L.popup({maxWidth: '300'});
+
+            
+                var html_e90db37e234f44d2ab98cef21091056d = $('         <div id="html_e90db37e234f44d2ab98cef21091056d"                 style="width: 100.0%; height: 100.0%;">                 Year: 1949 casualties: 3500.0</div>                 ')[0];
+                popup_f64e7ca612a54a66807087786185818b.setContent(html_e90db37e234f44d2ab98cef21091056d);
+            
+
+            marker_b253017098dd46d59daceb518580dcab.bindPopup(popup_f64e7ca612a54a66807087786185818b);
+
+            
+        
+        
+            
+
+            var marker_5880c54471b04eb4afffa84e1021aaad = L.marker(
+                [28.5,96.5],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_03ca815fe15546bb91d678ddab91e0d0 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5880c54471b04eb4afffa84e1021aaad.setIcon(icon_03ca815fe15546bb91d678ddab91e0d0);
+            
+        
+            
+            var popup_b05f0d129c0b45d1be1aa5d7cf4bbce4 = L.popup({maxWidth: '300'});
+
+            
+                var html_e385ac920adf431cbd1aef2bc4cfa506 = $('         <div id="html_e385ac920adf431cbd1aef2bc4cfa506"                 style="width: 100.0%; height: 100.0%;">                 Year: 1950 casualties: 1530.0</div>                 ')[0];
+                popup_b05f0d129c0b45d1be1aa5d7cf4bbce4.setContent(html_e385ac920adf431cbd1aef2bc4cfa506);
+            
+
+            marker_5880c54471b04eb4afffa84e1021aaad.bindPopup(popup_b05f0d129c0b45d1be1aa5d7cf4bbce4);
+
+            
+        
+        
+            
+
+            var marker_08b844c8db7c40018ac15d68429b0531 = L.marker(
+                [52.755,160.057],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_7b4a3e86d4334cae848e031253215fb1 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_08b844c8db7c40018ac15d68429b0531.setIcon(icon_7b4a3e86d4334cae848e031253215fb1);
+            
+        
+            
+            var popup_c2047442a85b41d9b7d7473ea1cc381f = L.popup({maxWidth: '300'});
+
+            
+                var html_7384ab77b1b94619ab025e126d3a22db = $('         <div id="html_7384ab77b1b94619ab025e126d3a22db"                 style="width: 100.0%; height: 100.0%;">                 Year: 1952 casualties: nan</div>                 ')[0];
+                popup_c2047442a85b41d9b7d7473ea1cc381f.setContent(html_7384ab77b1b94619ab025e126d3a22db);
+            
+
+            marker_08b844c8db7c40018ac15d68429b0531.bindPopup(popup_c2047442a85b41d9b7d7473ea1cc381f);
+
+            
+        
+        
+            
+
+            var marker_673fdd303d9c41b6a884cea0c81fb36b = L.marker(
+                [40.0,27.5],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_02155180a89b42809a1228432566394e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_673fdd303d9c41b6a884cea0c81fb36b.setIcon(icon_02155180a89b42809a1228432566394e);
+            
+        
+            
+            var popup_355e19313d8c4c9c954376e836592433 = L.popup({maxWidth: '300'});
+
+            
+                var html_e489e8b0e34940318e1d05775105e4b0 = $('         <div id="html_e489e8b0e34940318e1d05775105e4b0"                 style="width: 100.0%; height: 100.0%;">                 Year: 1953 casualties: 1070.0</div>                 ')[0];
+                popup_355e19313d8c4c9c954376e836592433.setContent(html_e489e8b0e34940318e1d05775105e4b0);
+            
+
+            marker_673fdd303d9c41b6a884cea0c81fb36b.bindPopup(popup_355e19313d8c4c9c954376e836592433);
+
+            
+        
+        
+            
+
+            var marker_10f6e32b67f34d1cabceed3dae5535a6 = L.marker(
+                [-38.143,-73.407],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_4382eb1cb54240f58d23d1a17d4c262c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_10f6e32b67f34d1cabceed3dae5535a6.setIcon(icon_4382eb1cb54240f58d23d1a17d4c262c);
+            
+        
+            
+            var popup_ac241b4720194e7bae1bb3112e412289 = L.popup({maxWidth: '300'});
+
+            
+                var html_73d6189468df4bf1be420737769a4483 = $('         <div id="html_73d6189468df4bf1be420737769a4483"                 style="width: 100.0%; height: 100.0%;">                 Year: 1960 casualties: 2000.0</div>                 ')[0];
+                popup_ac241b4720194e7bae1bb3112e412289.setContent(html_73d6189468df4bf1be420737769a4483);
+            
+
+            marker_10f6e32b67f34d1cabceed3dae5535a6.bindPopup(popup_ac241b4720194e7bae1bb3112e412289);
+
+            
+        
+        
+            
+
+            var marker_909a9d475df4445ab0878267b9cdee3a = L.marker(
+                [35.63,49.87],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_091e58b62b87497d99228e70e927ee25 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_909a9d475df4445ab0878267b9cdee3a.setIcon(icon_091e58b62b87497d99228e70e927ee25);
+            
+        
+            
+            var popup_862322f7643f45d9ab3785d75d2082b3 = L.popup({maxWidth: '300'});
+
+            
+                var html_319fc9d35e264f7f946e2a591963bba9 = $('         <div id="html_319fc9d35e264f7f946e2a591963bba9"                 style="width: 100.0%; height: 100.0%;">                 Year: 1962 casualties: 12225.0</div>                 ')[0];
+                popup_862322f7643f45d9ab3785d75d2082b3.setContent(html_319fc9d35e264f7f946e2a591963bba9);
+            
+
+            marker_909a9d475df4445ab0878267b9cdee3a.bindPopup(popup_862322f7643f45d9ab3785d75d2082b3);
+
+            
+        
+        
+            
+
+            var marker_e7f61a31a2b04925a75afabb5feb75e8 = L.marker(
+                [34.0,59.0],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_80618bdd6d7741229403ca3631de9cc9 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e7f61a31a2b04925a75afabb5feb75e8.setIcon(icon_80618bdd6d7741229403ca3631de9cc9);
+            
+        
+            
+            var popup_3baf377710d840b2bfea1715c7072283 = L.popup({maxWidth: '300'});
+
+            
+                var html_802289c79878489f8ffbc30c3363df99 = $('         <div id="html_802289c79878489f8ffbc30c3363df99"                 style="width: 100.0%; height: 100.0%;">                 Year: 1968 casualties: 10488.0</div>                 ')[0];
+                popup_3baf377710d840b2bfea1715c7072283.setContent(html_802289c79878489f8ffbc30c3363df99);
+            
+
+            marker_e7f61a31a2b04925a75afabb5feb75e8.bindPopup(popup_3baf377710d840b2bfea1715c7072283);
+
+            
+        
+        
+            
+
+            var marker_c6cbb83b1e4b4580b9de3bce04133703 = L.marker(
+                [-3.1,118.9],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_8c7783d5a7c046edbb03bbac407f07f2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c6cbb83b1e4b4580b9de3bce04133703.setIcon(icon_8c7783d5a7c046edbb03bbac407f07f2);
+            
+        
+            
+            var popup_62799a77db4d42bbab3d6c20afa9eed0 = L.popup({maxWidth: '300'});
+
+            
+                var html_f462457823644885abcbb39bc3861e92 = $('         <div id="html_f462457823644885abcbb39bc3861e92"                 style="width: 100.0%; height: 100.0%;">                 Year: 1969 casualties: 64.0</div>                 ')[0];
+                popup_62799a77db4d42bbab3d6c20afa9eed0.setContent(html_f462457823644885abcbb39bc3861e92);
+            
+
+            marker_c6cbb83b1e4b4580b9de3bce04133703.bindPopup(popup_62799a77db4d42bbab3d6c20afa9eed0);
+
+            
+        
+        
+            
+
+            var marker_9128af4bcbcd437381b6a9aa8f85537a = L.marker(
+                [24.1,102.5],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_231cf2ca5f5b4e858c54ab8e1f2b741f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9128af4bcbcd437381b6a9aa8f85537a.setIcon(icon_231cf2ca5f5b4e858c54ab8e1f2b741f);
+            
+        
+            
+            var popup_7800aa93cfc846ca98bdde0120157fdc = L.popup({maxWidth: '300'});
+
+            
+                var html_85462246ce2f481b8a55bb3b504fe0d6 = $('         <div id="html_85462246ce2f481b8a55bb3b504fe0d6"                 style="width: 100.0%; height: 100.0%;">                 Year: 1970 casualties: 10000.0</div>                 ')[0];
+                popup_7800aa93cfc846ca98bdde0120157fdc.setContent(html_85462246ce2f481b8a55bb3b504fe0d6);
+            
+
+            marker_9128af4bcbcd437381b6a9aa8f85537a.bindPopup(popup_7800aa93cfc846ca98bdde0120157fdc);
+
+            
+        
+        
+            
+
+            var marker_ddd47297831544c6831363f1d4e33c98 = L.marker(
+                [39.2,29.5],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_c9dadc1d39ba464697c614b4bf07d701 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ddd47297831544c6831363f1d4e33c98.setIcon(icon_c9dadc1d39ba464697c614b4bf07d701);
+            
+        
+            
+            var popup_87cf6a30562942919df0342acb890b5e = L.popup({maxWidth: '300'});
+
+            
+                var html_9317e22bd7944c40b53c743560bc6df3 = $('         <div id="html_9317e22bd7944c40b53c743560bc6df3"                 style="width: 100.0%; height: 100.0%;">                 Year: 1970 casualties: 1086.0</div>                 ')[0];
+                popup_87cf6a30562942919df0342acb890b5e.setContent(html_9317e22bd7944c40b53c743560bc6df3);
+            
+
+            marker_ddd47297831544c6831363f1d4e33c98.bindPopup(popup_87cf6a30562942919df0342acb890b5e);
+
+            
+        
+        
+            
+
+            var marker_0948e3cff3154f9c96746e8287df9b4a = L.marker(
+                [-9.2,-78.8],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_9d6c5d726b3447fa9fa3bbe043e14366 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0948e3cff3154f9c96746e8287df9b4a.setIcon(icon_9d6c5d726b3447fa9fa3bbe043e14366);
+            
+        
+            
+            var popup_587e1a8259fc43e6868e60922f96c280 = L.popup({maxWidth: '300'});
+
+            
+                var html_b1125d1e18884ac9a0ea1a9f81f62b97 = $('         <div id="html_b1125d1e18884ac9a0ea1a9f81f62b97"                 style="width: 100.0%; height: 100.0%;">                 Year: 1970 casualties: 66794.0</div>                 ')[0];
+                popup_587e1a8259fc43e6868e60922f96c280.setContent(html_b1125d1e18884ac9a0ea1a9f81f62b97);
+            
+
+            marker_0948e3cff3154f9c96746e8287df9b4a.bindPopup(popup_587e1a8259fc43e6868e60922f96c280);
+
+            
+        
+        
+            
+
+            var marker_6af85a60f7514d8596f68586f31a5330 = L.marker(
+                [28.24,104.01],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_3834af7474b44e8caa93dfc24d5898fe = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6af85a60f7514d8596f68586f31a5330.setIcon(icon_3834af7474b44e8caa93dfc24d5898fe);
+            
+        
+            
+            var popup_966d082e90144c14b835ca303c31482f = L.popup({maxWidth: '300'});
+
+            
+                var html_023080268c174600b11cb14ca859c9c7 = $('         <div id="html_023080268c174600b11cb14ca859c9c7"                 style="width: 100.0%; height: 100.0%;">                 Year: 1974 casualties: 20000.0</div>                 ')[0];
+                popup_966d082e90144c14b835ca303c31482f.setContent(html_023080268c174600b11cb14ca859c9c7);
+            
+
+            marker_6af85a60f7514d8596f68586f31a5330.bindPopup(popup_966d082e90144c14b835ca303c31482f);
+
+            
+        
+        
+            
+
+            var marker_15580e3d5100488fb6c714547d7fa2d6 = L.marker(
+                [15.324,-89.101],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_7221d1b6e3b14df38ac6b86ae2d37b42 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_15580e3d5100488fb6c714547d7fa2d6.setIcon(icon_7221d1b6e3b14df38ac6b86ae2d37b42);
+            
+        
+            
+            var popup_4c4a369feb5b4dfabfd48d65f6aec8d7 = L.popup({maxWidth: '300'});
+
+            
+                var html_400a95dd5ef249f08d700adaeef7c914 = $('         <div id="html_400a95dd5ef249f08d700adaeef7c914"                 style="width: 100.0%; height: 100.0%;">                 Year: 1976 casualties: 23000.0</div>                 ')[0];
+                popup_4c4a369feb5b4dfabfd48d65f6aec8d7.setContent(html_400a95dd5ef249f08d700adaeef7c914);
+            
+
+            marker_15580e3d5100488fb6c714547d7fa2d6.bindPopup(popup_4c4a369feb5b4dfabfd48d65f6aec8d7);
+
+            
+        
+        
+            
+
+            var marker_b98839707cc843b591ed706cd9f7f2b4 = L.marker(
+                [-4.603,140.091],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_b333210d108a409f8beb2513ab7a3154 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b98839707cc843b591ed706cd9f7f2b4.setIcon(icon_b333210d108a409f8beb2513ab7a3154);
+            
+        
+            
+            var popup_b57c1a8be07b4e50a8ebc406fe9584e5 = L.popup({maxWidth: '300'});
+
+            
+                var html_ef81732cf2a74a75b1da66fe4dcf1082 = $('         <div id="html_ef81732cf2a74a75b1da66fe4dcf1082"                 style="width: 100.0%; height: 100.0%;">                 Year: 1976 casualties: 6000.0</div>                 ')[0];
+                popup_b57c1a8be07b4e50a8ebc406fe9584e5.setContent(html_ef81732cf2a74a75b1da66fe4dcf1082);
+            
+
+            marker_b98839707cc843b591ed706cd9f7f2b4.bindPopup(popup_b57c1a8be07b4e50a8ebc406fe9584e5);
+
+            
+        
+        
+            
+
+            var marker_b52ba33fbaef4aaeb340d86d44e4b95b = L.marker(
+                [39.57,117.98],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_565a7131a1294a67966c721d25d2ead0 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b52ba33fbaef4aaeb340d86d44e4b95b.setIcon(icon_565a7131a1294a67966c721d25d2ead0);
+            
+        
+            
+            var popup_9cf9d88b552c43a98c06ccd3b0d16993 = L.popup({maxWidth: '300'});
+
+            
+                var html_6a7eeb224e88496db33d9a0ef43a68cd = $('         <div id="html_6a7eeb224e88496db33d9a0ef43a68cd"                 style="width: 100.0%; height: 100.0%;">                 Year: 1976 casualties: 242769.0</div>                 ')[0];
+                popup_9cf9d88b552c43a98c06ccd3b0d16993.setContent(html_6a7eeb224e88496db33d9a0ef43a68cd);
+            
+
+            marker_b52ba33fbaef4aaeb340d86d44e4b95b.bindPopup(popup_9cf9d88b552c43a98c06ccd3b0d16993);
+
+            
+        
+        
+            
+
+            var marker_9c3bae24b5b244da817f69829b27e59e = L.marker(
+                [6.292,124.09],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_f380e4bee3e34d57a78050603a15902e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9c3bae24b5b244da817f69829b27e59e.setIcon(icon_f380e4bee3e34d57a78050603a15902e);
+            
+        
+            
+            var popup_d36d62e672bf47428a9c4f5959fc6b7d = L.popup({maxWidth: '300'});
+
+            
+                var html_b4eea0ae47ce4524893ed9a818eb5cd3 = $('         <div id="html_b4eea0ae47ce4524893ed9a818eb5cd3"                 style="width: 100.0%; height: 100.0%;">                 Year: 1976 casualties: 1200.0</div>                 ')[0];
+                popup_d36d62e672bf47428a9c4f5959fc6b7d.setContent(html_b4eea0ae47ce4524893ed9a818eb5cd3);
+            
+
+            marker_9c3bae24b5b244da817f69829b27e59e.bindPopup(popup_d36d62e672bf47428a9c4f5959fc6b7d);
+
+            
+        
+        
+            
+
+            var marker_90ac3a33e5544ed9a437665916676a13 = L.marker(
+                [45.777,26.703],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_88d2d68998514631b058186476fecad5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_90ac3a33e5544ed9a437665916676a13.setIcon(icon_88d2d68998514631b058186476fecad5);
+            
+        
+            
+            var popup_d09b4ec14bae4373ae19d0eacc5e7da2 = L.popup({maxWidth: '300'});
+
+            
+                var html_b2c78ae9a2ec4a8cb491854ccf5135f1 = $('         <div id="html_b2c78ae9a2ec4a8cb491854ccf5135f1"                 style="width: 100.0%; height: 100.0%;">                 Year: 1977 casualties: 1641.0</div>                 ')[0];
+                popup_d09b4ec14bae4373ae19d0eacc5e7da2.setContent(html_b2c78ae9a2ec4a8cb491854ccf5135f1);
+            
+
+            marker_90ac3a33e5544ed9a437665916676a13.bindPopup(popup_d09b4ec14bae4373ae19d0eacc5e7da2);
+
+            
+        
+        
+            
+
+            var marker_dfec7637b22843c7b992c1ae78b2e6bd = L.marker(
+                [33.386,57.434],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_3d7e57ede0a542b0b088897972efdac4 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_dfec7637b22843c7b992c1ae78b2e6bd.setIcon(icon_3d7e57ede0a542b0b088897972efdac4);
+            
+        
+            
+            var popup_7aeb0ec730c04c648f1dacadb47f64dc = L.popup({maxWidth: '300'});
+
+            
+                var html_eea08e9bdfaa432e89b7364fe64f287a = $('         <div id="html_eea08e9bdfaa432e89b7364fe64f287a"                 style="width: 100.0%; height: 100.0%;">                 Year: 1978 casualties: 20000.0</div>                 ')[0];
+                popup_7aeb0ec730c04c648f1dacadb47f64dc.setContent(html_eea08e9bdfaa432e89b7364fe64f287a);
+            
+
+            marker_dfec7637b22843c7b992c1ae78b2e6bd.bindPopup(popup_7aeb0ec730c04c648f1dacadb47f64dc);
+
+            
+        
+        
+            
+
+            var marker_34a3d058c97847c7990cee7d4fd168da = L.marker(
+                [1.598,-79.358],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_a0d19e9cb0e843ea8f08a1c2aabbc197 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_34a3d058c97847c7990cee7d4fd168da.setIcon(icon_a0d19e9cb0e843ea8f08a1c2aabbc197);
+            
+        
+            
+            var popup_0b121ae91caa4d94a74734456999e152 = L.popup({maxWidth: '300'});
+
+            
+                var html_6b9dc048318c453f83cf178d3dc2ba1e = $('         <div id="html_6b9dc048318c453f83cf178d3dc2ba1e"                 style="width: 100.0%; height: 100.0%;">                 Year: 1979 casualties: 600.0</div>                 ')[0];
+                popup_0b121ae91caa4d94a74734456999e152.setContent(html_6b9dc048318c453f83cf178d3dc2ba1e);
+            
+
+            marker_34a3d058c97847c7990cee7d4fd168da.bindPopup(popup_0b121ae91caa4d94a74734456999e152);
+
+            
+        
+        
+            
+
+            var marker_2e471b32442a4f00a6a8066895ab374c = L.marker(
+                [36.195,1.354],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_4f10595821a648e6a63e52ad9486e910 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2e471b32442a4f00a6a8066895ab374c.setIcon(icon_4f10595821a648e6a63e52ad9486e910);
+            
+        
+            
+            var popup_41bb3883bb6d4dfbbba24cbb3e85da99 = L.popup({maxWidth: '300'});
+
+            
+                var html_971c1df793764d71aaf77e8d42882276 = $('         <div id="html_971c1df793764d71aaf77e8d42882276"                 style="width: 100.0%; height: 100.0%;">                 Year: 1980 casualties: 5000.0</div>                 ')[0];
+                popup_41bb3883bb6d4dfbbba24cbb3e85da99.setContent(html_971c1df793764d71aaf77e8d42882276);
+            
+
+            marker_2e471b32442a4f00a6a8066895ab374c.bindPopup(popup_41bb3883bb6d4dfbbba24cbb3e85da99);
+
+            
+        
+        
+            
+
+            var marker_f1efc697a0c24f0089f2f4aa8c1c5b08 = L.marker(
+                [30.013,57.794],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_2ad1dfb1edec423da40967a6157a41fc = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f1efc697a0c24f0089f2f4aa8c1c5b08.setIcon(icon_2ad1dfb1edec423da40967a6157a41fc);
+            
+        
+            
+            var popup_9b85d9d984624e899c5386e58e432a92 = L.popup({maxWidth: '300'});
+
+            
+                var html_f7d067ba931d472e8539ef76df74b53d = $('         <div id="html_f7d067ba931d472e8539ef76df74b53d"                 style="width: 100.0%; height: 100.0%;">                 Year: 1981 casualties: 3000.0</div>                 ')[0];
+                popup_9b85d9d984624e899c5386e58e432a92.setContent(html_f7d067ba931d472e8539ef76df74b53d);
+            
+
+            marker_f1efc697a0c24f0089f2f4aa8c1c5b08.bindPopup(popup_9b85d9d984624e899c5386e58e432a92);
+
+            
+        
+        
+            
+
+            var marker_c455b53c81bc434988e85d6787f67aef = L.marker(
+                [18.19,-102.533],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_eff12c3c674c448ba7cc7d5763e32c25 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c455b53c81bc434988e85d6787f67aef.setIcon(icon_eff12c3c674c448ba7cc7d5763e32c25);
+            
+        
+            
+            var popup_e51fb9679e494df08ecaee8aded16396 = L.popup({maxWidth: '300'});
+
+            
+                var html_933c723d36e94a6fa6a7e87635468906 = $('         <div id="html_933c723d36e94a6fa6a7e87635468906"                 style="width: 100.0%; height: 100.0%;">                 Year: 1985 casualties: 9500.0</div>                 ')[0];
+                popup_e51fb9679e494df08ecaee8aded16396.setContent(html_933c723d36e94a6fa6a7e87635468906);
+            
+
+            marker_c455b53c81bc434988e85d6787f67aef.bindPopup(popup_e51fb9679e494df08ecaee8aded16396);
+
+            
+        
+        
+            
+
+            var marker_26dbb083093b4489a9868ef4413a0389 = L.marker(
+                [0.083,-77.785],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_1cc4e8931d9547959d4c78b38972b5c8 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_26dbb083093b4489a9868ef4413a0389.setIcon(icon_1cc4e8931d9547959d4c78b38972b5c8);
+            
+        
+            
+            var popup_b540e0dcd4b144de9912ea0eb8d7e0ab = L.popup({maxWidth: '300'});
+
+            
+                var html_003fb394b48b4cda9b4b74104427d239 = $('         <div id="html_003fb394b48b4cda9b4b74104427d239"                 style="width: 100.0%; height: 100.0%;">                 Year: 1987 casualties: 5000.0</div>                 ')[0];
+                popup_b540e0dcd4b144de9912ea0eb8d7e0ab.setContent(html_003fb394b48b4cda9b4b74104427d239);
+            
+
+            marker_26dbb083093b4489a9868ef4413a0389.bindPopup(popup_b540e0dcd4b144de9912ea0eb8d7e0ab);
+
+            
+        
+        
+            
+
+            var marker_6f1291fb1385427d84c5ea3b7a224860 = L.marker(
+                [22.789,99.611],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_eec54a1937594aaaab4de7f3bc531892 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6f1291fb1385427d84c5ea3b7a224860.setIcon(icon_eec54a1937594aaaab4de7f3bc531892);
+            
+        
+            
+            var popup_d84b0b6a4eaa465d9fa7d34149d24687 = L.popup({maxWidth: '300'});
+
+            
+                var html_c791fd8a8a5c4fa8b076b1f1015b6efa = $('         <div id="html_c791fd8a8a5c4fa8b076b1f1015b6efa"                 style="width: 100.0%; height: 100.0%;">                 Year: 1988 casualties: 738.0</div>                 ')[0];
+                popup_d84b0b6a4eaa465d9fa7d34149d24687.setContent(html_c791fd8a8a5c4fa8b076b1f1015b6efa);
+            
+
+            marker_6f1291fb1385427d84c5ea3b7a224860.bindPopup(popup_d84b0b6a4eaa465d9fa7d34149d24687);
+
+            
+        
+        
+            
+
+            var marker_11127a123aee43c6a092a7a5fc0c2d28 = L.marker(
+                [36.957,49.409],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_07b06caab86a4c1fa33c107963db157c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_11127a123aee43c6a092a7a5fc0c2d28.setIcon(icon_07b06caab86a4c1fa33c107963db157c);
+            
+        
+            
+            var popup_bd757b6e3427403f9903b029ba5af62c = L.popup({maxWidth: '300'});
+
+            
+                var html_a4b5a0a806ca4dd6ac275b5fa374ee72 = $('         <div id="html_a4b5a0a806ca4dd6ac275b5fa374ee72"                 style="width: 100.0%; height: 100.0%;">                 Year: 1990 casualties: 50000.0</div>                 ')[0];
+                popup_bd757b6e3427403f9903b029ba5af62c.setContent(html_a4b5a0a806ca4dd6ac275b5fa374ee72);
+            
+
+            marker_11127a123aee43c6a092a7a5fc0c2d28.bindPopup(popup_bd757b6e3427403f9903b029ba5af62c);
+
+            
+        
+        
+            
+
+            var marker_4b337cd35f804a569567ff9346f76870 = L.marker(
+                [15.679,121.172],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_42bd57466a4043b386f48d15626951c3 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4b337cd35f804a569567ff9346f76870.setIcon(icon_42bd57466a4043b386f48d15626951c3);
+            
+        
+            
+            var popup_8244117c381a401c89360e3e4bf6b746 = L.popup({maxWidth: '300'});
+
+            
+                var html_6d60ad3adf884598b44292c7a52aff08 = $('         <div id="html_6d60ad3adf884598b44292c7a52aff08"                 style="width: 100.0%; height: 100.0%;">                 Year: 1990 casualties: 2412.0</div>                 ')[0];
+                popup_8244117c381a401c89360e3e4bf6b746.setContent(html_6d60ad3adf884598b44292c7a52aff08);
+            
+
+            marker_4b337cd35f804a569567ff9346f76870.bindPopup(popup_8244117c381a401c89360e3e4bf6b746);
+
+            
+        
+        
+            
+
+            var marker_0d5e6c5357c744e09120d0862da59f9b = L.marker(
+                [30.78,78.774],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_14d9cd31e32847b6ab72e2be369ef156 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0d5e6c5357c744e09120d0862da59f9b.setIcon(icon_14d9cd31e32847b6ab72e2be369ef156);
+            
+        
+            
+            var popup_7ea17d7804584c88b589afac4800228b = L.popup({maxWidth: '300'});
+
+            
+                var html_378ffb4a42ef45788956007159c83055 = $('         <div id="html_378ffb4a42ef45788956007159c83055"                 style="width: 100.0%; height: 100.0%;">                 Year: 1991 casualties: 2000.0</div>                 ')[0];
+                popup_7ea17d7804584c88b589afac4800228b.setContent(html_378ffb4a42ef45788956007159c83055);
+            
+
+            marker_0d5e6c5357c744e09120d0862da59f9b.bindPopup(popup_7ea17d7804584c88b589afac4800228b);
+
+            
+        
+        
+            
+
+            var marker_4a7ae73f4ba94a28becc5980e4b70823 = L.marker(
+                [-8.48,121.896],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_1ab6a96aaa904e95a62a59f4eb74a42c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4a7ae73f4ba94a28becc5980e4b70823.setIcon(icon_1ab6a96aaa904e95a62a59f4eb74a42c);
+            
+        
+            
+            var popup_4c3c1c550c9d4c10a96bf30a633f8296 = L.popup({maxWidth: '300'});
+
+            
+                var html_a417e925461c4c12b6c9b08ed7bf7a23 = $('         <div id="html_a417e925461c4c12b6c9b08ed7bf7a23"                 style="width: 100.0%; height: 100.0%;">                 Year: 1992 casualties: 1000.0</div>                 ')[0];
+                popup_4c3c1c550c9d4c10a96bf30a633f8296.setContent(html_a417e925461c4c12b6c9b08ed7bf7a23);
+            
+
+            marker_4a7ae73f4ba94a28becc5980e4b70823.bindPopup(popup_4c3c1c550c9d4c10a96bf30a633f8296);
+
+            
+        
+        
+            
+
+            var marker_1834097d08254cfc9f6415c2ff06e89c = L.marker(
+                [52.629,142.827],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_4db882ac3e904b3ba927c18d18904fe9 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1834097d08254cfc9f6415c2ff06e89c.setIcon(icon_4db882ac3e904b3ba927c18d18904fe9);
+            
+        
+            
+            var popup_1296d013d4b048d6af79b011d770030f = L.popup({maxWidth: '300'});
+
+            
+                var html_e2176c3da2414adc90d117c1b174b73e = $('         <div id="html_e2176c3da2414adc90d117c1b174b73e"                 style="width: 100.0%; height: 100.0%;">                 Year: 1995 casualties: 1989.0</div>                 ')[0];
+                popup_1296d013d4b048d6af79b011d770030f.setContent(html_e2176c3da2414adc90d117c1b174b73e);
+            
+
+            marker_1834097d08254cfc9f6415c2ff06e89c.bindPopup(popup_1296d013d4b048d6af79b011d770030f);
+
+            
+        
+        
+            
+
+            var marker_859be526b3cf4c6f88670fa30e6de128 = L.marker(
+                [33.825,59.809],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_7fb46af930b14e169dc137070a17a592 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_859be526b3cf4c6f88670fa30e6de128.setIcon(icon_7fb46af930b14e169dc137070a17a592);
+            
+        
+            
+            var popup_6c97bf83c62d480f8a4b909b46d8916b = L.popup({maxWidth: '300'});
+
+            
+                var html_d520aab197ba4a8da5aca69994b1c794 = $('         <div id="html_d520aab197ba4a8da5aca69994b1c794"                 style="width: 100.0%; height: 100.0%;">                 Year: 1997 casualties: 1728.0</div>                 ')[0];
+                popup_6c97bf83c62d480f8a4b909b46d8916b.setContent(html_d520aab197ba4a8da5aca69994b1c794);
+            
+
+            marker_859be526b3cf4c6f88670fa30e6de128.bindPopup(popup_6c97bf83c62d480f8a4b909b46d8916b);
+
+            
+        
+        
+            
+
+            var marker_3d9c9e17df2d460d98f233dec7ba2069 = L.marker(
+                [-2.943,142.582],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_6c93af424b804dfc97df1e84ca790b9c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3d9c9e17df2d460d98f233dec7ba2069.setIcon(icon_6c93af424b804dfc97df1e84ca790b9c);
+            
+        
+            
+            var popup_ab9666d7ce054e3ca62864d3c16b71cb = L.popup({maxWidth: '300'});
+
+            
+                var html_3dc4484f23e64dbea99435e475c112fc = $('         <div id="html_3dc4484f23e64dbea99435e475c112fc"                 style="width: 100.0%; height: 100.0%;">                 Year: 1998 casualties: nan</div>                 ')[0];
+                popup_ab9666d7ce054e3ca62864d3c16b71cb.setContent(html_3dc4484f23e64dbea99435e475c112fc);
+            
+
+            marker_3d9c9e17df2d460d98f233dec7ba2069.bindPopup(popup_ab9666d7ce054e3ca62864d3c16b71cb);
+
+            
+        
+        
+            
+
+            var marker_b0385def93494ce8a1d24302e2d8c347 = L.marker(
+                [40.76,29.97],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_9f3da1770d4b4660a43d2e03868c0059 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b0385def93494ce8a1d24302e2d8c347.setIcon(icon_9f3da1770d4b4660a43d2e03868c0059);
+            
+        
+            
+            var popup_cfeda42aae5049fb89b8d59795a4d104 = L.popup({maxWidth: '300'});
+
+            
+                var html_ad8819eaace644d0959af034777feda9 = $('         <div id="html_ad8819eaace644d0959af034777feda9"                 style="width: 100.0%; height: 100.0%;">                 Year: 1999 casualties: 17118.0</div>                 ')[0];
+                popup_cfeda42aae5049fb89b8d59795a4d104.setContent(html_ad8819eaace644d0959af034777feda9);
+            
+
+            marker_b0385def93494ce8a1d24302e2d8c347.bindPopup(popup_cfeda42aae5049fb89b8d59795a4d104);
+
+            
+        
+        
+            
+
+            var marker_121779302a0a4ccca1f0d7b22a5363ed = L.marker(
+                [23.772,120.982],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_b99de64c30ec421898ce7a92df57be63 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_121779302a0a4ccca1f0d7b22a5363ed.setIcon(icon_b99de64c30ec421898ce7a92df57be63);
+            
+        
+            
+            var popup_d4c23c7e9b394a31ad16114110a8f7c6 = L.popup({maxWidth: '300'});
+
+            
+                var html_fad01254bb734a809b6b6e053e56cb06 = $('         <div id="html_fad01254bb734a809b6b6e053e56cb06"                 style="width: 100.0%; height: 100.0%;">                 Year: 1999 casualties: 2297.0</div>                 ')[0];
+                popup_d4c23c7e9b394a31ad16114110a8f7c6.setContent(html_fad01254bb734a809b6b6e053e56cb06);
+            
+
+            marker_121779302a0a4ccca1f0d7b22a5363ed.bindPopup(popup_d4c23c7e9b394a31ad16114110a8f7c6);
+
+            
+        
+        
+            
+
+            var marker_a06b189e2f314d3e8f00d92e765ec9e4 = L.marker(
+                [40.758,31.161],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_16ec1ede613a4a29bf5bbf00b8ae58f2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a06b189e2f314d3e8f00d92e765ec9e4.setIcon(icon_16ec1ede613a4a29bf5bbf00b8ae58f2);
+            
+        
+            
+            var popup_5e6984d5b614478ca97893c5878a00e5 = L.popup({maxWidth: '300'});
+
+            
+                var html_6bc088d6d5114d2086ee4ee20e2aa5b4 = $('         <div id="html_6bc088d6d5114d2086ee4ee20e2aa5b4"                 style="width: 100.0%; height: 100.0%;">                 Year: 1999 casualties: 894.0</div>                 ')[0];
+                popup_5e6984d5b614478ca97893c5878a00e5.setContent(html_6bc088d6d5114d2086ee4ee20e2aa5b4);
+            
+
+            marker_a06b189e2f314d3e8f00d92e765ec9e4.bindPopup(popup_5e6984d5b614478ca97893c5878a00e5);
+
+            
+        
+        
+            
+
+            var marker_a298fdbf18b1482a9e51236341a91665 = L.marker(
+                [13.049,-88.66],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_4ddc112a466248a2b0d42a9e832143a1 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a298fdbf18b1482a9e51236341a91665.setIcon(icon_4ddc112a466248a2b0d42a9e832143a1);
+            
+        
+            
+            var popup_7cbcb8383dfe4ec4bda516b9df102b86 = L.popup({maxWidth: '300'});
+
+            
+                var html_0e42ade26d4046ff92b554ca30ef3f95 = $('         <div id="html_0e42ade26d4046ff92b554ca30ef3f95"                 style="width: 100.0%; height: 100.0%;">                 Year: 2001 casualties: 844.0</div>                 ')[0];
+                popup_7cbcb8383dfe4ec4bda516b9df102b86.setContent(html_0e42ade26d4046ff92b554ca30ef3f95);
+            
+
+            marker_a298fdbf18b1482a9e51236341a91665.bindPopup(popup_7cbcb8383dfe4ec4bda516b9df102b86);
+
+            
+        
+        
+            
+
+            var marker_41a9f673a8ed466ea39c8ad1015238fb = L.marker(
+                [23.419,70.232],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_ff0362faba674ba1bf118c738ffb87f8 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_41a9f673a8ed466ea39c8ad1015238fb.setIcon(icon_ff0362faba674ba1bf118c738ffb87f8);
+            
+        
+            
+            var popup_63e8167adbdf441daa67b5294f6b8f28 = L.popup({maxWidth: '300'});
+
+            
+                var html_b9e0252288024354a99dd9e127a8674a = $('         <div id="html_b9e0252288024354a99dd9e127a8674a"                 style="width: 100.0%; height: 100.0%;">                 Year: 2001 casualties: 20005.0</div>                 ')[0];
+                popup_63e8167adbdf441daa67b5294f6b8f28.setContent(html_b9e0252288024354a99dd9e127a8674a);
+            
+
+            marker_41a9f673a8ed466ea39c8ad1015238fb.bindPopup(popup_63e8167adbdf441daa67b5294f6b8f28);
+
+            
+        
+        
+            
+
+            var marker_84defa5a5e3e40f29d7364a0f32b7650 = L.marker(
+                [3.316,95.854],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_61940b2371a847d482e44e241fd56e15 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_84defa5a5e3e40f29d7364a0f32b7650.setIcon(icon_61940b2371a847d482e44e241fd56e15);
+            
+        
+            
+            var popup_15577dd9064a4875876a7a88ff4ea19d = L.popup({maxWidth: '300'});
+
+            
+                var html_dbc84c706b7848f6873e6213105b0d61 = $('         <div id="html_dbc84c706b7848f6873e6213105b0d61"                 style="width: 100.0%; height: 100.0%;">                 Year: 2004 casualties: 1001.0</div>                 ')[0];
+                popup_15577dd9064a4875876a7a88ff4ea19d.setContent(html_dbc84c706b7848f6873e6213105b0d61);
+            
+
+            marker_84defa5a5e3e40f29d7364a0f32b7650.bindPopup(popup_15577dd9064a4875876a7a88ff4ea19d);
+
+            
+        
+        
+            
+
+            var marker_06ccfeeff1854d7db2a9627c7a9f07dd = L.marker(
+                [2.085,97.108],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_e19f1ef336c247569b526ae276269acf = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_06ccfeeff1854d7db2a9627c7a9f07dd.setIcon(icon_e19f1ef336c247569b526ae276269acf);
+            
+        
+            
+            var popup_7d2143363ead466bbee3febf6d970501 = L.popup({maxWidth: '300'});
+
+            
+                var html_22369332a6e141728061e49b995fcc30 = $('         <div id="html_22369332a6e141728061e49b995fcc30"                 style="width: 100.0%; height: 100.0%;">                 Year: 2005 casualties: 1303.0</div>                 ')[0];
+                popup_7d2143363ead466bbee3febf6d970501.setContent(html_22369332a6e141728061e49b995fcc30);
+            
+
+            marker_06ccfeeff1854d7db2a9627c7a9f07dd.bindPopup(popup_7d2143363ead466bbee3febf6d970501);
+
+            
+        
+        
+            
+
+            var marker_9b946be978cb4ffb8764f00479666122 = L.marker(
+                [34.539,73.588],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_32b770811f554e8c867897d4467488a7 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9b946be978cb4ffb8764f00479666122.setIcon(icon_32b770811f554e8c867897d4467488a7);
+            
+        
+            
+            var popup_206be4138b8c43e0a04753d2005cc4b5 = L.popup({maxWidth: '300'});
+
+            
+                var html_dbe96c8a9be24c78b8fba94825c6f339 = $('         <div id="html_dbe96c8a9be24c78b8fba94825c6f339"                 style="width: 100.0%; height: 100.0%;">                 Year: 2005 casualties: 86000.0</div>                 ')[0];
+                popup_206be4138b8c43e0a04753d2005cc4b5.setContent(html_dbe96c8a9be24c78b8fba94825c6f339);
+            
+
+            marker_9b946be978cb4ffb8764f00479666122.bindPopup(popup_206be4138b8c43e0a04753d2005cc4b5);
+
+            
+        
+        
+            
+
+            var marker_491d42e4ea484b78a0a02eca543610b0 = L.marker(
+                [-9.254,107.411],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_8d8bdfb4c9a0488c84c68ad9f6b26eaf = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_491d42e4ea484b78a0a02eca543610b0.setIcon(icon_8d8bdfb4c9a0488c84c68ad9f6b26eaf);
+            
+        
+            
+            var popup_0c89230811b74965815ed47a8ad4d8c5 = L.popup({maxWidth: '300'});
+
+            
+                var html_9f4faf7da7a643f5903e76268a25aeea = $('         <div id="html_9f4faf7da7a643f5903e76268a25aeea"                 style="width: 100.0%; height: 100.0%;">                 Year: 2006 casualties: nan</div>                 ')[0];
+                popup_0c89230811b74965815ed47a8ad4d8c5.setContent(html_9f4faf7da7a643f5903e76268a25aeea);
+            
+
+            marker_491d42e4ea484b78a0a02eca543610b0.bindPopup(popup_0c89230811b74965815ed47a8ad4d8c5);
+
+            
+        
+        
+            
+
+            var marker_23921ed82b8749b68174f54eb7332e20 = L.marker(
+                [-13.386,-76.603],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_aaf55b5f74104570a85909877ede17d3 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_23921ed82b8749b68174f54eb7332e20.setIcon(icon_aaf55b5f74104570a85909877ede17d3);
+            
+        
+            
+            var popup_6e64f9503f4b4e1e87fcbbc489bd070d = L.popup({maxWidth: '300'});
+
+            
+                var html_c56e8c9b8b174a0cb158aa75cd96afbf = $('         <div id="html_c56e8c9b8b174a0cb158aa75cd96afbf"                 style="width: 100.0%; height: 100.0%;">                 Year: 2007 casualties: 514.0</div>                 ')[0];
+                popup_6e64f9503f4b4e1e87fcbbc489bd070d.setContent(html_c56e8c9b8b174a0cb158aa75cd96afbf);
+            
+
+            marker_23921ed82b8749b68174f54eb7332e20.bindPopup(popup_6e64f9503f4b4e1e87fcbbc489bd070d);
+
+            
+        
+        
+            
+
+            var marker_249228407ba04d5488e795dfe1b1f066 = L.marker(
+                [31.002,103.322],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_5c41e65489564e8288c457755e0fdc11 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_249228407ba04d5488e795dfe1b1f066.setIcon(icon_5c41e65489564e8288c457755e0fdc11);
+            
+        
+            
+            var popup_ed5c2a7998d64223b85f07b966f88646 = L.popup({maxWidth: '300'});
+
+            
+                var html_0f690009b85f4d4985f934ed7b3fef1a = $('         <div id="html_0f690009b85f4d4985f934ed7b3fef1a"                 style="width: 100.0%; height: 100.0%;">                 Year: 2008 casualties: 87652.0</div>                 ')[0];
+                popup_ed5c2a7998d64223b85f07b966f88646.setContent(html_0f690009b85f4d4985f934ed7b3fef1a);
+            
+
+            marker_249228407ba04d5488e795dfe1b1f066.bindPopup(popup_ed5c2a7998d64223b85f07b966f88646);
+
+            
+        
+        
+            
+
+            var marker_028579b14f094c12ab90ddc5e1815180 = L.marker(
+                [-0.72,99.867],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_85fc14083d91424ab846999b3b5a158d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_028579b14f094c12ab90ddc5e1815180.setIcon(icon_85fc14083d91424ab846999b3b5a158d);
+            
+        
+            
+            var popup_fdf497cfea0d4bc18752452015eb586c = L.popup({maxWidth: '300'});
+
+            
+                var html_353350fe81334546b8010416ec80d5b2 = $('         <div id="html_353350fe81334546b8010416ec80d5b2"                 style="width: 100.0%; height: 100.0%;">                 Year: 2009 casualties: 1117.0</div>                 ')[0];
+                popup_fdf497cfea0d4bc18752452015eb586c.setContent(html_353350fe81334546b8010416ec80d5b2);
+            
+
+            marker_028579b14f094c12ab90ddc5e1815180.bindPopup(popup_fdf497cfea0d4bc18752452015eb586c);
+
+            
+        
+        
+            
+
+            var marker_0aa1b60b3a97462d918d4fde6ca8e4ce = L.marker(
+                [18.457,-72.533],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_678e571181034a2c81dac2cee8c5026f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0aa1b60b3a97462d918d4fde6ca8e4ce.setIcon(icon_678e571181034a2c81dac2cee8c5026f);
+            
+        
+            
+            var popup_2dc2a2a382524338a358b7ca9262adc1 = L.popup({maxWidth: '300'});
+
+            
+                var html_df381376fb6e48c387f8dc993ad203c8 = $('         <div id="html_df381376fb6e48c387f8dc993ad203c8"                 style="width: 100.0%; height: 100.0%;">                 Year: 2010 casualties: 316000.0</div>                 ')[0];
+                popup_2dc2a2a382524338a358b7ca9262adc1.setContent(html_df381376fb6e48c387f8dc993ad203c8);
+            
+
+            marker_0aa1b60b3a97462d918d4fde6ca8e4ce.bindPopup(popup_2dc2a2a382524338a358b7ca9262adc1);
+
+            
+        
+        
+            
+
+            var marker_f7f3d30d6a2b4e658b863c2fc1e30d15 = L.marker(
+                [-36.122,-72.898],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_44f67711b9434ff48bf4b6c61c17a127 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f7f3d30d6a2b4e658b863c2fc1e30d15.setIcon(icon_44f67711b9434ff48bf4b6c61c17a127);
+            
+        
+            
+            var popup_73ae8c670283476a8a620c24bd5ce9d9 = L.popup({maxWidth: '300'});
+
+            
+                var html_a783371b0eb34d78ae229f15dd81db39 = $('         <div id="html_a783371b0eb34d78ae229f15dd81db39"                 style="width: 100.0%; height: 100.0%;">                 Year: 2010 casualties: 402.0</div>                 ')[0];
+                popup_73ae8c670283476a8a620c24bd5ce9d9.setContent(html_a783371b0eb34d78ae229f15dd81db39);
+            
+
+            marker_f7f3d30d6a2b4e658b863c2fc1e30d15.bindPopup(popup_73ae8c670283476a8a620c24bd5ce9d9);
+
+            
+        
+        
+            
+
+            var marker_3683eafb33364fda81b7f4f68ef33550 = L.marker(
+                [38.297,142.372],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_86739087a7c84c5890126d0141a77f00 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3683eafb33364fda81b7f4f68ef33550.setIcon(icon_86739087a7c84c5890126d0141a77f00);
+            
+        
+            
+            var popup_8ee7105c55fc43beaebc89276b9fd461 = L.popup({maxWidth: '300'});
+
+            
+                var html_1c72b167e09c4e6e8ead38c0714f2267 = $('         <div id="html_1c72b167e09c4e6e8ead38c0714f2267"                 style="width: 100.0%; height: 100.0%;">                 Year: 2011 casualties: 1476.0</div>                 ')[0];
+                popup_8ee7105c55fc43beaebc89276b9fd461.setContent(html_1c72b167e09c4e6e8ead38c0714f2267);
+            
+
+            marker_3683eafb33364fda81b7f4f68ef33550.bindPopup(popup_8ee7105c55fc43beaebc89276b9fd461);
+
+            
+        
+        
+            
+
+            var marker_082053fe14d84a42ba7b80ef3e5abf2d = L.marker(
+                [38.722,43.513],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_881a3f86e2e546e98cd8539838b937ca = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_082053fe14d84a42ba7b80ef3e5abf2d.setIcon(icon_881a3f86e2e546e98cd8539838b937ca);
+            
+        
+            
+            var popup_b500360713924ed3983d8c9934fa04e6 = L.popup({maxWidth: '300'});
+
+            
+                var html_664510852960492699f7f150ce51224d = $('         <div id="html_664510852960492699f7f150ce51224d"                 style="width: 100.0%; height: 100.0%;">                 Year: 2011 casualties: 604.0</div>                 ')[0];
+                popup_b500360713924ed3983d8c9934fa04e6.setContent(html_664510852960492699f7f150ce51224d);
+            
+
+            marker_082053fe14d84a42ba7b80ef3e5abf2d.bindPopup(popup_b500360713924ed3983d8c9934fa04e6);
+
+            
+        
+        
+            
+
+            var marker_8e8ff1e5038d4db1b58bfce244e1991a = L.marker(
+                [28.147,84.708],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_fce9ccf545494136bcd6245f801e88cb);
+            
+        
+            
+
+                var icon_433dc3f4712b414c9ae9dc3a75206c83 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8e8ff1e5038d4db1b58bfce244e1991a.setIcon(icon_433dc3f4712b414c9ae9dc3a75206c83);
+            
+        
+            
+            var popup_eb41134aa1774822a78179c975ea8681 = L.popup({maxWidth: '300'});
+
+            
+                var html_9a0bb42a80ce46eb98756d4ffb4e4181 = $('         <div id="html_9a0bb42a80ce46eb98756d4ffb4e4181"                 style="width: 100.0%; height: 100.0%;">                 Year: 2015 casualties: 8200.0</div>                 ')[0];
+                popup_eb41134aa1774822a78179c975ea8681.setContent(html_9a0bb42a80ce46eb98756d4ffb4e4181);
+            
+
+            marker_8e8ff1e5038d4db1b58bfce244e1991a.bindPopup(popup_eb41134aa1774822a78179c975ea8681);
+
+            
+        
+        
+        
+        </script>
+        
