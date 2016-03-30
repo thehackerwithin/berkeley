@@ -14,7 +14,9 @@ tags: meeting plotting python
 
 ## Qingkai Kong
 
-<+ speaker bio +> 
+I am PhD student at Berkeley Seismological Lab of Earth and Planetary Science Department. My research area is Earthquake Early Warning System, I am working on using your smartphones to detect earthquakes. I am also really interested in data science, now working on how to apply data science skills back to Seismology. You can chechout my Github [here](https://github.com/qingkaikong).
+
+Code examples for my presentation can be found [here](https://github.com/thehackerwithin/berkeley/tree/master/python_mining_emails).
 
 ## Andy Haefner
 
