@@ -2,7 +2,7 @@
 layout: post
 title: No Meeting - Spring Break
 comments: true
-category: upcoming
+category: past
 tags: meeting
 ---
 
