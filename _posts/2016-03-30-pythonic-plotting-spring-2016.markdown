@@ -23,7 +23,7 @@ Code examples for my presentation can be found [here](https://github.com/thehack
 <+ speaker bio +> 
 
 
-Code examples can be found [here][code].
+Code examples can be found [here](https://github.com/thehackerwithin/berkeley/tree/master/python_mayavi).
 
 ## 5:00pm Machine Learning Club
 
