@@ -2,7 +2,7 @@
 layout: post
 title: matplotlib - Tenzing Joshi & Nick Swanson-Hysell
 comments: true
-category: upcoming
+category: posts
 tags: meeting <+ tags +>
 ---
 
