@@ -2,7 +2,7 @@
 layout: post
 title: Python For Plotting Timeseries & 3D Data - Qingkai Kong, Andy Haefner
 comments: true
-category: upcoming
+category: posts
 tags: meeting plotting python
 ---
 
