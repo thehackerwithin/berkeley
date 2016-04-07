@@ -2,7 +2,7 @@
 layout: post
 title: Cython - Kyle Barbary
 comments: true
-category: upcoming
+category: posts
 tags: meeting python
 ---
 
@@ -20,13 +20,14 @@ tags: meeting python
 
 <+ notes +>
 
-Code examples can be found [here][code].
+Code examples can be found [here](https://github.com/thehackerwithin/berkeley/tree/master/cython_spring16).
 
 ## Lightning Talks 
 
-## <+ person +> : <+ topic +>
+### Qingkai Kong on line_profiler
 
-## <+ person +> : <+ topic +>
+### Katy Huff on python's cprofiler and snakeviz
 
+### Seán Ó Nualláin on [SONAS](https://www.youtube.com/watch?v=gDZ_GOt13eg)
 
 [code]: https://github.com/thehackerwithin/berkeley/tree/master/topic "Code Examples" 
