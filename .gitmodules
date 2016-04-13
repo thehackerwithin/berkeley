@@ -1,0 +1,3 @@
+[submodule "build_systems/utf8rewind"]
+	path = build_systems/utf8rewind
+	url = https://github.com/tkelman/utf8rewind
