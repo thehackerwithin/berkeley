@@ -1,3 +1,6 @@
 [submodule "build_systems/utf8rewind"]
 	path = build_systems/utf8rewind
 	url = https://github.com/tkelman/utf8rewind
+[submodule "build_systems/libuv"]
+	path = build_systems/libuv
+	url = https://github.com/libuv/libuv
