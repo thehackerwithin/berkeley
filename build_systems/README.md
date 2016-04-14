@@ -139,7 +139,13 @@ set_target_properties (utf8rewind PROPERTIES
 CMake has very extensive [documentation](https://cmake.org/cmake/help/latest/) and
 can be customized in many ways for advanced use, either by command line flags such as
 `-DBUILD_SHARED_LIBS=ON` or by custom commands in the CMakeLists scripting language
-such as `find_library` and `add_custom_command`.
+such as `find_library` and `add_custom_command`. As a good example of a medium-sized
+project leveraging some of these CMake features to automatically find dependencies and
+change behavior depending on whether or not they are found, see the section of [libgit2's
+CMakeLists.txt](https://github.com/libgit2/libgit2/blob/029c93464f3124556286ccc46164c1d4181edfcc/CMakeLists.txt#L327-L362)
+where they check for openssh and zlib and selectively enable or disable ssh features
+or decide between building a bundled copy of the source vs using the existing copy of the
+zlib library.
 
 Lastly there is [gyp](https://gyp.gsrc.io/) (generate your projects) which was developed
 for building Chrome. It's being phased out by its original developers for Chrome and it's
