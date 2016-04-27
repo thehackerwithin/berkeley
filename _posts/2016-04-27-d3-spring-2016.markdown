@@ -47,9 +47,9 @@ is a co-organizer of the Bay Area D3.js User Group.
 * [Fisheye Nutrient Explorer](http://bl.ocks.org/syntagmatic/raw/3290392/)
 * [d3.parcoords.js](http://syntagmatic.github.io/parallel-coordinates/)
 * [EcoEngine Parallel Coordinates](http://bl.ocks.org/syntagmatic/42d5b54c5cfe002e7dd8)
-* http://stamen.github.io/metag/taxonomy/parcoords.html
-* http://stamen.github.io/metag/taxonomy/parcoords-CN-SCN.html
-* http://stamen.github.io/metag/taxonomy/parcoords-carrol.html
+* [SCN-STOCK Contig Taxonomy](http://stamen.github.io/metag/taxonomy/parcoords.html)
+* [CN-SCN Contig Taxonomy](http://stamen.github.io/metag/taxonomy/parcoords-CN-SCN.html)
+* [CARROL Contig Taxonomy](http://stamen.github.io/metag/taxonomy/parcoords-carrol.html)
 
 ### EcoEngine
 
@@ -62,24 +62,24 @@ is a co-organizer of the Bay Area D3.js User Group.
 
 #### Parallel Coordinates
 
-http://stamen.github.io/metag/taxonomy/parcoords.html
-http://stamen.github.io/metag/taxonomy/parcoords-CN-SCN.html
-http://stamen.github.io/metag/taxonomy/parcoords-carrol.html
+* [SCN-STOCK Contig Taxonomy](http://stamen.github.io/metag/taxonomy/parcoords.html)
+* [CN-SCN Contig Taxonomy](http://stamen.github.io/metag/taxonomy/parcoords-CN-SCN.html)
+* [CARROL Contig Taxonomy](http://stamen.github.io/metag/taxonomy/parcoords-carrol.html)
 
 #### Radial Tree
-http://stamen.github.io/metag/taxonomy/radial-tree.html
-http://stamen.github.io/metag/taxonomy/radial-tree-CN-SCN.html
-http://stamen.github.io/metag/taxonomy/radial-tree-carrol.html
+* [SCN-STOCK Radial Tree](http://stamen.github.io/metag/taxonomy/radial-tree.html)
+* [CN-SCN Radial Tree](http://stamen.github.io/metag/taxonomy/radial-tree-CN-SCN.html)
+* [CARROL Radial Tree](http://stamen.github.io/metag/taxonomy/radial-tree-carrol.html)
 
 #### Treemap
-http://stamen.github.io/metag/taxonomy/treemap.html
-http://stamen.github.io/metag/taxonomy/treemap-CN-SCN.html
-http://stamen.github.io/metag/taxonomy/treemap-carrol.html
+* [SCN-STOCK Treemap](http://stamen.github.io/metag/taxonomy/treemap.html)
+* [CN-SCN Treemap](http://stamen.github.io/metag/taxonomy/treemap-CN-SCN.html)
+* [CARROL Treemap](http://stamen.github.io/metag/taxonomy/treemap-carrol.html)
 
 #### Partition Layout
-http://stamen.github.io/metag/taxonomy/partition.html
-http://stamen.github.io/metag/taxonomy/partition-CN-SCN.html
-http://stamen.github.io/metag/taxonomy/partition-carrol.html
+* [SCN-STOCK Partition](http://stamen.github.io/metag/taxonomy/partition.html)
+* [CN-SCN Partition](http://stamen.github.io/metag/taxonomy/partition-CN-SCN.html)
+* [CARROL Partition](http://stamen.github.io/metag/taxonomy/partition-carrol.html)
 
 ### Specific D3.js Techniques
 
