@@ -14,9 +14,10 @@ tags: meeting plotting
 
 ## Kai Chang
 
-<+ speaker bio +> 
+Kai Chang is an expert in the visualization and
+is a co-organizer of the Bay Area D3.js User Group.
 
-## <+topic +>
+## D3.js for building Exploratory Visualization Tools
 
 <+ notes +>
 
