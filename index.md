@@ -61,6 +61,7 @@ To keep up with meetings, you will want to
 ## How:
 
 Participating is really easy.
+<ul>
 <li>At **4:00pm**, we gather and go through a round of introductions.
 New faces are always appearing!</li>
 <li>Next, a volunteer will give a **tutorial** or lead a
@@ -76,6 +77,7 @@ question of interest to the group.
 question to the group. If you have a bug you need help with, here's the
 place to ask many ears about it at once.
 </li>
+</ul>
 
 The Hacker Within relies on peer-driven teaching, so please volunteer to
 give one of these talks. To do so, just ping the listhost by email at
