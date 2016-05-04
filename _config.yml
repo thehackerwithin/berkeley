@@ -6,7 +6,7 @@ kramdown:
   hard_wrap: false
   parse_block_html: true
 github: thehackerwithin
-url: http://thehackerwithin.github.com/berkeley 
+url: http://thehackerwithin.org/berkeley 
 name: Hacker Within
 chapter: Berkeley
 description: An initial blog and site for THW at UCB
