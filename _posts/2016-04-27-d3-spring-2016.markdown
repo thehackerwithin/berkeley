@@ -2,7 +2,7 @@
 layout: post
 title: D3.js - Kai Chang
 comments: true
-category: upcoming
+category: posts
 tags: meeting plotting
 ---
 
