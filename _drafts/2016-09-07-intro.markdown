@@ -1,0 +1,27 @@
+---
+layout: post
+title: First meeting - everyone
+comments: true
+category: upcoming
+tags: meeting <+ tags +>
+---
+
+
+## Attending
+
+- <++>
+
+
+## First meeting
+
+This is the first meeting of The Hacker Within of the semester. We will do introductions and then try and set a schedule for the rest of the semester.
+
+<+ notes +>
+
+## Lightning Talks 
+
+## <+ person +> : <+ topic +>
+
+## <+ person +> : <+ topic +>
+
+
