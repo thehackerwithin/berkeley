@@ -1,6 +1,6 @@
 ---
 layout: post
-title: To be determined - TBD
+title: Thanksgiving -- The Turkey Within
 comments: true
 category: upcoming
 tags: meeting <+ tags +>
