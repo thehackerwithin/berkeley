@@ -32,9 +32,7 @@ having.
 
 ## Where:
 
-
-
-This meeting takes place at the [Berkeley Institute for Data
+This meeting takes place Tuesdays at 4pm at the [Berkeley Institute for Data
 Science](https://bids.berkeley.edu).
 
 Room 190, Doe Library, The University of California - Berkeley
@@ -82,6 +80,8 @@ place to ask many ears about it at once.
 The Hacker Within relies on peer-driven teaching, so please volunteer to
 give one of these talks. To do so, just ping the listhost by email at
 [ucb-hacker-within@lists.berkeley.edu](mailto:ucb-hacker-within@lists.berkeley.edu).
+
+There is also a [slack channel](https://thehackerwithin.slack.com) that many other THWs are on!
 
 
 ## Why:
