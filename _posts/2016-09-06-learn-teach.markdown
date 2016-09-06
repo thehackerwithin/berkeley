@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What To Learn and Teach - All
+title: What To Learn and Teach - Everyone
 comments: true
 category: upcoming
 tags: meeting meta
