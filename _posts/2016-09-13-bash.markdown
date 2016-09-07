@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bash and the terminal -- Aaron Culich and John Bohannon
+title: The Bash Olympics -- Aaron Culich and John Bohannon
 comments: true
 category: upcoming
 tags: meeting <+ tags +>
