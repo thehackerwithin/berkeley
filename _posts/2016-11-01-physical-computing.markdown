@@ -1,16 +1,10 @@
 ---
 layout: post
-title: To be determined - TBD
+title: Physical Computing - Brandon Curtis
 comments: true
 category: upcoming
 tags: meeting <+ tags +>
 ---
-
-
-## Attending
-
-- <++>
-
 
 ## <+ speaker +>
 
@@ -20,13 +14,10 @@ tags: meeting <+ tags +>
 
 <+ notes +>
 
-Code examples can be found [here][code].
+Code examples 
 
 ## Lightning Talks 
 
 ## <+ person +> : <+ topic +>
 
 ## <+ person +> : <+ topic +>
-
-
-[code]: https://github.com/thehackerwithin/berkeley/tree/master/topic "Code Examples" 
