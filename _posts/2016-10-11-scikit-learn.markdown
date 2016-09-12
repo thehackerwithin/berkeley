@@ -22,5 +22,3 @@ Code examples/notebooks can be found --insert link---.
 
 ## <+ person +> : <+ topic +>
 
-
-[code]: https://github.com/thehackerwithin/berkeley/tree/master/topic "Code Examples" 
