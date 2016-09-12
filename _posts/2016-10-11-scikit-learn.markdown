@@ -1,15 +1,11 @@
 ---
 layout: post
-title: To be determined - TBD
+title: Machine learning with scikit-learn - Rochelle Terman
 comments: true
 category: upcoming
 tags: meeting <+ tags +>
 ---
 
-
-## Attending
-
-- <++>
 
 
 ## <+ speaker +>
