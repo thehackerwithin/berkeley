@@ -1,14 +1,12 @@
 ---
 layout: post
-title: Machine learning with scikit-learn - Rochelle Terman
+title: Machine learning with scikit-learn - Rochelle Terman and Christopher Hench
 comments: true
 category: upcoming
 tags: meeting <+ tags +>
 ---
 
-
-
-## <+ speaker +>
+## <+ speakers +>
 
 <+ speaker bio +> 
 
@@ -16,7 +14,7 @@ tags: meeting <+ tags +>
 
 <+ notes +>
 
-Code examples can be found [here][code].
+Code examples/notebooks can be found --insert link---.
 
 ## Lightning Talks 
 
