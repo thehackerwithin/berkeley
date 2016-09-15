@@ -2,7 +2,7 @@
 layout: post
 title: The Bash Olympics -- Aaron Culich and John Bohannon
 comments: true
-category: upcoming
+category: posts
 tags: meeting <+ tags +>
 ---
 
