@@ -1,16 +1,10 @@
 ---
 layout: post
-title: To be determined - TBD
+title: Matplotlib - Yu Feng
 comments: true
 category: upcoming
 tags: meeting <+ tags +>
 ---
-
-
-## Attending
-
-- <++>
-
 
 ## <+ speaker +>
 
@@ -20,13 +14,8 @@ tags: meeting <+ tags +>
 
 <+ notes +>
 
-Code examples can be found [here][code].
-
 ## Lightning Talks 
 
 ## <+ person +> : <+ topic +>
 
 ## <+ person +> : <+ topic +>
-
-
-[code]: https://github.com/thehackerwithin/berkeley/tree/master/topic "Code Examples" 
