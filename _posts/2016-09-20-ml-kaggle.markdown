@@ -1,12 +1,12 @@
 ---
 layout: post
-title: TBD -- To be determined
+title: Machine Learning for Kaggle Competitions with R -- Jerry Chen
 comments: true
 category: upcoming
 tags: meeting <+ tags +>
 ---
 
-## <+ speaker +>
+## Jerry Chen
 
 <+ speaker bio +> 
 
@@ -14,7 +14,7 @@ tags: meeting <+ tags +>
 
 <+ notes +>
 
-Code examples:
+Code:
 
 ## Lightning Talks 
 
