@@ -30,9 +30,10 @@ showing off useful features of a scientific library or programming
 language you're using, or bringing up a computational problem you're
 having.
 
-## Slack channel
-[Slack channel](http://thehackerwithin.slack.com) if you've got an account
-[Go here to get an invite to the slack channel](http://theslackerwithin.herokuapp.com) -- invite token "berkeley"
+## Communications
+* [Slack channel](http://thehackerwithin.slack.com) if you've got an account
+  * [Go here to get an invite to the slack channel](http://theslackerwithin.herokuapp.com) -- invite token "berkeley"
+* [Mailing list](https://groups.google.com/a/lists.berkeley.edu/forum/#!forum/ucb-hacker-within)
 
 ## Where:
 
