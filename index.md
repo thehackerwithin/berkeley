@@ -30,6 +30,10 @@ showing off useful features of a scientific library or programming
 language you're using, or bringing up a computational problem you're
 having.
 
+## Slack channel
+[Slack channel](http://thehackerwithin.slack.com) if you've got an account
+[Go here to get an invite to the slack channel](http://theslackerwithin.herokuapp.com) -- invite token "berkeley"
+
 ## Where:
 
 This meeting takes place Tuesdays at 4pm at the [Berkeley Institute for Data
