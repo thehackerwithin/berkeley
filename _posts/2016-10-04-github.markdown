@@ -1,16 +1,20 @@
 ---
 layout: post
-title: To Be Determined -- TBD
+title: Git and Github -- Tony Kelman and Garret Christensen
 comments: true
 category: upcoming
 tags: meeting <+ tags +>
 ---
 
-## <+ speaker +>
+## Presenters
+### Tony Kelman
+### Garret Christensen
 
-<+ speaker bio +> 
+<+ speaker bios +> 
 
-## <+topic +>
+## Topics
+### Git
+### Github
 
 <+ notes +>
 
