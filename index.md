@@ -51,15 +51,12 @@ come to our meetings.
 
 ## When:
 
-
-Wednesdays at 4:00pm. While the main talk should occupy less than an hour, the
+Tuesdays at 4:00pm. While the main talk should occupy less than an hour, the
 lightning talks and hacking session can go on until 6:00pm or later. See the [upcoming topics list]({{ site.url }}/upcoming.html)
 or the [calendar](http://bit.ly/1cqFKuh)
 for the topic for this week.
 To keep up with meetings, you will want to
 [sign up for the mailing list](https://calmail.berkeley.edu/manage/list/listinfo/ucb-hacker-within@lists.berkeley.edu).
-
-
 
 ## How:
 
