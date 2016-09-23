@@ -37,35 +37,31 @@ showing off useful features of a scientific library or programming
 language you're using, or bringing up a computational problem you're
 having.
 
-## Communications
-* [Slack channel](http://thehackerwithin.slack.com) if you've got an account
-  * [Go here to get an invite to the slack channel](http://theslackerwithin.herokuapp.com) -- invite token "berkeley"
-* [Mailing list](https://groups.google.com/a/lists.berkeley.edu/forum/#!forum/ucb-hacker-within)
-
-## Where:
-
-This meeting takes place Tuesdays at 4pm at the [Berkeley Institute for Data
-Science](https://bids.berkeley.edu).
-
-Room 190, Doe Library, The University of California - Berkeley
-
-
 ## Who:
 
 Anyone interested in software development best practices is welcome to
 come to our meetings.
 
+## Where:
+
+This meeting takes place Tuesdays at 4pm at the [Berkeley Institute for Data
+Science](https://bids.berkeley.edu). Room 190, Doe Library, The University of California - Berkeley.
 
 ## When:
 
 Tuesdays at 4:00pm. While the main talk should occupy less than an hour, the
-lightning talks and hacking session can go on until 6:00pm or later. See the [upcoming topics list]({{ site.url }}/upcoming.html)
+lightning talks and hacking session usually go on until 5:30pm. See the [upcoming topics list]({{ site.url }}/upcoming.html)
 or the [calendar](http://bit.ly/1cqFKuh)
 for the topic for this week.
-To keep up with meetings, you will want to
-[sign up for the mailing list](https://calmail.berkeley.edu/manage/list/listinfo/ucb-hacker-within@lists.berkeley.edu).
 
 ## How:
+
+### Communications
+* [Mailing list](https://groups.google.com/a/lists.berkeley.edu/forum/#!forum/ucb-hacker-within)
+* [Slack channel](http://thehackerwithin.slack.com) if you've got an account
+  * [Go here to get an invite to the slack channel](http://theslackerwithin.herokuapp.com) -- invite token "berkeley"
+
+### Participating:
 
 Participating is really easy.
 <ul>
@@ -86,21 +82,12 @@ place to ask many ears about it at once.
 </li>
 </ul>
 
-The Hacker Within relies on peer-driven teaching, so please volunteer to
-give one of these talks. To do so, just ping the listhost by email at
-[ucb-hacker-within@lists.berkeley.edu](mailto:ucb-hacker-within@lists.berkeley.edu).
-
-There is also a [slack channel](https://thehackerwithin.slack.com) that many other THWs are on!
-
-
 ## Why:
-
 
 The tenets of scientiﬁc endeavor (e.g., data control, reproducibility,
 comprehensive documentation, and peer review) suffer in projects that fail
 to make use of current development tools such as unit testing, version
 control, automated documentation, and others.
-
 
 To avoid these pitfalls, this weekly meeting exists for sharing skills and best practices for
 computational scientific applications. This group is modeled after The
