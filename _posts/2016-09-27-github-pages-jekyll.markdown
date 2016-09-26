@@ -27,12 +27,23 @@ Advantages over the dynamic/CMS approach:
 * For most of this session, just a Github account and a web browser
 * For a few minutes at the end, I'll walk people through running Jekyll locally. [Install instructions are here](https://jekyllrb.com/docs/installation/) for OS X and Linux (Windows is not officially supported). 
 
+## Tips and tricks
 
+* Settings are in the settings tab of your repository, in the "GitHub Pages" section.
+  * You can see details about errors here, although they can be misleading / hard to decode
+* Jekyll's markdown parser/renderer can be stricter than Github's, and will just print raw markdown if it hits something it won't parse
+* Go to the commit list (on your repo) to find the last version Github built with Jekyll.
+  * Green check: successful build
+  * Orange circle: building
+  * Red X: error
+  * No icon: not built
+* YAML is important and easy to mess up (YAML Ain't a Markup Language)
+  * [The YAML format](http://symfony.com/doc/current/components/yaml/yaml_format.html)
+  * Invalid YAML declarations will cause builds to fail in ways that generate misleading errors
+  * Valid YAML declarations will be rendered by Github as a nice, formatted table.
+  * YAML uses C-style quote escape sequences
 
-
-Code examples:
-
-## Lightning Talks 
+# Lightning talks
 
 ## <+ person +> : <+ topic +>
 
