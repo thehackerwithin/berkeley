@@ -14,7 +14,7 @@ I'm a postdoc at [the Berkeley Institute for Data Science](http://bids.berkeley.
 
 Github Pages is a free web hosting service by Github, which uses Jekyll to generate HTML files from files (themes, layouts, and data) in a special Github repository. Whenever you make a commit to a Github Pages repository, Github's servers run the Jekyll parser on the files in that repository, which generates a set of static HTML and CSS files on a special subdomain. The result can look nearly identical to traditional content management systems (like Wordpress or Drupal) that dynamically process requests from browsers using languages like PHP and querying live databases like MySQL.
 
-Advantages over the dynamic/CMS approach:
+### Advantages over the dynamic/CMS approach:
 
 * Fewer moving parts to configure and maintain
 * No need to be a systems administrator
@@ -22,12 +22,17 @@ Advantages over the dynamic/CMS approach:
 * Uses existing Github infrastructure for logins and collaboration
 * Free hosting! (recommended max: 100,000 requests/month)
 
-## What you need
+### What you need
 
 * For most of this session, just a Github account and a web browser
 * For a few minutes at the end, I'll walk people through running Jekyll locally. [Install instructions are here](https://jekyllrb.com/docs/installation/) for OS X and Linux (Windows is not officially supported). 
 
-## Tips and tricks
+#### Repositories to fork
+ 
+* TBD
+* TBD
+
+### Tips and tricks
 
 * Settings are in the settings tab of your repository, in the "GitHub Pages" section.
   * You can see details about errors here, although they can be misleading / hard to decode
@@ -42,6 +47,22 @@ Advantages over the dynamic/CMS approach:
   * Invalid YAML declarations will cause builds to fail in ways that generate misleading errors
   * Valid YAML declarations will be rendered by Github as a nice, formatted table.
   * YAML uses C-style quote escape sequences
+  
+### Examples of good/easy/interesting Github Pages sites
+
+#### Themes
+
+* [Neo HPSTR theme](https://github.com/aron-bordin/neo-hpstr-jekyll-theme)
+
+#### Real world examples
+
+* [ACM Conference on Cloud Computing](http://acmsocc.github.io/2016/) -- [Github repo](https://github.com/acmsocc/2016)
+  * Very detailed and polished (and complicated)
+  * Uses YAML to generate schedule
+* [AstroHackWeek](http://astrohackweek.org/2016/) -- [Github repo](https://github.com/AstroHackWeek/2016)
+  * Single page scrolling layout, based on Solid State by HTML5 UP
+* [Switch2OSM](http://switch2osm.github.io/) -- [Github repo](https://github.com/switch2osm/switch2osm.github.io)
+  * Uses [Neo HPSTR theme](https://github.com/aron-bordin/neo-hpstr-jekyll-theme)
 
 # Lightning talks
 
