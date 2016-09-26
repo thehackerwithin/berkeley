@@ -15,10 +15,10 @@ title: "About"
   {% assign upcoming = (site.posts | where: "category" , "upcoming") %}
   {% for post in upcoming reversed %}
     {% if forloop.first %}
-		<li style="text-indent: 2em;">
+	<li style="text-indent: 2em;">
 		<span>{{ post.date | date: "%B %e, %Y" }}</span> Next topic: <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-		</li>
-	 {% endif %}
+	</li>
+    {% endif %}
   {% endfor %}
 <li>
 <span>2014-2016</span><a href="{{ site.url }}/previous.html">Previous Topics</a>
