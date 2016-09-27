@@ -29,9 +29,9 @@ Github Pages is a free web hosting service by Github, which uses Jekyll to gener
 
 ### Repositories to fork
  
-* [academicpages.github.io/group-meeting](https//github.com/academicpages/group-meeting)
-* [academicpages.github.io](https://github.com/academicpages/academicpages.github.io)
-* [academicpages.github.io/events](https://github.com/academicpages/events)
+* [group-meeting](https//github.com/academicpages/group-meeting)
+* [academicpages](https://github.com/academicpages/academicpages.github.io)
+* [events](https://github.com/academicpages/events)
 
 ## Tips and tricks
 
