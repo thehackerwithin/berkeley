@@ -54,7 +54,7 @@ Github Pages is a free web hosting service by Github, which uses Jekyll to gener
 ### Themes
 
 * [Neo HPSTR theme](https://github.com/aron-bordin/neo-hpstr-jekyll-theme)
-* [Made Mistakes)(https://github.com/mmistakes/made-mistakes-jekyll)
+* [Made Mistakes](https://github.com/mmistakes/made-mistakes-jekyll)
 * [Skinny Bones](https://github.com/mmistakes/skinny-bones-jekyll)
 * [Left](https://github.com/holman/left)
 
@@ -70,6 +70,7 @@ Github Pages is a free web hosting service by Github, which uses Jekyll to gener
 
 # Lightning talks
 
-## <+ person +> : <+ topic +>
+## Matthias Bussonnier
+[Cross language Jupyter](https://github.com/Carreau/talks/blob/master/2016-09-23-uc-merced-seminar/Cross%20Language%20Integration.ipynb)
 
 ## <+ person +> : <+ topic +>
