@@ -2,7 +2,7 @@
 layout: post
 title: Github Pages and Jekyll - Stuart Geiger
 comments: true
-category: upcoming
+category: posts
 tags: meeting <+ tags +>
 ---
 
