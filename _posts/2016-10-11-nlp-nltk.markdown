@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TBD -- TBD
+title: Natural Language Processing for Python with NLTK -- Christopher Hench
 comments: true
 category: upcoming
 tags: meeting <+ tags +>
