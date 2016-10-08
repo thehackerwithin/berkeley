@@ -2,7 +2,7 @@
 layout: post
 title: Git and Github -- Tony Kelman and Garret Christensen
 comments: true
-category: upcoming
+category: posts
 tags: meeting <+ tags +>
 ---
 
