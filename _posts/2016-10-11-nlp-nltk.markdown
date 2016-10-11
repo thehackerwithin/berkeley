@@ -16,7 +16,7 @@ Text data requires a separate preprocessing stage often referred to as the 'NLP 
 
 ### Installation
 
-[Jupyter notebook](https://github.com/thehackerwithin/berkeley/blob/master/nltk/THW_NLTK.ipynb)
+We are using this [Jupyter notebook](https://github.com/thehackerwithin/berkeley/blob/master/nltk/THW_NLTK.ipynb) in the thehackerwithin/berkeley repo, master branch, nltk folder.
 
 For installation of Python and NLTK follow [these instructions](https://github.com/dlab-berkeley/python-intensive/blob/master/Install.md)
 
