@@ -2,7 +2,7 @@
 layout: post
 title: Natural Language Processing for Python with NLTK -- Christopher Hench
 comments: true
-category: upcoming
+category: posts
 tags: meeting <+ tags +>
 ---
 
