@@ -6,7 +6,7 @@ category: upcoming
 tags: meeting <+ tags +>
 ---
 
-## <+ speaker +>
+## Remi Lehe
 
 <+ speaker bio +> 
 
