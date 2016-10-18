@@ -10,9 +10,7 @@ tags: meeting <+ tags +>
 
 <+ speaker bio +> 
 
-## <+topic +>
-
-<+ notes +>
+## Parallelization in Python
 
 A Jupyter notebook [is here](https://github.com/RemiLehe/thw_parallel_python), click the "launch binder" icon.
 
