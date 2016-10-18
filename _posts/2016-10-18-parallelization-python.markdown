@@ -14,7 +14,7 @@ tags: meeting <+ tags +>
 
 <+ notes +>
 
-Code examples 
+A Jupyter notebook [is here](https://github.com/RemiLehe/thw_parallel_python), click the "launch binder" icon.
 
 ## Lightning Talks 
 
