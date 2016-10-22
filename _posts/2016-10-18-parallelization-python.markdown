@@ -2,7 +2,7 @@
 layout: post
 title: Parallelization in Python - Remi Lehe
 comments: true
-category: upcoming
+category: posts
 tags: meeting <+ tags +>
 ---
 
