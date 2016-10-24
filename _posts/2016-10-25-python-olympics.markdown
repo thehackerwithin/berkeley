@@ -6,15 +6,19 @@ category: upcoming
 tags: meeting <+ tags +>
 ---
 
-## <+ speaker +>
+## John Bohannon
 
 <+ speaker bio +> 
 
-## <+topic +>
+## The Python Olympics
 
-<+ notes +>
+The fastest way to learn a programming language is to use it. So why not turn that into a game? 
 
-Code examples 
+All levels of experience welcome. We have Python puzzles for advanced coders and beginners alike.
+
+This will also be the world debut of a new kind of interactive IPython Notebook designed for group coding games.
+
+See you at the games!
 
 ## Lightning Talks 
 
