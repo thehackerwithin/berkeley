@@ -2,7 +2,7 @@
 layout: post
 title: The Python Olympics - John Bohannon
 comments: true
-category: upcoming
+category: posts
 tags: meeting <+ tags +>
 ---
 
