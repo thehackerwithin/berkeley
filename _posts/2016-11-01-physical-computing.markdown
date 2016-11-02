@@ -2,11 +2,11 @@
 layout: post
 title: Physical Computing - Brandon Curtis
 comments: true
-category: upcoming
+category: posts
 tags: meeting <+ tags +>
 ---
 
-## <+ speaker +>
+## Brandon Curtis
 
 <+ speaker bio +> 
 
