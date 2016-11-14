@@ -2,7 +2,7 @@
 layout: post
 title: Matplotlib - Yu Feng
 comments: true
-category: upcoming
+category: posts
 tags: meeting <+ tags +>
 ---
 
