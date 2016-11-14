@@ -5,22 +5,13 @@ comments: true
 category: upcoming
 tags: meeting <+ tags +>
 ---
-
-
-## Attending
-
-- <++>
-
-
-## <+ speaker +>
+## Rochelle Terman and Christopher Hench
 
 <+ speaker bio +> 
 
-## <+topic +>
+## Machine learning with scikit-learn
 
-<+ notes +>
-
-Code examples can be found [here][code].
+Clone [this Github repository](https://github.com/henchc/THW-scikit-learn).
 
 ## Lightning Talks 
 
@@ -29,4 +20,3 @@ Code examples can be found [here][code].
 ## <+ person +> : <+ topic +>
 
 
-[code]: https://github.com/thehackerwithin/berkeley/tree/master/topic "Code Examples" 
