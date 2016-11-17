@@ -2,7 +2,7 @@
 layout: post
 title: Machine learning with scikit-learn - Rochelle Terman and Christopher Hench
 comments: true
-category: upcoming
+category: posts
 tags: meeting <+ tags +>
 ---
 ## Rochelle Terman and Christopher Hench
