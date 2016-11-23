@@ -2,7 +2,7 @@
 layout: post
 title: Thanksgiving -- The Turkey Within (no meeting)
 comments: true
-category: upcoming
+category: posts
 tags: meeting <+ tags +>
 ---
 
