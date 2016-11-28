@@ -7,13 +7,13 @@ tags: meeting <+ tags +>
 ---
 
 
-## <+ speaker +>
+## Diya Das and Wolf Ketter
 
 <+ speaker bio +> 
 
-## <+topic +>
+## R and RStudio
 
-<+ notes +>
+You can download R and RStudio [https://www.rstudio.com/products/rstudio/download/](here).
 
 ## Lightning Talks 
 
