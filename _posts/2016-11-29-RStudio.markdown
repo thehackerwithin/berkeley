@@ -13,7 +13,7 @@ tags: meeting <+ tags +>
 
 ## R and RStudio
 
-You can download R and RStudio [https://www.rstudio.com/products/rstudio/download/](here).
+You can download R and RStudio at https://www.rstudio.com/products/rstudio/download/
 
 ## Lightning Talks 
 
