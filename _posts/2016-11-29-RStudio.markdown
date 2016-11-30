@@ -2,7 +2,7 @@
 layout: post
 title: RStudio -- Diya Das and Wolf Ketter
 comments: true
-category: upcoming
+category: posts
 tags: meeting <+ tags +>
 ---
 
