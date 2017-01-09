@@ -2,7 +2,7 @@
 layout: post
 title: Ensemble (Machine) Learning with Super Learner and H2O in R -- Nima Hejazi and Evan Muzzall
 comments: true
-category: upcoming
+category: posts
 tags: meeting <+ tags +>
 ---
 
