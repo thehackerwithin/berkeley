@@ -1,0 +1,66 @@
+---
+layout: post
+title: Julia - Kyle Barbary
+comments: true
+category: posts
+tags: meeting julia
+---
+
+## Attending
+
+About 25 people.
+
+
+## Kyle Barbary
+Kyle is a postdoc in the Berkeley Center for Cosmological Physics and a BIDS fellow.
+Like many people, he has a [website](http://kbarbary.github.io/).
+
+## Julia
+
+[Julia](http://julialang.org) is a high-level language (like Python) that emphasizes performance.
+Slides and Jupyter notebooks from the talk can be found in
+[this Github repository](https://github.com/kbarbary/talks/tree/master/2015-thw-julia).
+
+*If you're living in future and the link is broken, look in https://github.com/kbarbary/talks/* 
+
+### Notes
+
+Julia solves the two language problem, where high-level languages are easy to 
+program in, but they use some other low level language on the backend. Julia, 
+however, only uses Julia.
+
+Fundamentally, Julia was created under the idea that dynamic languages don't 
+need to be slow. Julia seeks to be as fast as C, dynamic as ruby, useful as 
+python, etc... 
+
+Julia is pretty fast. In some examples, very very fast. One of the cool things 
+it does is to compile a function only on the first time you run it. Later runs 
+are faster than the first.
+
+The syntax seems really similar to python, except:
+
+- `;` takes you to the shell
+- `?` takes you to help
+- `backspace` to get out of the shell or help
+- supports unicode, like python 3
+- you can use `ipython notebook --profile julia` to start IJulia
+- `typeof(var)` gives the type of the variable var
+- string interpolation is neat. You can use `$var` in a string and it will be 
+  expanded.
+- Functions and loops use an explicit `end`
+- Functions can be written like `f(x) = 2x^2 + 3x + 1`
+- arrays can be either homogeneous or heterogeneous. If heterogeneous, the 
+  array type is `Any`. 
+- array type can be explicitly defined
+- one-based indexing
+- ranges are inclusive at both ends
+- the `code_native` function gives the machine code for any function. Pretty 
+  sweet.
+
+Rather than importing packages, the `using` syntax is used and the macros in 
+that package are called with `@func`
+
+
+## Lightning Talks 
+
+No lightning talks.

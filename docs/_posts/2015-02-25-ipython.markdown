@@ -1,0 +1,165 @@
+---
+layout: post
+title: IPython - Omoju Miller
+comments: true
+category: posts
+tags: meeting python
+---
+
+
+## Attending
+
+I counted 35 people. These included, at least:
+
+- Omoju
+- Kelly
+- Katy
+- John
+- Chris
+- Caroline
+- Min
+- Matthias
+- Thomas
+- Jess
+- Denia
+- Sven
+- Anders
+- Donny
+- Dan
+- Many others!
+- Add your name above if you aren't on the list!
+
+## Omoju Miller
+
+[Omoju Miller](http://omojumiller.com) is a PhD candidate at the University of
+California at Berkeley researching artificial intelligence. She is also a
+software technologist, start-up advisor, and educator.
+
+
+## IPython
+
+IPython is an interactive interpreter for programming with Python (and now many
+other languages).
+
+### Easy, Peasy, Lemon Squeezy
+
+Omoju suggests that, to work, teach, or collaborate, development tools need to
+be as easy as possible to install and use.
+
+Things that she mentioned in this regard:
+
+- IPython is easy to install with "pip." Just type `pip install ipython` in the
+  terminal.
+- [Wakari.io](http://wakari.io)
+- [NBViewer](http://nbviewer.ipython.org)
+
+### The IPython Notebook
+
+To start up the ipython notebook, crack open your terminal and type:
+
+```
+ipython notebook
+```
+
+That starts up a server which serves ipython notebookes (usually to
+localhost:8888 or similar). This command, therefore, will automatically open a
+browser instance with a view of your directory. This will allow you to open up
+any ipython notebooks in that directory. It also allows you (with a button) to
+create a new notebook in that directory.
+
+#### The Oscars
+
+Omoju showed an example from [Mining the Social
+Web](http://nbviewer.ipython.org/github/ptwobrussell/Mining-the-Social-Web-2nd-Edition/tree/master/ipynb/)
+about using the twitter api. She demonstrated how she was able to use the
+ipython notebook to access the twitter firehose and filter out tweets
+concerning the Academy awards.
+
+#### LaTeX in Markdown cells
+
+She demonstrated also how to include LaTeX in a markdown cell. First, create a
+markdown cell, then include math:
+
+```
+Courtesy of MathJax, you can include mathematical expressions both inline:
+$e^{i\pi} + 1 = 0$  and displayed:
+
+$$e^x=\sum_{i=0}^\infty \frac{1}{i!}x^i$$
+```
+
+#### Using IPython Notebooks with GitHub
+
+A troublesome issue with IPython notebooks is the extra information that is
+held in the json. That doesn't version control as beautifully as plain text.
+
+To avoid extra headaches, clear all output cells (Cell - > All Output - >
+Clear) before you commit your ipython notebooks.
+
+#### Magics in the Notebooks
+
+Omoju describes these as Development Powertools.
+[Magics](http://ipython.org/ipython-doc/dev/interactive/tutorial.html) are special tools and
+functions. They are often preceeded by one or more percent signs (%). Some examples:
+
+- %timeit : times the execution of a function
+- %%timeit : times the execution of a whole cell
+- %%javascript : allows the use of javascript code in the notebook
+
+#### Plotly Notebook Examples
+
+Plotly is a plotting tool. On their websites, there are some fun examples in
+the gallery of IPython notebooks .
+
+#### Use Cases
+
+Omoju suggests using IPython notebooks for lots of stuff, including:
+
+- Code Mentoring
+- Teaching
+- Data Analysis
+- Writing Books
+
+### Learning more with Books
+
+Omoju recommends [The Ipython Cookbook](http://ipython-books.github.io/cookbook).
+
+## Lightning Talks
+
+### Martin Magdinier : OpenRefine
+
+[OpenRefine](http://openrefine.org/) is a tool for helping to clean and process
+data. You can do this with very limited data processing skills, but it is also
+useful for more skilled analysts.
+
+Refine runs a local java-based server on your local machine and it opens up a
+browser instance to provide an interface for loading data, parsing it,
+identifying close duplicate categories, cleaning it up, and exploring it
+somewhat with filters and views.
+
+
+### Brian Hamlin : Geospatial stuff!
+
+Geospatial data is everywhere.  An example is found at
+[www.pism-docs.org](http://www.pism-docs.org)
+
+- **Does anyone know how to export NetCDF -> text**
+- **Does anyone who uses Pandas or GeoPandas know how to join-on-attribute and
+  get a GeoPandas object rather than a Pandas object?**
+
+[OSGeo-Live](http://live.osgeo.org/en/index.html)
+
+
+
+### Daniel Wooten : Prompt Magic
+
+Dan Wooten uses SSH to get to computers all over the place. He likes to be able
+to tell what computer he is on simply by the color of the prompt in his
+terminal.
+
+In the .bashrc file, you can export a modified PS1 variable to change the
+content and color of your prompt.
+
+BUT, the code necesary for specifying the right thing is pretty hideous. Let
+someone else figure out the syntax for you with : [PROMPT
+MAGIC!!!](http://www.funtoo.org/Prompt_Magic)
+

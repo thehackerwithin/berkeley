@@ -1,0 +1,23 @@
+---
+layout: post
+title: The Bash Olympics -- Aaron Culich and John Bohannon
+comments: true
+category: posts
+tags: meeting <+ tags +>
+---
+
+## Aaron Culich and John Bohannon
+
+<+ speaker bio +> 
+
+## <+topic +>
+
+<+ notes +>
+
+## Lightning Talks 
+
+## <+ person +> : <+ topic +>
+
+## <+ person +> : <+ topic +>
+
+

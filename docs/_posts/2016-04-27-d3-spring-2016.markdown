@@ -1,0 +1,101 @@
+---
+layout: post
+title: D3.js - Kai Chang
+comments: true
+category: posts
+tags: meeting plotting
+---
+
+
+## Attending
+
+- <++>
+
+
+## Kai Chang
+
+Kai Chang is an experienced used of D3.js, design technologist at Stamen Design and co-organizer of the Bay Area D3.js User Group.
+
+## D3.js for building Exploratory Visualization Tools
+
+### Who is here? Why are you interested in D3.js?
+
+* Data journalists?
+* Data scientists?
+* Real scientists?
+
+### Speaker Links
+
+* [syntagmatic's blocks](http://bl.ocks.org/syntagmatic)
+* [Twitter](https://twitter.com/syntagmatic)
+
+### D3.js Resources
+
+* [Mike Bostock's Interactive Essays](http://bost.ocks.org/mike/)
+* [mbostock's blocks](http://bl.ocks.org/mbostock)
+* [Jason Davies Gallery](https://www.jasondavies.com/)
+* [Big List of D3.js Examples](http://christopheviau.com/d3list/)
+* [D3.js API Reference](https://github.com/mbostock/d3/wiki/API-Reference)
+
+### Parallel Coordinates
+
+* [Protovis Parallel Coordinates](https://mbostock.github.io/protovis/ex/cars.html)
+* [D3.js Parallel Coordinates](http://bl.ocks.org/mbostock/1341021)
+* [Veggie Coordinates](http://exposedata.com/parallel/)
+* [Nutrient Explorer](http://bl.ocks.org/syntagmatic/raw/3150059/)
+* [Fisheye Nutrient Explorer](http://bl.ocks.org/syntagmatic/raw/3290392/)
+* [d3.parcoords.js](http://syntagmatic.github.io/parallel-coordinates/)
+* [EcoEngine Parallel Coordinates](http://bl.ocks.org/syntagmatic/42d5b54c5cfe002e7dd8)
+* [SCN-STOCK Contig Taxonomy](http://stamen.github.io/metag/taxonomy/parcoords.html)
+* [CN-SCN Contig Taxonomy](http://stamen.github.io/metag/taxonomy/parcoords-CN-SCN.html)
+* [CARROL Contig Taxonomy](http://stamen.github.io/metag/taxonomy/parcoords-carrol.html)
+
+### EcoEngine
+
+* [Project Description](http://globalchange.berkeley.edu/ecoinformatics-engine)
+* [EcoEngine API](https://ecoengine.berkeley.edu/)
+* [D3.js Prototypes](https://github.com/stamen/ecoengine#prototypes)
+
+
+### Metagenomics
+
+#### Parallel Coordinates
+
+* [SCN-STOCK Contig Taxonomy](http://stamen.github.io/metag/taxonomy/parcoords.html)
+* [CN-SCN Contig Taxonomy](http://stamen.github.io/metag/taxonomy/parcoords-CN-SCN.html)
+* [CARROL Contig Taxonomy](http://stamen.github.io/metag/taxonomy/parcoords-carrol.html)
+
+#### Radial Tree
+* [SCN-STOCK Radial Tree](http://stamen.github.io/metag/taxonomy/radial-tree.html)
+* [CN-SCN Radial Tree](http://stamen.github.io/metag/taxonomy/radial-tree-CN-SCN.html)
+* [CARROL Radial Tree](http://stamen.github.io/metag/taxonomy/radial-tree-carrol.html)
+
+#### Treemap
+* [SCN-STOCK Treemap](http://stamen.github.io/metag/taxonomy/treemap.html)
+* [CN-SCN Treemap](http://stamen.github.io/metag/taxonomy/treemap-CN-SCN.html)
+* [CARROL Treemap](http://stamen.github.io/metag/taxonomy/treemap-carrol.html)
+
+#### Partition Layout
+* [SCN-STOCK Partition](http://stamen.github.io/metag/taxonomy/partition.html)
+* [CN-SCN Partition](http://stamen.github.io/metag/taxonomy/partition-CN-SCN.html)
+* [CARROL Partition](http://stamen.github.io/metag/taxonomy/partition-carrol.html)
+
+### Specific D3.js Techniques
+
+* [d3-hierarchy](https://github.com/d3/d3-hierarchy)
+* [General Update Pattern](http://bl.ocks.org/mbostock/3808218) - one of the big D3.js learning hurdles
+* [Perceptual Color Spaces](http://bl.ocks.org/mbostock/3014589)
+* [Bivariate Hexbin](http://bl.ocks.org/mbostock/4330486)
+* [Dynamic Projections](http://bl.ocks.org/mbostock/3711652)
+
+
+Code examples can be found [here][code].
+
+## Lightning Talks 
+
+## <+ person +> : <+ topic +>
+
+## <+ person +> : <+ topic +>
+
+
+[code]: https://github.com/thehackerwithin/berkeley/tree/master/topic "Code Examples" 

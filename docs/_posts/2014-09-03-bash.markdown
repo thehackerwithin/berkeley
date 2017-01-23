@@ -1,0 +1,108 @@
+---
+layout: post
+title: Computational Nuclear Engineering Overview & Bash - Max Fratoni & Katy Huff
+comments: true
+category: posts
+tags: meeting bash
+---
+
+
+# Attending
+
+- Kelly Rowland
+- Katy Huff
+- Alejandra Jolodosky
+- Blake Huff 
+- Jasmina Vujic
+- Sven
+- Daniel Wooten
+- Rachel Slaybaugh
+- Denia Djokic
+- Madicken Munk
+- Sandra Bogetic
+- Phil Gorman
+- Naman
+- Max Fratoni
+
+# Computational Tools for Nuclear Engineering, An Overview 
+
+## Speaker Intro: Massimiliano Fratoni
+
+[Max Fratoni][max] is a professor (forever freshman) in the nuclear engineering 
+department who specializes in computational neutronics methods, advanced 
+reactors,  and accident tolerant fuels.
+
+## Discussion: Computational Tools for Nuclear Engineering
+
+Max would like to help define what to use when. The first quest to ask is "What 
+is your problem like?" As whether it is:
+
+- a steady state or time dependent
+- over a short (reactivity excursion) or long (depletion) time frame
+
+The most generic types of tools are either
+
+- stochastic (Monte Carlo)
+- or deterministic (many).
+
+The question, again, is "What are you trying to model?" If your simulation has 
+a common geometry and common materials, then deterministic tools are certainly 
+likely to be the answer.  For deterministic codes, there are many 
+simplifications, so it's likely to be fast, but perhaps not as flexible. 
+
+If your geometry or you have unusual materials, stochastic models are probably 
+going to capture your problem the best. In general, you will choose either MCNP 
+or Serpent. So, when do you use MCNP and when do you use Serpent? While Serpent 
+is very user friendly, the theory part in the Serpent manual, it is very hard 
+to be confident in your results, since there are so many knobs that can be 
+turned, but don't actually have to be turned.  
+
+Serpent, for example, can combine points and make up its own energy grid. When 
+you do this, you can lose accuracy, in particular in the unresolved resonances. 
+This unified energy grid (which is set by default) will definitely bias some of 
+your isotopics.
+
+That's fine, but MCNP doesn't do depletion in a reliable way. 
+
+There are also a suite of codes that are capable of transient solutions by 
+coupling with a monte carlo or deterministic code. These 
+are often specifically designed for a certain reactor. This includes PARCS, for 
+example. 
+
+Besides coupling with a monte carlo or deterministic code, depletion can be 
+handled, by and large, by ORIGEN. ORIGEN2 and ORIGEN-S are your options. The 
+resuls from ORIGEN are going to be just as good as your cross sections. 
+
+### Future Topics
+
+- What is the difference between the exponential matrix method and the kram 
+  method? (Daniel)
+- Mocdown (Phil)
+- PARCS (Sandra)
+- Serpent&PARCS (Sandra)
+- COMSOL (Madicken)
+- MONTEBURNS (Alejandra)
+- MOOSE (Katy)
+
+
+Madicken will show off COMSOL next week, and then Daniel will talk the week 
+after that. 
+
+# Discussion: Bash and Unix / Linux Environments
+
+## Speaker Intro: Katy Huff 
+
+[Katy Huff][katy] is an NSSC Postdoctoral Scholar and a Berkeley Institute for Data Science 
+Fellow. 
+
+## Discussion: Bash
+
+Code examples can be found [here][tutorial].
+
+# Lightning Talks 
+
+## Kelly Rowland
+
+[katy]: http://katyhuff.github.io "Katy Huff"
+[max]: http://www.nuc.berkeley.edu/people/massimiliano_fratoni "Max Fratoni"
+[tutorial]: https://github.com/thehackerwithin/berkeley/blob/master/bash/tutorial.md   "Tutorial Source"

@@ -1,0 +1,36 @@
+---
+layout: post
+title: Advanced Git - Dav Clark
+comments: true
+category: posts
+tags: meeting git
+---
+
+
+## Attending
+
+Over 40 people! Too many to count! We have arrived.
+
+
+## Dav Clark
+
+Dav Clark is the director of [Glass Bead Labs](http://bead.glass), is employed by the [D-Lab](http://dlab.berkeley.edu), and is supported by [BIDS](http://bids.berkeley.edu) and the [NIMH](http://www.nimh.nih.gov/). His mission is to provide inclusive access to Data Science training, with a particular focus on *social* scientists.
+
+## Advanced Git
+
+You may be keeping track of your work with git already. Learn some minimal skills, including the answer to "what's a pull request?" You'll get more done, both by managing your own work efficiently, and by effectively soliciting and incorporating work from others.
+
+Dav has created a repository at [github.com/tech4measurement/tech4measurement.github.io](https://github.com/tech4measurement/tech4measurement.github.io). This repository uses jekyll to make a website. In order to change a thing or two about the website, folks make pull requests.
+
+We'll be pretty interactive. Check out this [overview of resources](https://github.com/dlab-berkeley/git-fundamentals), pull requests welcome.
+
+### <+Notes+>
+
+<+notes here+>
+
+### Lightning Talks
+
+## Thomas Kluyver
+
+Thomas has created an exceptional little tool for teaching the shell!
+

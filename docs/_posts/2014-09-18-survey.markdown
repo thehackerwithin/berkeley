@@ -1,0 +1,68 @@
+---
+layout: post
+title: When and Where Survey
+comments: true
+category: posts
+tags: meta 
+---
+
+
+# Space and Time
+
+Space and time are complex, coupled problems for THW. We would like a place and
+a time that works well for everyone. But, schedules differ, geography is an
+issue, and space is hard to come by on this campus.
+
+## Space
+
+There are three possible spaces. 
+
+### 2150 Shattuck, Suite 230
+
+This is the space we've been using for the last year. Many of you know it. It
+has lovely light, a lot of chairs, and a nice big round table. Additionally, we
+never get kicked out of it for other events, because our events take priority
+here. The location may be a downside for those of you who drive or don't like
+walking from Etcheverry.
+
+### 190 Doe
+
+[This space][bids] is brand spanking new, and yet, very old. The Berkeley Institute for
+Data Science (driven by many of the same concerns that drive The Hacker Within)
+has an open, computational-science-focused space that is just being finished
+up. It's in the historic Doe library, right at the entrance, so it's very
+central and convenient for people coming from any corner of campus. Also, it
+looks like a beautiful startup space, it has a camera/screen portal with
+the capability to broadcast our meeting to remote viewers, and Katy has the
+keys. The construction crew is finishing up some of the A/C in the room this
+week, but all the furniture is in and it's ready for excellent events like
+this. Go check it out if you don't believe me.  
+
+### 4101 Etcheverry
+
+This conference room is lovely and keeps its guests surrounded by nuclear
+engineering books. It's a popular choice for many NE meetings and has a lot of
+charm. It is large enough to seat our current meeting attendees, but probably
+no more than that. So, consider the ideal size of THW, when you make this
+decision. Many might prefer that THW stay the same size it is now. It is a very
+convenient location for those of you in Etcheverry, but fairly inconvenient for
+those of us who sit in the NSSC space.  
+
+## Time 
+
+In general, we'd like to have the meeting in the afternoon. Three possible
+start times have been suggested. These are 3:00, 3:30, and 4:00pm. The meeting
+nominally lasts between 1.5 and 2 hours.
+
+Consider your class schedule. Please be generous. It's ok if you have to be 10
+minutes late. This is Berkeley. 
+
+
+## Exercise your rights
+
+We're all equal here. Please exercise your rights by voting in this [online
+poll][form] that I've set up. Between this poll and the availability of key
+locations, we'll find a place and time. 
+
+[bids]: http://vcresearch.berkeley.edu/sites/default/files/bids_collage.jpg "bids space"
+[form]: https://docs.google.com/forms/d/1RzUbbpUpNu7jDy166WaAXxwooGmapW15tcDChSNA5W0/viewform?usp=send_form "Form"

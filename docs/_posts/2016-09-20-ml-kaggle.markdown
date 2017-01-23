@@ -1,0 +1,23 @@
+---
+layout: post
+title: Machine Learning for Kaggle Competitions with R -- Jerry Chen
+comments: true
+category: posts
+tags: meeting <+ tags +>
+---
+
+## Jerry Chen
+
+<+ speaker bio +> 
+
+## Description
+
+Kaggle is a data science platform where data scientists from all over the world work together and compete in real-world machine learning challenges. These public data sets cover a wide array of interesting problems from diagnosing eye problems based on images of the retina to recommending coupons to users who visit a site. On Tuesday, we will explore the machine learning process in the context of competitions and how Kaggle is becoming a really good starting point for machine learning enthusiasts to collaborate and learn new things.
+
+Code:
+
+## Lightning Talks 
+
+## <+ person +> : <+ topic +>
+
+## <+ person +> : <+ topic +>

@@ -1,0 +1,60 @@
+---
+layout: post
+title: Pandas - Tenzing Joshi
+comments: true
+category: posts
+tags: meeting python data
+---
+
+
+## Attending
+
+Many Folks.
+
+## Tenzing Joshi
+
+I am a postdoc in the Applied Nuclear Physics Program at LBL. 
+I received my PhD from the Nuclear Engineering department at Berkeley.
+My current research is focused on using modern data analysis techniques to improve the sensitivity of mobile radiation detection platforms and using insights from this work to develop future radiation detection systems. 
+
+## There is more than one way to skin a Panda.
+
+In this edition of The Hacker Within I'll introduce the pandas library. 
+We'll talk about Series and DataFrames. 
+This includes a variety of ways to create them, index into them, manipulate them, and get data out of them. 
+
+Follow along with this [Jupyter Notebook](https://github.com/thehackerwithin/berkeley/tree/master/python_pandas).
+In this notebook we'll use some [data](https://dl.dropboxusercontent.com/u/4558549/THWPasses_segmented.hdf5).
+
+
+## Resources
+* Pandas site
+  * http://pandas.pydata.org/pandas-docs/stable/overview.html
+  * http://pandas.pydata.org/pandas-docs/stable/tutorials.html
+  * There are loads of useful examples and tutorials on this site
+  * If you're curious then take some time to look around
+  
+* Wes's Book
+  * Wes McKinney started Pandas
+  * Wes wrote a book titled **Python for Data Analysis**
+  * http://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1449319793
+  * This was my starting point and there is great stuff in this book
+
+* Other Pandas tutorials that are worth a read
+  * https://bitbucket.org/hrojas/learn-pandas
+  * http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/
+  * http://synesthesiam.com/posts/an-introduction-to-pandas.html
+  * https://plot.ly/ipython-notebooks/big-data-analytics-with-pandas-and-sqlite/
+
+* Stack Overflow
+  * There are a large number of Pandas related answers on here
+  * http://stackoverflow.com/questions/tagged/pandas
+  * It seems like this site is monitored for pandas tagged questions, if you're stumped then this is a great place to ask a question.
+
+
+## Lightning Talks 
+
+### Mike Pacer
+
+### Kunal Marwaha
+
