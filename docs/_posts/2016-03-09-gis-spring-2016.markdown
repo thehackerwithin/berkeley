@@ -1,0 +1,65 @@
+---
+layout: post
+title: Handling and Visualizing Geospatial Data - Kevin Koy
+comments: true
+category: posts
+tags: meeting plotting
+---
+
+
+## Attending
+
+Approximately 35 people
+
+
+## Kevin Koy
+
+Kevin is the Executive Director of the Berkeley Institute for Data Science 
+(BIDS). He was previously executive director at the Geospatial Innovation 
+Facility (GIF).
+
+## Geospatial Data
+### Resources
+To get help beyond this talk, visit the Berkeley [Geospatial Innovation Facility](http://gif.berkeley.edu). They have resource guides, office hours, workshops, and more.
+
+Data:
+- [Berkeley GIF resources for finding data](http://gif.berkeley.edu/resources/data.html)
+- [Administrative Boundaries](http://www.gadm.org)
+- [Climate data](http://www.prism.oregonstate.edu)
+- [Open Street Map](http://openstreetmap.org)
+
+Tools:
+- [Quantum GIS](http://www.qgis.org/en/site/): open source, multiplatform geospatial software
+
+### Notes
+
+There are two general types of GIS data. These are:
+- Vector data (in shapefiles, for example) 
+- and Raster data (in pixels, numbered cells).
+
+Where to find Geospatial Data? 
+
+[gif.berkeley.edu/resources/data.html](gif.berkeley.edu/resources/data.html)
+
+For the demo, there are a few places where the data will be downloaded from:
+
+[http://gadm.org](http://gadm.org)
+[http://prism.oregonstate.edu](http://prism.oregonstate.edu)
+[http://www.openstreetmap.org](http://www.openstreetmap.org)
+
+Kevin demonstrated using QGIS (an open source 
+alternative to ARCGIS).  [http://www.qgis.org/en/site/](http://www.qgis.org/en/site/)
+
+He also showed us how to publish our map data on the webservice Cartodb at 
+[https://cartodb.com](https://cartodb.com).
+
+## Lightning Talks 
+
+## Aji : TerraView
+
+Aji shared [TerraView](http://terraview.io:8080/landing), a node.js app which 
+can show information about air quality.
+It has many layers, a straighforward map, using open street map. But, on top of 
+it, using node.js, there's an open source package called leaflet which allows 
+lots of extra layers to the map. In real time, new values are updated. 
+

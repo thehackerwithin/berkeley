@@ -1,0 +1,23 @@
+---
+layout: post
+title: RStudio -- Diya Das and Wolf Ketter
+comments: true
+category: posts
+tags: meeting <+ tags +>
+---
+
+
+## Diya Das and Wolf Ketter
+
+<+ speaker bio +> 
+
+## R and RStudio
+
+You can download R and RStudio at https://www.rstudio.com/products/rstudio/download/
+
+## Lightning Talks 
+
+## <+ person +> : <+ topic +>
+
+## <+ person +> : <+ topic +>
+

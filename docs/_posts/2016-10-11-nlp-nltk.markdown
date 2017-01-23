@@ -1,0 +1,39 @@
+---
+layout: post
+title: Natural Language Processing for Python with NLTK -- Christopher Hench
+comments: true
+category: posts
+tags: meeting <+ tags +>
+---
+
+## Christopher Hench
+
+<+ speaker bio +> 
+
+## NLTK
+
+Text data requires a separate preprocessing stage often referred to as the 'NLP pipeline'. One popular library for its implementation is Python's NLTK (Natural Language Toolkit). This talk will cover how to clean text data, tag parts of speech (POS), identify named entities (NER), and quantify sentiment beyond dictionary look-up. While not explored in this talk, these preprocessing steps are often critical to developing more advanced, high-level models for document classifiers, topic modeling, and network models by providing targeted feature sets.
+
+### Installation
+
+We are using this [Jupyter notebook](https://github.com/thehackerwithin/berkeley/blob/master/nltk/THW_NLTK.ipynb) in the thehackerwithin/berkeley repo, master branch, nltk folder.
+
+For installation of Python and NLTK follow [these instructions](https://github.com/dlab-berkeley/python-intensive/blob/master/Install.md)
+
+If you installed anaconda:
+
+conda install nltk
+
+Otherwise:
+
+pip install nltk
+
+Lastly, the NER wrapper requires the Java Stanford NER [here](http://nlp.stanford.edu/software/CRF-NER.shtml#Download):
+Note: do not download the extension, just Download Stanford Named Entity Recognizer version 3.6.0
+
+## Lightning Talks 
+
+## <+ person +> : <+ topic +>
+
+## <+ person +> : <+ topic +>
+

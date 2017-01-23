@@ -1,0 +1,17 @@
+---
+layout: post
+title: Testing - Katy Huff
+comments: true
+category: posts
+tags: meeting nose
+---
+
+
+# Lesson: Introduction to Testing
+
+Katy gave a very quick intro to testing using the python nosetests package. There is a simple example [here][testing].
+
+
+[testing]: https://github.com/thehackerwithin/berkeley/tree/master/testing "Testing Example" 
+
+

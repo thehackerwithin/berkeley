@@ -1,0 +1,19 @@
+---
+layout: post
+title: IPython - Ross Barnowski
+comments: true
+category: posts
+tags: meeting python
+---
+
+
+# Lesson: Introduction to IPython
+
+Ross gave an introduction to one of the best tools in the python development 
+suite: IPython. 
+
+His notes for this tutorial can be found [on github][ipython].
+
+[ipython]: https://github.com/thehackerwithin/berkeley/tree/master/IPython "here"
+
+

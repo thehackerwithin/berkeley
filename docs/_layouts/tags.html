@@ -1,0 +1,38 @@
+---
+layout: layout
+---
+
+<section class="content">
+<h1>{{ page.title }} </h1>
+
+{% include site_tags.html %}
+
+<div class = "tag_list">
+{% for item in (0..site.tags.size) %}{% unless forloop.last %}
+      {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
+      <span style = "white-space:nowrap;"> <span class = "post-meta" >{{ site.tags[this_word].size }} x </span><a href="{{ site.url}}/tags.html#{{ this_word | cgi_escape }}" class = "tag">{{ this_word }}
+      </a></span><br/>
+{% endunless %}{% endfor %}
+</div>
+
+<br>
+
+<div>
+   {% for item in (0..site.tags.size) %}{% unless forloop.last %}
+     {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
+
+   <h2  id="{{ this_word | cgi_escape }}">{{ this_word }}</h2>
+   <ul class="listing">
+     {% for post in site.tags[this_word] %}{% if post.title != null %}
+     <li> 
+     <span>{{ post.date | date: "%B %e, %Y" }}</span>
+     <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>  
+     </li>
+     {% endif %}{% endfor %}
+   </ul>
+   {% endunless %}{% endfor %}
+</div>
+</section>
+
+
+

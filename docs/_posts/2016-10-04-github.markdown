@@ -1,0 +1,27 @@
+---
+layout: post
+title: Git and Github -- Tony Kelman and Garret Christensen
+comments: true
+category: posts
+tags: meeting <+ tags +>
+---
+
+## Presenters
+### Tony Kelman
+### Garret Christensen
+
+<+ speaker bios +> 
+
+## Topics
+### Git
+### Github
+
+<+ notes +>
+
+Code examples 
+
+## Lightning Talks 
+
+## <+ person +> : <+ topic +>
+
+## <+ person +> : <+ topic +>

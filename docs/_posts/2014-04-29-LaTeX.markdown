@@ -1,0 +1,33 @@
+---
+layout: post
+title: LaTeX - Laurence Lewis
+comments: true
+category: posts
+tags: meeting latex
+---
+
+# Attending
+
+-    Katy Huff
+-    Ryan Bergmann
+-    Professor Rachel Slaybaugh 
+-    Professor Max Fratoni
+-    Kelly Rowland
+-    Daniel Wooten
+-    Joshua Howland 
+-    Madicken Munk
+-    and others... I failed at taking attendance this time. 
+
+# Lesson: LaTeX
+
+You can find a lot of Laurence's [examples][examples] in the master branch of our 
+repository.
+
+# Lightning Talk: Rachel on drawing, Katy on FloatBarrier and Max on Easy LaTeX 
+
+Rachel shared her LaTeX homework assignments, Katy pointed out FloatBarrier, 
+the best command ever, and Max showed off a WYSIWYG latex editor called LyX. 
+
+[examples]: https://github.com/thehackerwithin/berkeley/blob/master/LaTeX   "Examples"
+
+

@@ -1,0 +1,53 @@
+---
+layout: post
+title: Testing - Rachel Slaybaugh
+comments: true
+category: posts
+tags: meeting
+---
+
+
+## Attending
+
+- 30 or so folks
+
+
+## Rachel Slaybaugh
+
+Rachel Slaybaugh is an Assistant Professor of Nuclear Engineering at the
+University of California, Berkeley. At Berkeley, Prof. Slaybaugh's research
+program is based in computational methods and applied to existing and advanced
+nuclear reactors, nuclear non-proliferation and security, and shielding
+applications. She received a BS in Nuclear Engineering from Penn State in 2006
+where she served as a licensed nuclear reactor operator. Dr. Slaybaugh went on
+to the University of Wisconsin – Madison to earn an MS in 2008 and a PhD in
+2011 in Nuclear Engineering and Engineering Physics along with a certificate in
+ Energy Analysis and Policy. For her PhD she researched acceleration methods for
+ massively parallel deterministic neutron transport codes. Dr. Slaybaugh then
+worked with hybrid (deterministic-Monte Carlo) methods for shielding
+applications at Bettis Laboratory while teaching at the University of Pittsburgh
+ as an adjunct faculty member. Throughout her career Dr. Slaybaugh has been
+engaged in software carpentry education and training; she also contributes to
+the open source project [PyNE](http://pyne.io). Prof. Slaybaugh was awarded the
+ 2014 American Nuclear Society Young Member Excellence Award.
+
+## Testing
+
+Today's presentation can be found [here](http://rachelslaybaugh.github.io/berkeley/images/2015.03.11-presentation.pdf).
+
+## Lightning Talks
+
+### Kelly Rowland : Sometimes the tests are wrong
+
+But, it's ok. We don't need to enter an infinite recursive testing of tests.
+Just keep in mind that sometimes tests need to be updated when the code
+interface changes behavior.
+
+### Katy Huff : TravisCI
+
+Check out this continuous integration service. [TravisCI](http://travis-ci.org) is free.
+
+### Brian Hamlin : More TravisCI
+
+Brian gives an example of a travis.yml file.
+

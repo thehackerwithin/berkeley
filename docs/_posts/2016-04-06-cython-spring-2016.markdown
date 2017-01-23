@@ -1,0 +1,36 @@
+---
+layout: post
+title: Cython - Kyle Barbary
+comments: true
+category: posts
+tags: meeting python
+---
+
+
+## Attending
+
+Lots!
+
+## Kyle Barbary
+
+Kyle is a Data Science Fellow at the Berkeley Institute for Data Science.
+
+## Cython
+
+Code examples can be found [here](https://github.com/thehackerwithin/berkeley/tree/master/cython_spring16).
+
+## Lightning Talks 
+
+### Qingkai Kong on line_profiler
+
+kernprof!  Google it.
+
+### Katy Huff on python's cprofiler and snakeviz
+
+Snakeviz! Google it.
+
+### Seán Ó Nualláin on [SONAS](https://www.youtube.com/watch?v=gDZ_GOt13eg)
+
+Sonas: [https://www.youtube.com/watch?v=gDZ_GOt13eg](https://www.youtube.com/watch?v=gDZ_GOt13eg)
+
+[code]: https://github.com/thehackerwithin/berkeley/tree/master/cython_spring16 "Code Examples" 

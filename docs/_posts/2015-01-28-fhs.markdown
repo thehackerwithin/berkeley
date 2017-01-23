@@ -1,0 +1,151 @@
+---
+layout: post
+title: The Shell and The Filesystem Hierarchy Standard - Katy Huff
+comments: true
+category: posts
+tags: meeting shell
+---
+
+## Attending
+
+About 35 folks! No attendance was taken, though. 
+
+## Katy Huff
+
+[Katy Huff](https://kathuff.github.io) is a postdoc with NSSC and BIDS.
+
+## The Shell
+
+There was some interested in the shell. In particular, someone was interested 
+in ksh. So, let's cover shells.
+
+### Various Shells
+
+Shell programs are just programming languages. The flavors include:
+
+- sh 
+- csh
+- tsh
+- zsh
+- ksh
+- bash
+
+What are the differences? Mostly syntax. For serious shell programming, they 
+vary mostly in the way they treat arrays, their order of operations, and their 
+way they treat variable scope.
+
+### Basics in the Shell
+
+I'm actually going to cheat here and use the first chapter of [my new 
+book](http://physics.codes) to cover the shell basics really quickly.
+
+I know that's not a very open source way to go about things, because you'd have 
+to buy the book to get this material later. Be cool. The same material is 
+[covered beautifully by Software 
+Carpentry](http://software-carpentry.org/v5/novice/shell/index.html).
+
+### Customizing Your Shell
+
+In any shell, there are files that can be used to customize its behavior. These 
+files hold bash commands that are run at the start of each shell session. For 
+bash these are usually:
+
+- .bash\_profile
+- .bashrc
+- .bash\_aliases
+
+The profile file is called first and sources other files (such as bashrc and 
+aliases). Many people keep their bashrc files online. Let's find some good ones 
+and browse them. I [keep mine
+online](https://github.com/katyhuff/tools/tree/master/env) so that I can get
+back to work instantly if my laptop self-immolates. Let's talk about some of 
+the things you can do to make your life easier with bashrc.
+
+## The Filesystem 
+
+All of this is very exciting. The shell provides a nice transparent interface
+to the filesystem. But, what's the point of having an interface to the
+filesystem?
+
+Pretty much everything in a UNIX or Linux operating system is a file that you
+can look at. Since you're a human with skillz, this means that pretty much
+everything in the operating system is something you can investigate,
+manipulate, and control.
+
+The only way to know the potential power of the filesystem is to understand the
+filesystem hierarchy standard.
+
+### The Filesystem Hierarchy Standard
+
+On a linux machine, the placement of directories at the top level of the
+filesystem is not just systematic, it is standardized. The standard provides a 
+place for each thing that might be needed on your filesystem. 
+
+I feel like this kind of skill should be used in only two ways:
+
+- to be more efficient
+- to prank your friends
+
+Thankfully, the filesystem provides plenty of opportunities for both.
+
+#### /bin
+
+Binary files are utilities like commands and programs. System level binary
+files are held in bin.
+
+#### /lib
+
+Libraries are compiled software with APIs that can be used by other source code
+on your system. System level libraries are held in lib. UNIX machines don't
+have lib at the top level, but they do have it at lower levels. We'll see this
+when we address opt and usr.
+
+#### /dev
+
+Even hardware has a filesystem representation. In dev, block and character
+devices are linked to the operating system through file-like objects. Browse
+dev... what devices do you see? Can you find your printer? What is zero? What is random?
+
+It used to be the case that you could pipe random numbers into the file that 
+held your speakers (try 'cat /dev/random > /dev/dsp'). It isn't true with 
+modern linux, unfortunately. Now all audio moves through a program (on linux 
+it is called aplay) before it hits the device.
+
+On linux, try:
+
+cat /dev/urandom |aplay
+
+On macs, try:
+
+say the hacker within rocks
+
+#### /proc
+
+The processes on your machine are represented in the filesystem by what appear to be files. 
+This isn't true on a mac. However, it's really cool.
+
+#### /boot
+
+Macs don't have this. Linux does. What do you think it holds? 
+Why should this be part of the filesystem?
+
+#### /mnt
+
+This is where things get mounted (CDs, USB drives, etc.). Note that a lot of 
+these will also be accessible via the device number of their port. Unlike the 
+port, though, you can unmount things that are mounted.
+
+#### /opt
+
+When you want to install a library or a program, you might want to do it in 
+this optional space. This space reflects the top-level system hierarchy.
+
+#### /usr
+
+An almost exactly equivalent space is here in usr. 
+
+
+## Lightning Talks
+
+## Ryan Pavlovsy : ssh config files!
+

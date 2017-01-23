@@ -1,0 +1,82 @@
+---
+layout: post
+title: Shiny - Karthik Ram
+comments: true
+category: posts
+tags: meeting r
+---
+
+
+## Attending
+
+About 20 folks!!
+
+## Karthik Ram
+
+Karthik is a BIDS data science fellow, programmer extraordinaire, and  leader of ROpenSci.
+
+## Shiny
+
+[Shiny](http://shiny.rstudio.com/) is an R-language package that creates web
+applications to interact with analysis pipelines and visualizations. 
+
+
+Github repo with some example code: [https://github.com/karthik/shiny](https://github.com/karthik/shiny)
+The most up to date resource on Shiny: [http://shiny.rstudio.com/](http://shiny.rstudio.com)
+Also see some amazing cheatsheets here: [http://www.rstudio.com/resources/cheatsheets/](http://www.rstudio.com/resources/cheatsheets)
+
+- server.R holds the behind the scenes info
+- ui.R holds the interface
+
+Best way to learn: Try building an app. 
+Best resource: cheatsheets rstudio.com/resources/cheatsheets
+
+
+```R
+## ui.R
+shinyUI( fluidPage(
+    titlePanel("This is a shiny app"),
+    sidebarLayout(
+        sidebarPanel(
+            selectInput("x", "x variable", names(iris))
+            selectInput("y", "y variable", names(iris), names(iris)[[2]])
+            ),
+        mainPanel()
+        
+        )
+    ))
+
+```
+
+
+
+```R
+## server.R
+## any code that runs once on each server
+## put that code *before* the shinyServer() call
+library(ggplot2)
+
+shinyServer(function(input, output){
+    output$gg <-
+    })
+
+```
+
+
+## Lightning Talks 
+
+### Ryan Pavlovsky : RadWatch Dosimeter
+
+Ryan showed of a cool small, cheap, touchscreen silicon PIN detectors ("radiation thermostat!")
+module and the plotly interface that they have deployed!
+
+### Katy : Survey!!
+
+Please fill this out:
+[https://goo.gl/AIymbR](https://goo.gl/AIymbR)
+
+### Jeroem Ooms
+
+MongoDB Client for R called "mongolite". 
+[http://cran.r-project.org/web/packages/mongolite/index.html](http://cran.r-project.org/web/packages/mongolite/index.html). 
+Showed off some in-database aggregations, mapreducing, binning, and the like.

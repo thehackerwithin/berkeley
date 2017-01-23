@@ -1,0 +1,54 @@
+---
+layout: post
+title: Parallel Programming - Chris Paciorek
+comments: true
+category: posts
+tags: meeting hpc
+---
+
+
+## Attending
+
+- Chris Paciorek
+- Matias (Ipython)
+- Min RK (IPython)
+- Josh Howland (NE)
+- Greg (neuro)
+- Andrew
+- Kelly Rowland (NE)
+- Sven Chilton (NE)
+- Anders Priest (NE)
+- David (econ)
+- Rachel Slaybaugh (NE)
+- Caroline Sofiatti (astro)
+- Alex (undergrad)
+- Katy Huff (NE)
+- Ryan Pavlovsky (NE)
+- Zhangpeng Guo (NE)
+- Denia Djokic (NE)
+- Tenzing Joshi (NE)
+- Xin Wang (NE)
+- Nicholas Adams (DLab)
+- Vic Gehman (physics)
+- others
+
+
+## Chris Paciorek
+
+[Chris Paciorek](http://www.stat.berkeley.edu/~paciorek) is the statistical computing consultant in the Department of Statistics at Berkeley, as well as being a researcher and lecturer in the department. His research focuses on statistical methods (often Bayesian methods) applied to environmental and public health applications. He teaches the department's graduate-level statistical computing class, Stat 243.
+
+## Parallel Programming
+
+For the material for today, please clone this [github repository](https://github.com/berkeley-scf/parallel-thw-2015)
+
+https://github.com/berkeley-scf/parallel-thw-2015
+
+The primary document is [here](https://github.com/berkeley-scf/parallel-thw-2015/blob/master/parallel.pdf)
+
+## Lightning Talks
+
+### Rachel Slaybaugh : TotalView
+
+A debugger that works reasonably well for distributed parallel tasks is [TotalView](https://computing.llnl.gov/tutorials/totalview/part3.html). It's developed by Livermore.
+
+

@@ -1,0 +1,25 @@
+---
+layout: post
+title: Julia - Tony Kelman and Kyle Barbary
+comments: true
+category: posts
+tags: meeting julia
+---
+
+
+## Attending
+
+Many folks showed up. 
+
+## Tony Kelman
+
+Tony Kelman (@tkelman) is a Julia contributor, software engineer at Julia Computing Inc, and lecturer in Mechanical Engineering. He recently completed his PhD doing research on optimization-based control.
+
+## Kyle Barbary
+
+Kyle is a BIDS fellow. 
+
+## Julia
+
+Demos that you can use to follow along, as well as a powerpoint presenation, 
+can be found here: [https://github.com/thehackerwithin/berkeley/tree/master/julia](https://github.com/thehackerwithin/berkeley/tree/master/julia).
