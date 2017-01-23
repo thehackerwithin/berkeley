@@ -6,4 +6,4 @@ category: upcoming
 tags: meeting <+ tags +>
 ---
 
-Details TBD!
+The first meeting of THW for Spring 2017 will be at 4:00pm in the Berkeley Institute for Data Science, Doe Library room 190. We will talk about what we want to learn and then try and fill up as much of the schedule as possible. 
