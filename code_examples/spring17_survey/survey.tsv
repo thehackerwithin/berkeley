@@ -1,0 +1,20 @@
+opt_out	R	Python	Julia	Fortran	C / C++	Go	Haskell	Rust	SQL databases	noSQL databases	Machine Learning	Deep Learning	High Performance Computing	Containers (e.g. docker)	Cloud Computing	Visualization Tools	Statistical Analysis	Mapping and Geospatial Analaysis	Textual Analysis	Image Analysis	Timeseries Analysis	Parallelizing code	Profiling / performance analysis	Meshing Tools	Linux/UNIX/bash	GitHub	How open source projects are run	jekyll and GitHub pages	Reproducible Workflows	Open Science / Open Data platforms	Web Scraping	Publication Tools (e.g., markup, LaTeX)	Documentation Tools	Hardware sensors / Internet of Things	Novel Architectures (e.g., GPUs)	Web Development	Software engineering (including unit testing)	Skill level	Personal experience	Presentation style
+0		1			2								2	2								2	2		1	1	1		1	1		1,3	1		1,3		1,3	2	2	2
+0		2												2		2	2	2										2	2	2				2				2	2	3
+0	3	2									2			2	2	2			2		2	2		2							2							2	2	1
+0	1	1,2	1			1						1	1	1		1,2	1,2			1,2	1,2	1						1	1					1				2	2	4
+0		1,3				1			2	1					2	1							2		1				1	2	3	1	1			2	2	2	2	2
+0	3	3	2	1	2		1				3	1	2	2	1	3	3				1	1			3	3	1		3	1		3			1		1	2	2	3
+0	1	3							3		3	2		1		1,3	2						1		1	1	1			1		1				3		2	2	1
+0	1	1	1						1		1				1	2	1	1								2		1	1	1	1	2						1	1	3
+0		1	2			3						1				1	1				1	1		1										1				2	3	3
+0	1,3	1							2		1					2	2								2		3	2	3									2	2	2
+0		2									1					2	2	1								1	1		1			2				1		2	2	3
+0	1	2			1				1,2		2					2	2	2				2			2	2					2	1	1					2	2	3
+0	3	3							3	2	2	2	2		1	2	2	3		3		2							3	2			1	1				2	2	4
+0					2						2	2				1									1	1	1				1			2			1	2	2	2
+0			3		1		1	1					1	3	1		1					1	1		1,3	1,3	1,3										1	2	3	3
+0	1	2				1			2	2	2					2	1		1						1	1	2						1					2	2	3
+0	2	1							1		2			1			2								2	2			2		2	2,3								
+0		2		1	1	1	2		1	1	2	2	2	2			1	1	1	1	1	1	1	1		1	1				2	2						2	2	3
+0		1,2,3							1,3		1,2	1		1,2	1	1,2	1		1			1	1		1,3	1,3	1,3	1,3	1,2	1	1		1	1				2	2	3
