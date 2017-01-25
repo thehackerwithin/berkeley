@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Topic To Be Determined -- Presenter(s) TBD
+title: Git and GitHub -- Ciera and Matthias
 comments: true
 category: upcoming
 tags: meeting <+ tags +>

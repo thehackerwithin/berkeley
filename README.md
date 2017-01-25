@@ -2,7 +2,7 @@
 
 This is the website that keeps the blog posts for each THW meeting at the
 University of California - Berkeley. The rendered website can be found
-[here](http://thehackerwithin.github.io/berkeley).
+[here](http://thehackerwithin.github.io/berkeley). The basic structure is that code examples are in /code_examples, while the code for the website (using GitHub pages) is in /docs.
 
 ## Run the examples:
 
@@ -29,7 +29,6 @@ listhost before the semester starts or show up to the first meeting of the
 semester.
 
 ### Set Up
-
 
 We love sessions that have example code! If you have example code, please place 
 it in an appropriately named directory in the master branch of this GitHub 
@@ -61,14 +60,11 @@ to your talk.
 
 #### Add Your Tutorial to the Site
 
-Rather than preparing a slideshow, please consider leading as interactive a session as possible. This is often done by leading the audience through whatever code examples you pushed to the master branch. Supportive text can be added to the markdown file holding the blog post for your talk. To add text to that file and to edit your bio, switch branches to the gh-pages branch, where the website it held. There, you may need to both create and modify the post.
-
-1. Navigate in your repository to the gh-pages branch with `git checkout gh-pages`
-2. Then, create and modify the post as in the sections below.
+Rather than preparing a slideshow, please consider leading as interactive a session as possible. This is often done by leading the audience through whatever code examples you pushed to the master branch. Supportive text can be added to the markdown file holding the blog post for your talk. To add text to that file and to edit your bio, go to the /docs folder where the website is held. There, you may need to both create and modify the post.
 
 #### Creating a Post
 
-In the directory that you just cloned (berkeley), you'll notice a `_posts`
+In the berkeley/docs, you'll notice a `_posts`
 directory. The post related to the day and topic of your talk may already
 exist. If so, skip ahead to "Modifying a Post." 
 
@@ -83,7 +79,7 @@ you're creating should be something like 2015-03-01-katysbirthday.markdown.
 - Then, edit that file as you see fit
 - Add that file to the repository `git add _posts/2015-03-01-katysbirthday.markdown`
 - Commit it: `git commit -am "adds a post for march 1"`
-- Push it to your fork `git push origin gh-pages`
+- Push it to your fork `git push origin master`
 - Check if it worked at https://YOUR-USER.github.io/berkeley .
 - Iterate on this until you're happy
 - and then either push to the upstream gh-pages remote branch or make a pull request.
@@ -94,10 +90,10 @@ This is very similar to creating a post:
 
 - edit the post
 - Commit it: `git commit -am "adds a post for march 1"
-- Push it to your fork `git push origin gh-pages`
+- Push it to your fork `git push origin master`
 - Check if it worked at https://YOUR-USER.github.io/berkeley .
 - Iterate on this until you're happy
-- and then either push to the upstream gh-pages remote branch or make a pull request.
+- and then either push to the upstream master remote branch or make a pull request.
 
 #### Build the site locally
 
