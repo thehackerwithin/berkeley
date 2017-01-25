@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Topic To Be Determined -- Presenter(s) TBD
+title:  Data tidying in R & Python -- Diya, Andrey, David
 comments: true
 category: upcoming
 tags: meeting <+ tags +>
