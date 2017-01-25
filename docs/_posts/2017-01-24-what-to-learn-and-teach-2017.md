@@ -2,7 +2,7 @@
 layout: post
 title: What to Learn and Teach for Spring 2017
 comments: true
-category: upcoming
+category: posts
 tags: meeting <+ tags +>
 ---
 
