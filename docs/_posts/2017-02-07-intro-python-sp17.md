@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Topic To Be Determined -- Presenter(s) TBD
+title: Intro to Python -- Yu Feng
 comments: true
 category: upcoming
 tags: meeting <+ tags +>
