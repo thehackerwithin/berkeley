@@ -42,13 +42,16 @@ Do you run Windows? See next section.
 
 3. Run Linux from an external USB storage device, e.g., [live USB instructions for Ubuntu](https://www.ubuntu.com/download/desktop/create-a-usb-stick-on-windows).
 
-4. If you don't want to do any of that, but you have a github account and can use `ssh`, https://dply.co provides 2 hours free server time. Set that up by yourself though.
+4. If you don't want to do any of that
+  - Open a bash terminal at [try.jupyter.org](http://try.jupyter.org/)
+  - If you have a GitHub account and can use `ssh`, https://dply.co provides 2 hours free server time. Set that up by yourself though.
 
 
 # Learning resources
 
 For those desiring something more structured, thoughtful, and professional...
 
+- [List of Unix Commands](https://en.wikipedia.org/wiki/List_of_Unix_commands)
 - Software Carpentry [Unix Shell Lessons](http://swcarpentry.github.io/shell-novice/)
 - [The Command Line Murders](https://github.com/veltman/clmystery), a game to teach yourself the Unix CLI.
 - [Advanced Bash-Scripting Guide](http://www.thehackerwithin.org/berkeley/upcoming.html) from The Linux Documentation Project
