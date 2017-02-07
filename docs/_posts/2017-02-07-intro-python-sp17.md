@@ -16,3 +16,17 @@ Note: this will make the anaconda version of python (which is python 3.6) your d
 
 If you have some experience with python, Jupyter, and/or anaconda, feel free to come and help others around you get up and running. Also, if you want to give a lightning talk on something in this area, please feel free to prepare a 3-5 minute demo on something you think might be interesting to THW.
 
+# Jupyter notebooks
+
+## View on the web
+
+* [All the code pre-written](https://github.com/thehackerwithin/berkeley/blob/master/code_examples/intropy_sp17/thw-intropy-notes.ipynb)
+* A [blank notebook with section headings, if you want to try and follow along yourself](https://github.com/thehackerwithin/berkeley/blob/master/code_examples/intropy_sp17/thw-intropy-notes-nocode.ipynb)
+
+## Or clone with git and run yourself:
+
+```
+git clone https://github.com/thehackerwithin/berkeley
+jupyter notebook
+```
+Then navigate in the web interface to berkeley/code_examples/intropy_sp17
