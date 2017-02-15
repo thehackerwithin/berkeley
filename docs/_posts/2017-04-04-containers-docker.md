@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Topic To Be Determined -- Presenter(s) TBD
+title: Containers with Docker -- Tony Kelman
 comments: true
 category: upcoming
 tags: meeting <+ tags +>
