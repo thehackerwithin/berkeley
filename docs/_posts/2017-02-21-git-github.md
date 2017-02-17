@@ -86,6 +86,8 @@ Create a GitHub account on https://github.com setup credentials not to always ha
 
 You can [train][trygithub] in your browser !
 
+Spoon-Knife : https://github.com/octocat/Spoon-Knife
+
 ## Attendees
 
 During the hacker within, let's see if we can add a list of attendees ! Put your
@@ -94,7 +96,86 @@ name down here in one of these lines (choose at random to avoid conflicts)
 
 
 
+### A
 
+
+### B
+
+
+### C
+
+- Ciera Martinez
+
+
+### D
+
+
+### E
+
+
+### F
+
+
+### G
+
+
+### H
+
+
+### I
+
+
+### J
+
+
+### K
+
+
+### L
+
+
+### M
+
+- Matthias  Bussonnier
+
+
+### N
+
+
+### O
+
+
+### P
+
+
+### Q
+
+
+### R
+
+
+### S
+
+
+### T
+
+
+### U
+
+
+### V
+
+
+### W
+
+
+### X
+
+
+### Y
+
+
+### Z
 
 
 
