@@ -39,12 +39,11 @@ We'll make sure you know the basics to already use git on your own, and to be re
 
 - Clone a repository
 - Fork a GitHub repository
-- Create a repository from scratch.
+- Create a repository from scratch
 - Make a commit
 - Make a branch
-... 
 - Create a Pull request on GitHub
-- Update your local repository.
+- Update your local repository
 
 
 ## What is the difference between github and git?
@@ -99,7 +98,7 @@ Learning git *well* is hard, but I would say only 5% of people who use git know 
 
 ### Why is learning git hard? 
 
--  Vocabulary is not intuitive and is different depending on the system to use it. 
+-  Vocabulary is not intuitive and is different depending on the system to use it. Here is a [cheatsheet for common vocabulary](https://help.github.com/articles/github-glossary/)
 -  Git is a complex with many ways to approach using it. 
 -  Git becomes more complex when working on a team, because there must be rules for how to collaborate and these rules differ depending on the team.  You can learn how a team collaborates usually from a file in the project directory called `CONTRIBUTING.md`.  Example contributing file: [`CONTRIBUTING.md` file for ggplot2](https://github.com/tidyverse/ggplot2/blob/master/CONTRIBUTING.md)
 
@@ -116,97 +115,27 @@ Git should be bundled on recent Macs, you can also install it with [GitHub for D
 
 User of linux probably already have git installed as well , or know how to install it with your favorite package manager.
 
-### GitHub
+### Activity
 
-Create a GitHub account on https://github.com setup credentials not to always have to enter your password.
+Basically we are all going to make a small edit to a file in a repository using basic git commands. Here is an overview with many of the command we will use:
 
-
-## Attendees
-
-During the hacker within, let's see if we can add a list of attendees ! Put your
-name down here in one of these lines (choose at random to avoid conflicts)
+<center><img src="http://cierareports.org/downloads/gitCheatSheetGitHub_ForkEasy.png" width="75%" height="75%" /></center>
 
 
-### A
+1. Go here: 
+[https://github.com/iamciera/THW_attendence](https://github.com/iamciera/THW_attendence)
+2. Press the Fork button ([you'll need a Github account](https://github.com/signup))
+3. In your terminal, execute `git clone https://github.com/YOURUSERNAME/THW_attendence`.  Make sure you replace "YOURUSERNAME" with your Github name.  For example mine is iamciera.
+4. Enter the new directory with `cd THW_attendence`
+5. Add the original remote repo with `git remote add https://github.com/iamciera/THW_attendence`
+6. Fetch information about the  remote with `git fetch remote`
+7. Now, you need to check what branch you're in `git branch`.  Make sure you are on the master branch.
+8. Now we are ready to edit the file. Open the `README.md` file and add your name to the list. Add under the header of the letter your first name starts with. This is so we avoid merge conflicts. 
+9. Commit them. `git commit -am "I added files for the tutorial on my 
+    topic.."`  NOTE: *`-am` means you are telling git to "stage all changes in the directory" and that you want to include a commit message*
+10. Git push to your origin (your repo on Github) with `git push origin master`
+11. Navigate in your browser to: https://github.com/YOURUSERNAME/THW_attendence and press the pull request button.
 
-
-### B
-
-
-### C
-
-- Ciera Martinez
-
-
-### D
-
-
-### E
-
-
-### F
-
-
-### G
-
-
-### H
-
-
-### I
-
-
-### J
-
-
-### K
-
-
-### L
-
-
-### M
-
-- Matthias  Bussonnier
-
-
-### N
-
-
-### O
-
-
-### P
-
-
-### Q
-
-
-### R
-
-
-### S
-
-
-### T
-
-
-### U
-
-
-### V
-
-
-### W
-
-
-### X
-
-
-### Y
-
-
-### Z
 
 ## Demo (Advanced)
 
