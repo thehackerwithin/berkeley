@@ -2,7 +2,7 @@
 layout: post
 title: Git and GitHub -- Ciera Martinez and Matthias Bussonnier
 comments: true
-category: upcoming
+category: posts
 tags: meeting git h2g2 backtothefuture github rickandmorty xkcd cthulhu
 ---
 
