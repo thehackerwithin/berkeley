@@ -188,7 +188,7 @@ What happen in case of broken whatever ? If you are in "Detached head state", "m
 
 
 [octopus]: http://marc.info/?l=linux-kernel&m=139033182525831
-[git-scm]: https://git-scm.com/
+[gitscm]: https://git-scm.com/
 [trygithub]: try.github.com
 [fake-man]: https://git-man-page-generator.lokaltog.net/
 [satirical]: http://typicalprogrammer.com/linus-torvalds-goes-off-on-linux-and-git/
