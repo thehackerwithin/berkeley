@@ -72,7 +72,7 @@ The main ways are:
 
 - [Bitbucket](https://bitbucket.org/)
 - [GitLab](https://gitlab.com/users/sign_in)
-- [surgeForce](https://sourceforge.net/)
+- [sourceForce](https://sourceforge.net/)
 
 
 **Suggestion**: Github
@@ -127,8 +127,8 @@ Basically we are all going to make a small edit to a file in a repository using 
 2. Press the Fork button ([you'll need a Github account](https://github.com/signup))
 3. In your terminal, execute `git clone https://github.com/YOURUSERNAME/THW_attendence`.  Make sure you replace "YOURUSERNAME" with your Github name.  For example mine is iamciera.
 4. Enter the new directory with `cd THW_attendence`
-5. Add the original remote repo with `git remote add https://github.com/iamciera/THW_attendence`
-6. Fetch information about the  remote with `git fetch remote`
+5. Add the original remote repo with `git remote add upstream https://github.com/iamciera/THW_attendence`
+6. Fetch information about the  remote with `git fetch upstream`
 7. Now, you need to check what branch you're in `git branch`.  Make sure you are on the master branch.
 8. Now we are ready to edit the file. Open the `README.md` file and add your name to the list. Add under the header of the letter your first name starts with. This is so we avoid merge conflicts. 
 9. Commit them. `git commit -am "I added files for the tutorial on my 
