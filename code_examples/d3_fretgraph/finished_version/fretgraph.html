@@ -1,0 +1,130 @@
+<html>
+	<head>
+        <script src="../d3/d3.v3.min.js"></script>
+        <link href="//fonts.googleapis.com/css?family=Roboto:700,400" rel="stylesheet" type="text/css">
+        
+        <style>
+            .axis path { 
+                fill: none; 
+                stroke: black; 
+                stroke-width: 1;
+            }
+            body {
+                font: 12px "Roboto";
+            }
+        </style>
+	</head>
+	<body>
+
+	<div id="graph1"></div>
+	
+	<script>
+        
+        d3.csv('../data/fret.csv', function(csv) {
+            var donor=[];
+            var acceptor = [];
+            csv.map(function (d) {
+                donor.push(+d.donor);
+                acceptor.push(+d.acceptor);
+            })
+            // console.log("donor",donor);
+            // use the line above to check that data were parsed correctly
+        
+            animatedFRET("#graph1", donor, acceptor, "linear", 50, 50); //since d3.csv is an asynchronous method we need to call animatedFRET inside d3.csv
+        })
+        
+        
+     	function animatedFRET(id, data1, data2, interpolation, updateTime, transitionTime) {
+            var margin = {top: 30, right: 20, bottom: 30, left: 50}
+                width = 400 - margin.left - margin.right
+                height = 250 - margin.top - margin.bottom;
+            
+            var graph = d3.select(id) //for selecting a div with a particular id, mostly for when you want to put your graph at a specific location on your page
+                .append("svg:svg")
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom)
+                .append("g")
+                .attr("transform", "translate(" +margin.left + "," + margin.top + ")"); //translates the upper left corner of our graph to the value of (margin.left, margin.top)
+            
+            var x = d3.scale.linear().domain([0, data1.length*0.1+2]).range([-4, width]); // scales our x values to the size of the viewport, the domain of our data is set from zero to the length of the data array *0.1 + 2, the range of the viewport is -4 to width, setting first value to -4 will allow first few data points to be hidden
+            var y = d3.scale.linear().domain([0, d3.max(data1, function(d) {return d+150})]).range([height, 0]); // same thing with y values, except we set the maximum y value to the max of the acceptor array (plus 300 for aesthetics)
+        
+            var xAxis = d3.svg.axis().scale(x)
+                .orient("bottom").ticks(9);
+
+            var yAxis = d3.svg.axis().scale(y)
+                .orient("left").ticks(5);
+
+            var line = d3.svg.line()
+                .x(function(d,i) { return x(i)*0.1; }) // x values for our line will be the index of each datum in the array (multiplied by 0.1)
+                .y(function(d) { return y(d); }) // y values for our line will be the data themselves
+                .interpolate(interpolation); //d3 has a number of interpolation methods to choose from that will change the appearance of your line, or you can make this your own custom interpolation by writing an anonymous function here
+
+            graph.append("svg:path")
+                .attr("d", line(data1))
+                .attr("id", "path1");
+
+            graph.append("svg:path")
+                .attr("d", line(data2))
+                .attr("id", "path2");
+
+            graph.append("g") // setting up our x axis
+                .attr("class", "x axis") 
+                .attr("transform", "translate(0, " + height + ")") // positioning our x axis at bottom of the graph
+                .call(xAxis);
+            
+            graph.append("g")
+                .attr("class", "y axis")
+                .attr("transform", "translate(-5, 0)") // positioning our y axis on the left side of the graph
+                .call(yAxis);
+            
+            graph.append("text") // setting up our x axis label
+                .attr("x", width/2)
+                .attr("y", height + margin.bottom)
+                .style("text-anchor", "middle") // anchor of the text will be in the center, as opposed to the default left side
+                .text("time (s)");
+
+            graph.append("text") // setting up our y axis label
+                .attr("transform", "rotate(-90)") // rotating the text to be along the y axis
+                .attr("y", 0-margin.left)
+                .attr("x",0-(height / 2))
+                .attr("dy", "1em")
+                .style("text-anchor", "middle") 
+                .text("intensity");
+
+            function redrawWithAnimation() {
+                    // update with animation
+                graph.selectAll("#path1") // selects the first line
+                    .data([data1]) // bind our data
+                    .attr("transform", "translate(" + x(1) + ")") // set the transform to the right by x(1) pixels, hides the new value
+                    .attr("d", line) // make the line, new value is off to the right side of the canvas
+                    .style({stroke: "green", "stroke-width": "1px", "fill": "none"})
+                    .transition() // initiate a transition
+                    .ease("linear") // ease method takes the time for the transition and returns normalized 'eased' time, will change how an animated object will move from point A to point B
+                    .duration(transitionTime) // tells d3 how long to run the transition in ms
+                    .attr("transform", "translate(" + x(0) + ")"); // animate a slide back to the left x(0), new value is now on the canvas
+                
+                graph.selectAll("#path2") // do the same thing with the second line
+                    .data([data2])
+                    .attr("transform", "translate(" + x(1) + ")")
+                    .attr("d", line)
+                    .style({stroke: "red", "stroke-width": "1px", "fill": "none"})
+                    .transition()
+                    .ease("linear")
+                    .duration(transitionTime)
+                    .attr("transform", "translate(" + x(0) + ")");
+
+                }
+
+                setInterval(function() {
+                   var n = data1.shift(); // shift method removes first element of array
+                   data1.push(n); // take first element of array and pushes it onto the end of the donor array
+                   var n2 = data2.shift();
+                   data2.push(n2);
+                   redrawWithAnimation();
+                }, updateTime); // your transitionTime must be longer than your updateTime, otherwise you won't have a new value to push and add onto your line!
+            }
+	</script>
+
+	</body>
+</html>
