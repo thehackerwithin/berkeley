@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Topic To Be Determined -- Presenter(s) TBD
+title: Visualization in Python -- David DeTomaso
 comments: true
 category: upcoming
 tags: meeting <+ tags +>
