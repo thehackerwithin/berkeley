@@ -2,7 +2,7 @@
 layout: post
 title: Spring Break -- no meeting
 comments: true
-category: upcoming
+category: posts
 tags: meeting <+ tags +>
 ---
 
