@@ -2,7 +2,7 @@
 layout: post
 title: Containers with Docker -- Tony Kelman
 comments: true
-category: upcoming
+category: posts
 tags: meeting <+ tags +>
 ---
 
