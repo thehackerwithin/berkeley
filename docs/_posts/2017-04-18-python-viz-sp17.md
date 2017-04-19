@@ -2,7 +2,7 @@
 layout: post
 title: Visualization in Python -- David DeTomaso
 comments: true
-category: upcoming
+category: posts
 tags: meeting <+ tags +>
 ---
 
