@@ -39,8 +39,7 @@ having.
 
 ## Who:
 
-Anyone interested in software development best practices is welcome to
-come to our meetings.
+Anyone interested how to learn and do things by programming computers is welcome to come to our meetings. You don't need to be affiliated with UC-Berkeley and you don't need to come every week. There is no set of prerequsites, although we frequently use bash and the command line, python, R, GitHub, and Jupyter notebooks.
 
 ## Where:
 
