@@ -44,12 +44,11 @@ come to our meetings.
 
 ## Where:
 
-This meeting takes place Wednesdays from 4pm (Berkeley time) to around 5:30pm at the [Berkeley Institute for Data
-Science](https://bids.berkeley.edu). Room 190, Doe Library, The University of California - Berkeley.
+We meet at the [Berkeley Institute for Data Science](https://bids.berkeley.edu). Room 190, Doe Library, The University of California - Berkeley. It is on the ground floor of the main library. If you walk up the big marble steps across Memorial Glade, then turn left right as you walk in, you'll be there!
 
 ## When:
 
-Tuesdays at 4:00pm. While the main talk should occupy less than an hour, the
+Wednesdays at 4:00pm. While the main session should occupy less than an hour, the
 lightning talks and hacking session usually go on until 5:30pm. See the [upcoming topics list]({{ site.url }}/upcoming.html)
 or the [calendar](http://bit.ly/1cqFKuh)
 for the topic for this week.
