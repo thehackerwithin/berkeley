@@ -44,7 +44,7 @@ come to our meetings.
 
 ## Where:
 
-This meeting takes place Tuesdays at 4pm at the [Berkeley Institute for Data
+This meeting takes place Wednesdays from 4pm (Berkeley time) to around 5:30pm at the [Berkeley Institute for Data
 Science](https://bids.berkeley.edu). Room 190, Doe Library, The University of California - Berkeley.
 
 ## When:
