@@ -8,8 +8,6 @@ title: "About"
 
 # The {{ site.name }}, {{ site.chapter }}
 
-Note: THW will resume in Fall 2017, around when courses start again at UC-Berkeley.
-
 <ul class="listing">
 <li>
 <span>Fall 2017</span><a href="{{ site.url }}/upcoming.html">Upcoming Topics</a>
