@@ -27,8 +27,8 @@ title: "About"
 
 ## What:
 
-This is a weekly meeting for sharing skills and best practices for
-scientific computation. In these friendly sessions, peers at all levels
+This is a weekly peer learning group for sharing skills and best practices for
+scientific computation and data science. In these friendly sessions, peers at all levels
 of experience share topics useful in our scientific software development
 workflows.
 
