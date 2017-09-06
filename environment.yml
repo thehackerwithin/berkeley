@@ -1,0 +1,42 @@
+name: thwberkeley
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python>=3.5
+  - sympy
+  - numpy
+  - scipy
+  - jupyter
+  - ipyparallel
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - seaborn
+  - patsy
+  - seaborn
+  - tweepy
+  - traitlets
+  - statsmodels
+  - tensorflow
+  - scikit-image
+  - requests
+  - curl
+  - xz
+  - r-base
+  - r-recommended
+  - r-irkernel
+  - numba
+  - beautifulsoup4
+  - bokeh
+  - julia
+  - pip:
+    - keras
+    - mwapi
+    - wikipedia
+    - Theano
+    - pywikibot
+    - docopt
+    - getorg
+    - tweepy

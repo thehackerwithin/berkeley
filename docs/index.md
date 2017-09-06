@@ -10,7 +10,7 @@ title: "About"
 
 <ul class="listing">
 <li>
-<span>Spring 2017</span><a href="{{ site.url }}/upcoming.html">Upcoming Topics</a>
+<span>Fall 2017</span><a href="{{ site.url }}/upcoming.html">Upcoming Topics</a>
 </li>
   {% assign upcoming = (site.posts | where: "category" , "upcoming") %}
   {% for post in upcoming reversed %}
@@ -21,14 +21,14 @@ title: "About"
     {% endif %}
   {% endfor %}
 <li>
-<span>2014-2016</span><a href="{{ site.url }}/previous.html">Previous Topics</a>
+<span>2014-2017</span><a href="{{ site.url }}/previous.html">Previous Topics</a>
 </li>
 </ul>
 
 ## What:
 
-This is a weekly meeting for sharing skills and best practices for
-scientific computation. In these friendly sessions, peers at all levels
+This is a weekly peer learning group for sharing skills and best practices for
+scientific computation and data science. In these friendly sessions, peers at all levels
 of experience share topics useful in our scientific software development
 workflows.
 
@@ -39,17 +39,15 @@ having.
 
 ## Who:
 
-Anyone interested in software development best practices is welcome to
-come to our meetings.
+Anyone interested how to learn and do things by programming computers is welcome to come to our meetings. You don't need to be affiliated with UC-Berkeley and you don't need to come every week. There is no set of prerequsites, although we frequently use bash and the command line, python, R, GitHub, and Jupyter notebooks.
 
 ## Where:
 
-This meeting takes place Tuesdays at 4pm at the [Berkeley Institute for Data
-Science](https://bids.berkeley.edu). Room 190, Doe Library, The University of California - Berkeley.
+We meet at the [Berkeley Institute for Data Science](https://bids.berkeley.edu). Room 190, Doe Library, The University of California - Berkeley. It is on the ground floor of the main library. If you walk up the big marble steps across Memorial Glade, then turn left right as you walk in, you'll be there!
 
 ## When:
 
-Tuesdays at 4:00pm. While the main talk should occupy less than an hour, the
+Wednesdays at 4pm (Berkeley time -- starting officially at 4:10, but have a friendly chat from 4:00-4:10 if you like). While the main session should occupy less than an hour, the
 lightning talks and hacking session usually go on until 5:30pm. See the [upcoming topics list]({{ site.url }}/upcoming.html)
 or the [calendar](http://bit.ly/1cqFKuh)
 for the topic for this week.
