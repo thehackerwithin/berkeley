@@ -6,7 +6,7 @@ University of California - Berkeley. The rendered website can be found
 
 ## Run the examples:
 
-Thanks to Technology (or more specifically thanks to all kinds of awesome people including Yuvi Panda, you can run most of the example of The Hacker Within Berkeley in your browser without installing anything. See [mybinder.org](https://mybinder.org) website for more info, or click on badge below to get started:
+Thanks to Technology (or more specifically thanks to all kinds of awesome people including Yuvi Panda), you can run most of the example of The Hacker Within Berkeley in your browser without installing anything. See [mybinder.org](https://mybinder.org) website for more info, or click on badge below to get started:
 
 [![Binder](http://mybinder.org/badge.svg)](https://beta.mybinder.org/repo/thehackerwithin/berkeley)
 
