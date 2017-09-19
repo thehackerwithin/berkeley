@@ -12,6 +12,6 @@ COPY code_examples /home/$NB_USER/
 
 USER root
 
-RUN chown -R $NB_USER /home/$NB_USER/ && chgrp -R $NB_GROUP /home/$NB_USER
+RUN chown -R $NB_USER /home/$NB_USER/ && chgrp -R $NB_GROUP /home/$NB_USER/
 
 USER $NB_USER
