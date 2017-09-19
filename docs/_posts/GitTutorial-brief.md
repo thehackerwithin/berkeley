@@ -122,7 +122,7 @@ Git should then let you know that a new file, `hello.sh` has been staged, and is
 $ git commit -m "created a new repository containing a simple script"
 ```
 
-Let's keep practicing. Now make another slightly more interesting program. This is a python script to use Monte Carlo rejection sampling to determine the value of $\pi$. Open a file called picalc.py and include the following code inside. 
+Let's keep practicing. Now make another slightly more interesting program. This is a python script to use Monte Carlo rejection sampling to determine the value of π. Open a file called picalc.py and include the following code inside. 
 
 ```
 import numpy as np
@@ -237,26 +237,20 @@ gitk
 You can often think of the operations that Git performs on the three "areas"–workspace, index, and repo–as mathematical equations. Here are some examples (for each Git command, perform the steps in order):
 
 ##### git add
-$ \text{staged index} = \text{workspace} - \text{current branch} $
+ staged index = workspace - current branch 
 
 ##### git commit
-(with `-a` option: $ \text{staged index} = \text{workspace} - \text{current branch} $)
-$ \text{new commit} = \text{staged index} $
-$ \text{current branch} = \text{new commit} $
-$ \text{staged index} = 0 $
+(with `-a` option:  staged index = workspace - current branch )  
+ new commit = staged index  
+ current branch = new commit  
+ staged index = 0 
 
 ##### git checkout
-$ \text{new workspace} = \left(\text{workspace} - \text{old branch}\right) + \text{new branch} $
+ new workspace = workspace - old branch + new branch 
 
 ##### git stash
-$ \text{stash} = \text{workspace} - \text{current branch} $
-$ \text{workspace} = \text{current branch} $
+ stash = workspace - current branch 
+ workspace = current branch 
 
 ##### git reset --hard
-$ \text{workspace} = \text{current branch} $
-
-Condense text to graphics
-
-
-
-q
+workspace = current branch 
