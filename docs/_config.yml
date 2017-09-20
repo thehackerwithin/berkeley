@@ -6,6 +6,7 @@ kramdown:
   hard_wrap: false
   parse_block_html: true
 github: thehackerwithin
+github.owner_url: https://github.com/thehackerwithin/berkeley
 url: http://thehackerwithin.org/berkeley 
 name: Hacker Within
 chapter: Berkeley
