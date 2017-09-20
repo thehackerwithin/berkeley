@@ -222,7 +222,21 @@ You should get an error (which includes a culprit file). Even though git is usua
 To resolve the conflict, use `git diff` to have the differences between the conflicting documents printed to the console, and then use an editor to fix the discrepancy. Finally, add and commit the changes, and then the merge is complete!
 
 <Find image of Git repo as tree to emphasize branched nature>
-Other things:
+
+## Bonus!
+
+### Configurations
+
+As we mentioned earlier, you can manually edit the configuration file to update your Git settings. To do this, move to your home directory and open the file `.gitconfig`. 
+
+
+### .gitignore
+
+You can also tell git to ignore specific files by adding them to a .gitignore file. Find (or create) this file as `.gitignore` in the top level of the repo where you want it to apply.
+
+Note you can use wildcards in these filenames! (i.e. `*.log` will ignore all files ending in `.log`)
+
+Other things:  
 
 ```
 git checkout
@@ -254,9 +268,3 @@ $ \text{workspace} = \text{current branch} $
 
 ##### git reset --hard
 $ \text{workspace} = \text{current branch} $
-
-Condense text to graphics
-
-
-
-q
