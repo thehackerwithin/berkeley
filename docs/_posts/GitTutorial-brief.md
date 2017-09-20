@@ -88,13 +88,13 @@ $ git init
 Now, since this is likely the first time you're creating a Git repo, you may want to set up some Git configurations. Feel free to skip this step (it is optional) but if you don't do it now, Git will likely ask you for this information repeatedly in the future.
 
 ```
-$ git config --global user.name "Oski Bear"
+$ git config --global user.name "OskiBear"
 $ git config --global user.email "oski@berkeley.edu"
 $ git config --global core.editor /usr/bin/nano
 ```
-Don't worry, you can change this information later. It is stored in the hidden `.git/config` file that appears in whichever directory you ran `git init`. 
+Don't worry, you can change this information later. It is stored in the hidden `.git/config` file that appears in whichever directory you ran `git init`. You can also use `git config --list` to print all of the configuration options for easy viewing.
 
-If you already have a GitHub account, it is best to use the same email for both Git and that account. Additionally, if you have a preffered editor (vim, emacs, sublime, etc.), feel free to use that instead of nano as your default.
+If you already have a GitHub account, it is best to use the same username and email for both Git and that account. Additionally, if you have a preffered editor (vim, emacs, sublime, etc.), feel free to use that instead of nano as your default.
 
 First off, we'll make a very simple program. Open a new file called `hello.sh` and add the following inside:
 
@@ -122,7 +122,7 @@ Git should then let you know that a new file, `hello.sh` has been staged, and is
 $ git commit -m "created a new repository containing a simple script"
 ```
 
-Let's keep practicing. Now make another slightly more interesting program. This is a python script to use Monte Carlo rejection sampling to determine the value of π. Open a file called picalc.py and include the following code inside. 
+Let's keep practicing. Now make another slightly more interesting program. This is a python script to use Monte Carlo rejection sampling to determine the value of $\pi$. Open a file called picalc.py and include the following code inside. 
 
 ```
 import numpy as np
@@ -237,20 +237,26 @@ gitk
 You can often think of the operations that Git performs on the three "areas"–workspace, index, and repo–as mathematical equations. Here are some examples (for each Git command, perform the steps in order):
 
 ##### git add
- staged index = workspace - current branch 
+$ \text{staged index} = \text{workspace} - \text{current branch} $
 
 ##### git commit
-(with `-a` option:  staged index = workspace - current branch )  
- new commit = staged index  
- current branch = new commit  
- staged index = 0 
+(with `-a` option: $ \text{staged index} = \text{workspace} - \text{current branch} $)
+$ \text{new commit} = \text{staged index} $
+$ \text{current branch} = \text{new commit} $
+$ \text{staged index} = 0 $
 
 ##### git checkout
- new workspace = workspace - old branch + new branch 
+$ \text{new workspace} = \left(\text{workspace} - \text{old branch}\right) + \text{new branch} $
 
 ##### git stash
- stash = workspace - current branch 
- workspace = current branch 
+$ \text{stash} = \text{workspace} - \text{current branch} $
+$ \text{workspace} = \text{current branch} $
 
 ##### git reset --hard
-workspace = current branch 
+$ \text{workspace} = \text{current branch} $
+
+Condense text to graphics
+
+
+
+q
