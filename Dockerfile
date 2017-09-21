@@ -12,13 +12,6 @@ USER root
 
 # A bunch of things from try.jupyter.org: https://github.com/jupyter/docker-demo-images/blob/master/Dockerfile
 # The Glorious Glasgow Haskell Compiler
-RUN apt-get update && \
-    apt-get install -y --no-install-recommends software-properties-common && \
-    add-apt-repository -y ppa:hvr/ghc && \
-    sed -i s/jessie/trusty/g /etc/apt/sources.list.d/hvr-ghc-jessie.list && \
-    apt-get update && \
-    apt-get install -y cabal-install-1.22 ghc-7.8.4 happy-1.19.4 alex-3.1.3 && \
-    apt-get clean
 
 # IHaskell dependencies
 RUN apt-get install -y --no-install-recommends zlib1g-dev libzmq3-dev libtinfo-dev libcairo2-dev libpango1.0-dev && apt-get clean
