@@ -13,9 +13,6 @@ USER root
 # A bunch of things from try.jupyter.org: https://github.com/jupyter/docker-demo-images/blob/master/Dockerfile
 # The Glorious Glasgow Haskell Compiler
 
-# IHaskell dependencies
-RUN apt-get install -y --no-install-recommends zlib1g-dev libzmq3-dev libtinfo-dev libcairo2-dev libpango1.0-dev && apt-get clean
-
 # Ruby dependencies
 RUN apt-get install -y --no-install-recommends ruby ruby-dev libtool autoconf automake gnuplot-nox libsqlite3-dev libatlas-base-dev libgsl0-dev libmagick++-dev imagemagick && \
     ln -s /usr/bin/libtoolize /usr/bin/libtool && \
