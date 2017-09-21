@@ -25,22 +25,8 @@ RUN gem update --system --no-document && \
 # Now switch to $NB_USER for all conda and other package manager installs
 USER $NB_USER
 
-ENV PATH /home/$NB_USER/.cabal/bin:/opt/cabal/1.22/bin:/opt/ghc/7.8.4/bin:/opt/happy/1.19.4/bin:/opt/alex/3.1.3/bin:$PATH
-
 # IRuby
 RUN iruby register
-
-# IHaskell + IHaskell-Widgets + Dependencies for examples
-RUN cabal update && \
-    CURL_CA_BUNDLE='/etc/ssl/certs/ca-certificates.crt' curl 'https://www.stackage.org/lts-2.22/cabal.config?global=true' >> ~/.cabal/config && \
-    cabal install cpphs && \
-    cabal install gtk2hs-buildtools && \
-    cabal install ihaskell-0.8.4.0 --reorder-goals && \
-    cabal install \
-        # ihaskell-widgets-0.2.3.1 \ temporarily disabled because installation fails
-        HTTP Chart Chart-cairo && \
-    ihaskell install && \
-    rm -fr $(echo ~/.cabal/bin/* | grep -iv ihaskell) ~/.cabal/packages ~/.cabal/share/doc ~/.cabal/setup-exe-cache ~/.cabal/logs
 
 # Extra Kernels
 RUN pip install --no-cache-dir bash_kernel && \
