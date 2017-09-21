@@ -14,7 +14,7 @@ RUN pip install --no-cache-dir bash_kernel && \
 # add files to home directory and rename/reown
 USER root
 
-COPY . /home/$NB_USER/
+COPY ./code_examples/ /home/$NB_USER/
 
 RUN chown -R $NB_USER /home/$NB_USER/ && chgrp -R users /home/$NB_USER/
 
