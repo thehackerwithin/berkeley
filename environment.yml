@@ -6,6 +6,9 @@ channels:
 dependencies:
   - python=3.6
   - sympy
+  - nltk
+  - htop
+  - tmux
   - blinker=1.4=py36_0
   - nano
   - numpy
