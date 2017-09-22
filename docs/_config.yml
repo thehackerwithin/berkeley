@@ -1,4 +1,4 @@
-permalink: /posts/:title
+permalink: /posts/:date-:title
 future: true
 markdown: kramdown
 kramdown:
