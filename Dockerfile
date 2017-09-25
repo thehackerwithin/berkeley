@@ -24,5 +24,5 @@ RUN usermod -G users $NB_USER && chown -R $NB_USER /home/$NB_USER/ && chgrp -R u
 
 USER $NB_USER
 
-export USER=$NB_USER
+RUN export USER=$NB_USER
 
