@@ -18,6 +18,6 @@ COPY ./code_examples/ /home/$NB_USER/code_examples/
 
 # RUN mkdir /home/$NB_USER/code_examples && cd /home/$NB_USER/ && mv !(code_examples) code_examples
 
-RUN usermod -a -G $NB_USER users && chown -R $NB_USER /home/$NB_USER/ && chgrp -R users /home/$NB_USER/
+RUN usermod -a -G users $NB_USER && chown -R $NB_USER /home/$NB_USER/ && chgrp -R users /home/$NB_USER/
 
 USER $NB_USER
