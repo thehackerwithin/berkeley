@@ -23,3 +23,6 @@ COPY ./code_examples/ /home/$NB_USER/code_examples/
 RUN usermod -G users $NB_USER && chown -R $NB_USER /home/$NB_USER/ && chgrp -R users /home/$NB_USER/
 
 USER $NB_USER
+
+export USER=$NB_USER
+
