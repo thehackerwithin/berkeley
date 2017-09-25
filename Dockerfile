@@ -14,7 +14,7 @@ RUN pip install --no-cache-dir bash_kernel && \
 # add files to home directory and rename/reown
 USER root
 
-RUN apt-get update && apt-get install curl tmux screen nano traceroute 
+RUN apt-get update && apt-get install -y curl tmux screen nano traceroute 
 
 COPY ./code_examples/ /home/$NB_USER/code_examples/
 
