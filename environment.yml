@@ -1,4 +1,4 @@
-name: thwberkeley
+name: root
 
 channels:
   - conda-forge
