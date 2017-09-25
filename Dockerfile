@@ -14,6 +14,8 @@ RUN pip install --no-cache-dir bash_kernel && \
 # add files to home directory and rename/reown
 USER root
 
+RUN apt-get install curl tmux screen nano traceroute 
+
 COPY ./code_examples/ /home/$NB_USER/code_examples/
 
 # RUN mkdir /home/$NB_USER/code_examples && cd /home/$NB_USER/ && mv !(code_examples) code_examples
