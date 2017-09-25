@@ -10,14 +10,14 @@ dependencies:
   - htop
   - tmux
   - blinker=1.4=py36_0
-  - nano
-  - numpy
+  - nano>=2.4.1
+  - numpy>=1.13.1
   - scipy
   - jupyter
   - ipyparallel
-  - pandas
-  - matplotlib
-  - scikit-learn
+  - pandas>=0.20.1
+  - matplotlib>=2.0.2
+  - scikit-learn>=0.19.0
   - seaborn
   - patsy
   - seaborn
@@ -30,11 +30,12 @@ dependencies:
   - curl
   - xz
   - r-base
-  - r-recommended
+  - r-recommended>=3.4.1
   - r-irkernel
   - numba
   - beautifulsoup4
   - bokeh
+  - toolz
   - julia
   - pip:
     - keras
