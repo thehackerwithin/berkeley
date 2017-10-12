@@ -6,7 +6,7 @@ University of California - Berkeley. The rendered website can be found
 
 ## Run the examples:
 
-Thanks to Technology (or more specifically thanks to all kinds of awesome people including Yuvi Panda), you can run most of the example of The Hacker Within Berkeley in your browser without installing anything. See [mybinder.org](https://mybinder.org) website for more info, or click on badge below to get started:
+Thanks to Technology (or more specifically thanks to all kinds of awesome people in the [binder project](https://github.com/jupyterhub/binderhub), as well as Yuvi Panda, Aaron Culich, and Chris Holdgraf for helping us learn & debug), you can run much of what we learn about in your browser without installing anything. It spins up a temporary Jupyter server in the cloud, containing the contents of the `code_examples` directory and all the software we've specified in the `Dockerfile` and `environment.yml`. Click on badge below to get started:
 
 [![Binder](http://mybinder.org/badge.svg)](https://beta.mybinder.org/repo/thehackerwithin/berkeley)
 
