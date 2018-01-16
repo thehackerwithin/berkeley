@@ -8,7 +8,7 @@ title: "About"
 
 # The {{ site.name }}, {{ site.chapter }}
 
-<b>We are done for Fall 2017, stay tuned for updates about Spring 2018</b>
+<b>Spring 2018 is here!</b>
 
 <ul class="listing">
 <li>
