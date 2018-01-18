@@ -8,9 +8,11 @@ title: "About"
 
 # The {{ site.name }}, {{ site.chapter }}
 
+<b>Spring 2018 is here!</b>
+
 <ul class="listing">
 <li>
-<span>Fall 2017</span><a href="{{ site.url }}/upcoming.html">Upcoming Topics</a>
+<span>Spring 2018</span><a href="{{ site.url }}/upcoming.html">Upcoming Topics</a>
 </li>
   {% assign upcoming = (site.posts | where: "category" , "upcoming") %}
   {% for post in upcoming reversed %}

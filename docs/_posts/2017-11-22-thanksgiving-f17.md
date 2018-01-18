@@ -1,8 +1,8 @@
 ---
 layout: post
-title: No THW -- The Turkey Within (Thanksgiving)
+title: No THW on 11/22-- next meeting 11/29
 comments: true
-category: upcoming
+category: posts
 tags: meeting
 ---
 
