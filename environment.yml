@@ -9,7 +9,6 @@ dependencies:
   - nltk
   - htop
   - tmux
-  - blinker=1.4=py36_0
   - nano>=2.4.1
   - numpy>=1.13.1
   - scipy
