@@ -49,7 +49,7 @@ We meet at the [Berkeley Institute for Data Science](https://bids.berkeley.edu).
 
 ## When:
 
-Wednesdays at 4pm (Berkeley time -- starting officially at 5:10, but have a friendly chat from 5:00-5:10 if you like). While the main session should occupy less than an hour, the
+Wednesdays at 5pm (Berkeley time -- starting officially at 5:10, but have a friendly chat from 5:00-5:10 if you like). While the main session should occupy less than an hour, the
 lightning talks and hacking session usually go on until 6:30pm. See the [upcoming topics list]({{ site.url }}/upcoming.html)
 or the [calendar](http://bit.ly/1cqFKuh)
 for the topic for this week.
