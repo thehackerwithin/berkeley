@@ -23,7 +23,7 @@ software and executing analysis pipelines.
 
 For the material for today, please clone this Github repository: [https://github.com/berkeley-scf/make-thw-2015](https://github.com/berkeley-scf/make-thw-2015)
 
-The primary document is [this iPython Notebook](https://github.com/berkeley-scf/make-thw-2015/blob/master/workshop.ipynb)
+The primary document is [this IPython Notebook](https://github.com/berkeley-scf/make-thw-2015/blob/master/workshop.ipynb)
 
 
 ## Lightning Talks 
