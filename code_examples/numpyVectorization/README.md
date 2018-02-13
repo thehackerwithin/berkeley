@@ -1,12 +1,12 @@
 This contains some examples for using numpy array operations. 
-The iPython notebook file is a good starting point. 
+The IPython notebook file is a good starting point. 
 
 The examples include:
 
 - diffusion
 - gaussian walk
 
-What's shown below is shown in more detail in the iPython notebook.
+What's shown below is shown in more detail in the IPython notebook.
 
 ## Efficient Numerical Code With Numpy Vectorization
 
@@ -59,7 +59,7 @@ conda install mkl
 - Draw overlapping boxes to show how slice indexing should work
 - lineprofiler: https://github.com/rkern/line_profiler
 
-Basic iPython Usage:
+Basic IPython Usage:
 
 ```
 run diffusion
