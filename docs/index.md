@@ -30,12 +30,12 @@ title: "About"
 ## What:
 
 This is a weekly peer learning group for sharing skills and best practices for
-scientific computation and data science. In these friendly sessions, peers at all levels
-of experience share topics useful in our scientific software development
+research computing and data science. In these friendly sessions, peers at all levels
+of experience share topics useful in our data analysis and software development
 workflows.
 
 This meeting would be a great venue for introducing new libraries,
-showing off useful features of a scientific library or programming
+showing off useful features of a data processing/analysis/visualization library or programming
 language you're using, or bringing up a computational problem you're
 having.
 
