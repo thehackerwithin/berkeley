@@ -6,15 +6,15 @@ category: upcoming
 tags: meeting
 ---
 
->[XKCD 327: Exploits of Mom](https://xkcd.com/327/)
-![XKCD 327: Exploits of a Mom](https://imgs.xkcd.com/comics/exploits_of_a_mom.png)
-
 # Agenda
 1. [Requirements](#requirements)
 1. [Objectives](#objectives)
 2. [SQL Examples](#sql-examples)
 3. [Relational Databases](#relational-databases)
 4. Summary
+
+## [XKCD 327: Exploits of Mom](https://xkcd.com/327/)
+![XKCD 327: Exploits of a Mom](https://imgs.xkcd.com/comics/exploits_of_a_mom.png)
 
 ## Requirements
 To prepare for this tutorial make sure you have the following:
