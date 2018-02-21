@@ -11,7 +11,7 @@ tags: meeting
 1. [Objectives](#objectives)
 2. [SQL Examples](#sql-examples)
 3. [Relational Databases](#relational-databases)
-4. Summary
+4. [Summary](#summary)
 
 ## [XKCD 327: Exploits of Mom](https://xkcd.com/327/)
 ![XKCD 327: Exploits of a Mom](https://imgs.xkcd.com/comics/exploits_of_a_mom.png)
@@ -126,10 +126,15 @@ the ORM takes care of creating the corresponding schema in the database.
 
 ### Extra SQL commands
 When setting up a SQL database server, _eg_ PostgreSQL, you will also need to
-create a user, set a password, and create a database.
+create a user, set a password, and create a database. I'll leave these to the
+reader to investigate on their own.
 
-Explain how to create a user ...
-    CREATE USER
+## Summary
+SQL is not glamorous, and it's been around for a long time, but it's not that
+difficult to teach yourself. There are ton of links here and in the
+[`code_examples/SQL`](https://github.com/thehackerwithin/berkeley/tree/master/code_examples/SQL)
+so I hope this will serve as a good starting point, but there is still so much
+more to learn. If you have any suggestions, feel free to comment here or please
+send a PR to [The Hacker Within, Berkeley](https://github.com/thehackerwithin/berkeley)
 
-Explain how to create a database ...
-    CREATE DATABASE
+Thanks!
