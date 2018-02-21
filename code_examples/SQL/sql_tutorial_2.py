@@ -4,7 +4,6 @@ import psycopg2
 import urllib2
 import gzip
 import threading
-import Queue
 import logging
 import StringIO
 import sys
@@ -99,7 +98,6 @@ LOGGER.debug('count = %d', COUNT)
 THREADS = 100
 CHUNKS = COUNT // THREADS
 LOGGER.debug('chunksize = %d', CHUNKS)
-Q = Queue.Queue()
 NAME_EXPR = (
     '''INSERT INTO name_basics VALUES
        (%s, %s, %s, %s, %s)'''
@@ -110,12 +108,11 @@ TITLE_NAME_EXPR = (
 )
 
 
-def callback(conn, chunk, q=Q):
+def callback(conn, chunk):
     LOGGER.debug('begin execution ...')
     rowcount = 0
     with conn.cursor() as cur:
         for record in chunk:
-            sys.stdout.write('.')
             try:
                 cur.execute(NAME_EXPR, record[:-1])
                 conn.commit()
@@ -124,11 +121,11 @@ def callback(conn, chunk, q=Q):
                 conn.rollback()
             else:
                 rowcount += cur.rowcount
+                sys.stdout.write('.')
             if not record[-1]:
                 LOGGER.debug('"%s" has no known titles', record[0])
                 continue
             for title_name in record[-1].split(','):
-                sys.stdout.write(',')
                 try:
                     cur.execute(TITLE_NAME_EXPR, (title_name, record[0], True))
                     conn.commit()
@@ -137,7 +134,8 @@ def callback(conn, chunk, q=Q):
                     conn.rollback()
                 else:
                     rowcount += cur.rowcount
-    q.put(rowcount)
+                    sys.stdout.write(',')
+    LOGGER.debug('rowcount = %d', rowcount)
     LOGGER.debug('... execution complete')
 
 
@@ -191,7 +189,8 @@ if __name__ == '__main__':
                 idx += CHUNKS
             callback(conn, records[idx:])
 
-        for t in range(THREADS+1):
-            LOGGER.debug('rowcount = %d', Q.get())
+        for t in threads:
+            LOGGER.debug('waiting for thread: %s', t.name)
+            t.join()
 
     LOGGER.debug('... all data inserted')
