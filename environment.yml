@@ -4,28 +4,20 @@ channels:
   - conda-forge
 
 dependencies:
-  - python=3.6
   - htop
   - tmux
   - nano>=2.4.1
   - numpy>=1.13.1
-  - scipy
-  - jupyter
   - pandas>=0.20.1
   - matplotlib>=2.0.2
   - scikit-learn>=0.19.0
   - seaborn
-  - tweepy
-  - traitlets
   - statsmodels
   - tensorflow
   - scikit-image
   - requests
   - curl
   - xz
-  - r-base
-  - r-recommended>=3.4.1
-  - r-irkernel
   - pip:
     - keras
     - mwapi
