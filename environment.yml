@@ -5,16 +5,7 @@ channels:
 
 dependencies:
   - htop
-  - tmux
   - nano>=2.4.1
-  - numpy>=1.13.1
-  - pandas>=0.20.1
-  - matplotlib>=2.0.2
-  - scikit-learn>=0.19.0
-  - seaborn
-  - statsmodels
-  - tensorflow
-  - scikit-image
   - requests
   - curl
   - xz
