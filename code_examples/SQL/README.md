@@ -5,9 +5,9 @@ The SQL code examples in this folder were originally meant to compliment
 although anyone should feel free to add additional SQL code examples here.
 
 # TOC
-* [`SQL_Tutorial-0.ipynb`](./SQL/SQL_Tutorial-0.ipynb)
-* [`SQL_Tutorial-1.ipynb`](./SQL/SQL_Tutorial-1.ipynb)
-* [`sql_tutorial_2.py`](./SQL/sql_tutorial_2.py)
+* [`SQL_Tutorial-0.ipynb`](./SQL_Tutorial-0.ipynb)
+* [`SQL_Tutorial-1.ipynb`](./SQL_Tutorial-1.ipynb)
+* [`sql_tutorial_2.py`](./sql_tutorial_2.py)
 
 ## `SQL_Tutorial-0.ipynb`
 This is a Python-3 Jupyter notebook containing examples from the tutorial, which uses Python-3's builtin wrapper for SQLite to create a
