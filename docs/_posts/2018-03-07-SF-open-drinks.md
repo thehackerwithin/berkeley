@@ -2,7 +2,7 @@
 layout: post
 title: No THW -- SF Open Drinks Meetup
 comments: true
-category: upcoming
+category: posts
 tags: meeting
 ---
 
