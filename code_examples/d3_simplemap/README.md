@@ -76,7 +76,7 @@ If you look at the text of us.json, you'll find that counties and states are the
 
 ```JavaScript
 svg.selectAll("states")
-    .data(topojson.feature(us, us.objects.states).feature)
+    .data(topojson.feature(us, us.objects.states).features)
     .enter().append("path")
     .attr("class", function (d) { return "state" + d.id; })
     .attr("d", path);
