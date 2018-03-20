@@ -4,7 +4,8 @@ My App 2: Hello with Bokeh plot, Jinja2 template, and Bootstrap
 from bokeh.plotting import figure
 from bokeh.embed import components
 from flask import (
-    Flask, request, render_template, abort, Response, redirect, url_for
+    Flask, request, render_template, abort, Response, redirect, url_for,
+    send_file
 )
 import requests
 import pandas as pd
@@ -37,7 +38,7 @@ def hello(apikey=None, stationid=1230, startdate='9/1/2002',
             else:
                 if r.ok:
                     outputs = r.json()['outputs']
-                    headers, outputs = outptus[0], outputs[1:]
+                    headers, outputs = outputs[0], outputs[1:]
                     data = {h: dat for h, dat in zip(headers, zip(*outputs))}
                     df = pd.DataFrame(data)
                     df = df.set_index('measdatetime')
@@ -52,6 +53,10 @@ def hello(apikey=None, stationid=1230, startdate='9/1/2002',
     elif request.method == 'POST':
         apikey = request.form.get('apikey')
         stationid = request.form.get('stationid', 1230)
+        try:
+            stationid = int(stationid)
+        except ValueError:
+            stationid = 1230
         startdate = request.form.get('startdate', '9/1/2002')
         enddate = request.form.get('enddate', '9/1/2007')
         aggregate = request.form.get('aggregateFormControlSelect', 'daily')
