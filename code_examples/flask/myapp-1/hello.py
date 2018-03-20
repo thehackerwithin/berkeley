@@ -1,5 +1,5 @@
 """
-My App 1: Hello with Bokeh plot.
+My App 1: Hello with Bokeh plot and Jinja2 template.
 """
 from bokeh.plotting import figure
 from bokeh.embed import components
