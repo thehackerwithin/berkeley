@@ -1,0 +1,4 @@
+flask==0.12.2
+bokeh==0.12.14
+jinja2==2.10
+requests==2.18.4
