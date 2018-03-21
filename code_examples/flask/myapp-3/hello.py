@@ -95,7 +95,7 @@ def hello(apikey=None, systemid=SYSTEMID, startdate=STARTTIME,
         enddate = request.form.get('enddate', ENDSTR)
         # if start date isn't in MM/DD/YYYY then use the default
         try:
-            startdate = datetime.strptime(enddate, DATESTR)
+            enddate = datetime.strptime(enddate, DATESTR)
         except ValueError:
             enddate = ENDDATE
         enddate = pytz.UTC.localize(enddate)  # convert to UTC
