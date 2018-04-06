@@ -32,7 +32,7 @@ yesterday = today - timedelta(1)
 
 # In[3]:
 
-if yesterday.isoweekday() == 2:
+if yesterday.isoweekday() == 3:
     yesterday_str = yesterday.strftime("%Y-%m-%d")
     
 
