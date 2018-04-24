@@ -46,7 +46,7 @@ HTTP and FTP each have methods for a client to make requests of the server, and 
 
 # APIs
 
-Application programming interfaces (or APIs) are a set of rules for accessing and posting data to a specific set of servers. Many developers use APIs for developing web applications.
+Application programming interfaces (or APIs) are a set of rules for building application software. In this case it usually refers to accessing and posting data to a specific group of servers. Many government agency APIs for accessing data are catered towards people building web application software.
 
 API documentation usually includes:
 * how to format query strings
@@ -55,7 +55,7 @@ API documentation usually includes:
 
 # What is Data.gov?
 
-Data.gov is mostly a catalog of data sets collected by the agencies of the US Federal Government. It includes information about the agency that collected the data, meta data, landing pages for the project, and links to the web address where data can be retrieved, the format of the data, etc. etc.
+[Data.gov](https://www.data.gov/) is mostly a catalog of data sets collected by the agencies of the US Federal Government. It includes information about the agency that collected the data, meta data, landing pages for the project, and links to the web address where data can be retrieved, the format of the data, etc. etc.
 
 ## What Data.gov is not
 
@@ -65,9 +65,72 @@ Data.gov doesn't host the data directly, and doesn't have a unified API for acce
 
 ## Getting NOAA precipitation data from an FTP server
 
+The [U.S. Hourly Precipitation data set](https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C00313) is hosted on an FTP server and is well documented. Here you'll find that there is a page for downloading data from specific date ranges and location, but if you want to store them on a server then you'll (obviously) need to use FTP.
+
+The [.pdf](ftp://ftp.ncdc.noaa.gov/pub/data/hourly_precip-3240/dsi3240.pdf) describes the naming scheme and the [readme.txt](ftp://ftp.ncdc.noaa.gov/pub/data/hourly_precip-3240/readme.txt) instructs how to open a connection to the server and where to find files.
+
+### Exercise: Get precipitation records from CA from 2000-2009
+
+#### According to the docs (don't run this before we discuss)
+
+1. Log into the FTP server
+
+```bash
+foo@bar:~$ ftp ftp.ncdc.noaa.gov
+```
+
+2. Navigate to the correct directory
+
+```bash
+ftp> cd pub/data/hourly_precip-3240/04
+```
+
+3. Use `get` to download one file, or `mget` to get multiple files
+
+```bash
+ftp> mget 3240_04_200*.tar.Z
+```
+
+Just a note, when logging into an FTP server your username and password aren't encrypted. There are ways of doing FTP over SSH or with a secure-socket layer (SSL). 
+
+#### The safer way
+
+`curl` has an option of using FTP with a SSL. We should choose this instead, because it will protect the traffic.
+
+1. Navigate to your preferred directory
+
+2. Use the `--ftp-ssl` flag, the `--user` flag, and the `-o` option
+
+```bash
+foo@bar:~$ curl --ftp-ssl --user anonymous:youremail@email.com ftp://ftp.ncdc.nooa.gov/04/3240_04_2000-2000.tar.Z -o ca_2000.tar.Z
+```
+#### The safer (recursive) way
+
+`curl` doesn't have a built-in method for easily getting multiple files. Write a shell script that will get all the CA precipitation data from 2000-2009.
+
+`wget` has a `-m` option for mirroring sites, that will allow you to download the entire contents of a directory. 
+
+```bash
+foo@bar:~$ wget -mc -nH --ftps-implicit --no-ftps-resume-ssl --user=anonymous --password=youremail@email.com ftp://ftp.ncdc.noaa.gov/pub/data/hourly_precip-3240/04/
+```
+#### Bonus
+
+1. Write a script for downloading the files you want from the NOAA FTP server with `curl`.
+
+2. FTP isn't super great for transferring large files. How can you tell if the files downloaded by `curl` are identical to the ones you mirrored with `wget` from the command line?
+
 ## Getting USGS earthquake data using an API
 
+Skim the docs. Place a query to return GeoJSON records of earthquakes occuring 1) on your birthday, 2) in your favorite region of the world,  3) with a magnitude > 2.5
+
+```bash
+foo@bar:~$ curl -O https://earthquake.usgs.gov/fdsnws/event/1/query.geojson?starttime=1991-09-21&endtime=1991-09-21&maxlatitude=43.373&minlatitude=25.542&maxlongitude=-101.25&minlongitude=-120.234&minmagnitude=2.5&orderby=time
+```
+The Python urllib and request libraries are great for formatting query strings and headers for more sophisticated endeavors than the exercise above. (But you can also do fancy things in Bash.)
+
 # Mini-challenge!
+
+(To be posted during the session)
 
 # Resources
 
@@ -79,6 +142,7 @@ There's also a [dashboard](https://labs.data.gov/dashboard/offices/qa) to check 
 
 ## NASA
 
+Fonts aside, [NASA](https://api.nasa.gov/) has their crap together. 
 
 
 
