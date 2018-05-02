@@ -36,3 +36,85 @@ local machine without having to actually download all the files, and you can dow
 the contents of individual files when needed using "git-annex get".  A special
 git-annex branch tracks the locations of the file contents and ensures that the
 correct number of copies exist on other machines before "dropping" the local file.
+
+
+## Usage notes
+
+### syncthing
+
+Syncthing keeps folders in sync between machines by making a secure, direct connection between the machines (or optionally by using relay servers if a direct connection is not possible). It is a simple tool that can be started at the command line, run in the background, and viewed/controlled via a web browser.
+
+#### Installation
+
+https://docs.syncthing.net/intro/getting-started.html
+https://docs.syncthing.net/users/autostart.html
+
+Install and enable on Ubuntu:
+```bash
+sudo apt install syncthing
+
+# Enable as automatic background service
+# replace 'myuser' with your username
+sudo systemctl enable syncthing@myuser.service
+sudo systemctl start syncthing@myuser.service
+
+# or run `syncthing` manually on the command line
+```
+
+Check status on Ubuntu:
+```bash
+#Check service status
+sudo systemctl status syncthing@myuser.service
+
+#Check logs
+sudo journalctl -e -u syncthing@myuser.service
+```
+
+Install and enable on macOS: <br>
+(First install homebrew: https://brew.sh/)
+```bash
+brew install syncthing
+
+#Enable as automatic background service
+cp /usr/local/Cellar/syncthing/latest/homebrew.mxcl.syncthing.plist ~/Library/LaunchAgents/syncthing.plist
+launchctl load ~/Library/LaunchAgents/syncthing.plist
+
+# run `syncthing` manually on the command line
+```
+
+You may need to adjust firewall settings to allow incoming connections. On Mac, you will usually be prompted to allow this the first time you start syncthing.
+
+https://docs.syncthing.net/users/firewall.html
+
+
+#### Connect to a new machine
+
+Vist http://localhost:8384 to view the GUI for your running syncthing.
+
+Click "Add remote device" and enter the device's long unique ID. If you're on the same local network as the other device, it will show up as a suggestion so you don't have to type it.
+
+Give the device whatever nickname you like. Specify the IP address (if it is stable) or leave as 'dynamic' to find the device automatically based on the ID. Choose which folders to share with the device. Choose 'introducer' if you would like to receive other folders automatically from the device.
+
+https://docs.syncthing.net/intro/getting-started.html#configuring
+
+#### Set up a new folder
+
+#### Ignore files
+
+https://docs.syncthing.net/users/ignoring.html
+
+#### Keep old versions
+
+https://docs.syncthing.net/users/versioning.html
+
+#### other tips
+
+* Set up a virtual private server on a cloud provider if you want to have an always-on machine that can act as the central hub.
+
+* If syncing files between Mac and Linux, you might need to watch out for case sensitivity (Linux filesystems are case-sensitive, Mac by default is not). You can create a new APFS volume on your Mac hard drive with case sensitivity enabled, and put your sync folders there to avoid issues.
+
+* If running on a server where you don't have root access, download and run `syncthing` manually or enable as a user service.
+
+https://docs.syncthing.net/users/autostart.html#using-systemd
+
+* See also the syncthing forum: https://forum.syncthing.net/
