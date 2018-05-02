@@ -2,7 +2,7 @@
 layout: post
 title: Accessing public data on .gov websites -- Caroline Cypranowska
 comments: true
-category: upcoming
+category: posts
 tags: meeting
 ---
 
