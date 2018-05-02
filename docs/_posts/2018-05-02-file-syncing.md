@@ -118,3 +118,63 @@ https://docs.syncthing.net/users/versioning.html
 https://docs.syncthing.net/users/autostart.html#using-systemd
 
 * See also the syncthing forum: https://forum.syncthing.net/
+
+### dat
+
+https://docs.datproject.org/tutorial
+
+Resources for data sharing with dat:
+https://datbase.org/
+https://blog.datproject.org/tag/science/
+
+Beaker, a web browser based on dat that enables peer-to-peer, editable websites:
+https://beakerbrowser.com/
+https://beakerbrowser.com/2017/06/14/forking-websites-on-the-p2p-web.html
+
+### git-annex
+
+http://git-annex.branchable.com/walkthrough
+
+#### Example setup
+
+Initialize a repository:
+```bash
+mkdir project
+cd project
+git init
+git annex init --version=6 "My desktop"
+```
+
+Add files:
+```bash
+cp ~/Downloads/ubuntu.iso .
+git annex add ubuntu.iso
+git commit -a -m "Added a file"
+```
+
+Clone on another folder on the same computer (could be a removable drive):
+```bash
+cd /media/usb
+git clone ~/project
+cd project
+git annex init --version=6 "Portable drive"
+```
+
+Sync between clones (takes care of commiting, pushing, and pulling):
+```bash
+cd /media/usb/annex
+git annex sync
+
+# To get the content of large files in this step, use --content
+git annex sync --content
+```
+
+#### Get and drop files
+
+#### Special remotes
+
+#### git-annex assistant
+
+Automated sync tool with a GUI
+
+https://git-annex.branchable.com/assistant/
