@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        
+    <title>{{ title }}</title>
+
+<!-- Bokeh -->
+<link
+    href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.14.min.css"
+    rel="stylesheet" type="text/css">
+<link
+    href="https://cdn.pydata.org/bokeh/release/bokeh-widgets-0.12.14.min.css"
+    rel="stylesheet" type="text/css">
+<link
+    href="https://cdn.pydata.org/bokeh/release/bokeh-tables-0.12.14.min.css"
+    rel="stylesheet" type="text/css">
+
+<script src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.14.min.js"></script>
+<script src="https://cdn.pydata.org/bokeh/release/bokeh-widgets-0.12.14.min.js"></script>
+<script src="https://cdn.pydata.org/bokeh/release/bokeh-tables-0.12.14.min.js"></script>
+
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Flask Tutorial</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">NREL PVDAQ <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">OpenEI Utility Rates</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">NSRDB</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+      <!-- Jumbotron -->
+      <div class="jumbotron">
+        <h1 class="display-4">Hello, world!</h1>
+        <p class="lead">This is a simple <a href="http://flask.pocoo.org/">Flask</a> app for <a href="http://www.thehackerwithin.org/berkeley/">The Hacker Within - Berkeley</a>.</p>
+        <hr class="my-4">
+        <p>It retrieves data from the <a href="https://developer.nrel.gov">NREL Developer Network API</a> and plots it using <a href="https://bokeh.pydata.org">Bokeh</a>.</p>
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="http://www.thehackerwithin.org/berkeley/posts/2018-03-21-flask.html" role="button">Learn more</a>
+        </p>
+      </div>
+
+<!-- flashed messages -->
+{% with errors = get_flashed_messages(category_filter=["error"]) %}
+{% if errors %}
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <ul>
+    {%- for msg in errors %}
+    <li><strong>Error!</strong> {{ msg }}</li>
+    {% endfor -%}
+  </ul>
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+{% endif %}
+{% endwith %}
+
+<!-- form -->
+<form method="POST">
+  <div class="form-group">
+    <label for="apikey">API Key:</label>
+    <input type="text" class="form-control" id="apikey" aria-describedby="apikeyHelp" placeholder="Enter API key" name="apikey">
+    <small id="apikeyHelp" class="form-text text-muted">Get this from <a href="https://developer.nrel.gov">NREL Developer Network</a>.</small>
+
+    <label for="systemid">System ID:</label>
+    <input type="text" class="form-control" id="systemid" aria-describedby="systemidHelp" placeholder="Enter system id" name="systemid">
+    <small id="systemidHelp" class="form-text text-muted">Look this up on <a href="https://maps.nrel.gov/pvdaq/">PVDAQ Map</a>.</small>
+
+    <label for="startdate">Start Date:</label>
+    <input type="text" class="form-control" id="startdate" aria-describedby="startdateHelp" placeholder="Enter start date" name="startdate">
+    <small id="startdateHelp" class="form-text text-muted">Use MM/DD/YYYY format, omit leading zeros.</small>
+
+    <label for="enddate">End Date:</label>
+    <input type="text" class="form-control" id="enddate" aria-describedby="enddateHelp" placeholder="Enter end date" name="enddate">
+    <small id="enddateHelp" class="form-text text-muted">Use MM/DD/YYYY format, omit leading zeros.</small>
+
+  <div class="form-group">
+    <label for="aggregateFormControlSelect">select aggregation</label>
+    <select class="form-control" id="aggregateFormControlSelect" name="aggregateFormControlSelect">
+      <option></option>
+      <option>hourly</option>
+      <option>daily</option>
+      <option>weekly</option>
+      <option>monthly</option>
+    </select>
+  </div>
+
+  </div>
+  <div class="form-check">
+    <input type="checkbox" class="form-check-input" id="commaSeparatedCheck" name="commaSeparatedCheck">
+    <label class="form-check-label" for="commaSeparatedCheck">Download as CSV</label>
+  </div>
+  <button type="submit" class="btn btn-primary" value="/">Submit</button>
+</form>
+
+{% if plot_div %}
+        {{ plot_div|safe }}
+{% endif %}
+{% if plot_div %}
+        {{ plot_script|safe }}
+{% endif %}
+
+    </div>
+
+<!-- bootstrap js -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  </body>
+
+</html>

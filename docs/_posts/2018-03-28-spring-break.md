@@ -2,7 +2,7 @@
 layout: post
 title: Spring Break -- no THW
 comments: true
-category: upcoming
+category: posts
 tags: meeting
 ---
 

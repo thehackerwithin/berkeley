@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+/* CSS goes here */
+    #states { fill: #e1e1e1;
+              stroke: #000;
+            }
+</style>
+
+<body>
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script src="https://d3js.org/topojson.v1.min.js"></script>
+<script src="https://d3js.org/d3-queue.v3.min.js"></script>
+
+<script>
+/* JavaScript goes here */
+    
+var width = 960,
+    height = 1160;
+
+var svg = d3.select("body").append("svg")
+            .attr("width", width)
+            .attr("height", height);
+    
+var projection = d3.geo.albersUsa()
+                    .scale(width)
+                    .translate([width/2, height/2])
+    
+var path = d3.geo.path().projection(projection);
+
+d3.queue()
+    .defer(d3.json, "https://gist.githubusercontent.com/cypranowska/b17359016fd22b81914fd2031cb301f0/raw/9fcd2c3e60c74e8ce8d5c2385d2961f06d815bb9/us.json")
+    .defer(d3.csv, "https://gist.githubusercontent.com/cypranowska/b17359016fd22b81914fd2031cb301f0/raw/9fcd2c3e60c74e8ce8d5c2385d2961f06d815bb9/camp_map.csv")
+    .await(ready);
+   
+
+function ready(error, us, camp) {
+    if (error) throw error;
+    
+    svg.append("g")
+        .attr("id", "states")
+        .selectAll("path")
+        .data(topojson.feature(us, us.objects.states).features)
+        .enter().append("path")
+        .attr("d", path);
+     
+    svg.append("path")
+        .datum(topojson.mesh(us, us.objects.states), 
+                function (a,b) { return a !== b })
+        .attr("d", path)
+        .attr("id", "states");
+    
+    svg.selectAll("circle")
+        .data(camp)
+        .enter().append("circle")
+        .attr("class","bubble")
+        .attr("cx", function(d) { return projection([d.lon, d.lat])[0]; })
+        .attr("cy", function(d) { return projection([d.lon, d.lat])[1]; })
+        .attr("r", 3);
+};
+
+/*d3.json("https://gist.githubusercontent.com/cypranowska/b17359016fd22b81914fd2031cb301f0/raw/9fcd2c3e60c74e8ce8d5c2385d2961f06d815bb9/us.json", function (error, us) {
+		if (error) return console.error(error);
+     
+        var projection = d3.geo.albersUsa()
+                            .scale(width)
+                            .translate([width/2, height/2])
+    
+        var path = d3.geo.path().projection(projection);
+     
+        svg.append("g")
+            .attr("id", "states")
+            .selectAll("path")
+            .data(topojson.feature(us, us.objects.states).features)
+            .enter().append("path")
+            .attr("d", path);
+     
+        svg.append("path")
+            .datum(topojson.mesh(us, us.objects.states), 
+                function (a,b) { return a !== b })
+            .attr("d", path)
+            .attr("id", "states");
+            
+	});
+    */
+</script>
+</body>
