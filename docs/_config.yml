@@ -7,8 +7,8 @@ kramdown:
   hard_wrap: false
   parse_block_html: true
 github:
-  owner_url: https://github.com/BIDS/DATS
-url: https://BIDS.github.io/DATS
+  owner_url: https://github.com/BIDS/dats
+url: https://BIDS.github.io/dats
 name: Data Analysis Tools Series
 chapter: Berkeley Institute for Data Science
 description: An initial blog and site for DATS at BIDS
