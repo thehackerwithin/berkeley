@@ -7,10 +7,9 @@ kramdown:
   hard_wrap: false
   parse_block_html: true
 github:
-  owner_url: https://github.com/thehackerwithin/berkeley
-url: http://thehackerwithin.org/berkeley 
-name: Hacker Within
-chapter: Berkeley
+  owner_url: https://github.com/BIDS/DATS
+name: Data Analysis Tools Series
+chapter: Berkeley Institute for Data Science
 description: An initial blog and site for THW at UCB
 twitter: hackerwithin
 gravatar_url: http://www.gravatar.com/avatar/0203c034a145af6cc2576d56cdb4cf73
