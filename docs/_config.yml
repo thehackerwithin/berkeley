@@ -8,6 +8,7 @@ kramdown:
   parse_block_html: true
 github:
   owner_url: https://github.com/BIDS/DATS
+url: https://BIDS.github.io/DATS
 name: Data Analysis Tools Series
 chapter: Berkeley Institute for Data Science
 description: An initial blog and site for THW at UCB
