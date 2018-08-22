@@ -8,11 +8,11 @@ title: "About"
 
 # The {{ site.name }}, {{ site.chapter }}
 
-<b>Spring 2018 is here!</b>
+<p><b>Fall 2018 is here!</b>We now meet on <b>Mondays at 4pm in 190 Doe Library (The Berkeley Institute for Data Science)</b></p>.
 
 <ul class="listing">
 <li>
-<span>Spring 2018</span><a href="{{ site.url }}/upcoming.html">Upcoming Topics</a>
+<span>Fall 2018</span><a href="{{ site.url }}/upcoming.html">Upcoming Topics</a>
 </li>
   {% assign upcoming = (site.posts | where: "category" , "upcoming") %}
   {% for post in upcoming reversed %}
@@ -49,8 +49,8 @@ We meet at the [Berkeley Institute for Data Science](https://bids.berkeley.edu).
 
 ## When:
 
-Wednesdays at 5pm (Berkeley time -- starting officially at 5:10, but have a friendly chat from 5:00-5:10 if you like). While the main session should occupy less than an hour, the
-lightning talks and hacking session usually go on until 6:30pm. See the [upcoming topics list]({{ site.url }}/upcoming.html)
+Mondays at 4pm (Berkeley time -- starting officially at 4:10, but have a friendly chat from 4:00-4:10 if you like). While the main session should occupy less than an hour, the
+lightning talks and hacking session usually go on until 5:30pm. See the [upcoming topics list]({{ site.url }}/upcoming.html)
 or the [calendar](http://bit.ly/1cqFKuh)
 for the topic for this week.
 
@@ -65,7 +65,7 @@ for the topic for this week.
 
 Participating is really easy.
 <ul>
-<li>At **5:00pm**, we gather and go through a round of introductions.
+<li>At **4:00pm**, we gather and go through a round of introductions.
 New faces are always appearing!</li>
 <li>Next, a volunteer will give a **tutorial** or lead a
 **discussion** about a
@@ -91,9 +91,7 @@ control, automated documentation, and others.
 
 To avoid these pitfalls, this weekly meeting exists for sharing skills and best practices for
 computational scientific applications. This group is modeled after The
-Hacker Within, which  began as a student organization at the University of Wisconsin-Madison and
-is now reborn as a collection of such chapters around the world. Each of
-the chapters convenes a community of scientists, at all levels of their
+Hacker Within, which  began as a student organization at the University of Wisconsin-Madison. DATS began as [a chapter](https://thehackerwithin.org/berkeley) of The Hacker Within. Each chapter convenes a community of scientists, at all levels of their
 education and training, to share their knowledge and best practices in
 using computing to accomplish their work.
 
