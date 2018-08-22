@@ -8,7 +8,7 @@ title: "About"
 
 # The {{ site.name }}, {{ site.chapter }}
 
-<p><b>Fall 2018 is here!</b>We now meet on <b>Mondays at 4pm in 190 Doe Library (The Berkeley Institute for Data Science)</b></p>.
+<p><b>Fall 2018 is here!</b> We now meet on <b>Mondays at 4pm in 190 Doe Library (The Berkeley Institute for Data Science)</b>.</p>
 
 <ul class="listing">
 <li>
@@ -50,9 +50,7 @@ We meet at the [Berkeley Institute for Data Science](https://bids.berkeley.edu).
 ## When:
 
 Mondays at 4pm (Berkeley time -- starting officially at 4:10, but have a friendly chat from 4:00-4:10 if you like). While the main session should occupy less than an hour, the
-lightning talks and hacking session usually go on until 5:30pm. See the [upcoming topics list]({{ site.url }}/upcoming.html)
-or the [calendar](http://bit.ly/1cqFKuh)
-for the topic for this week.
+lightning talks and hacking session usually go on until 5:30pm. See the [upcoming topics list]({{ site.url }}/upcoming.html) for the topic for this week.
 
 ## How:
 
