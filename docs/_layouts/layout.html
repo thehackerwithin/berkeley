@@ -51,10 +51,11 @@
 
     <section class="name">
       <a href="{{ site.url }}/">
-        <span id="fname">The</span>
+        <!--- <span id="fname">The</span>
         <span id="lname">{{ site.name|split:' '|first }}</span>
-        <span id="lname">{{ site.name|split:' '|last }}</span>
-        <span id="lname">{{ site.chapter }}</span>
+        <span id="lname">{{ site.name|split:' '|last }}</span> !--->
+        <span id="lname">{{ site.name }}</span>
+	<span id="lname">{{ site.chapter }}</span>
       </a>
     </section>
 
@@ -73,7 +74,7 @@
         <li><a href="{{ site.url }}/upcoming.html">upcoming</a></li>
         <li><a href="{{ site.url }}/previous.html">previous</a></li>
         <li><a href="{{ site.url }}/tags.html">tags</a></li>
-        <li><a href="https://beta.mybinder.org/repo/thehackerwithin/berkeley">launch mybinder</a></li>
+        <li><a href="https://beta.mybinder.org/repo/BIDS/DATS">launch mybinder</a></li>
       </ul>
     </section>
   </section>
