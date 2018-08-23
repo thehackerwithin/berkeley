@@ -43,6 +43,8 @@ having.
 
 Anyone interested how to learn and do things by programming computers is welcome to come to our meetings. You don't need to be affiliated with UC Berkeley or BIDS and you don't need to come every week. There is no set of prerequisites, although we frequently use bash and the command line, python, R, GitHub, and Jupyter notebooks.
 
+The group is currently led by Caroline Cypranowska (mostly), Diya Das, Stuart Geiger and Aaron Culich. If you have questions or would like to lead a session, you can reach all of us at [thw-admin@berkeley.edu](mailto:thw-admin@berkeley.edu).
+
 ## Where:
 
 We meet at the [Berkeley Institute for Data Science](https://bids.berkeley.edu). Room 190, Doe Library, The University of California - Berkeley. It is on the ground floor of the main library. If you walk up the big marble steps across Memorial Glade, then turn left right as you walk in, you'll be there!
