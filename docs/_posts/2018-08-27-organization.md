@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: post2
 title: First meeting of Fall 2018 Semester -- Organization
+time: 4-5:30pm
 comments: true
 category: upcoming
 tags: meeting
@@ -13,7 +14,7 @@ tags: meeting
 * 4:30 - What do we want to learn and what do we want to teach?
 * 4:45 - Our GitHub repo and website
 
-## Speakers
+# Speakers
 ### Caroline Cypranowska
 ![bio]({{site.url}}/bioimages/cypranowska.png)
 PhD Candidate, Department of Molecular & Cell Biology and Chief Organizer, Data Analysis Tools Series
