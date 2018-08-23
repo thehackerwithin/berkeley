@@ -9,7 +9,7 @@ kramdown:
 github:
   owner_url: https://github.com/BIDS/dats
 url: https://BIDS.github.io/dats
-name: Data Analysis Tools Series
+name: The Data Analysis Tools Series
 chapter: Berkeley Institute for Data Science
 description: DATS at BIDS
 twitter: UCBIDS

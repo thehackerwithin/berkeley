@@ -28,17 +28,16 @@ a {
     .sidebar .name #fname {
       padding-left: 1px;
       font-size: 20px;
+      font-weight: bold;
       letter-spacing: 1px;
       color: black; }
     .sidebar .name #mname {
       padding-left: 1px;
-      font-size: 20px;
-      font-weight: bold;
+      font-size: 17px;
       letter-spacing: 1px;
       color: black; }
     .sidebar .name #lname {
-      font-size: 17px;
-      font-weight: bold;
+      font-size: 20px;
       letter-spacing: 1px;
       color: black; }
   .sidebar .meta a {

@@ -6,9 +6,9 @@ title: "About"
 <!-- You can edit this whole page, remove it, or use it as basis for any non-post pages you have. -->
 <section class="content">
 
-# The {{ site.name }}, {{ site.chapter }}
+# {{ site.name }} at the {{ site.chapter }}
 
-<p><b>Fall 2018 is here!</b> We now meet on <b>Mondays at 4pm in 190 Doe Library (The Berkeley Institute for Data Science)</b>.</p>
+<p><b>Fall 2018 is here!</b> We now meet on <b>Mondays at 4pm in 190 Doe Library</b>.</p>
 
 <ul class="listing">
 <li>
@@ -23,7 +23,7 @@ title: "About"
     {% endif %}
   {% endfor %}
 <li>
-<span>2014-2017</span><a href="{{ site.url }}/previous.html">Previous Topics</a>
+<span>2014-2018</span><a href="{{ site.url }}/previous.html">Previous Topics</a>
 </li>
 </ul>
 
@@ -41,7 +41,7 @@ having.
 
 ## Who:
 
-Anyone interested how to learn and do things by programming computers is welcome to come to our meetings. You don't need to be affiliated with UC-Berkeley and you don't need to come every week. There is no set of prerequsites, although we frequently use bash and the command line, python, R, GitHub, and Jupyter notebooks.
+Anyone interested how to learn and do things by programming computers is welcome to come to our meetings. You don't need to be affiliated with UC Berkeley or BIDS and you don't need to come every week. There is no set of prerequisites, although we frequently use bash and the command line, python, R, GitHub, and Jupyter notebooks.
 
 ## Where:
 
@@ -89,7 +89,8 @@ control, automated documentation, and others.
 
 To avoid these pitfalls, this weekly meeting exists for sharing skills and best practices for
 computational scientific applications. This group is modeled after The
-Hacker Within, which  began as a student organization at the University of Wisconsin-Madison. DATS began as [a chapter](https://thehackerwithin.org/berkeley) of The Hacker Within. Each chapter convenes a community of scientists, at all levels of their
+Hacker Within, which  began as a student organization at the University of Wisconsin-Madison. 
+DATS began as [a chapter](http://www.thehackerwithin.org/berkeley) of The Hacker Within. Each chapter convenes a community of scientists, at all levels of their
 education and training, to share their knowledge and best practices in
 using computing to accomplish their work.
 
