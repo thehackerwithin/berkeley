@@ -2,7 +2,7 @@
 layout: post
 title: Tim Howes -- File syncing tools - syncthing, dat, git-annex
 comments: true
-category: upcoming
+category: previous
 tags: meeting
 ---
 
