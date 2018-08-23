@@ -8,8 +8,8 @@ title: "About"
 
 # The {{ site.name }}, {{ site.chapter }}
 
-<b>Spring 2018 is here!</b>
-
+<h1>We've moved! Come visit us at <a href="bids.github.io/dats">bids.github.io/dats</a></h1>.
+<hr></hr>
 <ul class="listing">
 <li>
 <span>Spring 2018</span><a href="{{ site.url }}/upcoming.html">Upcoming Topics</a>
