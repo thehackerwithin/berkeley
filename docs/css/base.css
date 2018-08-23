@@ -121,6 +121,12 @@ a {
     padding: 3px;
     border: 1px solid #eeeeee;
     max-width: 100%; }
+  .content img[alt=bio] { 
+    padding: 3px;
+    margin-right: 20px;
+    border: 1px solid #eeeeee;
+    width: 100px; 
+    float: left; }
   .content hr {
     border: 0;
     height: 6px;
