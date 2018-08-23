@@ -1,14 +1,14 @@
-# The Hacker Within
+# The Data Analysis Tools Series
 
-This is the website that keeps the blog posts for each THW meeting at the
+This is the website that keeps the blog posts for each DATS meeting at the
 University of California - Berkeley. The rendered website can be found
-[here](http://thehackerwithin.github.io/berkeley).
+[here](http://bids.github.io/dats).
 
 
 ## How To Be The Speaker
 
 One very common reason that folks want to contribute to this repository is that 
-they are planning to give the main skill sharing session for some week at THW. 
+they are planning to give the main skill sharing session for some week at DATS. 
 To be the speaker, you'll need to sign up, set up, show up, and speak up.
 
 ### Sign Up
@@ -25,26 +25,26 @@ We love sessions that have example code! If you have example code, please place
 it in an appropriately named directory in the master branch of this GitHub 
 repository. Make a [pull 
 request](https://help.github.com/articles/creating-a-pull-request/) or push your branch to the
-[thehackerwithin/berkeley](http://github.com/thehackerwithin.berkeley) fork. 
+[this repo](http://github.com/bids/dats). 
 If you know how to do that, please go right ahead. If you aren't sure about 
 forks and pull requests, here are some detailed instructions:
 
 #### Uploading Example Code
 
 1. Go here: 
-[https://github.com/thehackerwithin/berkeley](https://github.com/thehackerwithin/berkeley)
+[https://github.com/BIDS/dats](https://github.com/BIDS/dats)
 2. Press the Fork button ([you'll need a github account](https://github.com/signup))
-3. In your terminal, execute `git clone https://github.com/YOURUSERNAME/berkeley.git`
-4. Enter the new directory with `cd berkeley`
-5. Add the THW remote with `git remote add thw https://github.com/thehackerwithin/berkeley.git`
-6. Fetch information about the THW remote with `git fetch thw`
+3. In your terminal, execute `git clone https://github.com/YOURUSERNAME/dats.git`
+4. Enter the new directory with `cd dats`
+5. Add the DATS remote with `git remote add dats https://github.com/BIDS/dats.git`
+6. Fetch information about the THW remote with `git fetch dats`
 7. Now, you need to check what branch you're in `git branch`
 8. If you're in the master branch, move the important files to an appropriately named directory there. (Browse the directory for examples of other's additions.)
 9. Add the files to the repo: `git add <path to your new files>`
 10. Commit them. `git commit -am "I added files for the tutorial on my 
-    topic.."`
+    topic."`
 11. Git push to your origin with `git push origin master`
-12. Navigate in your browser to https://github.com/YOURUSERNAME/berkeley and press the pull request button
+12. Navigate in your browser to https://github.com/YOURUSERNAME/dats and press the pull request button
 
 Now you're done adding code example files! You'll need to edit the post related
 to your talk.
@@ -58,7 +58,7 @@ Rather than preparing a slideshow, please consider leading as interactive a sess
 
 #### Creating a Post
 
-In the directory that you just cloned (berkeley), you'll notice a `_posts`
+In the directory that you just cloned (dats), you'll notice a `_posts`
 directory. The post related to the day and topic of your talk may already
 exist. If so, skip ahead to "Modifying a Post." 
 
@@ -74,7 +74,7 @@ you're creating should be something like 2015-03-01-katysbirthday.markdown.
 - Add that file to the repository `git add _posts/2015-03-01-katysbirthday.markdown`
 - Commit it: `git commit -am "adds a post for march 1"`
 - Push it to your fork `git push origin gh-pages`
-- Check if it worked at https://YOUR-USER.github.io/berkeley .
+- Check if it worked at https://YOUR-USER.github.io/dats .
 - Iterate on this until you're happy
 - and then either push to the upstream gh-pages remote branch or make a pull request.
 
@@ -130,13 +130,13 @@ Left is a clean, whitespace-happy layout for
 
 ### Content Licensing
 
-The content of this blog is liberally licensed to The Hacker Within and to the
+The content of this blog is liberally licensed to the Data Analysis Tools Series / The Hacker Within and to the
 individual authors of each blog post.  Additionally, you're welcome to reshare
 the content with attribution, because it is [CC-BY-3.0
 licensed](http://creativecommons.org/licenses/by/3.0/)
 
 Except where otherwise noted, content on this site is licensed under a Creative
-Commons Attribution 3.0 Unported License. Copyright 2013-2015 The Hacker
+Commons Attribution 3.0 Unported License. Copyright 2013-2018 The Hacker
 Within.
 
 Please attribute any work with a link to its original appearance on this
