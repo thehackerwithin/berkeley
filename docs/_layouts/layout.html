@@ -46,7 +46,7 @@
 <body>
   <section class="sidebar">
     <a href="{{ site.github.owner_url }}/">
-      <img src="{{ site.gravatar_url }}?s=150" height="75" width="75" class="avatar" />
+      <img src="{{ site.avatar_url }}" height="75" width="75" class="avatar" />
     </a>
 
     <section class="name">
@@ -55,7 +55,7 @@
         <span id="lname">{{ site.name|split:' '|first }}</span>
         <span id="lname">{{ site.name|split:' '|last }}</span> !--->
         <span id="lname">{{ site.name }}</span>
-	<span id="lname">{{ site.chapter }}</span>
+	<span id="fname">{{ site.chapter }}</span>
       </a>
     </section>
 
@@ -64,7 +64,7 @@
       <a href="https://twitter.com/{{ site.twitter }}" target="_blank"><img src="{{ site.url }}/images/twitter.png"></a>
       <a href="{{ site.url }}/atom.xml" target="_blank"><img src="{{ site.url }}/images/rss.png" border="0"/></a>
       <br>
-      <a href="http://bit.ly/1cqFKuh"><img src="{{ site.url }}/images/calendar.png"/></a>
+     <!-- <a href="http://bit.ly/1cqFKuh"><img src="{{ site.url }}/images/calendar.png"/></a> !-->
       <a href="https://groups.google.com/a/lists.berkeley.edu/forum/#!forum/ucb-hacker-within"><img src="{{ site.url }}/images/email.png"/></a>
     </section>
 
