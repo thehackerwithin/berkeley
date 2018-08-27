@@ -8,6 +8,8 @@ tags: meeting
 ---
 
 # Welcome! Please sign in at <a href="https://bit.do/dats-082718">bit.do/dats-082718</a>.
+Direct link: <a href="https://docs.google.com/spreadsheets/d/1EKZKYoqAiIewM3Kpn6rAiZNwMkBMRLT_5oogHmZQTqo/edit?usp=sharing">here</a>
+
 # Agenda
 * 4:10 - Intro to BIDS and our group // we’re on Berkeley time!
 * 4:20 - Introductions (you!)  
