@@ -3,7 +3,7 @@ layout: post2
 title: First meeting of Fall 2018 Semester -- Organization
 time: 4-5:30pm
 comments: true
-category: upcoming
+category: posts
 tags: meeting
 ---
 
