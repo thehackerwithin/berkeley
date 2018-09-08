@@ -1,23 +1,31 @@
 ---
 layout: post2
-title: Mark Mikofski -- GitHub for OSS
+title: Mark Mikofski -- Git Version Control with GitHub
 time: 4-5:30pm
 comments: true
 category: upcoming
 tags: meeting
 ---
 
-# Welcome! 
-
 # Agenda
+1. [Requirements](#requirements)
+2. [What is Git VCS?](#git-vcs)
+3. [GitHub Pages](#github-pages)
+4. [Winning Workflow](#winning-workflow)
 
-# Speakers
-### Mark Mikofski
-![bio]({{site.url}}/bioimages/mikofski.png)
-Principal Engineer, DNV-GL
+## In Case of Fire, Git ...
+![In Case of Fire, Git](https://github.com/louim/in-case-of-fire/blob/master/in_case_of_fire.png)
 
-Website: [Breaking Bytes](http://breakingbytes.blogspot.com/)
+*by 
 
-Mark Mikofski graduated from UC Berkeley in 2005 with PhD and MS degrees in Mechanical Engineering. Although his graduate research focused on soot formation in fuel-rich combustion, he pivoted to solar, first joining Ausra, a startup developing concentrated solar thermal power, and then making the jump to the photovoltaic (PV) solar panel manufacturer SunPower. For the past 10 years, Mark's work has been focused on analyzing, predicting, and optimizing solar power performance and reliability. Recently Mark left SunPower and now works as a modeling specialist and principal engineer in solar technology at DNV-GL. Mark has collaborated on open source projects such as a Sphinx documentation domain for MATLAB and Python libraries for PV modeling. He has also presented at conferences on modeling PV electrical mismatch, the effects of aerosol on clear sky irradiance, the impact of spectral mismatch on PV performance, and predictions of PV lifetime degradation.
+## Requirements
 
+
+
+## Git VCS
+
+## XKCD on Git
+![xkcd: Git](https://imgs.xkcd.com/comics/git.png)
+
+![xkcd: Git Commit](https://imgs.xkcd.com/comics/git_commit.png)
 
