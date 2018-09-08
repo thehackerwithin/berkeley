@@ -21,12 +21,11 @@ tags: meeting
 To prepare for this tutorial make sure you have the following:
 
 1. We're going to use Git, so make sure you have Git installed on a laptop,
-   and of course, don't forget to bring your laptop to the tutorial.
+and of course, don't forget to bring your laptop to the tutorial.
 
-       - MacOS: you already have git, open a terminal and type git
-       - Windows: install [Git-for-Windows](https://gitforwindows.org/), no admin
-         rights required
-       - Linux: use your app manager, *eg* Ubuntu: `sudo apt install git`
+    - MacOS: you already have git, open a terminal and type git
+    - Windows: install [Git-for-Windows](https://gitforwindows.org/), no admin
+    - Linux: use your app manager, *eg* Ubuntu: `sudo apt install git`
 
    For more info, see the [Git SCM Book on installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
