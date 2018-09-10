@@ -58,7 +58,7 @@ important for, and when to use it
 What is Git? And why is it important? 
 
 ### In case of fire, git commit, git push and leave the building
-![In case of fire, git commit, git push and leave the building](images/in_case_of_fire.png)
+![In case of fire, git commit, git push and leave the building](../images/in_case_of_fire.png)
 *From [GitHub repo `in-case-of-fire`](https://github.com/louim/in-case-of-fire)
 (c) 2015 [Louis-Michel Couture](https://twitter.com/louim)*
 
