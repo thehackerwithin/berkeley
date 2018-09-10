@@ -24,7 +24,9 @@ To prepare for this tutorial make sure you have the following:
 and of course, don't forget to bring your laptop to the tutorial.
 
     - **MacOS**: you already have git, open a terminal and type git
+
     - **Windows**: install [Git-for-Windows](https://gitforwindows.org/), no admin
+
     - **Linux**: use your app manager, *eg* Ubuntu: `sudo apt install git`
 
    For more info, see the [Git SCM Book on installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
@@ -142,10 +144,12 @@ key to GitHub. (Recommended)
 
   1. if your laptop has a folder called `.ssh` in your user profile and it
   contains two files called `id_rsa` and `id_rsa.pub` then skip to step 4.
-  
+
   2. if your laptop does *not* have a `.ssh` folder, then open a shell type
   `ssh-keygen`
+
   3. when prompted to for a passphrase, enter something that is easy to remember
+
   4. on your laptop in a shell, type
 
          $ eval `ssh-agent`
@@ -153,7 +157,9 @@ key to GitHub. (Recommended)
 
   5. if prompted for you passphrase and you know it, enter it, but if you don't
   know it, then kill the shell, delete the `.ssh` folder, and restart from step 2
+
   6. on you laptop, open the `id_rsa.pub` file in `.ssh/` and copy the contents
+
   7. online in your personal GitHub profile, in settings under SSH keys, click
   New SSH key, paste the contents of your public key and click Add SSH key to save
 
@@ -162,15 +168,18 @@ this becomes more complicated. You have two more options:
 
   * Windows: do nothing, Microsoft has already installed a credential manager
   that works with GitHub to prompt you for your TFA code.
+
   * Mac/Linux Option A: create a personal access token with repo access
 
     1. in your personal GitHub profile under developer settings click generate
     new personal access token, and check the repo full access box
+
     2. on your laptop enable git credential store by typing
     `git config credential.store`
+
     3. then when prompted by Git, use your GitHub username, and the personal
     access token as your password.
- 
+
   * Mac/Linux Option B: download and
   [install the Microsoft Git Crendential manager](https://github.com/Microsoft/Git-Credential-Manager-for-Mac-and-Linux/blob/master/Install.md) - this does
   everything in option 1 for you (Recommended)
