@@ -146,8 +146,8 @@ the public key to GitHub. (Recommended)
   3. when prompted to for a passphrase, enter something that is easy to remember
   4. on your laptop in a shell, type
 
-        $ eval `ssh-agent`
-        $ ssh-add
+          $ eval `ssh-agent`
+          $ ssh-add
 
   5. if prompted for you passphrase and you know it, enter it, but if you don't
   know it, then kill the shell, delete the `.ssh` folder, and restart from step 2
@@ -182,8 +182,8 @@ The
 
 1. Add your name and email using `git config`
 
-      $ git config --global user.name "Your Name Comes Here"
-      $ git config --global user.email you@yourdomain.example.com
+        $ git config --global user.name "Your Name Comes Here"
+        $ git config --global user.email you@yourdomain.example.com
 
 ### XKCD on Git Commit
 ![xkcd 1296: Git Commit](https://imgs.xkcd.com/comics/git_commit.png)
