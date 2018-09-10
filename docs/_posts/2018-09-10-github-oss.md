@@ -115,7 +115,7 @@ themes to beautify your site look and layout. It's a great place to host your
 personal website.
 
 1. To create your personal GitHub Page, you need to create a new repository called
-`<your-github-profile-name>.github.io`, for example `mikofski.github.io`.
+`<your-github-username>.github.io`, for example `mikofski.github.io`.
 
 2. After the new repository is created, open the repository settings, and select
 theme chooser.
@@ -135,8 +135,8 @@ In order to pull the repository to your laptop, you'll have to prove to GitHub,
 that you are who you say you are, and that you have permission to edit the site.
 There are two ways to authenticate to GitHub:
 
-- Secure Shell (SSH): you create a pair of keys, keep one private, and upload
-the public key to GitHub. (Recommended)
+- **SSH**: you create a pair of keys, keep one private, and upload the public
+key to GitHub. (Recommended)
 
   1. if your laptop has a folder called `.ssh` in your user profile and it
   contains two files called `id_rsa` and `id_rsa.pub` then skip to step 4.
@@ -152,10 +152,10 @@ the public key to GitHub. (Recommended)
   5. if prompted for you passphrase and you know it, enter it, but if you don't
   know it, then kill the shell, delete the `.ssh` folder, and restart from step 2
   6. on you laptop, open the `id_rsa.pub` file in `.ssh/` and copy the contents
-  7. online in your personal GitHub profile, in settings SSH keys, click New SSH
-  key, and paste the contents of your public key and click Add SSH key to save
+  7. online in your personal GitHub profile, in settings under SSH keys, click
+  New SSH key, paste the contents of your public key and click Add SSH key to save
 
-- HTTPS: You use your GitHub username and password, but if you enabled TFA,
+- **HTTPS**: You use your GitHub username and password, but if you enabled TFA,
 this becomes more complicated. You have two more options:
 
   * Windows: do nothing, Microsoft has already installed a credential manager
@@ -178,16 +178,41 @@ The most important Git command is `git`. If you type it in a terminal you get a
 list of the other most important Git commands such as `init`, `clone`, `status`,
 `log`, `diff`, `add`, `commit`, `checkout`, `remote add`, `pull`, and `push`.
 
-The
+The first thing you should do, after setting up your `.ssh` keys is to tell Git
+your full name and email address to use. Then we can get your new website and
+start hacking on it. The following commands are entered in a shell in a folder
+you use for projects for. 
 
-1. Add your name and email using `git config`
+1. Add your name and email using `git config`:
 
        $ git config --global user.name "Your Name Comes Here"
        $ git config --global user.email you@yourdomain.example.com
 
+2. Clone your GitHub repository to your laptop using `git clone`:
+
+       # if you're using SSH
+       $ git clone git@github.com:<github-username>/<github-username>.github.io.git
+
+       # if you're using HTTPS
+       $ git clone https://github.com/<github-username>/<github-username>.github.io.git
+
+3. Enter the newly cloned repo, display the remotes and the log
+
+       $ git log
+       $ git remote
+       $ git remote show origin
+
+4. Now open your editor and make some changes to your `index.md` file.
+
+5. Before you make too many changes, go back to the shell and view the status,
+a diff from the previous version, and commit your changes
+
+       $ git status
+       $ git diff
+       $ git commit -am "put any message here, usually under 50 characters"
+
 ### XKCD on Git Commit
 ![xkcd 1296: Git Commit](https://imgs.xkcd.com/comics/git_commit.png)
-
 
 ## Winning Workflow
 The secret power of using Git with GitHub is how easy it makes collaborating
@@ -196,3 +221,6 @@ collaboration on GitHub. I outlined it's steps in a THW-Berkeley talk last year
 on [using GitHub in OSS](https://bids.github.io/dats/posts/2017-10-04-github-oss-f17.html).
 
 ## Additional Info
+- [GitHub help pages](https://help.github.com/) are a wealth of info.
+- [Oh Shit Git!](https://ohshitgit.com/) is a funny.
+- [Git SCM Documentation](https://git-scm.com/doc) is the official source.
