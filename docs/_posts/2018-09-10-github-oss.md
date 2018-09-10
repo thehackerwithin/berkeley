@@ -23,9 +23,9 @@ To prepare for this tutorial make sure you have the following:
 1. We're going to use Git, so make sure you have Git installed on a laptop,
 and of course, don't forget to bring your laptop to the tutorial.
 
-    - MacOS: you already have git, open a terminal and type git
-    - Windows: install [Git-for-Windows](https://gitforwindows.org/), no admin
-    - Linux: use your app manager, *eg* Ubuntu: `sudo apt install git`
+    - **MacOS**: you already have git, open a terminal and type git
+    - **Windows**: install [Git-for-Windows](https://gitforwindows.org/), no admin
+    - **Linux**: use your app manager, *eg* Ubuntu: `sudo apt install git`
 
    For more info, see the [Git SCM Book on installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
@@ -59,6 +59,7 @@ What is Git? And why is it important?
 
 ### In case of fire, git commit, git push and leave the building
 ![In case of fire, git commit, git push and leave the building](../images/in_case_of_fire.png)
+
 *From [GitHub repo `in-case-of-fire`](https://github.com/louim/in-case-of-fire)
 (c) 2015 [Louis-Michel Couture](https://twitter.com/louim)*
 
