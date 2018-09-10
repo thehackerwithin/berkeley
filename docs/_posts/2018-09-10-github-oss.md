@@ -11,9 +11,11 @@ tags: meeting
 1. [Requirements](#requirements)
 2. [Objectives](#objectives)
 3. [What is Git VCS?](#git-vcs)
-4. [GitHub Pages](#github-pages)
-5. [Git Primer](#git-primer)
-6. [Winning Workflow](#winning-workflow)
+4. [GitHub](#github)
+5. [GitHub Pages](#github-pages)
+6. [SSH or HTTPS](#ssh-or-https)
+7. [Git Primer](#git-primer)
+8. [Winning Workflow](#winning-workflow)
 
 ## Requirements
 To prepare for this tutorial make sure you have the following:
@@ -52,20 +54,20 @@ important for, and when to use it
 4. collaborate with others on GitHub using a feature-branch workflow
 5. make a personal webpage using GitHub Pages
 
-## In case of fire, git commit, git push and leave the building
-![In case of fire, git commit, git push and leave the building](https://github.com/louim/in-case-of-fire/blob/master/in_case_of_fire.png)
-*(c) 2015 [Louis-Michel Couture](https://twitter.com/louim)*
-
 ## Git VCS
 What is Git? And why is it important? 
 
-### XKCD on Git
-![xkcd 1597: Git](https://imgs.xkcd.com/comics/git.png)
+### In case of fire, git commit, git push and leave the building
+![In case of fire, git commit, git push and leave the building](https://github.com/louim/in-case-of-fire/blob/master/in_case_of_fire.png)
+*(c) 2015 [Louis-Michel Couture](https://twitter.com/louim)*
 
 ### Git on Git
 >Git is a [free and open source](https://git-scm.com/about/free-and-open-source)
 distributed version control system designed to handle everything from small to
 very large projects with speed and efficiency. [1]
+
+### XKCD on Git
+![xkcd 1597: Git](https://imgs.xkcd.com/comics/git.png)
 
 ### Version Control Software (VCS) _aka_ Source Code Management (SCM)
 But what is Version Control?
@@ -88,10 +90,88 @@ gives you the ability:
 1. [Git SCM](https://git-scm.com/)
 2. [Wikipedia: Version Control](https://en.wikipedia.org/wiki/Version_control)
 
-## GitHub Pages
-GitHub is an online hosted Git service that more or less acts as a centralized
-repository for its users. 
+## GitHub
+Repeat the following 3 times out loud:
 
+>Git is *not* GitHub, and GitHub is *not* Git.
+
+GitHub is an online hosted Git service that acts as a centralized repository
+for its users. You can create and clone Git repositories on GitHub, and you can
+pull from and push to Git repositories on GitHub, just as if they were on your
+own laptop, another networked laptop, or another  online Git hosting service
+like Bitbucket or GitLab.
+
+If you have not already created a GitHub account, you need to create one now to
+participate in this tutorial. Also, I encourage you to enable two-factor
+authentication (TFA on your GitHub account, and store your backup codes in a
+safe location, that you will remember. TFA makes it more difficult to hack your
+account.
+
+## GitHub Pages
+GitHub allows users to host static content on [GitHub Pages](https://pages.github.com/).
+Content written in markdown is automatically rendered as html using
+[Jekyll](https://jekyllrb.com/), a Ruby static content generator. GitHub offers
+themes to beautify your site look and layout. It's a great place to host your
+personal website.
+
+1. To create your personal GitHub Page, you need to create a new repository called
+`<your-github-profile-name>.github.io`, for example `mikofski.github.io`.
+
+2. After the new repository is created, open the repository settings, and select
+theme chooser.
+
+3. After Choosing a theme, an online editor opens with `index.md`. You can make
+edits to this file like change the title to your name.
+
+4. Scroll to the bottom, find where it says commit directly to master, in the
+first field enter, "initial commit", and then press the commit button.
+
+**Congratulations!** You've just made your first Git commit on GitHub, and created
+your personal website. But, it's far from done. It could use a little mroe work.
+Let's take it offline, and iterate on it, till it's just the way you want.
+
+## SSH or HTTPS
+In order to pull the repository to your laptop, you'll have to prove to GitHub,
+that you are who you say you are, and that you have permission to edit the site.
+There are two ways to authenticate to GitHub:
+
+- Secure Shell (SSH): you create a pair of keys, keep one private, and upload
+the public key to GitHub. (Recommended)
+
+  1. if your laptop has a folder called `.ssh` in your user profile and it
+  contains two files called `id_rsa` and `id_rsa.pub` then skip to step 4.
+  
+  2. if your laptop does *not* have a `.ssh` folder, then open a shell type
+  `ssh-keygen`
+  3. when prompted to enter a passphrase, enter something that is easy to remember
+  4. on your laptop in a shell, type
+
+      $ eval `ssh-agent`
+      $ ssh-add
+
+  5. if prompted for you passphrase and you know it, enter it, but if you don't
+  know it, then kill the shell, delete the `.ssh` folder, and restart from step 2
+  6. on you laptop, open the `id_rsa.pub` file in `.ssh/` and copy the contents
+  7. online in your personal GitHub profile, in settings SSH keys, click New SSH
+  key, and paste the contents of your public key and click Add SSH key to save
+
+- HTTPS: You use your GitHub username and password, but if you enabled TFA,
+this becomes more complicated. You have two more options:
+
+  * Windows: do nothing, Microsoft has already installed a credential manager
+  that works with GitHub to prompt you for your TFA code.
+  * Mac/Linux Option A: create a personal access token with repo access
+
+    1. in your personal GitHub profile under developer settings click generate
+    new personal access token, and check the repo full access box
+    2. on your laptop enable git credential store by typing
+    `git config credential.store`
+    3. then when prompted by Git, use your GitHub username, and the personal
+    access token as your password.
+ 
+  * Mac/Linux Option B: download and
+  [install the Microsoft Git Crendential manager](https://github.com/Microsoft/Git-Credential-Manager-for-Mac-and-Linux/blob/master/Install.md) - this does
+  everything in option 1 for you (Recommended)
 
 ## Git Primer
 The most important Git command is `git`. If you type it in a terminal you get a
