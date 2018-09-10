@@ -143,11 +143,11 @@ the public key to GitHub. (Recommended)
   
   2. if your laptop does *not* have a `.ssh` folder, then open a shell type
   `ssh-keygen`
-  3. when prompted to enter a passphrase, enter something that is easy to remember
+  3. when prompted to for a passphrase, enter something that is easy to remember
   4. on your laptop in a shell, type
 
-      $ eval `ssh-agent`
-      $ ssh-add
+       $ eval `ssh-agent`
+       $ ssh-add
 
   5. if prompted for you passphrase and you know it, enter it, but if you don't
   know it, then kill the shell, delete the `.ssh` folder, and restart from step 2
