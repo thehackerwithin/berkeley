@@ -98,5 +98,7 @@ using computing to accomplish their work.
 
 <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}">Tweet</a>
 <a href="http://twitter.com/{{ site.twitter }}" class="twitter-follow-button" data-show-count="false">Follow @{{ site.twitter }}</a>
+
+<a href="https://creativecommons.org/licenses/by/3.0/"><img src="https://licensebuttons.net/l/by/3.0/80x15.png"></a> CC-BY-3.0
 <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
 </section>
