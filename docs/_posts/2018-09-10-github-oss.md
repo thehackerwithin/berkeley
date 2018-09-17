@@ -3,7 +3,7 @@ layout: post2
 title: Mark Mikofski -- Git Version Control with GitHub
 time: 4-5:30pm
 comments: true
-category: upcoming
+category: posts
 tags: meeting
 ---
 
