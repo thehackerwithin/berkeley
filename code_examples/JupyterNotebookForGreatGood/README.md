@@ -8,4 +8,4 @@ The presentation uses
 [RISE](https://github.com/damianavila/RISE)
 to create a slidehow in Reveal.js from
 a Jupyter Notebook.
-Check out the README at the link to see how to operate it.
+Check out the README for RISE to see how to operate it.
