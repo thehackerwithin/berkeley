@@ -1,6 +1,6 @@
 ---
 layout: post2
-title: Data tidying in R & Python -- Caroline Cypranowska and Sarah Stoudt
+title: Data tidying in R & Python -- Caroline Cypranowska and Sara Stoudt
 time: 4-5:30pm
 comments: true
 category: upcoming
@@ -21,7 +21,7 @@ Graduate Student, Department of Molecular and Cell Biology
 
 Website: [cypranowska.github.io](https://cypranowska.github.io/)
 
-## Sarah Stoudt
+## Sara Stoudt
 Graduate Student, Department of Statistics, 
 Moore/Sloan Fellow @ BIDS
 
