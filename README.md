@@ -60,7 +60,7 @@ Rather than preparing a slideshow, please consider leading as interactive a sess
 
 #### Creating a Post
 
-In the berkeley/docs, you'll notice a `_posts`
+In the dats/docs, you'll notice a `_posts`
 directory. The post related to the day and topic of your talk may already
 exist. If so, skip ahead to "Modifying a Post." 
 
@@ -70,13 +70,13 @@ meeting minutes `YYYY-MM-DD-subject.markdown`. If you're preparing for a
 special holiday meeting on March 1, 2015, then the proper name for the file
 you're creating should be something like 2015-03-01-katysbirthday.markdown.
 
-- In the berkeley directory, execute `cp _drafts/YYYY-MM-DD-subject.markdown
+- In the dats directory, execute `cp _drafts/YYYY-MM-DD-subject.markdown
   _posts/2015-03-01-katysbirthday.markdown`
 - Then, edit that file as you see fit
 - Add that file to the repository `git add _posts/2015-03-01-katysbirthday.markdown`
 - Commit it: `git commit -am "adds a post for march 1"`
 - Push it to your fork `git push origin master`
-- Check if it worked at https://YOUR-USER.github.io/berkeley .
+- Check if it worked at https://YOUR-USER.github.io/dats .
 - Iterate on this until you're happy
 - and then either push to the upstream gh-pages remote branch or make a pull request.
 
