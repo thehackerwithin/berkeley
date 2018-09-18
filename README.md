@@ -1,14 +1,14 @@
-# The Hacker Within
+# Data Analysis Tool Series
 
 This is the website that keeps the blog posts for each THW meeting at the
 University of California - Berkeley. The rendered website can be found
-[here](http://thehackerwithin.github.io/berkeley). The basic structure is that code examples are in /code_examples, while the code for the website (using GitHub pages) is in /docs.
+[here](http://bids.github.io/dats). The basic structure is that code examples are in /code_examples, while the code for the website (using GitHub pages) is in /docs.
 
 ## Run the examples:
 
 Thanks to Technology (or more specifically thanks to all kinds of awesome people in the [binder project](https://github.com/jupyterhub/binderhub), as well as Yuvi Panda, Aaron Culich, and Chris Holdgraf for helping us learn & debug), you can run much of what we learn about in your browser without installing anything. It spins up a temporary Jupyter server in the cloud, containing the contents of the `code_examples` directory and all the software we've specified in the `Dockerfile` and `environment.yml`. Click on badge below to get started:
 
-[![Binder](http://mybinder.org/badge.svg)](https://beta.mybinder.org/repo/thehackerwithin/berkeley)
+[![Binder](http://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/BIDS/dats/master)
 
 Watch out after 1-2 hours these temporary servers are destroyed and work will be lost!
 
@@ -30,18 +30,18 @@ We love sessions that have example code! If you have example code, please place
 it in an appropriately named directory in the master branch of this GitHub 
 repository. Make a [pull 
 request](https://help.github.com/articles/creating-a-pull-request/) or push your branch to the
-[thehackerwithin/berkeley](http://github.com/thehackerwithin.berkeley) fork. 
+[BIDS/dats](http://github.com/BIDS/dats) fork. 
 If you know how to do that, please go right ahead. If you aren't sure about 
 forks and pull requests, here are some detailed instructions:
 
 #### Uploading Example Code
 
 1. Go here: 
-[https://github.com/thehackerwithin/berkeley](https://github.com/thehackerwithin/berkeley)
+[https://github.com/BIDS/dats](https://github.com/BIDS/dats)
 2. Press the Fork button ([you'll need a github account](https://github.com/signup))
-3. In your terminal, execute `git clone https://github.com/YOURUSERNAME/berkeley.git`
-4. Enter the new directory with `cd berkeley`
-5. Add the THW remote with `git remote add thw https://github.com/thehackerwithin/berkeley.git`
+3. In your terminal, execute `git clone https://github.com/YOURUSERNAME/dats.git`
+4. Enter the new directory with `cd dats`
+5. Add the THW remote with `git remote add thw https://github.com/BIDS/dats.git`
 6. Fetch information about the THW remote with `git fetch thw`
 7. Now, you need to check what branch you're in `git branch`
 8. If you're in the master branch, move the important files to an appropriately named directory there. (Browse the directory for examples of other's additions.)
@@ -49,7 +49,7 @@ forks and pull requests, here are some detailed instructions:
 10. Commit them. `git commit -am "I added files for the tutorial on my 
     topic.."`
 11. Git push to your origin with `git push origin master`
-12. Navigate in your browser to https://github.com/YOURUSERNAME/berkeley and press the pull request button
+12. Navigate in your browser to https://github.com/YOURUSERNAME/dats and press the pull request button
 
 Now you're done adding code example files! You'll need to edit the post related
 to your talk.
@@ -87,7 +87,7 @@ This is very similar to creating a post:
 - edit the post
 - Commit it: `git commit -am "adds a post for march 1"
 - Push it to your fork `git push origin master`
-- Check if it worked at https://YOUR-USER.github.io/berkeley .
+- Check if it worked at https://YOUR-USER.github.io/dats .
 - Iterate on this until you're happy
 - and then either push to the upstream master remote branch or make a pull request.
 
@@ -108,11 +108,10 @@ zoom enabled.](https://www.apple.com/accessibility/osx/).
 
 ### Speak Up
 
-The Hacker Within isn't a class and no one is required to attend. We show up to 
+DATS isn't a class and no one is required to attend. We show up to 
 have fun and to learn. Hopefully, your tutorial will teach something **useful** 
 in a way that is **enjoyable.** To do this, please consider bringing your 
-A-game. That is, find the enthusiastic tinkering problem-solver inside yourself 
-(The Hacker Within yourself) and bring that version of yourself to share that 
+A-game. That is, find the enthusiastic tinkering problem-solver inside yourself and bring that version of yourself to share that 
 enthusiasm with us. Enthusiasm is infectious!  
 
 
@@ -128,14 +127,13 @@ Left is a clean, whitespace-happy layout for
 
 ### Content Licensing
 
-The content of this blog is liberally licensed to The Hacker Within and to the
+The content of this blog is liberally licensed to DATS and to the
 individual authors of each blog post.  Additionally, you're welcome to reshare
 the content with attribution, because it is [CC-BY-3.0
 licensed](http://creativecommons.org/licenses/by/3.0/)
 
 Except where otherwise noted, content on this site is licensed under a Creative
-Commons Attribution 3.0 Unported License. Copyright 2013-2015 The Hacker
-Within.
+Commons Attribution 3.0 Unported License. Copyright 2018 DATS.
 
 Please attribute any work with a link to its original appearance on this
 domain (i.e., "from The Hacker Within's blog entry 'Segmentation Fault' at
