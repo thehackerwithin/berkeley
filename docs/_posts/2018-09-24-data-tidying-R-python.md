@@ -20,7 +20,7 @@ Website: [cypranowska.github.io](https://cypranowska.github.io/)
 
 
 ## Sara Stoudt
-![bio]({{site.url}}/bioimages/cypranowska.png)
+![bio]({{site.url}}/bioimages/stoudtsara.jpg)
 Graduate Student, Department of Statistics, 
 Moore/Sloan Fellow @ BIDS
 
