@@ -14,6 +14,7 @@ For this workshop we'll be using materials created by Diya Das, David DeTomaso, 
 # Speakers
 
 ![bio]({{site.url}}/bioimages/cypranowska.png)
+![bio]({{site.url}}/bioimages/stoudtsara.jpg)
 
 ## Caroline Cypranowska
 Graduate Student, Department of Molecular and Cell Biology
@@ -21,9 +22,13 @@ Graduate Student, Department of Molecular and Cell Biology
 
 Website: [cypranowska.github.io](https://cypranowska.github.io/)
 
+
 ## Sara Stoudt
 Graduate Student, Department of Statistics, 
 Moore/Sloan Fellow @ BIDS
+
+Website: [sastoudt.github.io](https://sastoudt.github.io/)
+
 
 # Content
 
