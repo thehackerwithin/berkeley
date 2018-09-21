@@ -1,6 +1,6 @@
 ---
 layout: post2
-title: Matplotlib: Two Ways -- Caroline Cypranowska 
+title: Matplotlib Two Ways -- Caroline Cypranowska 
 time: 4-5:30pm
 comments: true
 category: upcoming
