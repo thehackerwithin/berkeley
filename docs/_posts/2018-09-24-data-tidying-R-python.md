@@ -3,7 +3,7 @@ layout: post2
 title: Data tidying in R & Python -- Caroline Cypranowska and Sara Stoudt
 time: 4-5:30pm
 comments: true
-category: upcoming
+category: posts
 tags: meeting
 ---
 
