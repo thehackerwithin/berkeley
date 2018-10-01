@@ -32,4 +32,4 @@ All of these requirements can be satisfied with [Anaconda](https://www.anaconda.
 
 ## Materials
 
-The Jupyter notebooks containing the workshop material can be found in the following repo: TBD
+The Jupyter notebooks containing the workshop material can be found in the following repo: [code_examples/matplotlib](https://github.com/BIDS/dats/tree/master/code_examples/matplotlib)
