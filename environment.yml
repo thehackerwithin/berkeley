@@ -2,7 +2,6 @@ name: root
 
 channels:
   - conda-forge
-  - damianavila82
 
 dependencies:
   - htop
@@ -10,7 +9,6 @@ dependencies:
   - requests
   - curl
   - xz
-  - rise
   - pip:
     - keras
     - mwapi
