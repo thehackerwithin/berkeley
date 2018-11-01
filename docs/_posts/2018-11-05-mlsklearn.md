@@ -3,7 +3,7 @@ layout: post2
 title: Intro to Machine Learning with scikit-learn -- Robert Martin-Short 
 time: 4-5:30pm
 comments: true
-category: posts
+category: upcoming
 tags: meeting
 ---
 
