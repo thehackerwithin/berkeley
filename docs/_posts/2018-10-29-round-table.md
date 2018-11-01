@@ -3,7 +3,7 @@ layout: post2
 title: DATS Round-table 
 time: 4-5:30pm
 comments: true
-category: upcoming
+category: posts
 tags: meeting
 ---
 
