@@ -31,4 +31,4 @@ All of these requirements can be satisfied with [Anaconda](https://www.anaconda.
 
 ## Materials
 
-The Jupyter notebooks containing the workshop material can be found in the following repo: [basics of machine learning with scikit-learn](https://github.com/qingkaikong/20171206_ML_basics_THW)
+The Jupyter notebooks containing the workshop material can be found in the following repo: [basics of machine learning with scikit-learn](https://github.com/rmartinshort/20171206_ML_basics_THW)
