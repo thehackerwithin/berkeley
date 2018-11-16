@@ -47,14 +47,14 @@ From [Registry of Research Data Repositories](https://www.re3data.org/):
 
 - Is there evidence that the repository will be around in a year? Five years? Ten years?
 
-![](../images/digital_resource_lifespan.png)
+![](../images/archives/digital_resource_lifespan.png)
 
 
 
 - Is the owner/manager of the content reliable?
 
 <details>
-![](../images/git.gif)
+![](../images/archives/git.gif)
 </details>
 
 
