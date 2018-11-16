@@ -45,7 +45,7 @@ From [Registry of Research Data Repositories](https://www.re3data.org/):
 
 #### Sustainability
 
-- Is there evidence that the repository will be around in a year? Five years? Ten years?
+- Is there evidence that the repository will be around in Five years? Ten years?
 
 ![](../images/archives/digital_resource_lifespan.png)
 
@@ -60,11 +60,15 @@ From [Registry of Research Data Repositories](https://www.re3data.org/):
 
 #### Visibility
 
-- One of the primary reasons to deposit your data in a repository is to obtain a unique identifier that others can use to cite your data. This service will increase the visibility of your data within the scholarly literature and allows researchers to find it later on. Ensure your data repository offers a DOI (digital object identifier), handle, or another unique indentifer.
+- One of the primary reasons to deposit your data in a repository is to obtain a unique identifier that others can use to cite your data. This service will increase the visibility of your data within the scholarly literature and allows researchers to find it later on. 
+
+- Ensure your data repository offers a DOI (digital object identifier), handle, or another unique indentifer.
 
 #### Usability
 
-- The usability of a data repository is also important in ensuring that others will be able to access your data. Unfortunately, not all repositories have the funding to create great web interfaces with simple, intuitive interactions. However, if your peers are unable to find and download your data it will limit the effectiveness of sharing your data. A usable data repository should allow for users to easily upload, download, and cite data sets.
+- The usability of a data repository is also important in ensuring that others will be able to access your data. If your peers are unable to find and download your data it will limit the effectiveness of sharing your data. 
+
+- A usable data repository should allow for users to easily upload, download, and cite data sets.
 
 #### Features
 
@@ -76,7 +80,7 @@ From [Registry of Research Data Repositories](https://www.re3data.org/):
 
 #### Formats
 
-- Most data repositories are able to handle most formats; however, this doesn’t always guarantee that they’ll be able to work with your data. Be sure to take a look at the repositories documentation to ensure they can store the data you’ve generated
+- Be sure to take a look at the repositories documentation to ensure they can store the data you’ve generated
 
 - Does the repository provide a way to preview data/scripts? i.e., ipynb in Github
 
@@ -88,11 +92,14 @@ From [Registry of Research Data Repositories](https://www.re3data.org/):
 
 ## General vs. Subject Specific Repositories
 
-- A “general” data repository is subject independent and will have data from many fields. General data repositories are often well-known solutions with large user communities. General repositories are great places to store all your data because they tend to have robust features (like simple GitHub integration), strong institutional backing, and are indexed by major search engines.
+- A “general” data repository is subject independent and will have data from many fields. General data repositories are often well-known solutions with large user communities. 
 
-- However, the downside of general repositories is that because there is a lot of everything, users might have more difficulty finding your work.
+- General repositories are great places to store all your data because they tend to have robust features (like simple GitHub integration), strong institutional backing, and are indexed by search engines.
+
+- The downside of general repositories is that because there is a lot of everything, users might have more difficulty finding your work.
 
 ### General repositories
+
 - [Harvard Dataverse](https://dataverse.harvard.edu/): Harvard’s Dataverse is both a [platform](http://dataverse.org/) for institutions and a data repository. Backed and developed by Harvard’s IQSS, Libraries, and Information Technology, Dataverse has 22 installations with over 48,000 datasets, and 2 million downloads.
 
 - [UC Dash](https://dash.berkeley.edu/stash) is an open-source, self-service toolkit for managing, openly publishing, and effectively describing data for access and reuse. Dash features geolocation metadata, ORCID, DOI, and FundRef identifiers, and generates a citation for all of your datasets. Additionally, Dash allows you to set a timed-release of data while undergoing peer-review.
