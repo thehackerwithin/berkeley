@@ -23,7 +23,7 @@ for long-term archiving for others to discover. We will cover Dataverse, Dash/Dr
 
 - WTF is a Repository and why are there so many?
 - Why sharing data is easier with a Repository designed for archiving and discovery
-- Dataverse, Zenodo, Dash/Dryad, OSF, ICPSR, Github
+- Know a little something about: Dataverse, Zenodo, Dash/Dryad, OSF, ICPSR, Github
 - Searching for Data in Repositories
 - APIs + Tools to work with repositories
 
@@ -54,7 +54,7 @@ From [Registry of Research Data Repositories](https://www.re3data.org/):
 - Is the owner/manager of the content reliable?
 
 <details>
-![](../images/archives/git.gif)
+![](https://github.com/wrathofquan/dats/blob/master/docs/images/archives/git.gif)
 </details>
 
 
