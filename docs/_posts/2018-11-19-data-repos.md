@@ -53,9 +53,7 @@ From [Registry of Research Data Repositories](https://www.re3data.org/):
 
 - Is the owner/manager of the content reliable?
 
-<details>
 ![](https://github.com/wrathofquan/dats/blob/master/docs/images/archives/git.gif)
-</details>
 
 
 
