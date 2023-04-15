@@ -2,6 +2,6 @@ flask>=0.12.3
 bokeh==0.12.14
 Jinja2>=2.10.1
 requests>=2.20.0
-future==0.16.0
+future==0.18.3
 pytz==2017.2
 pandas==0.21.0
